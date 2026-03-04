@@ -22,7 +22,6 @@ import Home from './pages/Home';
 import Catalogo from './pages/Catalogo';
 import Abrigos from './pages/Abrigos';
 import Abrigo1 from './pagesAbrigos/Abrigo1';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
