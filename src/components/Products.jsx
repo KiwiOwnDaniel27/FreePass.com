@@ -29,7 +29,8 @@ const Products = () => {
                         <a href={data.link}>
                         <img src={data.image} alt="" className="h-[220] w-[150] object-cover rounded-md
                         2xl:h-140 2xl:w-130
-                        xl:h-85 xl:w-130" />
+                        xl:h-85 xl:w-130
+                        lg:h-90 lg:w-130" />
                         
                         <div className="mt-6">
                             <h3 className="font-semibold
