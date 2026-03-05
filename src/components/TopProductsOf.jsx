@@ -55,10 +55,10 @@ const TopProducts = () => {
 
               <div key={data.id} className="px-3">
                 <div className="bg-white dark:bg-gray-800 hover:bg-amber-400 dark:hover:bg-amber-400
-                  hover:text-white relative shadow-xl duration-300 group max-w-[500] rounded-2xl">
+                  hover:text-white relative shadow-xl duration-300 group max-w-500 rounded-2xl">
 
                   <div className="h-75
-                  2xl:h-90">
+                  2xl:h-90 2xl:w-80">
                     <Link to={data.link}>
                     <img src={data.image} alt="" 
                       className="max-w-[140] 
