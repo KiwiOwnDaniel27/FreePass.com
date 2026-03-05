@@ -39,16 +39,19 @@ const App = () => {
   }, []);
 
   return (
-      <Routes basename="/FreePass.com/">
-        <Route path="/FreePass.com/origen" element={<Origen />} />
-        <Route path="/FreePass.com/amedida" element={<Amedida />} />
-        <Route path="/FreePass.com/galeria" element={<Galeria />} />
-        <Route path="/FreePass.com/tienda" element={<Tienda />} />
-        <Route path="/FreePass.com/home" element={<Home />} />
-        <Route path="/FreePass.com/catalogo" element={<Catalogo />} />
-        <Route path="/FreePass.com/abrigos" element={<Abrigos />} />
-        <Route path="/FreePass.com/abrigo1" element={<Abrigo1 />} />
+    <BrowserRouter basename="/FreePass.com">
+        <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Origen" element={<Origen />} />
+        <Route path="/amedida" element={<Amedida />} />
+        <Route path="/galeria" element={<Galeria />} />
+        <Route path="/tienda" element={<Tienda />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/catalogo" element={<Catalogo />} />
+        <Route path="/abrigos" element={<Abrigos />} />
+        <Route path="/abrigo1" element={<Abrigo1 />} />
       </Routes>
+    </BrowserRouter>
   );
 };
 

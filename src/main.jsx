@@ -14,7 +14,7 @@ import Home from "./pages/Home.jsx";
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <StrictMode>
   <App />
-  </BrowserRouter>,
+  </StrictMode>,
 );
