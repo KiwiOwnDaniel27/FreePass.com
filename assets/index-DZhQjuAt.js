@@ -73,7 +73,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             2xl:text-2xl`,children:"Viste con actitud: cada prenda hecha para ti ✨"})]}),S.jsxs("div",{children:[S.jsx("div",{className:`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5\r
             place-items-center gap-5 text-center`,children:cC.map(n=>S.jsxs("div",{"data-aos":"fade-up","data-aos-delay":n.aosDeLay,className:"space-y-3",children:[S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`h-[220] w-[150] object-cover rounded-md\r
                         2xl:h-140 2xl:w-130\r
-                        xl:h-85 xl:w-130`}),S.jsxs("div",{className:"mt-6",children:[S.jsx("h3",{className:`font-semibold\r
+                        xl:h-85 xl:w-130\r
+                        lg:h-90 lg:w-130`}),S.jsxs("div",{className:"mt-6",children:[S.jsx("h3",{className:`font-semibold\r
                             2xl:text-2xl`,children:n.title}),S.jsx("p",{className:`text-sm text-gray-700 mt-1\r
                             2xl:text-2xl`,children:n.color})]})]}),S.jsxs("div",{className:"flex items-center gap-3",children:[S.jsx("span",{className:`ml-9\r
                             2xl:text-2xl`,children:n.rating}),S.jsx(En,{className:"text-yellow-400"})]})]},n.id))}),S.jsx("div",{className:"flex justify-center",children:S.jsx("button",{className:`text-center mt-10 cursor-pointer bg-amber-400 text-white py-3 px-9\r
@@ -92,28 +93,37 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     2xl:text-2xl 2xl:ml-16 2xl:w-140\r
                     xl:text-sm`,children:"Solicita tu prenda favorita, conecta con FreePass"}),S.jsxs("div",{className:"flex flex-col gap-4",children:[S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
                 2xl:ml-16\r
+                xl:ml-23\r
+                lg:ml-9\r
                 `,children:[S.jsx(zA,{className:`text-4xl h-12 w-12 shadow-sm p-2 rounded-full bg-violet-400\r
                         dark:bg-violet-100 \r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Producto de Calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
-                    2xl:ml-16`,children:[S.jsx(f3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
+                    2xl:ml-16\r
+                    xl:ml-23\r
+                    lg:ml-9`,children:[S.jsx(f3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Entrega Rápida."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
-                    2xl:ml-16`,children:[S.jsx(BA,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
+                    2xl:ml-16\r
+                    xl:ml-23\r
+                    lg:ml-9`,children:[S.jsx(BA,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Servicio de calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
-                    2xl:ml-16`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
+                    2xl:ml-16\r
+                    xl:ml-23\r
+                    lg:ml-9`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:-ml-5 2xl:w-190\r
-                        xl:text-lg xl:-ml-5`,children:"Obtén Ofertas por ser miembro exclusivo."})]})]})]})})]})})}),UA=()=>S.jsx("div",{"data-aos":"zoom-in",className:`bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23\r
+                        xl:text-lg xl:ml-0`,children:"Obtén Ofertas por ser miembro exclusivo."})]})]})]})})]})})}),UA=()=>S.jsx("div",{"data-aos":"zoom-in",className:`bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23\r
     2xl:h-120`,children:S.jsx("form",{action:"https://formsubmit.co/fiel2589@hotmail.com",method:"POST",children:S.jsx("div",{className:`container backdrop-blur-sm max-w-xl py-10 rounded-2xl\r
-         2xl:w-200`,children:S.jsxs("div",{className:"space-y-6 max-w-xl mx-auto",children:[S.jsx("h1",{className:`text-black text-2xl text-center sm:text-4xl\r
+         2xl:w-200\r
+         xl:w-250`,children:S.jsxs("div",{className:"space-y-6 max-w-xl mx-auto",children:[S.jsx("h1",{className:`text-black text-2xl text-center sm:text-4xl\r
                 font-semibold\r
                 2xl:text-5xl`,children:"Obtén Notificaciones de Nuestras Nuevas Prendas Exclusivas."}),S.jsxs("div",{className:`flex items-center text-sm\r
                 2xl:text-2xl`,children:[S.jsx("input",{type:"text","data-aos":"fade-up",placeholder:"Ingresar tu correo electrónico",className:"w-full p-3 bg-white rounded-2xl"}),S.jsx("button",{"data-aos":"fade-up",type:"submit",className:`bg-gray-800 text-white p-3 rounded-lg cursor-pointer border border-zinc-600 \r
