@@ -17,11 +17,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Origen from "./pages/Origen";
 import Amedida from "./pages/Amedida";
 import Galeria from "./pages/Galeria";
-import Tienda from './pages/Tienda';
 import Home from './pages/Home';
 import Catalogo from './pages/Catalogo';
 import Abrigos from './pages/Abrigos';
 import Abrigo1 from './pagesAbrigos/Abrigo1';
+import Tienda from './pages/Tienda';
 
 
 
@@ -43,13 +43,13 @@ const App = () => {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Origen" element={<Origen />} />
-        <Route path="/amedida" element={<Amedida />} />
-        <Route path="/galeria" element={<Galeria />} />
-        <Route path="/tienda" element={<Tienda />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/catalogo" element={<Catalogo />} />
-        <Route path="/abrigos" element={<Abrigos />} />
-        <Route path="/abrigo1" element={<Abrigo1 />} />
+        <Route path="/Amedida" element={<Amedida />} />
+        <Route path="/Galeria" element={<Galeria />} />
+        <Route path="/Tienda" element={<Tienda/>} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Catalogo" element={<Catalogo />} />
+        <Route path="/Abrigos" element={<Abrigos />} />
+        <Route path="/Abrigo1" element={<Abrigo1 />} />
       </Routes>
     </BrowserRouter>
   );
