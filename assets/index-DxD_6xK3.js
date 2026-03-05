@@ -63,7 +63,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                                             2xl:mt-12 xl:mt-12 lg:mt-12 md:mt-12 sm:mt-12 mt-65\r
                                             2xl:text-2xl\r
                                             2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-0 sm:ml-0 -ml-9  `,children:"Catálogo Proximamente"})})]}),S.jsx("div",{className:"order-1 sm:order-2",children:S.jsx("div",{children:S.jsx("img",{className:` w-150 h-50 sm:scale-105 -mt-70 ml-3\r
-                                        2xl:w-600 2xl:h-123 2xl:mt-0 2xl:-ml-9\r
+                                        2xl:w-600 2xl:h-123 2xl:mt-0 2xl:-ml-11\r
                                         xl:w-400 xl:h-103 xl:mt-0 xl:-ml-20\r
                                         lg:w-100 lg:h-60 lg:mt-0 lg:-ml-20\r
                                         md:w-100 md:h-60 md:mt-0 md:-ml-20\r
