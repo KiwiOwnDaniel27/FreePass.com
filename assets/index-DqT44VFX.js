@@ -295,29 +295,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                                         lg:ml-35\r
                                         md:ml-35\r
                                         sm:ml-35\r
-                                        mx-auto rounded-2xl`,src:i.image,alt:""})})})})}))})})]})};function $A(){return S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(WA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]})}const IA=()=>S.jsxs("div",{className:"mt-6 mb-12",children:[S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("p",{"data-aos":"fade-up",className:`text-sm font-bold text-amber-400\r
-            2xl:text-7xl\r
-            xl:text-sm\r
-            lg:text-sm\r
-            md:text-sm\r
-            sm:text-3xl`,children:"Bienvenido a nuestra tienda"}),S.jsx("h1",{"data-aos":"fade-up",className:`text-3xl font-bold\r
-            2xl:text-4xl\r
-            xl:text-3xl\r
-            lg:text-3xl\r
-            md:text-3xl\r
-            sm:text-2xl`,children:"Prendas disponibles"})]}),S.jsx("div",{children:S.jsx("div",{className:`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4  lg:grid-cols-5\r
-            place-items-center gap-9 text-center ml-0 \r
-            2xl:ml-125 2xl:gap-140\r
-            xl:ml-75 xl:gap-90\r
-            lg:ml-45 lg:gap-90\r
-            md:ml-43 md:gap-68\r
-            sm:-ml-9 sm:gap-9`,children:yC.map(n=>S.jsx("div",{"data-aos":"fade-up","data-aos-delay":n.aosDeLay,className:`space-y-3 w-80\r
-                    2xl:w-130\r
-                    xl:w-80\r
-                    lg:w-80\r
-                    md:w-63`,children:S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`h-[220] w-[150] \r
-                        object-cover rounded-md`}),S.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:S.jsx("h3",{className:`font-semibold\r
-                            2xl:text-4xl`,children:n.title})})]})},n.id))})})]});function ej(){return S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(IA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]})}const cv=()=>S.jsxs(S.Fragment,{children:[S.jsx(ji,{}),S.jsx(RA,{}),S.jsx(DA,{}),S.jsx(HA,{}),S.jsx(kA,{}),S.jsx(UA,{}),S.jsx(VA,{}),S.jsx(Ri,{})]}),tj=()=>S.jsxs("div",{className:"mt-6 mb-12",children:[S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("p",{"data-aos":"fade-up",className:`text-sm font-bold text-amber-400\r
+                                        mx-auto rounded-2xl`,src:i.image,alt:""})})})})}))})})]})};function $A(){return S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(WA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]})}const cv=()=>S.jsxs(S.Fragment,{children:[S.jsx(ji,{}),S.jsx(RA,{}),S.jsx(DA,{}),S.jsx(HA,{}),S.jsx(kA,{}),S.jsx(UA,{}),S.jsx(VA,{}),S.jsx(Ri,{})]}),IA=()=>S.jsxs("div",{className:"mt-6 mb-12",children:[S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("p",{"data-aos":"fade-up",className:`text-sm font-bold text-amber-400\r
                 2xl:text-7xl\r
                 xl:text-sm\r
                 lg:text-sm\r
@@ -338,7 +316,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         xl:w-80\r
                         lg:w-80\r
                         md:w-63`,children:S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:"h-[220] w-[150] object-cover rounded-md"}),S.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:S.jsx("h3",{className:`font-semibold\r
-                                2xl:text-4xl`,children:n.title})})]})},n.id))})})]}),nj=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(tj,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),ij=()=>S.jsx("div",{className:"mt-6 mb-12",children:S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("h1",{"data-aos":"fade-up",className:`text-6xl font-bold\r
+                                2xl:text-4xl`,children:n.title})})]})},n.id))})})]}),ej=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(IA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),tj=()=>S.jsx("div",{className:"mt-6 mb-12",children:S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("h1",{"data-aos":"fade-up",className:`text-6xl font-bold\r
                 2xl:text-7xl\r
                 xl:text-5xl\r
                 lg:text-4xl\r
@@ -349,7 +327,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 xl:text-2xl\r
                 lg:text-sm\r
                 md:text-sm\r
-                sm:text-sm`,children:"Coleccion Exclusiva"})]})}),aj=()=>S.jsx(ir.div,{variants:th,initial:"hidden",whileInView:"show",viewport:{once:!0},className:"",children:S.jsxs("div",{className:"container",children:[S.jsx("div",{children:S.jsxs("div",{className:"text-left mb-9 -mt-9",children:[S.jsx("h1",{className:`text-3xl font-bold\r
+                sm:text-sm`,children:"Coleccion Exclusiva"})]})}),nj=()=>S.jsx(ir.div,{variants:th,initial:"hidden",whileInView:"show",viewport:{once:!0},className:"",children:S.jsxs("div",{className:"container",children:[S.jsx("div",{children:S.jsxs("div",{className:"text-left mb-9 -mt-9",children:[S.jsx("h1",{className:`text-3xl font-bold\r
                 2xl:text-5xl\r
                 xl:text-4xl\r
                 lg:text-3xl\r
@@ -363,7 +341,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             hover:text-white relative shadow-xl duration-300 group max-w-[500] rounded-2xl mb-13`,children:[S.jsx("div",{className:"h-86",children:S.jsx("img",{src:n.image,alt:"",className:`max-w-[140] block mx-auto transform -translate-y-6 group-hover:scale-116 duration-300\r
                   drop-shadow-md`})}),S.jsxs("div",{className:"p-4 text-center mt-21",children:[S.jsxs("div",{className:"w-full flex items-center justify-center gap-6",children:[S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"})]}),S.jsx("h1",{className:"text-white text-xl font-bold mt-6",children:n.title}),S.jsx("p",{className:`text-gray-500 group-hover:text-white duration-300 mt-3\r
                    text-sm line-clamp-2`,children:n.description}),S.jsx("a",{href:n.link,children:S.jsx("button",{className:`bg-amber-400 hover:scale-105 duration-300 text-white\r
-                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-16 mb-3`,onClick:!0,children:"Ordenar Ahora"})})]})]}))})]})}),rj=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(ij,{})}),S.jsx("div",{children:S.jsx(aj,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),lj=()=>{var n={dots:!1,arrows:!1,infinite:!0,speed:800,slidesToScroll:1,autoplay:!0,autoplaySpeed:4e3,cssEase:"ease-in-out",pauseOnHover:!1,pauseOnFocus:!0};const i={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToScroll:1,slidesToShow:4,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1024,settings:{slidesToShow:2}},{breakpoint:640,settings:{slidesToShow:1}}]};return S.jsx(ir.div,{variants:th,initial:"hidden",whileInView:"show",viewport:{once:!0},className:"",children:S.jsxs("div",{className:"mt-6 mb-12 container",children:[S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("h1",{"data-aos":"fade-up",className:`text-5xl font-bold\r
+                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-16 mb-3`,onClick:!0,children:"Ordenar Ahora"})})]})]}))})]})}),ij=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(tj,{})}),S.jsx("div",{children:S.jsx(nj,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),aj=()=>{var n={dots:!1,arrows:!1,infinite:!0,speed:800,slidesToScroll:1,autoplay:!0,autoplaySpeed:4e3,cssEase:"ease-in-out",pauseOnHover:!1,pauseOnFocus:!0};const i={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToScroll:1,slidesToShow:4,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1024,settings:{slidesToShow:2}},{breakpoint:640,settings:{slidesToShow:1}}]};return S.jsx(ir.div,{variants:th,initial:"hidden",whileInView:"show",viewport:{once:!0},className:"",children:S.jsxs("div",{className:"mt-6 mb-12 container",children:[S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("h1",{"data-aos":"fade-up",className:`text-5xl font-bold\r
                 2xl:text-7xl`,children:"Excelente Elección"}),S.jsx("p",{"data-aos":"fade-up",className:`text-2xl font-bold text-amber-400\r
                 2xl:text-4xl`,children:"Coleccion Exclusiva"})]}),S.jsxs("div",{children:[S.jsx("div",{children:S.jsx("div",{className:`text-center text-4xl/tight font-bold mb-6 ml-230 w-90 absolute mt-105\r
                 2xl:ml-250 2xl:mt-30\r
@@ -411,4 +389,26 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:text-2xl xl:-ml-5 xl:mt-3\r
                     lg:text-2xl lg:mt-12 lg:ml-0\r
                     md:text-2xl md:mt-0 md:ml-0\r
-                    sm:text-2xl sm:-ml-4 sm:mt-0`,children:[S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"})]}),S.jsx("h1",{className:"text-white text-xl font-bold mt-6",children:r.title}),S.jsx("p",{className:"text-gray-500 group-hover:text-white duration-300 mt-3 text-sm line-clamp-2",children:r.description})]})]})},r.id))})})]})]})})},sj=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(lj,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),oj=()=>(Z.useEffect(()=>{uv.init({offset:100,duration:800,easing:"ease-in-sine",delay:100}),uv.refresh()},[]),S.jsx(q4,{basename:"/FreePass.com",children:S.jsxs(v4,{children:[S.jsx(wn,{path:"/",element:S.jsx(cv,{})}),S.jsx(wn,{path:"/Origen",element:S.jsx(XA,{})}),S.jsx(wn,{path:"/amedida",element:S.jsx(JA,{})}),S.jsx(wn,{path:"/galeria",element:S.jsx($A,{})}),S.jsx(wn,{path:"/tienda",element:S.jsx(ej,{})}),S.jsx(wn,{path:"/home",element:S.jsx(cv,{})}),S.jsx(wn,{path:"/catalogo",element:S.jsx(nj,{})}),S.jsx(wn,{path:"/abrigos",element:S.jsx(rj,{})}),S.jsx(wn,{path:"/abrigo1",element:S.jsx(sj,{})})]})}));wS.createRoot(document.getElementById("root")).render(S.jsx(Z.StrictMode,{children:S.jsx(oj,{})}));
+                    sm:text-2xl sm:-ml-4 sm:mt-0`,children:[S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"})]}),S.jsx("h1",{className:"text-white text-xl font-bold mt-6",children:r.title}),S.jsx("p",{className:"text-gray-500 group-hover:text-white duration-300 mt-3 text-sm line-clamp-2",children:r.description})]})]})},r.id))})})]})]})})},rj=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(aj,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),lj=()=>S.jsxs("div",{className:"mt-6 mb-12",children:[S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("p",{"data-aos":"fade-up",className:`text-sm font-bold text-amber-400\r
+            2xl:text-7xl\r
+            xl:text-sm\r
+            lg:text-sm\r
+            md:text-sm\r
+            sm:text-3xl`,children:"Bienvenido a nuestra tienda"}),S.jsx("h1",{"data-aos":"fade-up",className:`text-3xl font-bold\r
+            2xl:text-4xl\r
+            xl:text-3xl\r
+            lg:text-3xl\r
+            md:text-3xl\r
+            sm:text-2xl`,children:"Prendas disponibles"})]}),S.jsx("div",{children:S.jsx("div",{className:`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4  lg:grid-cols-5\r
+            place-items-center gap-9 text-center ml-0 \r
+            2xl:ml-125 2xl:gap-140\r
+            xl:ml-75 xl:gap-90\r
+            lg:ml-45 lg:gap-90\r
+            md:ml-43 md:gap-68\r
+            sm:-ml-9 sm:gap-9`,children:yC.map(n=>S.jsx("div",{"data-aos":"fade-up","data-aos-delay":n.aosDeLay,className:`space-y-3 w-80\r
+                    2xl:w-130\r
+                    xl:w-80\r
+                    lg:w-80\r
+                    md:w-63`,children:S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`h-[220] w-[150] \r
+                        object-cover rounded-md`}),S.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:S.jsx("h3",{className:`font-semibold\r
+                            2xl:text-4xl`,children:n.title})})]})},n.id))})})]});function sj(){return S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(lj,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]})}const oj=()=>(Z.useEffect(()=>{uv.init({offset:100,duration:800,easing:"ease-in-sine",delay:100}),uv.refresh()},[]),S.jsx(q4,{basename:"/FreePass.com",children:S.jsxs(v4,{children:[S.jsx(wn,{path:"/",element:S.jsx(cv,{})}),S.jsx(wn,{path:"/Origen",element:S.jsx(XA,{})}),S.jsx(wn,{path:"/Amedida",element:S.jsx(JA,{})}),S.jsx(wn,{path:"/Galeria",element:S.jsx($A,{})}),S.jsx(wn,{path:"/Tienda",element:S.jsx(sj,{})}),S.jsx(wn,{path:"/Home",element:S.jsx(cv,{})}),S.jsx(wn,{path:"/Catalogo",element:S.jsx(ej,{})}),S.jsx(wn,{path:"/Abrigos",element:S.jsx(ij,{})}),S.jsx(wn,{path:"/Abrigo1",element:S.jsx(rj,{})})]})}));wS.createRoot(document.getElementById("root")).render(S.jsx(Z.StrictMode,{children:S.jsx(oj,{})}));
