@@ -27,6 +27,7 @@ const Banner = () => {
                     />
                 </div>
 
+                <div className="ml-16">
                 <div className="flex flex-col justify-center gap-12 sm:pt-0 text-center">
                     <h1 data-aos="zoom-in" className="text-4xl sm:text-5xl font-bold
                     2xl:text-7xl
@@ -37,7 +38,7 @@ const Banner = () => {
                     xl:text-sm"
                     >Solicita tu prenda favorita, conecta con FreePass</p>
 
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 w-200">
                 <div data-aos="fade-up" className="flex items-center gap-4 ml-23
                 2xl:ml-16
                 ">
@@ -73,16 +74,17 @@ const Banner = () => {
                         </p>
                     </div>
                     <div data-aos="fade-up" className="flex items-center gap-4 ml-23
-                    2xl:ml-0">
+                    2xl:ml-16">
                         <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
-                        <p className="2xl:text-3xl 2xl:ml-0
+                        <p className="2xl:text-3xl
                         xl:text-lg">
                             Obtén Ofertas por ser miembro exclusivo.
                         </p>
                     </div>
+                </div>
                 </div>
                 </div>
             </div>
