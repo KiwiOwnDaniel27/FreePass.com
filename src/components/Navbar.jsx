@@ -58,7 +58,7 @@ const Navbar = () => {
                 ))}
 
                 <li className="group relative cursor-pointer">
-                    <a href="/Tienda" className="flex items-center primary-btn 2xl:text-3xl">
+                    <a href="/FreePass.com/Tienda" className="flex items-center primary-btn 2xl:text-3xl">
                         Tienda
                         <span>
                             <FaCaretDown className=" transition-all duration-200 group-hover: rotate-180"/>
