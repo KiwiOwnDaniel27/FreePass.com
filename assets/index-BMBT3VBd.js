@@ -128,7 +128,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             2xl:text-2xl`,children:"Viste con actitud: cada prenda hecha para ti ✨"})]})}),S.jsx(ir.div,{variants:nh,className:"-mt-16",children:S.jsx(nr,{...n,className:"px-2 md:px-10",children:Sx.map(i=>S.jsx("div",{className:"px-3",children:S.jsxs("div",{className:`bg-white dark:bg-gray-800 hover:bg-amber-400 dark:hover:bg-amber-400\r
                   hover:text-white relative shadow-xl duration-300 group max-w-[500] rounded-2xl`,children:[S.jsx("div",{className:`h-75\r
                   2xl:h-90`,children:S.jsx(er,{to:i.link,children:S.jsx("img",{src:i.image,alt:"",className:`max-w-[140] \r
-                      2xl:w-190\r
+                      2xl:w-90 2xl:h-125\r
                       block mx-auto transform -translate-y-6 group-hover:scale-116 duration-300\r
                       drop-shadow-md mt-26`})})}),S.jsxs("div",{className:"p-4 text-center mt-16",children:[S.jsxs("div",{className:"w-full flex items-center justify-center gap-6",children:[S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"})]}),S.jsx("h1",{className:`text-white text-xl font-bold mt-6\r
                     2xl:text-3xl`,children:i.title}),S.jsx("p",{className:`text-gray-500 group-hover:text-white duration-300 mt-3 text-sm line-clamp-2\r
