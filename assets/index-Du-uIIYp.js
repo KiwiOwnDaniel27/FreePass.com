@@ -74,7 +74,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             place-items-center gap-5 text-center`,children:cC.map(n=>S.jsxs("div",{"data-aos":"fade-up","data-aos-delay":n.aosDeLay,className:"space-y-3",children:[S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`h-[220] w-[150] object-cover rounded-md\r
                         2xl:h-140 2xl:w-130\r
                         xl:h-85 xl:w-130\r
-                        lg:h-90 lg:w-130`}),S.jsxs("div",{className:"mt-6",children:[S.jsx("h3",{className:`font-semibold\r
+                        lg:h-90 lg:w-130\r
+                        md:h-90 md:w-130`}),S.jsxs("div",{className:"mt-6",children:[S.jsx("h3",{className:`font-semibold\r
                             2xl:text-2xl`,children:n.title}),S.jsx("p",{className:`text-sm text-gray-700 mt-1\r
                             2xl:text-2xl`,children:n.color})]})]}),S.jsxs("div",{className:"flex items-center gap-3",children:[S.jsx("span",{className:`ml-9\r
                             2xl:text-2xl`,children:n.rating}),S.jsx(En,{className:"text-yellow-400"})]})]},n.id))}),S.jsx("div",{className:"flex justify-center",children:S.jsx("button",{className:`text-center mt-10 cursor-pointer bg-amber-400 text-white py-3 px-9\r
@@ -95,6 +96,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 2xl:ml-16\r
                 xl:ml-23\r
                 lg:ml-9\r
+                md:ml-0\r
                 `,children:[S.jsx(zA,{className:`text-4xl h-12 w-12 shadow-sm p-2 rounded-full bg-violet-400\r
                         dark:bg-violet-100 \r
                         2xl:h-16 2xl:w-16\r
@@ -102,21 +104,24 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         xl:text-lg`,children:"Producto de Calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
                     2xl:ml-16\r
                     xl:ml-23\r
-                    lg:ml-9`,children:[S.jsx(f3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
+                    lg:ml-9\r
+                    md:ml-0`,children:[S.jsx(f3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Entrega Rápida."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
                     2xl:ml-16\r
                     xl:ml-23\r
-                    lg:ml-9`,children:[S.jsx(BA,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
+                    lg:ml-9\r
+                    md:ml-0`,children:[S.jsx(BA,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Servicio de calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
-                    2xl:ml-16\r
+                   2xl:ml-16\r
                     xl:ml-23\r
-                    lg:ml-9`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
+                    lg:ml-9\r
+                    md:ml-0`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:-ml-5 2xl:w-190\r
