@@ -14,7 +14,7 @@ const TopProducts = () => {
     infinite: true,
     speed: 500,
     slidesToScroll: 1,
-    slidesToShow: 4, 
+    slidesToShow: 3, 
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -56,8 +56,8 @@ const TopProducts = () => {
               <div key={data.id} className="px-3">
                 <div className="bg-white dark:bg-gray-800 hover:bg-amber-400 dark:hover:bg-amber-400
                   hover:text-white relative shadow-xl duration-300 group max-w-500 rounded-2xl
-                  2xl:w-full 2xl:h-1
-                  xl:w-full xl:h-1">
+                  2xl:w-full 2xl:h-full
+                  xl:w-full xl:h-full">
 
                   <div className="">
                     <Link to={data.link}>
