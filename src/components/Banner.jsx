@@ -79,7 +79,7 @@ const Banner = () => {
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
-                        <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-170
+                        <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190
                         xl:text-lg">
                             Obtén Ofertas por ser miembro exclusivo.
                         </p>
