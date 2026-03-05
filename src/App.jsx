@@ -39,7 +39,7 @@ const App = () => {
   }, []);
 
   return (
-      <Routes>
+      <Routes basename="/FreePass.com/">
         <Route path="/FreePass.com/origen" element={<Origen />} />
         <Route path="/FreePass.com/amedida" element={<Amedida />} />
         <Route path="/FreePass.com/galeria" element={<Galeria />} />
