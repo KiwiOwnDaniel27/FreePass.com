@@ -131,13 +131,13 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                                 2xl:text-2xl`,children:i.text}),S.jsx("h1",{className:`text-xl font-bold text-black/80 dark:text-light\r
                                 2xl:text-3xl`,children:i.name})]})}),S.jsx("p",{className:`text-black/20 font-serif absolute top-0 ml-50 2xl:ml-120 2xl:-mt-6\r
                         xl:ml-165 xl:-mt-6 lg:ml-75 md:ml-65 sm:ml-49\r
-                        2xl:text-9xl xl:text-9xl lg:text-9xl md:text-9xl sm:text-9xl text-7xl`,children:",,"})]},i.id)}))})})]})})},HA=()=>{const n={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToScroll:1,slidesToShow:4,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1024,settings:{slidesToShow:2}},{breakpoint:640,settings:{slidesToShow:1}}]};return S.jsx(ir.div,{variants:th,initial:"hidden",whileInView:"show",viewport:{once:!0},className:"",children:S.jsxs("div",{className:"container",children:[S.jsx("div",{children:S.jsxs("div",{className:"text-left mb-9",children:[S.jsx("p",{className:`text-sm font-bold text-amber-400\r
+                        2xl:text-9xl xl:text-9xl lg:text-9xl md:text-9xl sm:text-9xl text-7xl`,children:",,"})]},i.id)}))})})]})})},HA=()=>{const n={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToScroll:1,slidesToShow:3,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1024,settings:{slidesToShow:2}},{breakpoint:640,settings:{slidesToShow:1}}]};return S.jsx(ir.div,{variants:th,initial:"hidden",whileInView:"show",viewport:{once:!0},className:"",children:S.jsxs("div",{className:"container",children:[S.jsx("div",{children:S.jsxs("div",{className:"text-left mb-9",children:[S.jsx("p",{className:`text-sm font-bold text-amber-400\r
             2xl:text-5xl`,children:"Productos recomendados para ti"}),S.jsx("h1",{className:`text-3xl font-bold\r
             2xl:text-5xl`,children:"Los mejores productos"}),S.jsx("p",{className:`text-xs text-gray-700\r
             2xl:text-2xl`,children:"Viste con actitud: cada prenda hecha para ti ✨"})]})}),S.jsx(ir.div,{variants:nh,className:"-mt-16",children:S.jsx(nr,{...n,className:"px-2 md:px-10",children:Sx.map(i=>S.jsx("div",{className:"px-3",children:S.jsxs("div",{className:`bg-white dark:bg-gray-800 hover:bg-amber-400 dark:hover:bg-amber-400\r
                   hover:text-white relative shadow-xl duration-300 group max-w-500 rounded-2xl\r
-                  2xl:w-full 2xl:h-1\r
-                  xl:w-full xl:h-1`,children:[S.jsx("div",{className:"",children:S.jsx(er,{to:i.link,children:S.jsx("img",{src:i.image,alt:"",className:`max-w-[140] \r
+                  2xl:w-full 2xl:h-full\r
+                  xl:w-full xl:h-full`,children:[S.jsx("div",{className:"",children:S.jsx(er,{to:i.link,children:S.jsx("img",{src:i.image,alt:"",className:`max-w-[140] \r
                       2xl:w-150 2xl:h-150\r
                       xl:w-100 xl:h-100\r
                       block mx-auto transform -translate-y-6 group-hover:scale-116 duration-300\r
