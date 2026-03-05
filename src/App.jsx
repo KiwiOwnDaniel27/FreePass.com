@@ -42,14 +42,14 @@ const App = () => {
     <BrowserRouter basename="/FreePass.com">
         <Routes>
         <Route path="/" element={<Amedida />} />
-        <Route path="/Origen" element={<Origen />} />
-        <Route path="/Amedida" element={<Amedida />} />
-        <Route path="/Galeria" element={<Galeria />} />
-        <Route path="/Tienda" element={<Tienda/>} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Catalogo" element={<Catalogo />} />
-        <Route path="/Abrigos" element={<Abrigos />} />
-        <Route path="/Abrigo1" element={<Abrigo1 />} />
+        <Route path="/origen" element={<Origen />} />
+        <Route path="/amedida" element={<Amedida />} />
+        <Route path="/galeria" element={<Galeria />} />
+        <Route path="/tienda" element={<Tienda/>} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/catalogo" element={<Catalogo />} />
+        <Route path="/abrigos" element={<Abrigos />} />
+        <Route path="/abrigo1" element={<Abrigo1 />} />
       </Routes>
     </BrowserRouter>
   );
