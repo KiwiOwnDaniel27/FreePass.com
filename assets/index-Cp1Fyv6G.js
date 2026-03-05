@@ -71,7 +71,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             2xl:text-5xl`,children:"Productos más vendidos"}),S.jsx("h1",{"data-aos":"fade-up",className:`text-3xl font-bold\r
             2xl:text-5xl`,children:"Outfits"}),S.jsx("p",{"data-aos":"fade-up",className:`text-xs text-gray-700\r
             2xl:text-2xl`,children:"Viste con actitud: cada prenda hecha para ti ✨"})]}),S.jsxs("div",{children:[S.jsx("div",{className:`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5\r
-            place-items-center gap-5 text-center`,children:cC.map(n=>S.jsxs("div",{"data-aos":"fade-up","data-aos-delay":n.aosDeLay,className:"space-y-3",children:[S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:"h-[220] w-[150] object-cover rounded-md"}),S.jsxs("div",{className:"mt-6",children:[S.jsx("h3",{className:`font-semibold\r
+            place-items-center gap-5 text-center`,children:cC.map(n=>S.jsxs("div",{"data-aos":"fade-up","data-aos-delay":n.aosDeLay,className:"space-y-3",children:[S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`h-[220] w-[150] object-cover rounded-md\r
+                        2xl:h-140 w-130`}),S.jsxs("div",{className:"mt-6",children:[S.jsx("h3",{className:`font-semibold\r
                             2xl:text-2xl`,children:n.title}),S.jsx("p",{className:`text-sm text-gray-700 mt-1\r
                             2xl:text-2xl`,children:n.color})]})]}),S.jsxs("div",{className:"flex items-center gap-3",children:[S.jsx("span",{className:`ml-9\r
                             2xl:text-2xl`,children:n.rating}),S.jsx(En,{className:"text-yellow-400"})]})]},n.id))}),S.jsx("div",{className:"flex justify-center",children:S.jsx("button",{className:`text-center mt-10 cursor-pointer bg-amber-400 text-white py-3 px-9\r
