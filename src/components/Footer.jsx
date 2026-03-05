@@ -58,7 +58,10 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="">
+        <div className="bg-[url('/assets/logo.png')] bg-center h-40 w-150 text-black mt-43 -ml-11
+        2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46
+        2xl:ml-206 xl:ml-106 lg:ml-76 md:ml-46 sm:ml-30
+        2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40">
             <p className="text-xs text-center -mt-39 -ml-33">
                 Viste tus sueños, define tu estilo. Cada detalle cuenta
             </p>
