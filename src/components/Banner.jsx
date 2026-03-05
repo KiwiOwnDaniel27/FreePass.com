@@ -20,7 +20,7 @@ const Banner = () => {
                 <div data-aos="zoom-in">
                     <img src="./assets/Banner.webp" alt="" 
                     className=" bg-amber-500
-                    2xl:w-800 2xl:h-200
+                    2xl:w-full 2xl:h-full
                     xl:w-800 xl:h-130
                     drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]
                     object-cover rounded-2xl"
