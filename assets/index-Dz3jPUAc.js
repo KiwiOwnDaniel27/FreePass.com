@@ -120,7 +120,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:-ml-5 2xl:w-190\r
-                        xl:text-lg xl:ml-0`,children:"Obtén Ofertas por ser miembro exclusivo."})]})]})]})})]})})}),UA=()=>S.jsx("div",{"data-aos":"zoom-in",className:`bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23\r
+                        xl:text-lg xl:-ml-5\r
+                        lg:-ml-7`,children:"Obtén Ofertas por ser miembro exclusivo."})]})]})]})})]})})}),UA=()=>S.jsx("div",{"data-aos":"zoom-in",className:`bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23\r
     2xl:h-120`,children:S.jsx("form",{action:"https://formsubmit.co/fiel2589@hotmail.com",method:"POST",children:S.jsx("div",{className:`container backdrop-blur-sm max-w-xl py-10 rounded-2xl\r
          2xl:w-200\r
          xl:w-250`,children:S.jsxs("div",{className:"space-y-6 max-w-xl mx-auto",children:[S.jsx("h1",{className:`text-black text-2xl text-center sm:text-4xl\r
