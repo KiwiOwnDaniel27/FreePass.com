@@ -93,7 +93,7 @@ const TopProducts = () => {
                         py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-11
                         2xl:ml-19 mb-1
                         2xl:text-2xl 2xl:mb-6
-                        xl:ml-23">
+                        xl:ml-16">
                         Comprar Ahora
                       </button>
                     </a>
