@@ -110,7 +110,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     2xl:ml-16`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
-                        xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:-ml-5 2xl:w-170\r
+                        xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:-ml-5 2xl:w-190\r
                         xl:text-lg`,children:"Obtén Ofertas por ser miembro exclusivo."})]})]})]})})]})})}),UA=()=>S.jsx("div",{"data-aos":"zoom-in",className:`bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23\r
     2xl:h-120`,children:S.jsx("form",{action:"https://formsubmit.co/fiel2589@hotmail.com",method:"POST",children:S.jsx("div",{className:`container backdrop-blur-sm max-w-xl py-10 rounded-2xl\r
          2xl:w-200`,children:S.jsxs("div",{className:"space-y-6 max-w-xl mx-auto",children:[S.jsx("h1",{className:`text-black text-2xl text-center sm:text-4xl\r
@@ -145,7 +145,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     2xl:text-3xl`,children:i.title}),S.jsx("p",{className:`text-gray-500 group-hover:text-white duration-300 mt-3 text-sm line-clamp-2\r
                     2xl:text-2xl`,children:i.description}),S.jsx("a",{href:i.link,children:S.jsx("button",{className:`bg-amber-400 hover:scale-105 duration-300 text-white\r
                         py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-11\r
-                        2xl:ml-23 mb-1\r
+                        2xl:ml-19 mb-1\r
                         2xl:text-2xl 2xl:mb-6`,children:"Comprar Ahora"})})]})]})},i.id))})})]})})},Ri=()=>S.jsxs("div",{"data-aos":"zoom-in",className:"mb-3",children:[S.jsx("div",{className:"mt-21 ml-33",children:S.jsx("div",{className:"container",children:S.jsxs("div",{className:"grid md:grid-cols-3 pv-44 pt-5 -mt-21",children:[S.jsxs("div",{className:"py-8 px-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:-ml-30 sm:ml-43 -ml-3",children:[S.jsx("h1",{className:"sm:-ml-3",children:"Links Web"}),S.jsx("ul",{className:"flex flex-col gap-3 mt-3 2xl:ml-0 xl:ml-0 ml-3 sm:ml-0",children:dC.map(n=>S.jsx("li",{className:"cursor-pointer hover:text-black hover:translate-x-1 duration-300 text-shadow-gray-600",children:S.jsx(er,{to:n.link,children:S.jsx("span",{children:n.title})})},n.title))})]}),S.jsxs("div",{className:"py-8 px-4 -ml-9 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36",children:[S.jsx("h1",{className:"",children:"Redes Sociales"}),S.jsx("ul",{className:"flex gap-3 mt-3 -ml-3",children:hC.map(({id:n,icon:i,url:r})=>S.jsx("a",{href:r,target:"_blank",children:S.jsx(i,{size:39})},n))})]}),S.jsx("div",{className:"mt-8 -ml-12 space-y-4 2xl:ml-50 xl:ml-20 lg:ml-19 md:ml-9 sm:ml-33",children:mC.map(n=>S.jsxs("a",{href:n.url,target:"_blank",className:`flex items-center gap-1.5 hover:text-green-800\r
                             hover:underline transition-colors`,children:[S.jsx(n.icon,{}),n.label]},n.id))})]})})}),S.jsx("div",{className:`bg-[url('/assets/logo.png')] bg-center h-40 w-160 text-black mt-43 -ml-16\r
         2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46\r
