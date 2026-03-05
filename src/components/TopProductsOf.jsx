@@ -70,7 +70,9 @@ const TopProducts = () => {
                     </Link>
                   </div>
 
-                  <div className="p-4 text-center mt-0">
+                  <div className="p-4 text-center mt-0
+                  2xl:mt-0
+                  xl:-mt-3">
                     <div className="w-full flex items-center justify-center gap-6 
                     2xl:text-2xl">
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
@@ -90,7 +92,8 @@ const TopProducts = () => {
                       <button className="bg-amber-400 hover:scale-105 duration-300 text-white
                         py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-11
                         2xl:ml-19 mb-1
-                        2xl:text-2xl 2xl:mb-6">
+                        2xl:text-2xl 2xl:mb-6
+                        xl:ml-23">
                         Comprar Ahora
                       </button>
                     </a>
