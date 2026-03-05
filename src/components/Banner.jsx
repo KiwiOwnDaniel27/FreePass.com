@@ -34,7 +34,7 @@ const Banner = () => {
                     xl:text-4xl">Conoce de nuestra nueva Tendencia</h1>
                     <p data-aos="fade-up"
                     className="text-sm text-gray-700 tracking-wide leading-5
-                    2xl:text-2xl
+                    2xl:text-2xl 2xl:ml-6
                     xl:text-sm"
                     >Solicita tu prenda favorita, conecta con FreePass</p>
 
