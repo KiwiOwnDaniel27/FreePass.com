@@ -58,7 +58,7 @@ const TopProducts = () => {
                   hover:text-white relative shadow-xl duration-300 group max-w-500 rounded-2xl">
 
                   <div className="h-75
-                  2xl:h-90 2xl:w-80">
+                  2xl:h-90 2xl:w-81">
                     <Link to={data.link}>
                     <img src={data.image} alt="" 
                       className="max-w-[140] 
