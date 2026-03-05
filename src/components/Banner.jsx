@@ -29,7 +29,7 @@ const Banner = () => {
 
                 <div className="ml-16">
                 <div className="flex flex-col justify-center gap-12 sm:pt-0 text-center">
-                    <h1 data-aos="zoom-in" className="text-4xl sm:text-5xl font-bold
+                    <h1 data-aos="zoom-in" className="text-4xl sm:text-5xl font-bold 2xl:w-175
                     2xl:text-7xl
                     xl:text-4xl">Conoce de nuestra nueva Tendencia</h1>
                     <p data-aos="fade-up"
