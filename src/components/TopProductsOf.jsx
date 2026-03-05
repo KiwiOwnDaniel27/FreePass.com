@@ -64,7 +64,7 @@ const TopProducts = () => {
                     <Link to={data.link}>
                     <img src={data.image} alt="" 
                       className="max-w-[140] 
-                      2xl:w-100 2xl:h-100
+                      2xl:w-full 2xl:h-full
                       block mx-auto transform -translate-y-6 group-hover:scale-116 duration-300
                       drop-shadow-md mt-26"
                     />
@@ -72,7 +72,8 @@ const TopProducts = () => {
                   </div>
 
                   <div className="p-4 text-center mt-16">
-                    <div className="w-full flex items-center justify-center gap-6">
+                    <div className="w-full flex items-center justify-center gap-6 
+                    2xl:text-2xl">
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
