@@ -86,7 +86,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     2xl:w-full 2xl:h-full\r
                     xl:w-800 xl:h-130\r
                     drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]\r
-                    object-cover rounded-2xl`})}),S.jsx("div",{className:"ml-16",children:S.jsxs("div",{className:"flex flex-col justify-center gap-12 sm:pt-0 text-center",children:[S.jsx("h1",{"data-aos":"zoom-in",className:`text-4xl sm:text-5xl font-bold\r
+                    object-cover rounded-2xl`})}),S.jsx("div",{className:"ml-16",children:S.jsxs("div",{className:"flex flex-col justify-center gap-12 sm:pt-0 text-center",children:[S.jsx("h1",{"data-aos":"zoom-in",className:`text-4xl sm:text-5xl font-bold 2xl:w-175\r
                     2xl:text-7xl\r
                     xl:text-4xl`,children:"Conoce de nuestra nueva Tendencia"}),S.jsx("p",{"data-aos":"fade-up",className:`text-sm text-gray-700 tracking-wide leading-5\r
                     2xl:text-2xl\r
