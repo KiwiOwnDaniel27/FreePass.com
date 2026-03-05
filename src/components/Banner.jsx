@@ -43,6 +43,7 @@ const Banner = () => {
                 2xl:ml-16
                 xl:ml-23
                 lg:ml-9
+                md:ml-0
                 ">
                         <GrSecure className="text-4xl h-12 w-12 shadow-sm p-2 rounded-full bg-violet-400
                         dark:bg-violet-100 
@@ -56,7 +57,8 @@ const Banner = () => {
                     <div data-aos="fade-up" className="flex items-center gap-4 ml-23
                     2xl:ml-16
                     xl:ml-23
-                    lg:ml-9">
+                    lg:ml-9
+                    md:ml-0">
                         <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
@@ -69,7 +71,8 @@ const Banner = () => {
                     <div data-aos="fade-up" className="flex items-center gap-4 ml-23
                     2xl:ml-16
                     xl:ml-23
-                    lg:ml-9">
+                    lg:ml-9
+                    md:ml-0">
                         <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
@@ -80,9 +83,10 @@ const Banner = () => {
                         </p>
                     </div>
                     <div data-aos="fade-up" className="flex items-center gap-4 ml-23
-                    2xl:ml-16
+                   2xl:ml-16
                     xl:ml-23
-                    lg:ml-9">
+                    lg:ml-9
+                    md:ml-0">
                         <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
