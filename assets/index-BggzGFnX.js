@@ -86,11 +86,11 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     2xl:w-800 2xl:h-200\r
                     xl:w-800 xl:h-130\r
                     drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]\r
-                    object-cover rounded-2xl`})}),S.jsxs("div",{className:"flex flex-col justify-center gap-12 sm:pt-0 text-center",children:[S.jsx("h1",{"data-aos":"zoom-in",className:`text-4xl sm:text-5xl font-bold\r
+                    object-cover rounded-2xl`})}),S.jsx("div",{className:"ml-16",children:S.jsxs("div",{className:"flex flex-col justify-center gap-12 sm:pt-0 text-center",children:[S.jsx("h1",{"data-aos":"zoom-in",className:`text-4xl sm:text-5xl font-bold\r
                     2xl:text-7xl\r
                     xl:text-4xl`,children:"Conoce de nuestra nueva Tendencia"}),S.jsx("p",{"data-aos":"fade-up",className:`text-sm text-gray-700 tracking-wide leading-5\r
                     2xl:text-2xl\r
-                    xl:text-sm`,children:"Solicita tu prenda favorita, conecta con FreePass"}),S.jsxs("div",{className:"flex flex-col gap-4",children:[S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
+                    xl:text-sm`,children:"Solicita tu prenda favorita, conecta con FreePass"}),S.jsxs("div",{className:"flex flex-col gap-4 w-200",children:[S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
                 2xl:ml-16\r
                 `,children:[S.jsx(zA,{className:`text-4xl h-12 w-12 shadow-sm p-2 rounded-full bg-violet-400\r
                         dark:bg-violet-100 \r
@@ -107,11 +107,11 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Servicio de calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
-                    2xl:ml-0`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
+                    2xl:ml-16`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
-                        xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:ml-0\r
-                        xl:text-lg`,children:"Obtén Ofertas por ser miembro exclusivo."})]})]})]})]})})}),UA=()=>S.jsx("div",{"data-aos":"zoom-in",className:`bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23\r
+                        xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
+                        xl:text-lg`,children:"Obtén Ofertas por ser miembro exclusivo."})]})]})]})})]})})}),UA=()=>S.jsx("div",{"data-aos":"zoom-in",className:`bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23\r
     2xl:h-120`,children:S.jsx("form",{action:"https://formsubmit.co/fiel2589@hotmail.com",method:"POST",children:S.jsx("div",{className:`container backdrop-blur-sm max-w-xl py-10 rounded-2xl\r
          2xl:max-w-xl`,children:S.jsxs("div",{className:"space-y-6 max-w-xl mx-auto",children:[S.jsx("h1",{className:`text-black text-2xl text-center sm:text-4xl\r
                 font-semibold\r
