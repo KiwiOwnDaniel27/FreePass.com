@@ -49,7 +49,7 @@ const TopProducts = () => {
 
 
         <motion.div variants={variants.fadeInUp}
-        className="grid  grid-cols-1 sm:grid-cols-2  md:grid-cols-4 gap-20 md:gap-5 place-items-center mt-16">
+        className="grid grid-cols-1 sm:grid-cols-2  2xl:grid-cols-4 -mt-16">
 
           
             

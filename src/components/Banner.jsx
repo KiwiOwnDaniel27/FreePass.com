@@ -24,20 +24,20 @@ const Banner = () => {
                     xl:w-800 xl:h-130 xl:ml-13 xl:mt-0
                     lg:w-800 lg:h-120 lg:ml-13 lg:mt-0
                     md:w-800 md:h-100 md:ml-6 md:mt-0
-                    sm:w-800 sm:h-70 sm:ml-39 mt-145
+                    sm:w-800 sm:h-70 sm:ml-39
                     drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]
                     object-cover rounded-2xl"
                     />
                 </div>
 
-                <div className="ml-16
+                <div className="ml-0
                 2xl:ml-16
                 xl:ml-16
                 lg:ml-16 
                 md:ml-16
                 sm:-ml-80">
                 <div className="flex flex-col justify-center gap-12 sm:pt-0 text-center">
-                    <h1 data-aos="zoom-in" className="text-4xl sm:text-5xl font-bold 2xl:w-175
+                    <h1 data-aos="zoom-in" className="text-4xl sm:text-5xl font-bold 2xl:w-175 
                     2xl:text-7xl
                     xl:text-4xl
                     2xl:mt-0
@@ -52,7 +52,7 @@ const Banner = () => {
                     >Solicita tu prenda favorita, conecta con FreePass</p>
 
                 <div className="flex flex-col gap-4">
-                <div data-aos="fade-up" className="flex items-center gap-4 ml-23
+                <div data-aos="fade-up" className="flex items-center gap-4 ml-9
                 2xl:ml-16
                 xl:ml-23
                 lg:ml-9
@@ -68,7 +68,7 @@ const Banner = () => {
                             Producto de Calidad.
                         </p>
                     </div> 
-                    <div data-aos="fade-up" className="flex items-center gap-4 ml-23
+                    <div data-aos="fade-up" className="flex items-center gap-4 ml-9
                     2xl:ml-16
                     xl:ml-23
                     lg:ml-9
@@ -83,7 +83,7 @@ const Banner = () => {
                             Entrega Rápida.
                         </p>
                     </div>
-                    <div data-aos="fade-up" className="flex items-center gap-4 ml-23
+                    <div data-aos="fade-up" className="flex items-center gap-4 ml-9
                     2xl:ml-16
                     xl:ml-23
                     lg:ml-9
@@ -98,7 +98,7 @@ const Banner = () => {
                             Servicio de calidad.
                         </p>
                     </div>
-                    <div data-aos="fade-up" className="flex items-center gap-4 ml-23
+                    <div data-aos="fade-up" className="flex items-center gap-4 ml-9
                    2xl:ml-16
                     xl:ml-23
                     lg:ml-9
@@ -108,7 +108,7 @@ const Banner = () => {
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
-                        <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190
+                        <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40
                         xl:text-lg xl:-ml-5
                         lg:-ml-7 md:-ml-3">
                             Obtén Ofertas por ser miembro exclusivo.

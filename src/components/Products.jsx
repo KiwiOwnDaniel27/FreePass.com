@@ -8,7 +8,12 @@ const Products = () => {
   return <div className="mt-14 mb-12">
         
         
-        <div className="text-center mb-10 mx-w-[600] mx-auto">
+        <div className="text-center mb-10 w-150 mx-auto -ml-30
+        2xl:ml-195
+        xl:ml-95
+        lg:ml-60
+        md:ml-30
+        sm:ml-20">
             <p data-aos="fade-up" className="text-sm font-bold text-amber-400
             2xl:text-5xl">Productos más vendidos</p>
             <h1 data-aos="fade-up" className="text-3xl font-bold
@@ -27,7 +32,7 @@ const Products = () => {
                     key={data.id}
                     className="space-y-3">
                         <a href={data.link}>
-                        <img src={data.image} alt="" className="h-[220] w-[150] object-cover rounded-md
+                        <img src={data.image} alt="" className="h-90 w-60 object-cover rounded-md
                         2xl:h-140 2xl:w-130
                         xl:h-85 xl:w-130
                         lg:h-90 lg:w-130
