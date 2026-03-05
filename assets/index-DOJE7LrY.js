@@ -138,8 +138,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                   hover:text-white relative shadow-xl duration-300 group max-w-500 rounded-2xl\r
                   2xl:w-full 2xl:h-full\r
                   xl:w-full xl:h-full`,children:[S.jsx("div",{className:"",children:S.jsx(er,{to:i.link,children:S.jsx("img",{src:i.image,alt:"",className:`max-w-[140] \r
-                      2xl:w-150 2xl:h-150\r
-                      xl:w-100 xl:h-100\r
+                      2xl:w-full 2xl:h-full\r
+                      xl:w-full xl:h-full\r
                       block mx-auto transform -translate-y-6 group-hover:scale-116 duration-300\r
                       drop-shadow-md mt-26`})})}),S.jsxs("div",{className:"p-4 text-center mt-16",children:[S.jsxs("div",{className:`w-full flex items-center justify-center gap-6 \r
                     2xl:text-2xl`,children:[S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"})]}),S.jsx("h1",{className:`text-white text-xl font-bold mt-6\r
