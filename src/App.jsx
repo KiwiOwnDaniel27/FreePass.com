@@ -41,7 +41,7 @@ const App = () => {
   return (
     <BrowserRouter basename="/FreePass.com">
         <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Tienda />} />
         <Route path="/Origen" element={<Origen />} />
         <Route path="/Amedida" element={<Amedida />} />
         <Route path="/Galeria" element={<Galeria />} />
