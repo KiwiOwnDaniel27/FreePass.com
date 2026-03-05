@@ -20,7 +20,7 @@ const Banner = () => {
                 <div data-aos="zoom-in">
                     <img src="./assets/Banner.webp" alt="" 
                     className=" bg-amber-500
-                    2xl:w-full 2xl:h-full
+                    2xl:w-800 2xl:h-200
                     xl:w-800 xl:h-130
                     drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]
                     object-cover rounded-2xl"
@@ -28,8 +28,7 @@ const Banner = () => {
                 </div>
 
                 <div className="ml-16">
-                <div className="flex flex-col justify-center gap-12 sm:pt-0 text-center
-                2xl:w-200">
+                <div className="flex flex-col justify-center gap-12 sm:pt-0 text-center">
                     <h1 data-aos="zoom-in" className="text-4xl sm:text-5xl font-bold
                     2xl:text-7xl
                     xl:text-4xl">Conoce de nuestra nueva Tendencia</h1>
@@ -39,9 +38,9 @@ const Banner = () => {
                     xl:text-sm"
                     >Solicita tu prenda favorita, conecta con FreePass</p>
 
-                <div className="flex flex-col gap-4 w-200">
+                <div className="flex flex-col gap-4">
                 <div data-aos="fade-up" className="flex items-center gap-4 ml-23
-                2xl:ml-26
+                2xl:ml-16
                 ">
                         <GrSecure className="text-4xl h-12 w-12 shadow-sm p-2 rounded-full bg-violet-400
                         dark:bg-violet-100 
@@ -53,7 +52,7 @@ const Banner = () => {
                         </p>
                     </div> 
                     <div data-aos="fade-up" className="flex items-center gap-4 ml-23
-                    2xl:ml-26">
+                    2xl:ml-16">
                         <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
@@ -64,7 +63,7 @@ const Banner = () => {
                         </p>
                     </div>
                     <div data-aos="fade-up" className="flex items-center gap-4 ml-23
-                    2xl:ml-26">
+                    2xl:ml-16">
                         <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
@@ -75,12 +74,12 @@ const Banner = () => {
                         </p>
                     </div>
                     <div data-aos="fade-up" className="flex items-center gap-4 ml-23
-                    2xl:ml-26">
+                    2xl:ml-16">
                         <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
-                        <p className="2xl:text-3xl
+                        <p className="2xl:text-3xl 2xl:-ml-6
                         xl:text-lg">
                             Obtén Ofertas por ser miembro exclusivo.
                         </p>
