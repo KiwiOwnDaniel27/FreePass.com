@@ -67,11 +67,16 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                                         xl:w-400 xl:h-103 xl:mt-0 xl:-ml-11\r
                                         lg:w-100 lg:h-60 lg:mt-0 lg:-ml-20\r
                                         md:w-100 md:h-60 md:mt-0 md:-ml-20\r
-                                        sm:w-100 sm:h-60 sm:mt-0 sm:-ml-20`,src:i.image,alt:""})})})]})}))})})]})};function MA(n,i){if(typeof Proxy>"u")return wf;const r=new Map,s=(c,d)=>wf(c,d,n,i),o=(c,d)=>s(c,d);return new Proxy(o,{get:(c,d)=>d==="create"?s:(r.has(d)||r.set(d,wf(d,void 0,n,i)),r.get(d))})}const ir=MA(nC,b5),th={hidden:{},show:{transition:{staggerChildren:.4}}},nh={hidden:{y:30,opacity:0,filter:"blur(18px)"},show:{y:0,opacity:1,filter:"blur(0)",transition:{duration:1.9,ease:"easeOut"}}},DA=()=>S.jsxs("div",{className:"mt-14 mb-12",children:[S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("p",{"data-aos":"fade-up",className:`text-sm font-bold text-amber-400\r
+                                        sm:w-100 sm:h-60 sm:mt-0 sm:-ml-20`,src:i.image,alt:""})})})]})}))})})]})};function MA(n,i){if(typeof Proxy>"u")return wf;const r=new Map,s=(c,d)=>wf(c,d,n,i),o=(c,d)=>s(c,d);return new Proxy(o,{get:(c,d)=>d==="create"?s:(r.has(d)||r.set(d,wf(d,void 0,n,i)),r.get(d))})}const ir=MA(nC,b5),th={hidden:{},show:{transition:{staggerChildren:.4}}},nh={hidden:{y:30,opacity:0,filter:"blur(18px)"},show:{y:0,opacity:1,filter:"blur(0)",transition:{duration:1.9,ease:"easeOut"}}},DA=()=>S.jsxs("div",{className:"mt-14 mb-12",children:[S.jsxs("div",{className:`text-center mb-10 w-150 mx-auto -ml-30\r
+        2xl:ml-195\r
+        xl:ml-95\r
+        lg:ml-60\r
+        md:ml-30\r
+        sm:ml-20`,children:[S.jsx("p",{"data-aos":"fade-up",className:`text-sm font-bold text-amber-400\r
             2xl:text-5xl`,children:"Productos más vendidos"}),S.jsx("h1",{"data-aos":"fade-up",className:`text-3xl font-bold\r
             2xl:text-5xl`,children:"Outfits"}),S.jsx("p",{"data-aos":"fade-up",className:`text-xs text-gray-700\r
             2xl:text-2xl`,children:"Viste con actitud: cada prenda hecha para ti ✨"})]}),S.jsxs("div",{children:[S.jsx("div",{className:`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5\r
-            place-items-center gap-5 text-center`,children:cC.map(n=>S.jsxs("div",{"data-aos":"fade-up","data-aos-delay":n.aosDeLay,className:"space-y-3",children:[S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`h-[220] w-[150] object-cover rounded-md\r
+            place-items-center gap-5 text-center`,children:cC.map(n=>S.jsxs("div",{"data-aos":"fade-up","data-aos-delay":n.aosDeLay,className:"space-y-3",children:[S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`h-90 w-60 object-cover rounded-md\r
                         2xl:h-140 2xl:w-130\r
                         xl:h-85 xl:w-130\r
                         lg:h-90 lg:w-130\r
@@ -90,14 +95,14 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:w-800 xl:h-130 xl:ml-13 xl:mt-0\r
                     lg:w-800 lg:h-120 lg:ml-13 lg:mt-0\r
                     md:w-800 md:h-100 md:ml-6 md:mt-0\r
-                    sm:w-800 sm:h-70 sm:ml-39 mt-145\r
+                    sm:w-800 sm:h-70 sm:ml-39\r
                     drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]\r
-                    object-cover rounded-2xl`})}),S.jsx("div",{className:`ml-16\r
+                    object-cover rounded-2xl`})}),S.jsx("div",{className:`ml-0\r
                 2xl:ml-16\r
                 xl:ml-16\r
                 lg:ml-16 \r
                 md:ml-16\r
-                sm:-ml-80`,children:S.jsxs("div",{className:"flex flex-col justify-center gap-12 sm:pt-0 text-center",children:[S.jsx("h1",{"data-aos":"zoom-in",className:`text-4xl sm:text-5xl font-bold 2xl:w-175\r
+                sm:-ml-80`,children:S.jsxs("div",{className:"flex flex-col justify-center gap-12 sm:pt-0 text-center",children:[S.jsx("h1",{"data-aos":"zoom-in",className:`text-4xl sm:text-5xl font-bold 2xl:w-175 \r
                     2xl:text-7xl\r
                     xl:text-4xl\r
                     2xl:mt-0\r
@@ -106,7 +111,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     md:mt-0\r
                     sm:-mt-90`,children:"Conoce de nuestra nueva Tendencia"}),S.jsx("p",{"data-aos":"fade-up",className:`text-sm text-gray-700 tracking-wide leading-5\r
                     2xl:text-2xl 2xl:ml-16 2xl:w-140\r
-                    xl:text-sm`,children:"Solicita tu prenda favorita, conecta con FreePass"}),S.jsxs("div",{className:"flex flex-col gap-4",children:[S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
+                    xl:text-sm`,children:"Solicita tu prenda favorita, conecta con FreePass"}),S.jsxs("div",{className:"flex flex-col gap-4",children:[S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
                 2xl:ml-16\r
                 xl:ml-23\r
                 lg:ml-9\r
@@ -116,7 +121,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         dark:bg-violet-100 \r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
-                        xl:text-lg`,children:"Producto de Calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
+                        xl:text-lg`,children:"Producto de Calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
                     2xl:ml-16\r
                     xl:ml-23\r
                     lg:ml-9\r
@@ -125,7 +130,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
-                        xl:text-lg`,children:"Entrega Rápida."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
+                        xl:text-lg`,children:"Entrega Rápida."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
                     2xl:ml-16\r
                     xl:ml-23\r
                     lg:ml-9\r
@@ -134,7 +139,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
-                        xl:text-lg`,children:"Servicio de calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
+                        xl:text-lg`,children:"Servicio de calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
                    2xl:ml-16\r
                     xl:ml-23\r
                     lg:ml-9\r
@@ -142,7 +147,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     sm:ml-30`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
-                        xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:-ml-5 2xl:w-190\r
+                        xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40\r
                         xl:text-lg xl:-ml-5\r
                         lg:-ml-7 md:-ml-3`,children:"Obtén Ofertas por ser miembro exclusivo."})]})]})]})})]})})}),UA=()=>S.jsx("div",{"data-aos":"zoom-in",className:`bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23\r
     2xl:h-120`,children:S.jsx("form",{action:"https://formsubmit.co/fiel2589@hotmail.com",method:"POST",children:S.jsx("div",{className:`container backdrop-blur-sm max-w-xl py-10 rounded-2xl\r
@@ -165,7 +170,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                                 2xl:text-2xl`,children:i.text}),S.jsx("h1",{className:`text-xl font-bold text-black/80 dark:text-light\r
                                 2xl:text-3xl`,children:i.name})]})}),S.jsx("p",{className:`text-black/20 font-serif absolute top-0 ml-50 2xl:ml-120 2xl:-mt-6\r
                         xl:ml-165 xl:-mt-6 lg:ml-75 md:ml-65 sm:ml-49\r
-                        2xl:text-9xl xl:text-9xl lg:text-9xl md:text-9xl sm:text-9xl text-7xl`,children:",,"})]},i.id)}))})})]})})},HA=()=>{const n={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToScroll:1,slidesToShow:3,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1024,settings:{slidesToShow:2}},{breakpoint:640,settings:{slidesToShow:1}}]};return S.jsx(ir.div,{variants:th,initial:"hidden",whileInView:"show",viewport:{once:!0},className:"",children:S.jsxs("div",{className:"container",children:[S.jsx("div",{children:S.jsxs("div",{className:"text-left mb-9",children:[S.jsx("p",{className:`text-sm font-bold text-amber-400\r
+                        2xl:text-9xl xl:text-9xl lg:text-9xl md:text-9xl sm:text-9xl text-7xl`,children:",,"})]},i.id)}))})})]})})},HA=()=>{const n={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToShow:3,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1024,settings:{slidesToShow:2,slidesToScroll:1}},{breakpoint:640,settings:{slidesToShow:1,slidesToScroll:1}}]};return S.jsx(ir.div,{variants:th,initial:"hidden",whileInView:"show",viewport:{once:!0},className:"",children:S.jsxs("div",{className:"container",children:[S.jsx("div",{children:S.jsxs("div",{className:"text-left mb-9",children:[S.jsx("p",{className:`text-sm font-bold text-amber-400\r
             2xl:text-5xl`,children:"Productos recomendados para ti"}),S.jsx("h1",{className:`text-3xl font-bold\r
             2xl:text-5xl`,children:"Los mejores productos"}),S.jsx("p",{className:`text-xs text-gray-700\r
             2xl:text-2xl`,children:"Viste con actitud: cada prenda hecha para ti ✨"})]})}),S.jsx(ir.div,{variants:nh,className:"-mt-16",children:S.jsx(nr,{...n,className:"px-2 md:px-10",children:Sx.map(i=>S.jsx("div",{className:"px-3",children:S.jsxs("div",{className:`bg-white dark:bg-gray-800 hover:bg-amber-400 dark:hover:bg-amber-400\r
@@ -186,7 +191,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         xl:ml-16\r
                         lg:ml-9\r
                         md:ml-9`,children:"Comprar Ahora"})})]})]})},i.id))})})]})})},Ri=()=>S.jsxs("div",{"data-aos":"zoom-in",className:"mb-3",children:[S.jsx("div",{className:"mt-21 ml-33",children:S.jsx("div",{className:"container",children:S.jsxs("div",{className:"grid md:grid-cols-3 pv-44 pt-5 -mt-21",children:[S.jsxs("div",{className:"py-8 px-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:-ml-30 sm:ml-43 -ml-3",children:[S.jsx("h1",{className:"sm:-ml-3",children:"Links Web"}),S.jsx("ul",{className:"flex flex-col gap-3 mt-3 2xl:ml-0 xl:ml-0 ml-3 sm:ml-0",children:dC.map(n=>S.jsx("li",{className:"cursor-pointer hover:text-black hover:translate-x-1 duration-300 text-shadow-gray-600",children:S.jsx(er,{to:n.link,children:S.jsx("span",{children:n.title})})},n.title))})]}),S.jsxs("div",{className:"py-8 px-4 -ml-9 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36",children:[S.jsx("h1",{className:"",children:"Redes Sociales"}),S.jsx("ul",{className:"flex gap-3 mt-3 -ml-3",children:hC.map(({id:n,icon:i,url:r})=>S.jsx("a",{href:r,target:"_blank",children:S.jsx(i,{size:39})},n))})]}),S.jsx("div",{className:"mt-8 -ml-12 space-y-4 2xl:ml-50 xl:ml-20 lg:ml-19 md:ml-9 sm:ml-33",children:mC.map(n=>S.jsxs("a",{href:n.url,target:"_blank",className:`flex items-center gap-1.5 hover:text-green-800\r
-                            hover:underline transition-colors`,children:[S.jsx(n.icon,{}),n.label]},n.id))})]})})}),S.jsx("div",{className:`bg-[url('/assets/logo.png')] bg-center h-40 w-160 text-black mt-43 -ml-16\r
+                            hover:underline transition-colors`,children:[S.jsx(n.icon,{}),n.label]},n.id))})]})})}),S.jsx("div",{className:`bg-[url('/assets/logo.png')] bg-center h-40 w-150 text-black mt-43 -ml-11\r
         2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46\r
         2xl:ml-206 xl:ml-106 lg:ml-76 md:ml-46 sm:ml-30\r
         2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40`,children:S.jsx("p",{className:"text-xs text-center -mt-39 -ml-33",children:"Viste tus sueños, define tu estilo. Cada detalle cuenta"})})]}),PA=()=>S.jsx("div",{className:"mt-9 mb-9",children:S.jsx("div",{className:"container max-w-xl",children:S.jsxs("div",{"data-aos":"fade-up",className:`text-3xl/tight font-bold mb-6 text-center mt-21\r
