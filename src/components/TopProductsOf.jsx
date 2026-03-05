@@ -94,8 +94,8 @@ const TopProducts = () => {
                         2xl:ml-19 mb-1
                         2xl:text-2xl 2xl:mb-6
                         xl:ml-16
-                        lg:ml-16
-                        md:ml-16">
+                        lg:ml-9
+                        md:ml-9">
                         Comprar Ahora
                       </button>
                     </a>
