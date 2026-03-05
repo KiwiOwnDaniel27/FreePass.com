@@ -58,7 +58,7 @@ const Banner = () => {
                     2xl:ml-16
                     xl:ml-23
                     lg:ml-9
-                    md:ml-0">
+                    md:-ml-3">
                         <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
@@ -72,7 +72,7 @@ const Banner = () => {
                     2xl:ml-16
                     xl:ml-23
                     lg:ml-9
-                    md:ml-0">
+                    md:-ml-3">
                         <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
@@ -86,14 +86,14 @@ const Banner = () => {
                    2xl:ml-16
                     xl:ml-23
                     lg:ml-9
-                    md:ml-0">
+                    md:-ml-3">
                         <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190
                         xl:text-lg xl:-ml-5
-                        lg:-ml-7">
+                        lg:-ml-7 md:ml-0">
                             Obtén Ofertas por ser miembro exclusivo.
                         </p>
                     </div>
