@@ -9,7 +9,7 @@ const Suscribe = () => {
         
         <form action="https://formsubmit.co/fiel2589@hotmail.com" method="POST">
         <div className="container backdrop-blur-sm max-w-xl py-10 rounded-2xl
-         2xl:max-w-3xl">
+         2xl:max-w-xl">
              <div className="space-y-6 max-w-xl mx-auto">
                 <h1 className="text-black text-2xl text-center sm:text-4xl
                 font-semibold
