@@ -63,7 +63,9 @@ const TopProducts = () => {
                     <Link to={data.link}>
                     <img src={data.image} alt="" 
                       className="w-full h-auto block mx-auto transform -translate-y-6 
-                      group-hover:scale-110 duration-300 drop-shadow-md mt-26"
+                      group-hover:scale-110 duration-300 drop-shadow-md mt-26
+                      2xl:w-90 2xl:h-full
+                      xl:w-70 xl:h-auto"
                     />
                     </Link>
                   </div>
