@@ -13,7 +13,7 @@ import Testimonials from './components/Testimonials';
 import Prueba from './components/TopProductsOf';
 import TopProductsOf from './components/TopProductsOf';
 import Footer from './components/Footer';
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Origen from "./pages/Origen";
 import Amedida from "./pages/Amedida";
 import Galeria from "./pages/Galeria";
@@ -39,19 +39,16 @@ const App = () => {
   }, []);
 
   return (
-    <>
       <Routes>
-        <Route path="/origen" element={<Origen />} />
-        <Route path="/amedida" element={<Amedida />} />
-        <Route path="/galeria" element={<Galeria />} />
-        <Route path="/tienda" element={<Tienda/>} />
-        <Route path="/home" element={<Home/>} />
-        <Route path='/catalogo' element={<Catalogo/>} />
-        <Route path='/abrigos' element={<Abrigos/>} />
-        <Route path='/abrigo1' element={<Abrigo1/>} />
-        
+        <Route path="/FreePass.com/origen" element={<Origen />} />
+        <Route path="/FreePass.com/amedida" element={<Amedida />} />
+        <Route path="/FreePass.com/galeria" element={<Galeria />} />
+        <Route path="/FreePass.com/tienda" element={<Tienda />} />
+        <Route path="/FreePass.com/home" element={<Home />} />
+        <Route path="/FreePass.com/catalogo" element={<Catalogo />} />
+        <Route path="/FreePass.com/abrigos" element={<Abrigos />} />
+        <Route path="/FreePass.com/abrigo1" element={<Abrigo1 />} />
       </Routes>
-    </>
   );
 };
 

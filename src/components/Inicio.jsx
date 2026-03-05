@@ -39,7 +39,7 @@ const Inicio = () => {
                 usuarios.
                 </p>
                 </div>
-                <img data-aos="zoom-in" src="/assets/barrio-SM.jpg" alt="Hero" className="rounded-full
+                <img data-aos="zoom-in" src="./assets/barrio-SM.jpg" alt="Hero" className="rounded-full
                     2xl:w-350 2xl:h-141 2xl:-ml-9 2xl:rounded-full 2xl:-mt-3
                     xl:ml-20 xl:w-100 xl:h-100 xl:-mt-3
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-0
