@@ -107,7 +107,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Servicio de calidad."})]}),S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
-                    2xl:ml-16`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
+                    2xl:ml-0`,children:[S.jsx(c3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
                         dark:bg-orange-100\r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),S.jsx("p",{className:`2xl:text-3xl 2xl:ml-0\r
@@ -139,7 +139,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                   2xl:w-75\r
                   w-66`,children:[S.jsx("div",{className:`h-75\r
                   2xl:h-90 2xl:w-81`,children:S.jsx(er,{to:i.link,children:S.jsx("img",{src:i.image,alt:"",className:`max-w-[140] \r
-                      2xl:w-90 2xl:h-125\r
+                      2xl:w-100 2xl:h-100\r
                       block mx-auto transform -translate-y-6 group-hover:scale-116 duration-300\r
                       drop-shadow-md mt-26`})})}),S.jsxs("div",{className:"p-4 text-center mt-16",children:[S.jsxs("div",{className:"w-full flex items-center justify-center gap-6",children:[S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"})]}),S.jsx("h1",{className:`text-white text-xl font-bold mt-6\r
                     2xl:text-3xl`,children:i.title}),S.jsx("p",{className:`text-gray-500 group-hover:text-white duration-300 mt-3 text-sm line-clamp-2\r
