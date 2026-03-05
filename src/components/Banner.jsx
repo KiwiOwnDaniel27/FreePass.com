@@ -73,7 +73,7 @@ const Banner = () => {
                         </p>
                     </div>
                     <div data-aos="fade-up" className="flex items-center gap-4 ml-23
-                    2xl:ml-16">
+                    2xl:ml-0">
                         <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
