@@ -74,7 +74,7 @@ const Hero = () => {
                                 <div className="order-1 sm:order-2">
                                     <div>
                                         <img className=" w-150 h-50 sm:scale-105 -mt-70 ml-3
-                                        2xl:w-600 2xl:h-123 2xl:mt-0 2xl:-ml-9
+                                        2xl:w-600 2xl:h-123 2xl:mt-0 2xl:-ml-11
                                         xl:w-400 xl:h-103 xl:mt-0 xl:-ml-20
                                         lg:w-100 lg:h-60 lg:mt-0 lg:-ml-20
                                         md:w-100 md:h-60 md:mt-0 md:-ml-20
