@@ -89,7 +89,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     object-cover rounded-2xl`})}),S.jsx("div",{className:"ml-16",children:S.jsxs("div",{className:"flex flex-col justify-center gap-12 sm:pt-0 text-center",children:[S.jsx("h1",{"data-aos":"zoom-in",className:`text-4xl sm:text-5xl font-bold 2xl:w-175\r
                     2xl:text-7xl\r
                     xl:text-4xl`,children:"Conoce de nuestra nueva Tendencia"}),S.jsx("p",{"data-aos":"fade-up",className:`text-sm text-gray-700 tracking-wide leading-5\r
-                    2xl:text-2xl 2xl:ml-6\r
+                    2xl:text-2xl 2xl:ml-16\r
                     xl:text-sm`,children:"Solicita tu prenda favorita, conecta con FreePass"}),S.jsxs("div",{className:"flex flex-col gap-4",children:[S.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-23\r
                 2xl:ml-16\r
                 `,children:[S.jsx(zA,{className:`text-4xl h-12 w-12 shadow-sm p-2 rounded-full bg-violet-400\r
@@ -140,11 +140,12 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                   xl:w-full xl:h-full`,children:[S.jsx("div",{className:"",children:S.jsx(er,{to:i.link,children:S.jsx("img",{src:i.image,alt:"",className:`w-full h-auto block mx-auto transform -translate-y-6 \r
                       group-hover:scale-110 duration-300 drop-shadow-md mt-26\r
                       2xl:w-90 2xl:h-full\r
-                      xl:w-70 xl:h-auto`})})}),S.jsxs("div",{className:"p-4 text-center mt-16",children:[S.jsxs("div",{className:`w-full flex items-center justify-center gap-6 \r
+                      xl:w-70 xl:h-auto`})})}),S.jsxs("div",{className:"p-4 text-center mt-0",children:[S.jsxs("div",{className:`w-full flex items-center justify-center gap-6 \r
                     2xl:text-2xl`,children:[S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"}),S.jsx(En,{className:"text-yellow-500 group-hover:text-white"})]}),S.jsx("h1",{className:`text-white text-xl font-bold mt-6\r
                     2xl:text-3xl`,children:i.title}),S.jsx("p",{className:`text-gray-500 group-hover:text-white duration-300 mt-3 text-sm line-clamp-2\r
                     2xl:text-2xl`,children:i.description}),S.jsx("a",{href:i.link,children:S.jsx("button",{className:`bg-amber-400 hover:scale-105 duration-300 text-white\r
-                        py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-11 mb-1\r
+                        py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-11\r
+                        2xl:ml-27 mb-1\r
                         2xl:text-2xl 2xl:mb-6`,children:"Comprar Ahora"})})]})]})},i.id))})})]})})},Ri=()=>S.jsxs("div",{"data-aos":"zoom-in",className:"mb-3",children:[S.jsx("div",{className:"mt-21 ml-33",children:S.jsx("div",{className:"container",children:S.jsxs("div",{className:"grid md:grid-cols-3 pv-44 pt-5 -mt-21",children:[S.jsxs("div",{className:"py-8 px-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:-ml-30 sm:ml-43 -ml-3",children:[S.jsx("h1",{className:"sm:-ml-3",children:"Links Web"}),S.jsx("ul",{className:"flex flex-col gap-3 mt-3 2xl:ml-0 xl:ml-0 ml-3 sm:ml-0",children:dC.map(n=>S.jsx("li",{className:"cursor-pointer hover:text-black hover:translate-x-1 duration-300 text-shadow-gray-600",children:S.jsx(er,{to:n.link,children:S.jsx("span",{children:n.title})})},n.title))})]}),S.jsxs("div",{className:"py-8 px-4 -ml-9 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36",children:[S.jsx("h1",{className:"",children:"Redes Sociales"}),S.jsx("ul",{className:"flex gap-3 mt-3 -ml-3",children:hC.map(({id:n,icon:i,url:r})=>S.jsx("a",{href:r,target:"_blank",children:S.jsx(i,{size:39})},n))})]}),S.jsx("div",{className:"mt-8 -ml-12 space-y-4 2xl:ml-50 xl:ml-20 lg:ml-19 md:ml-9 sm:ml-33",children:mC.map(n=>S.jsxs("a",{href:n.url,target:"_blank",className:`flex items-center gap-1.5 hover:text-green-800\r
                             hover:underline transition-colors`,children:[S.jsx(n.icon,{}),n.label]},n.id))})]})})}),S.jsx("div",{className:`bg-[url('/assets/logo.png')] bg-center h-40 w-160 text-black mt-43 -ml-16\r
         2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46\r
