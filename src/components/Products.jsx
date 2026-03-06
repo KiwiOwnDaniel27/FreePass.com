@@ -8,7 +8,7 @@ const Products = () => {
   return <div className="mt-14 mb-12">
         
         
-        <div className="text-center mb-10 w-150 mx-auto -ml-27
+        <div className="text-center mb-10 w-150 mx-auto -ml-28
         2xl:ml-195
         xl:ml-95
         lg:ml-60
