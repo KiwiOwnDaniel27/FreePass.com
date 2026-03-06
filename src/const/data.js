@@ -120,7 +120,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen1.png",
         title: "Abrigo Animal Print",
         description: "Blanco y negro",
-        link: "/#/abrigo-1",
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/abrigo-1",
     },
     {
         id: 2,
