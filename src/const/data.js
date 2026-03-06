@@ -278,19 +278,19 @@ export const FooterLinks = [
     },
     {
         title: "Origen",
-        link: "/origen",
+        link: "http://localhost:5173/FreePass.com/home#/origen",
     },
     {
         title: "Tienda",
-        link: "/tienda",
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/tienda",
     },
     {
         title: "Galeria",
-        link: "/galeria",
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/galeria",
     },
     {
         title: "A medida",
-        link: "/amedida",
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/amedida",
     },
 ]
 
