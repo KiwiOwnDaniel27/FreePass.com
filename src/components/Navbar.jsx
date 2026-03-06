@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="px-0">
         <div className="relative z-10 bg-[url('/assets/fondo.webp')] bg-contain bg-center flex mx-auto w-full
         flex-col p-6 h-53 shadow-lg 2xl:h-80">
             
