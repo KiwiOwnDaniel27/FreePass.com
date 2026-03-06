@@ -274,11 +274,11 @@ export const testimonialData = [
 export const FooterLinks = [
     {
         title: "Inicio",
-        link: "/home",
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/home",
     },
     {
         title: "Origen",
-        link: "http://localhost:5173/FreePass.com/home#/origen",
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/origen",
     },
     {
         title: "Tienda",
