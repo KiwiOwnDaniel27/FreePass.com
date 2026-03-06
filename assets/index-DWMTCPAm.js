@@ -67,7 +67,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                                         xl:w-400 xl:h-103 xl:mt-0 xl:-ml-11\r
                                         lg:w-100 lg:h-60 lg:mt-0 lg:-ml-20\r
                                         md:w-100 md:h-60 md:mt-0 md:-ml-20\r
-                                        sm:w-100 sm:h-60 sm:mt-0 sm:-ml-20`,src:i.image,alt:""})})})]})}))})})]})};function MA(n,i){if(typeof Proxy>"u")return wf;const r=new Map,s=(c,d)=>wf(c,d,n,i),o=(c,d)=>s(c,d);return new Proxy(o,{get:(c,d)=>d==="create"?s:(r.has(d)||r.set(d,wf(d,void 0,n,i)),r.get(d))})}const ar=MA(nC,b5),th={hidden:{},show:{transition:{staggerChildren:.4}}},nh={hidden:{y:30,opacity:0,filter:"blur(18px)"},show:{y:0,opacity:1,filter:"blur(0)",transition:{duration:1.9,ease:"easeOut"}}},DA=()=>S.jsxs("div",{className:"mt-14 mb-12",children:[S.jsxs("div",{className:`text-center mb-10 w-150 mx-auto -ml-25\r
+                                        sm:w-100 sm:h-60 sm:mt-0 sm:-ml-20`,src:i.image,alt:""})})})]})}))})})]})};function MA(n,i){if(typeof Proxy>"u")return wf;const r=new Map,s=(c,d)=>wf(c,d,n,i),o=(c,d)=>s(c,d);return new Proxy(o,{get:(c,d)=>d==="create"?s:(r.has(d)||r.set(d,wf(d,void 0,n,i)),r.get(d))})}const ar=MA(nC,b5),th={hidden:{},show:{transition:{staggerChildren:.4}}},nh={hidden:{y:30,opacity:0,filter:"blur(18px)"},show:{y:0,opacity:1,filter:"blur(0)",transition:{duration:1.9,ease:"easeOut"}}},DA=()=>S.jsxs("div",{className:"mt-14 mb-12",children:[S.jsxs("div",{className:`text-center mb-10 w-150 mx-auto -ml-23\r
         2xl:ml-195\r
         xl:ml-95\r
         lg:ml-60\r
