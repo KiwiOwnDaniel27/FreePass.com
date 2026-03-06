@@ -59,7 +59,7 @@ const Banner = () => {
                 md:ml-0
                 sm:ml-30
                 ">
-                        <GrSecure className="text-4xl h-12 w-12 shadow-sm p-2 rounded-full bg-violet-400
+                        <GrSecure className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-violet-400
                         dark:bg-violet-100 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12"/>
@@ -108,7 +108,7 @@ const Banner = () => {
                         dark:bg-orange-100
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
-                        <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40
+                        <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40 -ml-3
                         xl:text-lg xl:-ml-5
                         lg:-ml-7 md:-ml-3">
                             Obtén Ofertas por ser miembro exclusivo.

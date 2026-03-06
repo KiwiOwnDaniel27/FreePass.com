@@ -8,7 +8,7 @@ const Products = () => {
   return <div className="mt-14 mb-12">
         
         
-        <div className="text-center mb-10 w-150 mx-auto -ml-30
+        <div className="text-center mb-10 w-150 mx-auto -ml-27
         2xl:ml-195
         xl:ml-95
         lg:ml-60
@@ -48,7 +48,7 @@ const Products = () => {
                         </a>
 
                         <div className="flex items-center gap-3">
-                            <span className="ml-9
+                            <span className="ml-25
                             2xl:text-2xl">{data.rating}</span>
                             <FaStar className="text-yellow-400"/>
                         </div>
