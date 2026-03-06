@@ -40,7 +40,7 @@ const App = () => {
   return (
     <HashRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/origen" element={<Origen />} />
       <Route path="/amedida" element={<Amedida />} />
       <Route path="/galeria" element={<Galeria />} />
