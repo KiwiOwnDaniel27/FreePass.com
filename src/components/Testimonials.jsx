@@ -66,7 +66,7 @@ const Testimonials = () => {
                     <div className="my-6">
                         <div key={data.id} className="flex flex-col gap-4 shadow-lg py-8 px-6 2xl:h-103 2xl:w-156
                         2xl:ml-190 2xl:py-8 xl:h-75 xl:w-200 xl:ml-70 lg:h-80 lg:w-100 lg:ml-90 md:h-80 md:w-100
-                        md:ml-13 sm:h-80 sm:w-80 sm:ml-53 ml-13
+                        md:ml-13 sm:h-80 sm:w-80 sm:ml-53 ml-16
                         mx-40 rounded-xl dark:bg-gray-800/10 bg-amber-400 relative w-70 h-80">
                         <div className="mb-6 ml-11 2xl:ml-55 xl:ml-76 lg:ml-26 md:ml-26">
                             <img src={data.image} alt="" className="rounded-full w-30 h-30

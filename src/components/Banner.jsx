@@ -24,7 +24,7 @@ const Banner = () => {
                     xl:w-800 xl:h-130 xl:ml-13 xl:mt-0
                     lg:w-800 lg:h-120 lg:ml-13 lg:mt-0
                     md:w-800 md:h-100 md:ml-6 md:mt-0
-                    sm:w-800 sm:h-70 sm:ml-39
+                    sm:w-800 sm:h-70 sm:ml-39 sm:-mt-110
                     drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]
                     object-cover rounded-2xl"
                     />
@@ -44,7 +44,7 @@ const Banner = () => {
                     xl:mt-0
                     lg:mt-0
                     md:mt-0
-                    sm:-mt-90">Conoce de nuestra nueva Tendencia</h1>
+                    sm:mt-90">Conoce de nuestra nueva Tendencia</h1>
                     <p data-aos="fade-up"
                     className="text-sm text-gray-700 tracking-wide leading-5
                     2xl:text-2xl 2xl:ml-16 2xl:w-140

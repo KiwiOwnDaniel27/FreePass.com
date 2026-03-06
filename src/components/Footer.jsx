@@ -29,7 +29,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="py-8 px-4 -ml-9 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36">
+                    <div className="py-8 px-4 -ml-7 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36">
                         <h1 className="">
                             Redes Sociales
                         </h1>
@@ -58,8 +58,8 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="bg-[url('/assets/logo.png')] bg-center h-40 w-150 text-black mt-43 -ml-11
-        2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46
+        <div className="bg-[url('/assets/logo.png')] bg-center h-40 w-160 text-black mt-43 -ml-10
+        2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46 2xl:w-160
         2xl:ml-206 xl:ml-106 lg:ml-76 md:ml-46 sm:ml-30
         2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40">
             <p className="text-xs text-center -mt-39 -ml-33">
