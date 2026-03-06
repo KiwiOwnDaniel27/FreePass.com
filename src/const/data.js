@@ -557,7 +557,7 @@ export const CategoriasData = [
         color: "Azul",
         aosDeLay: "0",
         dad: "100",
-        link: "/catalogo",
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/catalogo",
     },
     {
         id: 2,
@@ -590,7 +590,7 @@ export const CatalogoData = [
         color: "Azul",
         aosDeLay: "0",
         dad: "100",
-        link: "/abrigos",
+        link: "/#/abrigos",
     },
     {
         id: 2,
