@@ -274,23 +274,23 @@ export const testimonialData = [
 export const FooterLinks = [
     {
         title: "Inicio",
-        link: "/#/home",
+        link: "/home",
     },
     {
         title: "Origen",
-        link: "/#/origen",
+        link: "/origen",
     },
     {
         title: "Tienda",
-        link: "/#/tienda",
+        link: "/tienda",
     },
     {
         title: "Galeria",
-        link: "/#/galeria",
+        link: "/galeria",
     },
     {
         title: "A medida",
-        link: "/#/amedida",
+        link: "/amedida",
     },
 ]
 
