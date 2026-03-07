@@ -19,7 +19,7 @@ const Morfologias = () => {
                 <img src="./assets/morf-3.png" width={200} height={200} alt="" />
             </div>
             <div>
-                <p data-aos="fade-up" className="ml-0 text-center -mt-153
+                <p data-aos="fade-up" className="ml-3 text-center -mt-153
                 2xl:text-3xl 2xl:-ml-270 2xl:mt-3
                 xl:-ml-200 xl:mt-3
                 lg:-ml-200 lg:mt-3
@@ -29,7 +29,7 @@ const Morfologias = () => {
                     <br />
                     Abrigo con Hombro caído
                 </p>
-                <p data-aos="fade-up" className=" mt-63 ml-3 text-center
+                <p data-aos="fade-up" className=" mt-63 ml-7 text-center
                 2xl:text-3xl 2xl:ml-1 2xl:-mt-13
                 xl:-ml-13 xl:-mt-13
                 lg:-ml-13 lg:-mt-13
@@ -40,7 +40,7 @@ const Morfologias = () => {
                     <br />
                     Abrigo con Hombro caído
                 </p>
-                <p data-aos="fade-up" className="mt-73 ml-3 text-center
+                <p data-aos="fade-up" className="mt-73 ml-7 text-center
                 2xl:text-3xl 2xl:ml-275 2xl:-mt-29
                 xl:-mt-13 xl:ml-190
                 lg:-mt-13 lg:ml-190
