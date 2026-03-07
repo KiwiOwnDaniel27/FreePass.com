@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { FaStar } from 'react-icons/fa6';
 import Slider from "react-slick";
 import { motion } from "framer-motion";
@@ -7,6 +7,28 @@ import { Abrigo1, ProductsData1 } from '../const/data';
 import { CarruselAbrigo1 } from '../const/data';
 
 const AbrigoPages = () => {
+
+  const [slides, setSlides] = useState(4);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+
+      if (width < 640) {
+        setSlides(1);
+      } else if (width < 1024) {
+        setSlides(2);
+      } else {
+        setSlides(3);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  
     var settings ={
         dots: false,
         arrows: false,
@@ -20,28 +42,18 @@ const AbrigoPages = () => {
         pauseOnFocus: true,
     };
     const settingss = {
-        dots: true,
-        arrows: false,
-        infinite: true,
-        speed: 500,
-        slidesToScroll: 1,
-        slidesToShow: 4, 
-        autoplay: true,
-        autoplaySpeed: 2000,
-        cssEase: "linear",
-        pauseOnHover: true,
-        pauseOnFocus: true,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: { slidesToShow: 2 },
-          },
-          {
-            breakpoint: 640,
-            settings: { slidesToShow: 1 },
-          },
-        ],
-      };
+      dots: true,
+      arrows: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
+      pauseOnHover: true,
+      pauseOnFocus: true,
+    };
   return (
     <motion.div variants={variants.staggerContainer} initial='hidden' whileInView='show'
             viewport={{once: true}} className="">
@@ -64,14 +76,14 @@ const AbrigoPages = () => {
                 md:ml-80 md:mt-30
                 sm:ml-70 sm:mt-12">
                     <div className="-mt-10">
-                        <p data-aos="zoom-in" className="text-3xl/tight -ml-215 w-50
+                        <p data-aos="zoom-in" className="text-3xl/tight -ml-215 w-60
                         2xl:text-5xl 2xl:w-130 2xl:-ml-40
                         xl:text-4xl xl:w-100  xl:-ml-3
                         lg:text-4xl lg:w-100 lg:-ml-3
                         md:text-4xl md:w-100 md:-ml-3
                         sm:text-3xl sm:w-50 sm:ml-16">Abrigo Animal Print
                         Blanco y Negro</p>
-                        <p data-aos="zoom-in" className="text-3xl/tight mt-6 -ml-470 mb-10
+                        <p data-aos="zoom-in" className="text-3xl/tight mt-6 -ml-460 mb-10
                         2xl:text-5xl 2xl:-ml-36
                         xl:text-3xl xl:ml-0
                         lg:text-3xl lg:ml-0
@@ -79,13 +91,13 @@ const AbrigoPages = () => {
                         sm:-ml-9">$98</p>
 
                         <button data-aos="zoom-in" className="bg-amber-400 hover:scale-105 duration-300 text-white
-                            py-3 px-6 rounded-full -mt-6 group-hover:bg-white group-hover:text-amber-400 -ml-215 text-2xl/tight 
+                            py-3 px-6 rounded-full -mt-6 group-hover:bg-white group-hover:text-amber-400 -ml-212 text-2xl/tight 
                             2xl:text-4xl 2xl:-ml-19 2xl:w-90 2xl:mt-6
                             xl:text-2xl xl:mt-6 xl:ml-16
                             lg:text-2xl lg:mt-6 lg:ml-16
                             md:text-2xl md:mt-6 md:ml-16
                             sm:ml-12 sm:mt-6"
-                            onClick>
+                            >
                                     Añadir al carrito
                         </button>
                         
@@ -103,7 +115,7 @@ const AbrigoPages = () => {
                 <Slider {...settings}>
                     {CarruselAbrigo1.map((data) => (
                         <div>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 ml-100" >
+                        <div className="grid grid-cols-1 sm:grid-cols-2 ml-105" >
                                 <div className="order-1 sm:order-2">
                                     <div>
                                         <img className="relative sm:scale-105 ml-0
