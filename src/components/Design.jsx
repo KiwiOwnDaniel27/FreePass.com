@@ -2,7 +2,7 @@ import React from 'react'
 
 const Design = () => {
   return (
-    <div className="mt-19 mb-50 container max-w-xl">
+    <div className="mt-19 mb-0 container">
         <div className="text-4xl/tight font-bold text-center">
             <h1 className="ml-9 w-80 flex justify-center text-3xl/tight
             2xl:text-7xl 2xl:w-190 2xl:ml-140
@@ -24,7 +24,7 @@ const Design = () => {
                 <br /><br />
                 No busco replicar, sino reinterpretar y mejorar los procesos artesanales para crear piezas auténticas y originales.
             </p>
-            <img data-aos="zoom-in" className="rounded-4xl -ml-90 -mt-90
+            <img data-aos="zoom-in" className="rounded-4xl ml-9 mt-13
             2xl:w-100 2xl:-ml-23 2xl:-mt-140 2xl:mb-3
             xl:w-80 xl:-ml-23 xl:-mt-90 xl:mb-3
             lg:w-60 lg:-ml-11 lg:-mt-90 lg:mb-3

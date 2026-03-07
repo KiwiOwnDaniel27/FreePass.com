@@ -3,7 +3,7 @@ import React from 'react'
 const Resena = () => {
   return (
     <div className="mt-9 mb-9">
-         <div className="container max-w-xl">
+         <div className="container">
                 <div data-aos="fade-up" className="text-3xl/tight font-bold mb-6 text-center mt-21
                 2xl:text-7xl 2xl:w-150
                 xl:text-4xl/tight 
