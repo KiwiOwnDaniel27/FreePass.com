@@ -21,9 +21,9 @@ const Pasarelas = () => {
    <div className="relative overflow-y-hidden min-h-140 bg-gray-100 dark:bg-gray-900 dark:text-white
         duration-200">
             <div>
-                <div className="text-center text-4xl/tight font-bold mb-6 mt-19">
+                <div className="text-center text-3xl/tight font-bold mb-6 mt-21 -ml-6">
                     <div className="-mt-10">
-                        <p data-aos="zoom-in" className="text-2xl/tight
+                        <p data-aos="zoom-in" className="text-xl/tight
                         2xl:text-7xl
                         xl:text-4xl/tight
                         lg:text-4xl/tight
@@ -34,7 +34,7 @@ const Pasarelas = () => {
                 
             </div>
 
-            <div data-aos="zoom-in"  className="w-80 h-100 pb-8 sm:pb-0 mt-0 mb-25 ml-16
+            <div data-aos="zoom-in"  className="w-80 h-100 pb-8 sm:pb-0 mt-0 mb-25 ml-13
             2xl:w-400 2xl:h-200 2xl:ml-60
             xl:w-260 xl:h-100 xl:ml-0
             lg:w-260 lg:h-100 lg:-ml-33
