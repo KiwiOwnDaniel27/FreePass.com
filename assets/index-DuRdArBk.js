@@ -320,12 +320,12 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 md:-mt-13 md:ml-145\r
                 sm:mt-100 sm:ml-0`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]})]})]})}),QA=()=>S.jsxs("div",{className:"mt-29 mb-9",children:[S.jsx("div",{className:"max-w",children:S.jsx("h1",{"data-aos":"fade-up",className:`mt-12 mb-6 text-4xl/tight font-bold text-center\r
             2xl:text-7xl`,children:"Elige tu Tela"})}),S.jsx("div",{"data-aos":"zoom-in",className:"mb-6 bg-[url('/assets/telas1.jpeg')] bg-contain bg-center w-full h-120"})]});function JA(){return S.jsx("div",{children:S.jsxs("div",{children:[S.jsx(ji,{}),S.jsx("div",{children:S.jsx(FA,{})}),S.jsx("div",{children:S.jsx(KA,{})}),S.jsx("div",{children:S.jsx(ZA,{})}),S.jsx("div",{children:S.jsx(QA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]})})}const WA=()=>{var n={dots:!1,arrows:!1,infinite:!0,speed:800,slidesToScroll:1,autoplay:!0,autoplaySpeed:4e3,cssEase:"ease-in-out",pauseOnHover:!1,pauseOnFocus:!0};return S.jsxs("div",{className:`relative overflow-y-hidden min-h-140 bg-gray-100 dark:bg-gray-900 dark:text-white\r
-        duration-200`,children:[S.jsx("div",{children:S.jsx("div",{className:"text-center text-4xl/tight font-bold mb-6 mt-19",children:S.jsx("div",{className:"-mt-10",children:S.jsx("p",{"data-aos":"zoom-in",className:`text-2xl/tight\r
+        duration-200`,children:[S.jsx("div",{children:S.jsx("div",{className:"text-center text-3xl/tight font-bold mb-6 mt-21 -ml-6",children:S.jsx("div",{className:"-mt-10",children:S.jsx("p",{"data-aos":"zoom-in",className:`text-xl/tight\r
                         2xl:text-7xl\r
                         xl:text-4xl/tight\r
                         lg:text-4xl/tight\r
                         md:text-4xl/tight\r
-                        sm:text-4xl/tight`,children:'Colección "La esencia de lo único"'})})})}),S.jsx("div",{"data-aos":"zoom-in",className:`w-80 h-100 pb-8 sm:pb-0 mt-0 mb-25 ml-16\r
+                        sm:text-4xl/tight`,children:'Colección "La esencia de lo único"'})})})}),S.jsx("div",{"data-aos":"zoom-in",className:`w-80 h-100 pb-8 sm:pb-0 mt-0 mb-25 ml-13\r
             2xl:w-400 2xl:h-200 2xl:ml-60\r
             xl:w-260 xl:h-100 xl:ml-0\r
             lg:w-260 lg:h-100 lg:-ml-33\r
