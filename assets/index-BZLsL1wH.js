@@ -187,7 +187,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 lg:text-4xl/tight \r
                 md:text-4xl/tight \r
                 sm:text-4xl/tight `,children:[S.jsx("h1",{className:"sm:-ml-3 ml-0",children:"Reseña de Marca"}),S.jsxs("p",{className:`w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4\r
-                    2xl:text-2xl 2xl:w-300 2xl:-ml-70\r
+                    2xl:text-2xl 2xl:w-300 2xl:ml-0\r
                     xl:text-base/loose xl:w-150\r
                     lg:text-base/loose lg:w-150\r
                     md:text-base/loose md:w-150\r
