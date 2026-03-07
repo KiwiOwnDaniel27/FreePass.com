@@ -40,7 +40,7 @@ const Resena = () => {
                     xl:ml-110 
                     lg:ml-83
                     md:ml-58
-                    sm:ml-40" src="assets/logo-circular.png" width={200} alt="" />
+                    sm:ml-45" src="assets/logo-circular.png" width={200} alt="" />
                 </div>
             </div>
     </div>
