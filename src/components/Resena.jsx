@@ -35,7 +35,7 @@ const Resena = () => {
                     con cada puntada, con cada abrazo.
                     </p>
                     <img  data-aos="zoom-in" className="ml-23 mt-12
-                    2xl:w-110 2xl:ml-125
+                    2xl:w-110 2xl:ml-120
                     xl:ml-40 
                     lg:ml-40
                     md:ml-40
