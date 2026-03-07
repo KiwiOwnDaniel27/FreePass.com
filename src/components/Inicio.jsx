@@ -5,7 +5,7 @@ const Inicio = () => {
     <div className="mb-6">
          <div className="mt-12 container"> 
                 <div>
-                <h1 className="text-3xl/tight font-bold mb-6 ml-0 w-90
+                <h1 className="text-3xl/tight font-bold mb-6 ml-5 w-90
                 2xl:ml-9 2xl:text-7xl 2xl:w-250 2xl:h-30
                 xl:ml-29 xl:text-4xl xl:w-106
                 lg:ml-60 lg:text-4xl lg:w-106
@@ -18,7 +18,7 @@ const Inicio = () => {
                 lg:ml-31 lg:text-base/lose  lg:w-160
                 md:ml-38 md:text-base/lose md:w-100
                 sm:ml-9 sm:w-129 sm:text-base/loose
-                w-80 text-center ml-3"> En Freepass EC, creemos que la moda es más que
+                w-80 text-center ml-7"> En Freepass EC, creemos que la moda es más que
                  una tendencia, es una forma de expresión que celebra la individualidad y la exclusividad. 
                  Nuestra marca se inspira en técnicas ancestrales, respetando los saberes y tradiciones de 
                  nuestros artesanos, y fusionándolos con la creatividad y la innovación contemporánea. 
@@ -32,7 +32,7 @@ const Inicio = () => {
                 lg:ml-31 lg:text-base/lose lg:w-160
                 md:ml-38  md:text-base-lose md:w-100
                 sm:ml-9 sm:w-129
-                w-80 text-center ml-3">
+                w-80 text-center ml-7">
                 Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece 
                 ser percibido con un valor de exclusividad y esencia que lo haga único. Cada pieza de Freepass EC es 
                 una obra de arte que combina la tradición y la modernidad, creando una experiencia única para nuestros
