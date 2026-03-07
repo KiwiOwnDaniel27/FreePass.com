@@ -12,7 +12,7 @@ const Resena = () => {
                 sm:text-4xl/tight ">
                     <h1 className="sm:-ml-3 ml-0">Reseña de Marca</h1>
                     <p className="w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4
-                    2xl:text-2xl 2xl:w-300 2xl:-ml-70
+                    2xl:text-2xl 2xl:w-300 2xl:ml-0
                     xl:text-base/loose xl:w-150
                     lg:text-base/loose lg:w-150
                     md:text-base/loose md:w-150
