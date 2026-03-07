@@ -242,7 +242,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 md:ml-0  md:text-base-lose md:w-100\r
                 sm:ml-13 sm:w-129\r
                 w-80 text-center ml-6`,children:"Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece ser percibido con un valor de exclusividad y esencia que lo haga único. Cada pieza de Freepass EC es una obra de arte que combina la tradición y la modernidad, creando una experiencia única para nuestros usuarios."})]}),S.jsx("img",{"data-aos":"zoom-in",src:"./assets/barrio-SM.jpg",alt:"Hero",className:`rounded-full\r
-                    2xl:w-350 2xl:h-141 2xl:-ml-9 2xl:rounded-full 2xl:-mt-3\r
+                    2xl:w-350 2xl:h-141 2xl:ml-125 2xl:rounded-full 2xl:-mt-130\r
                     xl:ml-20 xl:w-100 xl:h-100 xl:-mt-3\r
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-0\r
                     md:w-90 md:h-90 md:mt-29 md:ml-3\r
