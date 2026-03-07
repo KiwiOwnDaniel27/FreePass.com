@@ -5,7 +5,7 @@ const Design = () => {
     <div className="mt-19 mb-25 container max-w-xl">
         <div className="text-4xl/tight font-bold text-center">
             <h1 className="ml-9 w-80 flex justify-center text-3xl/tight
-            2xl:text-7xl 2xl:w-190 2xl:ml-145
+            2xl:text-7xl 2xl:w-190 2xl:ml-120
             xl:text-4xl xl:w-133 xl:ml-33
             lg:text-4xl lg:w-133 lg:ml-33
             md:text-4xl md:w-133 md:ml-33
@@ -25,7 +25,7 @@ const Design = () => {
                 No busco replicar, sino reinterpretar y mejorar los procesos artesanales para crear piezas auténticas y originales.
             </p>
             <img data-aos="zoom-in" className="rounded-4xl -ml-90 -mt-90
-            2xl:w-100 2xl:-ml-200 2xl:-mt-140 2xl:mb-3
+            2xl:w-100 2xl:-ml-150 2xl:-mt-140 2xl:mb-3
             xl:w-80 xl:-ml-90 xl:-mt-90 xl:mb-3
             lg:w-60 lg:-ml-65 lg:-mt-90 lg:mb-3
             md:w-80 md:-ml-30 md:-mt-125 md:mb-3
