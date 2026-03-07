@@ -186,14 +186,15 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 xl:text-4xl/tight \r
                 lg:text-4xl/tight \r
                 md:text-4xl/tight \r
-                sm:text-4xl/tight `,children:[S.jsx("h1",{className:"sm:-ml-3 ml-0",children:"Reseña de Marca"}),S.jsxs("p",{className:`w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4\r
+                sm:text-4xl/tight `,children:[S.jsx("h1",{className:`sm:-ml-3 ml-0\r
+                    2xl:ml-0`,children:"Reseña de Marca"}),S.jsxs("p",{className:`w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4\r
                     2xl:text-2xl 2xl:w-300 2xl:ml-0\r
                     xl:text-base/loose xl:w-150\r
                     lg:text-base/loose lg:w-150\r
                     md:text-base/loose md:w-150\r
                     sm:text-base/loose sm:w-150\r
                     sm:-ml-9`,children:["En Free Pass vive una historia, tejida a mano, con calma y memoria Prendas que abrazan la piel y el alma, con arte y amor, con fuerza y con calma.",S.jsx("br",{}),"Sostenible es su huella, ligera en el suelo honrando la tierra, el agua y el cielo. No es solo moda: es vida consciente, una elección bella, un acto valiente.",S.jsx("br",{}),"Luce con orgullo su esencia sincera, porque vestir así....... también es manera de cuidar al mundo, paso a paso, con cada puntada, con cada abrazo."]}),S.jsx("img",{"data-aos":"zoom-in",className:`ml-23 mt-12\r
-                    2xl:w-110 2xl:ml-23\r
+                    2xl:w-110 2xl:ml-0\r
                     xl:ml-40 \r
                     lg:ml-40\r
                     md:ml-40\r
