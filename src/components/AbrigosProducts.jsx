@@ -59,15 +59,17 @@ const AbrigosProducts = () => {
             
           {ProductsData1.map((data) => (
 
-            <div className="bg-white dark:bg-gray-800  hover:bg-amber-400 dark:hover:bg-amber-400
-            hover:text-white relative shadow-xl duration-300 group max-w-[500] rounded-2xl mb-13">
+          <div className="bg-white dark:bg-gray-800 hover:bg-amber-400 dark:hover:bg-amber-400
+          hover:text-white relative shadow-xl duration-300 group rounded-2xl
+          2xl:w-full xl:w-full">
 
               <div className="h-86">
 
                   <img src={data.image} alt="" 
-                  className="max-w-[140] block mx-auto transform -translate-y-6 group-hover:scale-116 duration-300
-                  drop-shadow-md"
-                  />
+                  className="w-full h-auto block mx-auto transform -translate-y-6
+                  group-hover:scale-110 duration-300 drop-shadow-md mt-6
+                  2xl:w-90 xl:w-70"
+                />
               </div>
               
               <div className="p-4 text-center mt-21">
@@ -87,7 +89,7 @@ const AbrigosProducts = () => {
 
                   <a href={data.link}>
                       <button className="bg-amber-400 hover:scale-105 duration-300 text-white
-                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-16 mb-3"
+                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-21 mb-3"
                       onClick>
                             Ordenar Ahora
                       </button>
