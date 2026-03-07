@@ -190,13 +190,13 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     2xl:ml-100 2xl:w-148`,children:"Reseña de Marca"}),S.jsxs("p",{className:`w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4\r
                     2xl:text-2xl 2xl:w-300 2xl:ml-30\r
                     xl:text-base/loose xl:w-150 xl:ml-60\r
-                    lg:text-base/loose lg:w-150 lg:ml-30\r
+                    lg:text-base/loose lg:w-150 lg:ml-45\r
                     md:text-base/loose md:w-150\r
                     sm:text-base/loose sm:w-150\r
                     sm:-ml-9`,children:["En Free Pass vive una historia, tejida a mano, con calma y memoria Prendas que abrazan la piel y el alma, con arte y amor, con fuerza y con calma.",S.jsx("br",{}),"Sostenible es su huella, ligera en el suelo honrando la tierra, el agua y el cielo. No es solo moda: es vida consciente, una elección bella, un acto valiente.",S.jsx("br",{}),"Luce con orgullo su esencia sincera, porque vestir así....... también es manera de cuidar al mundo, paso a paso, con cada puntada, con cada abrazo."]}),S.jsx("img",{"data-aos":"zoom-in",className:`ml-23 mt-12\r
                     2xl:w-110 2xl:ml-120\r
                     xl:ml-110 \r
-                    lg:ml-80\r
+                    lg:ml-93\r
                     md:ml-40\r
                     sm:ml-40`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),qA=()=>S.jsx("div",{className:"mt-19 mb-50 container max-w-xl",children:S.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[S.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
             2xl:text-7xl 2xl:w-190 2xl:ml-140\r
@@ -227,25 +227,25 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
           sm:text-base/lose sm:w-165 sm:ml-3`,children:["En Freepass, nos sumergimos en una búsqueda constante de innovación y perfección en el diseño textil.",S.jsx("br",{}),S.jsx("br",{}),"Con raíces firmes en nuestra herencia, nos esforzamos por crear piezas únicas y de alta calidad que revaloricen la industria textil y respeten sus saberes tradicionales.",S.jsx("br",{}),S.jsx("br",{}),"No seguimos tendencias, las creamos. Cada tela y cada pieza de moldería se diseñan con un propósito: que cada prenda sea una obra de arte que refleje la esencia de quien la lleva.",S.jsx("br",{}),S.jsx("br",{}),"En Freepass, te ofrecemos un pase libre para descubrir y expresar tu identidad, sin perder tu esencia.",S.jsx("br",{}),S.jsx("br",{}),"Nuestra misión es que te sientas único y auténtico en cada prenda que lleves."]})})})]})}),GA=()=>S.jsx("div",{className:"mb-6",children:S.jsxs("div",{className:"mt-12 container max-w-xl",children:[S.jsxs("div",{children:[S.jsx("h1",{className:`text-3xl/tight font-bold mb-6 ml-6 w-90\r
                 2xl:ml-9 2xl:text-7xl 2xl:w-250 2xl:h-30\r
                 xl:ml-29 xl:text-4xl xl:w-106\r
-                lg:ml-50 lg:text-4xl lg:w-106\r
+                lg:ml-55 lg:text-4xl lg:w-106\r
                 md:ml-0 md:text-3xl md:w-106\r
                 sm:ml-0 sm:text-4xl sm:w-106\r
                 `,children:"Bienvenidos a FreePass"}),S.jsx("p",{className:`bm-6 opacity-90 text-base/loose\r
                 2xl:ml-0 2xl:text-2xl 2xl:w-223\r
                 xl:ml-0 xl:text-base/lose xl:w-160\r
-                lg:ml-16 lg:text-base/lose  lg:w-160\r
+                lg:ml-21 lg:text-base/lose  lg:w-160\r
                 md:ml-0 md:text-base/lose md:w-100\r
                 sm:-ml-13 sm:w-129 sm:text-base/loose\r
                 w-80 text-center ml-6`,children:" En Freepass EC, creemos que la moda es más que una tendencia, es una forma de expresión que celebra la individualidad y la exclusividad. Nuestra marca se inspira en técnicas ancestrales, respetando los saberes y tradiciones de nuestros artesanos, y fusionándolos con la creatividad y la innovación contemporánea. Cada detalle artesanal es cuidadosamente seleccionado y elaborado para plasmar la autenticidad y la creatividad que nos caracteriza."}),S.jsx("br",{}),S.jsx("br",{}),S.jsx("p",{className:`text-base/loose bm-6 opacity-90 \r
                 2xl:ml-0 2xl:text-2xl 2xl:w-223\r
                 xl:ml-0 xl:text-base/lose xl:w-160\r
-                lg:ml-16 lg:text-base/lose lg:w-160\r
+                lg:ml-21 lg:text-base/lose lg:w-160\r
                 md:ml-0  md:text-base-lose md:w-100\r
                 sm:ml-13 sm:w-129\r
                 w-80 text-center ml-6`,children:"Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece ser percibido con un valor de exclusividad y esencia que lo haga único. Cada pieza de Freepass EC es una obra de arte que combina la tradición y la modernidad, creando una experiencia única para nuestros usuarios."})]}),S.jsx("img",{"data-aos":"zoom-in",src:"./assets/barrio-SM.jpg",alt:"Hero",className:`rounded-full\r
                     2xl:w-119 2xl:h-119 2xl:ml-250 2xl:rounded-full 2xl:-mt-130\r
                     xl:ml-175 xl:w-100 xl:h-100 xl:-mt-101\r
-                    lg:w-100 lg:h-100 lg:mt-3 lg:ml-45\r
+                    lg:w-100 lg:h-100 lg:mt-3 lg:ml-50\r
                     md:w-90 md:h-90 md:mt-29 md:ml-3\r
                     sm:w-100 sm:h-100 sm:mt-150 sm:-ml-120\r
                     w-100 h-100 ml-0 mt-11 `,loading:"lazy"})]})}),XA=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(GA,{})}),S.jsx("div",{children:S.jsx(PA,{})}),S.jsx("div",{children:S.jsx(qA,{})}),S.jsx("div",{children:S.jsx(YA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),FA=()=>S.jsx("div",{children:S.jsxs("div",{className:"flex item",children:[S.jsx("img",{"data-aos":"zoom-in",className:`m-9 ml-13 mt-250\r
