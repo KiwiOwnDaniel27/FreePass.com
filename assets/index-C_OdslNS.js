@@ -306,17 +306,17 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             xl:w-200 xl:h-100 xl:ml-39 xl:gap-14 xl:flex-row\r
             lg:w-150 lg:h-120 lg:ml-5 lg:gap-6 lg:flex-row\r
             md:w-80 md:h-80 md:ml-19 md:gap-3 md:flex-row\r
-            sm:w-70 sm:h-70 sm:ml-55 sm:flex-col`,children:[S.jsx("img",{src:"./assets/morf-1.png",width:175,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-2.png",width:200,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-3.png",width:200,height:200,alt:""})]}),S.jsxs("div",{children:[S.jsxs("p",{"data-aos":"fade-up",className:`ml-0 text-center -mt-153\r
+            sm:w-70 sm:h-70 sm:ml-55 sm:flex-col`,children:[S.jsx("img",{src:"./assets/morf-1.png",width:175,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-2.png",width:200,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-3.png",width:200,height:200,alt:""})]}),S.jsxs("div",{children:[S.jsxs("p",{"data-aos":"fade-up",className:`ml-3 text-center -mt-153\r
                 2xl:text-3xl 2xl:-ml-270 2xl:mt-3\r
                 xl:-ml-200 xl:mt-3\r
                 lg:-ml-200 lg:mt-3\r
                 md:-ml-140 md:mt-3\r
-                sm:ml-0 sm:mt-49`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:` mt-63 ml-3 text-center\r
+                sm:ml-0 sm:mt-49`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:` mt-63 ml-7 text-center\r
                 2xl:text-3xl 2xl:ml-1 2xl:-mt-13\r
                 xl:-ml-13 xl:-mt-13\r
                 lg:-ml-13 lg:-mt-13\r
                 md:-ml-11 md:-mt-13\r
-                sm:ml-0 sm:mt-83`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:`mt-73 ml-3 text-center\r
+                sm:ml-0 sm:mt-83`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:`mt-73 ml-7 text-center\r
                 2xl:text-3xl 2xl:ml-275 2xl:-mt-29\r
                 xl:-mt-13 xl:ml-190\r
                 lg:-mt-13 lg:ml-190\r
