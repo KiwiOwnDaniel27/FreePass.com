@@ -38,10 +38,9 @@ const Categorias = () => {
                     2xl:w-130
                     xl:w-80
                     lg:w-80
-                    md:w-63
-                    ">
+                    md:w-63">
                         <a href={data.link}>
-                        <img src={data.image} alt="" className="h-[220] w-[150] 
+                        <img src={data.image} alt="" className="
                         object-cover rounded-md" />
                         
                         <div className="mt-6 text-center text-2xl/tight font-bold">

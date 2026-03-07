@@ -40,7 +40,7 @@ const Catalogos = () => {
                         lg:w-80
                         md:w-63">
                             <a href={data.link}>
-                            <img src={data.image} alt="" className="h-[220] w-[150] object-cover rounded-md" />
+                            <img src={data.image} alt="" className="object-cover rounded-md" />
                             
                             <div className="mt-6 text-center text-2xl/tight font-bold">
                                 <h3 className="font-semibold
