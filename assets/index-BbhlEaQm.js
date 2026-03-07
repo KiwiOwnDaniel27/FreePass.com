@@ -231,25 +231,25 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 xl:ml-29 xl:text-4xl xl:w-106\r
                 lg:ml-60 lg:text-4xl lg:w-106\r
                 md:ml-46 md:text-3xl md:w-106\r
-                sm:ml-0 sm:text-4xl sm:w-106\r
+                sm:ml-25 sm:text-4xl sm:w-106\r
                 `,children:"Bienvenidos a FreePass"}),S.jsx("p",{className:`bm-6 opacity-90 text-base/loose\r
                 2xl:ml-0 2xl:text-2xl 2xl:w-223\r
                 xl:ml-0 xl:text-base/lose xl:w-160\r
                 lg:ml-31 lg:text-base/lose  lg:w-160\r
                 md:ml-38 md:text-base/lose md:w-100\r
-                sm:-ml-13 sm:w-129 sm:text-base/loose\r
+                sm:ml-10 sm:w-129 sm:text-base/loose\r
                 w-80 text-center ml-6`,children:" En Freepass EC, creemos que la moda es más que una tendencia, es una forma de expresión que celebra la individualidad y la exclusividad. Nuestra marca se inspira en técnicas ancestrales, respetando los saberes y tradiciones de nuestros artesanos, y fusionándolos con la creatividad y la innovación contemporánea. Cada detalle artesanal es cuidadosamente seleccionado y elaborado para plasmar la autenticidad y la creatividad que nos caracteriza."}),S.jsx("br",{}),S.jsx("br",{}),S.jsx("p",{className:`text-base/loose bm-6 opacity-90 \r
                 2xl:ml-0 2xl:text-2xl 2xl:w-223\r
                 xl:ml-0 xl:text-base/lose xl:w-160\r
                 lg:ml-31 lg:text-base/lose lg:w-160\r
                 md:ml-38  md:text-base-lose md:w-100\r
-                sm:ml-13 sm:w-129\r
+                sm:ml-10 sm:w-129\r
                 w-80 text-center ml-6`,children:"Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece ser percibido con un valor de exclusividad y esencia que lo haga único. Cada pieza de Freepass EC es una obra de arte que combina la tradición y la modernidad, creando una experiencia única para nuestros usuarios."})]}),S.jsx("img",{"data-aos":"zoom-in",src:"./assets/barrio-SM.jpg",alt:"Hero",className:`rounded-full\r
                     2xl:w-119 2xl:h-119 2xl:ml-250 2xl:rounded-full 2xl:-mt-130\r
                     xl:ml-175 xl:w-100 xl:h-100 xl:-mt-101\r
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-60\r
                     md:w-90 md:h-90 md:mt-29 md:ml-41\r
-                    sm:w-100 sm:h-100 sm:mt-150 sm:-ml-120\r
+                    sm:w-100 sm:h-100 sm:mt-13 sm:ml-23\r
                     w-100 h-100 ml-0 mt-11 `,loading:"lazy"})]})}),XA=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(GA,{})}),S.jsx("div",{children:S.jsx(PA,{})}),S.jsx("div",{children:S.jsx(qA,{})}),S.jsx("div",{children:S.jsx(YA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),FA=()=>S.jsx("div",{children:S.jsxs("div",{className:"flex item",children:[S.jsx("img",{"data-aos":"zoom-in",className:`m-9 ml-13 mt-250\r
             2xl:w-180 2xl:h-225 2xl:mt-9 2xl:ml-22\r
             xl:w-75 xl:h-130 xl:mt-9 xl:ml-22\r
