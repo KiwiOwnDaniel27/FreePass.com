@@ -247,7 +247,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-0\r
                     md:w-90 md:h-90 md:mt-29 md:ml-3\r
                     sm:w-100 sm:h-100 sm:mt-150 sm:-ml-120\r
-                    w-100 h-100 ml-0 mt-11 `,loading:"lazy"})]})}),XA=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(GA,{})}),S.jsx("div",{children:S.jsx(PA,{})}),S.jsx("div",{children:S.jsx(qA,{})}),S.jsx("div",{children:S.jsx(YA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),FA=()=>S.jsx("div",{children:S.jsxs("div",{className:"flex item ",children:[S.jsx("img",{"data-aos":"zoom-in",className:`m-9 ml-6 mt-250\r
+                    w-100 h-100 ml-0 mt-11 `,loading:"lazy"})]})}),XA=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(GA,{})}),S.jsx("div",{children:S.jsx(PA,{})}),S.jsx("div",{children:S.jsx(qA,{})}),S.jsx("div",{children:S.jsx(YA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),FA=()=>S.jsx("div",{children:S.jsxs("div",{className:"flex item",children:[S.jsx("img",{"data-aos":"zoom-in",className:`m-9 ml-13 mt-250\r
             2xl:w-180 2xl:h-225 2xl:mt-9 2xl:ml-22\r
             xl:w-75 xl:h-130 xl:mt-9 xl:ml-22\r
             lg:w-75 lg:h-130 lg:mt-9 lg:ml-22\r
@@ -298,22 +298,22 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         lg:ml-90\r
                         md:ml-60\r
                         sm:ml-45`,children:pC.map(({id:n,icon:i,url:r})=>S.jsx("a",{href:r,target:"_blank",children:S.jsx(i,{size:75})},n))})]})]})})})}),ZA=()=>S.jsx("div",{children:S.jsxs("div",{className:"mb-3",children:[S.jsx("div",{children:S.jsx("h1",{"data-aos":"fade-up",className:`mt-16 text-4xl/tight font-bold text-center mb-6\r
-                2xl:text-7xl`,children:"Morfologias"})}),S.jsxs("div",{"data-aos":"zoom-in",className:`flex flex-col ml-9 gap-23 \r
+                2xl:text-7xl`,children:"Morfologias"})}),S.jsxs("div",{"data-aos":"zoom-in",className:`flex flex-col ml-30 gap-23\r
             2xl:w-200 2xl:h-130 2xl:ml-99 2xl:gap-50 2xl:flex-row\r
             xl:w-200 xl:h-100 xl:ml-39 xl:gap-14 xl:flex-row\r
             lg:w-150 lg:h-120 lg:ml-5 lg:gap-6 lg:flex-row\r
             md:w-80 md:h-80 md:ml-19 md:gap-3 md:flex-row\r
-            sm:w-70 sm:h-70 sm:ml-55 sm:flex-col`,children:[S.jsx("img",{src:"./assets/morf-1.png",width:280,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-2.png",width:390,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-3.png",width:320,height:200,alt:""})]}),S.jsxs("div",{children:[S.jsxs("p",{"data-aos":"fade-up",className:`ml-0 text-center -mt-220\r
+            sm:w-70 sm:h-70 sm:ml-55 sm:flex-col`,children:[S.jsx("img",{src:"./assets/morf-1.png",width:175,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-2.png",width:200,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-3.png",width:200,height:200,alt:""})]}),S.jsxs("div",{children:[S.jsxs("p",{"data-aos":"fade-up",className:`ml-0 text-center -mt-153\r
                 2xl:text-3xl 2xl:-ml-270 2xl:mt-3\r
                 xl:-ml-200 xl:mt-3\r
                 lg:-ml-200 lg:mt-3\r
                 md:-ml-140 md:mt-3\r
-                sm:ml-0 sm:mt-49`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:` mt-95 text-center\r
+                sm:ml-0 sm:mt-49`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:` mt-63 ml-3 text-center\r
                 2xl:text-3xl 2xl:ml-1 2xl:-mt-13\r
                 xl:-ml-13 xl:-mt-13\r
                 lg:-ml-13 lg:-mt-13\r
                 md:-ml-11 md:-mt-13\r
-                sm:ml-0 sm:mt-83`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:`mt-110 ml-0 text-center\r
+                sm:ml-0 sm:mt-83`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:`mt-73 ml-3 text-center\r
                 2xl:text-3xl 2xl:ml-275 2xl:-mt-29\r
                 xl:-mt-13 xl:ml-190\r
                 lg:-mt-13 lg:ml-190\r
@@ -325,7 +325,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         xl:text-4xl/tight\r
                         lg:text-4xl/tight\r
                         md:text-4xl/tight\r
-                        sm:text-4xl/tight`,children:'Colección "La esencia de lo único"'})})})}),S.jsx("div",{"data-aos":"zoom-in",className:`w-80 h-100 pb-8 sm:pb-0 mt-0 mb-25 ml-13\r
+                        sm:text-4xl/tight`,children:'Colección "La esencia de lo único"'})})})}),S.jsx("div",{"data-aos":"zoom-in",className:`w-80 h-100 pb-8 sm:pb-0 mt-0 mb-25 ml-16\r
             2xl:w-400 2xl:h-200 2xl:ml-60\r
             xl:w-260 xl:h-100 xl:ml-0\r
             lg:w-260 lg:h-100 lg:-ml-33\r
