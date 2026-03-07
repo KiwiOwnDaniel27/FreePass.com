@@ -14,7 +14,7 @@ const Resena = () => {
                     2xl:ml-100 2xl:w-148">Reseña de Marca</h1>
                     <p className="w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4
                     2xl:text-2xl 2xl:w-300 2xl:ml-30
-                    xl:text-base/loose xl:w-150
+                    xl:text-base/loose xl:w-150 xl:ml-60
                     lg:text-base/loose lg:w-150
                     md:text-base/loose md:w-150
                     sm:text-base/loose sm:w-150

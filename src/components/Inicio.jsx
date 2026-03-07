@@ -40,8 +40,8 @@ const Inicio = () => {
                 </p>
                 </div>
                 <img data-aos="zoom-in" src="./assets/barrio-SM.jpg" alt="Hero" className="rounded-full
-                    2xl:w-129 2xl:h-129 2xl:ml-250 2xl:rounded-full 2xl:-mt-130
-                    xl:ml-20 xl:w-100 xl:h-100 xl:-mt-3
+                    2xl:w-119 2xl:h-119 2xl:ml-250 2xl:rounded-full 2xl:-mt-130
+                    xl:ml-175 xl:w-100 xl:h-100 xl:-mt-101
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-0
                     md:w-90 md:h-90 md:mt-29 md:ml-3
                     sm:w-100 sm:h-100 sm:mt-150 sm:-ml-120
