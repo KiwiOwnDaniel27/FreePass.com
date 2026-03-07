@@ -1,0 +1,75 @@
+import React from "react";
+import { ImageList } from "../const/data";
+import Slider from "react-slick";
+
+const Hero = () => {
+
+  var settings = {
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 800,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    cssEase: "ease-in-out",
+    pauseOnHover: false,
+    pauseOnFocus: true,
+  };
+
+  return (
+    <div className="relative overflow-hidden bg-gray-100 dark:bg-gray-900 dark:text-white duration-200">
+
+      {/* fondo decorativo */}
+      <div
+        className="absolute right-[-120px] top-10 w-[300px] h-[300px]
+        bg-[url('/assets/fondo.webp')] bg-contain bg-center
+        rounded-3xl rotate-45 opacity-30"
+      ></div>
+
+      <div className="container py-10">
+        <Slider {...settings}>
+          {ImageList.map((data) => (
+            <div key={data.id}>
+              <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-8">
+
+                {/* TEXTO */}
+                <div className="space-y-4 text-center sm:text-left">
+                  <h1
+                    className="text-3xl font-bold
+                    sm:text-4xl
+                    lg:text-5xl
+                    2xl:text-7xl"
+                  >
+                    {data.title}
+                  </h1>
+
+                  <p className="text-sm sm:text-base lg:text-lg">
+                    {data.description}
+                  </p>
+
+                  <button className="primary-button-cat mt-4">
+                    Catálogo Próximamente
+                  </button>
+                </div>
+
+                {/* IMAGEN */}
+                <div className="flex justify-center">
+                  <img
+                    src={data.image}
+                    alt=""
+                    className="w-[280px] sm:w-[350px] lg:w-[450px] object-contain"
+                  />
+                </div>
+
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </div>
+
+    </div>
+  );
+};
+
+export default Hero;
