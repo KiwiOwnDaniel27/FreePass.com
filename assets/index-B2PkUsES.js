@@ -189,7 +189,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 sm:text-4xl/tight `,children:[S.jsx("h1",{className:`sm:-ml-3 ml-0\r
                     2xl:ml-100 2xl:w-148`,children:"Reseña de Marca"}),S.jsxs("p",{className:`w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4\r
                     2xl:text-2xl 2xl:w-300 2xl:ml-30\r
-                    xl:text-base/loose xl:w-150\r
+                    xl:text-base/loose xl:w-150 xl:ml-60\r
                     lg:text-base/loose lg:w-150\r
                     md:text-base/loose md:w-150\r
                     sm:text-base/loose sm:w-150\r
@@ -200,17 +200,17 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     md:ml-40\r
                     sm:ml-40`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),qA=()=>S.jsx("div",{className:"mt-19 mb-50 container max-w-xl",children:S.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[S.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
             2xl:text-7xl 2xl:w-190 2xl:ml-140\r
-            xl:text-4xl xl:w-133 xl:ml-33\r
+            xl:text-4xl xl:w-133 xl:ml-128\r
             lg:text-4xl lg:w-133 lg:ml-33\r
             md:text-4xl md:w-133 md:ml-33\r
             sm:text-4xl sm:w-133 sm:ml-33`,"data-aos":"fade-up",children:"Gerente / Diseñadora FreePass"}),S.jsxs("p",{"data-aos":"fade-up",className:`w-83 ml-6 mt-9 text-base/loose flex justify-center\r
             2xl:text-2xl 2xl:w-252 2xl:ml-100\r
-            xl:text-base/loose xl:w-210 xl:ml-0\r
+            xl:text-base/loose xl:w-210 xl:ml-80\r
             lg:text-base/loose lg:w-195 lg:ml-0\r
             md:text-base/loose md:w-100 md:ml-60\r
             sm:text-base/loose sm:w-90 sm:ml-50`,children:["Soy Ruth Quiguango, diseñadora de indumentaria con una pasión arraigada por la moda y la creatividad.",S.jsx("br",{}),S.jsx("br",{}),"Mi formación en Buenos Aires, donde viví durante 10 años, me permitió ampliar mi visión de la moda y desarrollar una perspectiva única.",S.jsx("br",{}),S.jsx("br",{}),"Mis raíces y la riqueza cultural de mi entorno han sido fundamentales en mi proceso creativo. Me inspiran las técnicas textiles y saberes tradicionales, que fusiono con innovación y diseño contemporáneo.",S.jsx("br",{}),S.jsx("br",{}),"No busco replicar, sino reinterpretar y mejorar los procesos artesanales para crear piezas auténticas y originales."]}),S.jsx("img",{"data-aos":"zoom-in",className:`rounded-4xl -ml-90 -mt-90\r
             2xl:w-100 2xl:-ml-23 2xl:-mt-140 2xl:mb-3\r
-            xl:w-80 xl:-ml-90 xl:-mt-90 xl:mb-3\r
+            xl:w-80 xl:-ml-23 xl:-mt-90 xl:mb-3\r
             lg:w-60 lg:-ml-65 lg:-mt-90 lg:mb-3\r
             md:w-80 md:-ml-30 md:-mt-125 md:mb-3\r
             sm:w-60 sm:-ml-19 sm:-mt-120 sm:mb-80`,src:"./assets/diseñadora.jpeg",width:300,alt:""})]})}),YA=()=>S.jsx("div",{className:"",children:S.jsxs("div",{className:"max-w",children:[S.jsx("div",{"data-aos":"fade-up",className:`text-4xl/tight font-bold mb-6 text-center mt-19\r
@@ -243,8 +243,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 md:ml-0  md:text-base-lose md:w-100\r
                 sm:ml-13 sm:w-129\r
                 w-80 text-center ml-6`,children:"Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece ser percibido con un valor de exclusividad y esencia que lo haga único. Cada pieza de Freepass EC es una obra de arte que combina la tradición y la modernidad, creando una experiencia única para nuestros usuarios."})]}),S.jsx("img",{"data-aos":"zoom-in",src:"./assets/barrio-SM.jpg",alt:"Hero",className:`rounded-full\r
-                    2xl:w-129 2xl:h-129 2xl:ml-250 2xl:rounded-full 2xl:-mt-130\r
-                    xl:ml-20 xl:w-100 xl:h-100 xl:-mt-3\r
+                    2xl:w-119 2xl:h-119 2xl:ml-250 2xl:rounded-full 2xl:-mt-130\r
+                    xl:ml-175 xl:w-100 xl:h-100 xl:-mt-101\r
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-0\r
                     md:w-90 md:h-90 md:mt-29 md:ml-3\r
                     sm:w-100 sm:h-100 sm:mt-150 sm:-ml-120\r
