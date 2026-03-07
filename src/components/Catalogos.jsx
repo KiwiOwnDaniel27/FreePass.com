@@ -34,7 +34,7 @@ const Catalogos = () => {
                         data-aos= "fade-up"
                         data-aos-delay= {data.aosDeLay}
                         key={data.id}
-                        className="space-y-3 w-70
+                        className="space-y-3 w-80
                         2xl:w-130
                         xl:w-80
                         lg:w-80
