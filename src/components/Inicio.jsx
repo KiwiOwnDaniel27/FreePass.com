@@ -9,14 +9,14 @@ const Inicio = () => {
                 2xl:ml-9 2xl:text-7xl 2xl:w-250 2xl:h-30
                 xl:ml-29 xl:text-4xl xl:w-106
                 lg:ml-60 lg:text-4xl lg:w-106
-                md:ml-40 md:text-3xl md:w-106
+                md:ml-46 md:text-3xl md:w-106
                 sm:ml-0 sm:text-4xl sm:w-106
                 ">Bienvenidos a FreePass</h1> 
                 <p className="bm-6 opacity-90 text-base/loose
                 2xl:ml-0 2xl:text-2xl 2xl:w-223
                 xl:ml-0 xl:text-base/lose xl:w-160
                 lg:ml-31 lg:text-base/lose  lg:w-160
-                md:ml-30 md:text-base/lose md:w-100
+                md:ml-38 md:text-base/lose md:w-100
                 sm:-ml-13 sm:w-129 sm:text-base/loose
                 w-80 text-center ml-6"> En Freepass EC, creemos que la moda es más que
                  una tendencia, es una forma de expresión que celebra la individualidad y la exclusividad. 
@@ -30,7 +30,7 @@ const Inicio = () => {
                 2xl:ml-0 2xl:text-2xl 2xl:w-223
                 xl:ml-0 xl:text-base/lose xl:w-160
                 lg:ml-31 lg:text-base/lose lg:w-160
-                md:ml-30  md:text-base-lose md:w-100
+                md:ml-38  md:text-base-lose md:w-100
                 sm:ml-13 sm:w-129
                 w-80 text-center ml-6">
                 Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece 
@@ -43,7 +43,7 @@ const Inicio = () => {
                     2xl:w-119 2xl:h-119 2xl:ml-250 2xl:rounded-full 2xl:-mt-130
                     xl:ml-175 xl:w-100 xl:h-100 xl:-mt-101
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-60
-                    md:w-90 md:h-90 md:mt-29 md:ml-31
+                    md:w-90 md:h-90 md:mt-29 md:ml-41
                     sm:w-100 sm:h-100 sm:mt-150 sm:-ml-120
                     w-100 h-100 ml-0 mt-11 " loading="lazy" />
           </div>
