@@ -29,7 +29,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="py-8 px-4 -ml-1 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36">
+                    <div className="py-8 px-4 -ml-3 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36">
                         <h1 className="">
                             Redes Sociales
                         </h1>
