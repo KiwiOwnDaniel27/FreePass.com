@@ -199,7 +199,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:ml-110 \r
                     lg:ml-83\r
                     md:ml-58\r
-                    sm:ml-40`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),qA=()=>S.jsx("div",{className:"mt-19 mb-50 container max-w-xl",children:S.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[S.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
+                    sm:ml-45`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),qA=()=>S.jsx("div",{className:"mt-19 mb-50 container max-w-xl",children:S.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[S.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
             2xl:text-7xl 2xl:w-190 2xl:ml-140\r
             xl:text-4xl xl:w-133 xl:ml-128\r
             lg:text-4xl lg:w-133 lg:ml-83\r
