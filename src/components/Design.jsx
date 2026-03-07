@@ -2,15 +2,15 @@ import React from 'react'
 
 const Design = () => {
   return (
-    <div className="mt-29 mb-35 container max-w-xl">
+    <div className="mt-19 mb-25 container max-w-xl">
         <div className="text-4xl/tight font-bold text-center">
-            <h1 className="ml-3 w-80 flex justify-center text-3xl/tight
+            <h1 className="ml-9 w-80 flex justify-center text-3xl/tight
             2xl:text-7xl 2xl:w-190 2xl:ml-53
             xl:text-4xl xl:w-133 xl:ml-33
             lg:text-4xl lg:w-133 lg:ml-33
             md:text-4xl md:w-133 md:ml-33
             sm:text-4xl sm:w-133 sm:ml-33" data-aos="fade-up" >Gerente / Diseñadora FreePass</h1>
-            <p data-aos="fade-up" className="w-83 ml-0 mt-9 text-base/loose flex justify-center
+            <p data-aos="fade-up" className="w-83 ml-6 mt-9 text-base/loose flex justify-center
             2xl:text-2xl 2xl:w-252 2xl:ml-2
             xl:text-base/loose xl:w-210 xl:ml-0
             lg:text-base/loose lg:w-195 lg:ml-0

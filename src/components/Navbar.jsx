@@ -19,9 +19,9 @@ const Navbar = () => {
                 <div>
                     <div>
                         <a href="https://www.instagram.com/freepassec/" target="_blank">
-                            <img className="-ml-16 2xl:-ml-23 xl:-ml-1
+                            <img className="-ml-20 2xl:-ml-23 xl:-ml-1
                             mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12
-                            w-60 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45" src="./assets/logo-horizontal.webp" alt="" width={300} />
+                            w-70 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45" src="./assets/logo-horizontal.webp" alt="" width={300} />
                         </a>
                     </div>
 

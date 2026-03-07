@@ -10,8 +10,8 @@ const Resena = () => {
                 lg:text-4xl/tight 
                 md:text-4xl/tight 
                 sm:text-4xl/tight ">
-                    <h1 className="sm:-ml-3">Reseña de Marca</h1>
-                    <p className="w-85  text-sm bm-6 opacity-90 text-center mt-12
+                    <h1 className="sm:-ml-3 ml-0">Reseña de Marca</h1>
+                    <p className="w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4
                     2xl:text-2xl 2xl:w-300 2xl:-ml-70
                     xl:text-base/loose xl:w-150
                     lg:text-base/loose lg:w-150
@@ -33,7 +33,7 @@ const Resena = () => {
                     de cuidar al mundo, paso a paso,
                     con cada puntada, con cada abrazo.
                     </p>
-                    <img  data-aos="zoom-in" className="ml-16 mt-12
+                    <img  data-aos="zoom-in" className="ml-23 mt-12
                     2xl:w-110 2xl:ml-23
                     xl:ml-40 
                     lg:ml-40
