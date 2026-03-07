@@ -34,7 +34,7 @@ const Pasarelas = () => {
                 
             </div>
 
-            <div data-aos="zoom-in"  className="w-80 h-100 pb-8 sm:pb-0 mt-0 mb-25 ml-13
+            <div data-aos="zoom-in"  className="w-80 h-100 pb-8 sm:pb-0 mt-0 mb-25 ml-16
             2xl:w-400 2xl:h-200 2xl:ml-60
             xl:w-260 xl:h-100 xl:ml-0
             lg:w-260 lg:h-100 lg:-ml-33

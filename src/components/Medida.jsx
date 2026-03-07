@@ -3,8 +3,8 @@ import React from 'react'
 const Medida = () => {
   return (
     <div>
-        <div className="flex item ">
-            <img data-aos="zoom-in" className="m-9 ml-6 mt-250
+        <div className="flex item">
+            <img data-aos="zoom-in" className="m-9 ml-13 mt-250
             2xl:w-180 2xl:h-225 2xl:mt-9 2xl:ml-22
             xl:w-75 xl:h-130 xl:mt-9 xl:ml-22
             lg:w-75 lg:h-130 lg:mt-9 lg:ml-22
