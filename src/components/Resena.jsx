@@ -18,7 +18,7 @@ const Resena = () => {
                     2xl:text-2xl 2xl:w-300 2xl:ml-30
                     xl:text-base/loose xl:w-150 xl:ml-60
                     lg:text-base/loose lg:w-150 lg:ml-35
-                    md:text-base/loose md:w-150 md:ml-30
+                    md:text-base/loose md:w-150 md:ml-10
                     sm:text-base/loose sm:w-150
                     sm:-ml-9">
                     En Free Pass vive una historia,
@@ -40,7 +40,7 @@ const Resena = () => {
                     2xl:w-110 2xl:ml-120
                     xl:ml-110 
                     lg:ml-83
-                    md:ml-76
+                    md:ml-53
                     sm:ml-40" src="assets/logo-circular.png" width={200} alt="" />
                 </div>
             </div>
