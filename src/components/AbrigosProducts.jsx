@@ -72,7 +72,7 @@ const AbrigosProducts = () => {
                 />
               </div>
               
-              <div className="p-4 text-center mt-21">
+              <div className="p-4 text-center mt-35">
                   <div className="w-full flex items-center justify-center gap-6">
                     <FaStar className="text-yellow-500 group-hover:text-white"/>
                     <FaStar className="text-yellow-500 group-hover:text-white"/>
