@@ -194,7 +194,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     md:text-base/loose md:w-150\r
                     sm:text-base/loose sm:w-150\r
                     sm:-ml-9`,children:["En Free Pass vive una historia, tejida a mano, con calma y memoria Prendas que abrazan la piel y el alma, con arte y amor, con fuerza y con calma.",S.jsx("br",{}),"Sostenible es su huella, ligera en el suelo honrando la tierra, el agua y el cielo. No es solo moda: es vida consciente, una elección bella, un acto valiente.",S.jsx("br",{}),"Luce con orgullo su esencia sincera, porque vestir así....... también es manera de cuidar al mundo, paso a paso, con cada puntada, con cada abrazo."]}),S.jsx("img",{"data-aos":"zoom-in",className:`ml-23 mt-12\r
-                    2xl:w-110 2xl:ml-125\r
+                    2xl:w-110 2xl:ml-120\r
                     xl:ml-40 \r
                     lg:ml-40\r
                     md:ml-40\r
