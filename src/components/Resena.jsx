@@ -19,8 +19,7 @@ const Resena = () => {
                     xl:text-base/loose xl:w-150 xl:ml-60
                     lg:text-base/loose lg:w-150 lg:ml-35
                     md:text-base/loose md:w-150 md:ml-10
-                    sm:text-base/loose sm:w-150
-                    sm:-ml-9">
+                    sm:text-base/loose sm:w-150 sm:-ml-4">
                     En Free Pass vive una historia,
                     tejida a mano, con calma y memoria
                     Prendas que abrazan la piel y el alma,
