@@ -2,7 +2,7 @@ import React from 'react'
 
 const Design = () => {
   return (
-    <div className="mt-19 mb-25 container max-w-xl">
+    <div className="mt-19 mb-50 container max-w-xl">
         <div className="text-4xl/tight font-bold text-center">
             <h1 className="ml-9 w-80 flex justify-center text-3xl/tight
             2xl:text-7xl 2xl:w-190 2xl:ml-140
