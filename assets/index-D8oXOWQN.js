@@ -178,10 +178,11 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400\r
                       ml-17\r
                       2xl:text-2xl 2xl:mb-6`,children:"Comprar Ahora"})})]})]})},s.id))})})]})})},Ri=()=>S.jsxs("div",{"data-aos":"zoom-in",className:"mb-3",children:[S.jsx("div",{className:"mt-21 ml-33",children:S.jsx("div",{className:"container",children:S.jsxs("div",{className:"grid md:grid-cols-3 pv-44 pt-5 -mt-21",children:[S.jsxs("div",{className:"py-8 px-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:-ml-30 sm:ml-43 -ml-3",children:[S.jsx("h1",{className:"sm:-ml-3",children:"Links Web"}),S.jsx("ul",{className:"flex flex-col gap-3 mt-3 2xl:ml-0 xl:ml-0 ml-3 sm:ml-0",children:dC.map(n=>S.jsx("li",{className:"cursor-pointer hover:text-black hover:translate-x-1 duration-300 text-shadow-gray-600",children:S.jsx(tr,{to:n.link,children:S.jsx("span",{children:n.title})})},n.title))})]}),S.jsxs("div",{className:"py-8 px-4 -ml-7 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36",children:[S.jsx("h1",{className:"",children:"Redes Sociales"}),S.jsx("ul",{className:"flex gap-3 mt-3 -ml-3",children:hC.map(({id:n,icon:i,url:r})=>S.jsx("a",{href:r,target:"_blank",children:S.jsx(i,{size:39})},n))})]}),S.jsx("div",{className:"mt-8 -ml-12 space-y-4 2xl:ml-50 xl:ml-20 lg:ml-19 md:ml-9 sm:ml-33",children:mC.map(n=>S.jsxs("a",{href:n.url,target:"_blank",className:`flex items-center gap-1.5 hover:text-green-800\r
-                            hover:underline transition-colors`,children:[S.jsx(n.icon,{}),n.label]},n.id))})]})})}),S.jsx("div",{className:`bg-[url('/assets/logo.png')] bg-center h-40 w-160 text-black mt-43 -ml-13\r
+                            hover:underline transition-colors`,children:[S.jsx(n.icon,{}),n.label]},n.id))})]})})}),S.jsx("div",{className:`bg-[url('/assets/logo1.png')] bg-cover bg-center\r
+        h-30 w-95 text-black mt-43 ml-0\r
         2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46 2xl:w-160\r
         2xl:ml-206 xl:ml-106 lg:ml-76 md:ml-46 sm:ml-30\r
-        2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40`,children:S.jsx("p",{className:"text-xs text-center -mt-39 -ml-33",children:"Viste tus sueños, define tu estilo. Cada detalle cuenta"})})]}),PA=()=>S.jsx("div",{className:"mt-9 mb-9",children:S.jsx("div",{className:"container max-w-xl",children:S.jsxs("div",{"data-aos":"fade-up",className:`text-3xl/tight font-bold mb-6 text-center mt-21\r
+        2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40`,children:S.jsx("p",{className:"text-xs text-center -mt-39 ml-0",children:"Viste tus sueños, define tu estilo. Cada detalle cuenta"})})]}),PA=()=>S.jsx("div",{className:"mt-9 mb-9",children:S.jsx("div",{className:"container",children:S.jsxs("div",{"data-aos":"fade-up",className:`text-3xl/tight font-bold mb-6 text-center mt-21\r
                 2xl:text-7xl 2xl:w-150\r
                 xl:text-4xl/tight \r
                 lg:text-4xl/tight \r
@@ -199,7 +200,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:ml-110 \r
                     lg:ml-83\r
                     md:ml-58\r
-                    sm:ml-45`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),qA=()=>S.jsx("div",{className:"mt-19 mb-50 container max-w-xl",children:S.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[S.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
+                    sm:ml-45`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),qA=()=>S.jsx("div",{className:"mt-19 mb-0 container",children:S.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[S.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
             2xl:text-7xl 2xl:w-190 2xl:ml-140\r
             xl:text-4xl xl:w-133 xl:ml-128\r
             lg:text-4xl lg:w-133 lg:ml-83\r
@@ -209,7 +210,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             xl:text-base/loose xl:w-210 xl:ml-80\r
             lg:text-base/loose lg:w-170 lg:ml-60\r
             md:text-base/loose md:w-100 md:ml-75\r
-            sm:text-base/loose sm:w-90 sm:ml-50`,children:["Soy Ruth Quiguango, diseñadora de indumentaria con una pasión arraigada por la moda y la creatividad.",S.jsx("br",{}),S.jsx("br",{}),"Mi formación en Buenos Aires, donde viví durante 10 años, me permitió ampliar mi visión de la moda y desarrollar una perspectiva única.",S.jsx("br",{}),S.jsx("br",{}),"Mis raíces y la riqueza cultural de mi entorno han sido fundamentales en mi proceso creativo. Me inspiran las técnicas textiles y saberes tradicionales, que fusiono con innovación y diseño contemporáneo.",S.jsx("br",{}),S.jsx("br",{}),"No busco replicar, sino reinterpretar y mejorar los procesos artesanales para crear piezas auténticas y originales."]}),S.jsx("img",{"data-aos":"zoom-in",className:`rounded-4xl -ml-90 -mt-90\r
+            sm:text-base/loose sm:w-90 sm:ml-50`,children:["Soy Ruth Quiguango, diseñadora de indumentaria con una pasión arraigada por la moda y la creatividad.",S.jsx("br",{}),S.jsx("br",{}),"Mi formación en Buenos Aires, donde viví durante 10 años, me permitió ampliar mi visión de la moda y desarrollar una perspectiva única.",S.jsx("br",{}),S.jsx("br",{}),"Mis raíces y la riqueza cultural de mi entorno han sido fundamentales en mi proceso creativo. Me inspiran las técnicas textiles y saberes tradicionales, que fusiono con innovación y diseño contemporáneo.",S.jsx("br",{}),S.jsx("br",{}),"No busco replicar, sino reinterpretar y mejorar los procesos artesanales para crear piezas auténticas y originales."]}),S.jsx("img",{"data-aos":"zoom-in",className:`rounded-4xl ml-9 mt-13\r
             2xl:w-100 2xl:-ml-23 2xl:-mt-140 2xl:mb-3\r
             xl:w-80 xl:-ml-23 xl:-mt-90 xl:mb-3\r
             lg:w-60 lg:-ml-11 lg:-mt-90 lg:mb-3\r
@@ -225,7 +226,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
           xl:text-base/loose xl:w-250 xl:ml-10\r
           lg:text-base/lose lg:w-250 lg:ml-10\r
           md:text-base/loose md:w-180 md:ml-0\r
-          sm:text-base/lose sm:w-165 sm:ml-3`,children:["En Freepass, nos sumergimos en una búsqueda constante de innovación y perfección en el diseño textil.",S.jsx("br",{}),S.jsx("br",{}),"Con raíces firmes en nuestra herencia, nos esforzamos por crear piezas únicas y de alta calidad que revaloricen la industria textil y respeten sus saberes tradicionales.",S.jsx("br",{}),S.jsx("br",{}),"No seguimos tendencias, las creamos. Cada tela y cada pieza de moldería se diseñan con un propósito: que cada prenda sea una obra de arte que refleje la esencia de quien la lleva.",S.jsx("br",{}),S.jsx("br",{}),"En Freepass, te ofrecemos un pase libre para descubrir y expresar tu identidad, sin perder tu esencia.",S.jsx("br",{}),S.jsx("br",{}),"Nuestra misión es que te sientas único y auténtico en cada prenda que lleves."]})})})]})}),GA=()=>S.jsx("div",{className:"mb-6",children:S.jsxs("div",{className:"mt-12 container max-w-xl",children:[S.jsxs("div",{children:[S.jsx("h1",{className:`text-3xl/tight font-bold mb-6 ml-6 w-90\r
+          sm:text-base/lose sm:w-165 sm:ml-3`,children:["En Freepass, nos sumergimos en una búsqueda constante de innovación y perfección en el diseño textil.",S.jsx("br",{}),S.jsx("br",{}),"Con raíces firmes en nuestra herencia, nos esforzamos por crear piezas únicas y de alta calidad que revaloricen la industria textil y respeten sus saberes tradicionales.",S.jsx("br",{}),S.jsx("br",{}),"No seguimos tendencias, las creamos. Cada tela y cada pieza de moldería se diseñan con un propósito: que cada prenda sea una obra de arte que refleje la esencia de quien la lleva.",S.jsx("br",{}),S.jsx("br",{}),"En Freepass, te ofrecemos un pase libre para descubrir y expresar tu identidad, sin perder tu esencia.",S.jsx("br",{}),S.jsx("br",{}),"Nuestra misión es que te sientas único y auténtico en cada prenda que lleves."]})})})]})}),GA=()=>S.jsx("div",{className:"mb-6",children:S.jsxs("div",{className:"mt-12 container",children:[S.jsxs("div",{children:[S.jsx("h1",{className:`text-3xl/tight font-bold mb-6 ml-0 w-90\r
                 2xl:ml-9 2xl:text-7xl 2xl:w-250 2xl:h-30\r
                 xl:ml-29 xl:text-4xl xl:w-106\r
                 lg:ml-60 lg:text-4xl lg:w-106\r
@@ -237,13 +238,13 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 lg:ml-31 lg:text-base/lose  lg:w-160\r
                 md:ml-38 md:text-base/lose md:w-100\r
                 sm:ml-9 sm:w-129 sm:text-base/loose\r
-                w-80 text-center ml-6`,children:" En Freepass EC, creemos que la moda es más que una tendencia, es una forma de expresión que celebra la individualidad y la exclusividad. Nuestra marca se inspira en técnicas ancestrales, respetando los saberes y tradiciones de nuestros artesanos, y fusionándolos con la creatividad y la innovación contemporánea. Cada detalle artesanal es cuidadosamente seleccionado y elaborado para plasmar la autenticidad y la creatividad que nos caracteriza."}),S.jsx("br",{}),S.jsx("br",{}),S.jsx("p",{className:`text-base/loose bm-6 opacity-90 \r
+                w-80 text-center ml-3`,children:" En Freepass EC, creemos que la moda es más que una tendencia, es una forma de expresión que celebra la individualidad y la exclusividad. Nuestra marca se inspira en técnicas ancestrales, respetando los saberes y tradiciones de nuestros artesanos, y fusionándolos con la creatividad y la innovación contemporánea. Cada detalle artesanal es cuidadosamente seleccionado y elaborado para plasmar la autenticidad y la creatividad que nos caracteriza."}),S.jsx("br",{}),S.jsx("br",{}),S.jsx("p",{className:`text-base/loose bm-6 opacity-90 \r
                 2xl:ml-0 2xl:text-2xl 2xl:w-223\r
                 xl:ml-0 xl:text-base/lose xl:w-160\r
                 lg:ml-31 lg:text-base/lose lg:w-160\r
                 md:ml-38  md:text-base-lose md:w-100\r
                 sm:ml-9 sm:w-129\r
-                w-80 text-center ml-6`,children:"Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece ser percibido con un valor de exclusividad y esencia que lo haga único. Cada pieza de Freepass EC es una obra de arte que combina la tradición y la modernidad, creando una experiencia única para nuestros usuarios."})]}),S.jsx("img",{"data-aos":"zoom-in",src:"./assets/barrio-SM.jpg",alt:"Hero",className:`rounded-full\r
+                w-80 text-center ml-3`,children:"Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece ser percibido con un valor de exclusividad y esencia que lo haga único. Cada pieza de Freepass EC es una obra de arte que combina la tradición y la modernidad, creando una experiencia única para nuestros usuarios."})]}),S.jsx("img",{"data-aos":"zoom-in",src:"./assets/barrio-SM.jpg",alt:"Hero",className:`rounded-full\r
                     2xl:w-119 2xl:h-119 2xl:ml-250 2xl:rounded-full 2xl:-mt-130\r
                     xl:ml-175 xl:w-100 xl:h-100 xl:-mt-101\r
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-60\r
