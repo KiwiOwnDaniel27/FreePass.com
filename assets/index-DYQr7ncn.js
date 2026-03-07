@@ -363,7 +363,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         2xl:w-130\r
                         xl:w-80\r
                         lg:w-80\r
-                        md:w-63`,children:S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:"h-[220] w-[150] object-cover rounded-md"}),S.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:S.jsx("h3",{className:`font-semibold\r
+                        md:w-63`,children:S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:"object-cover rounded-md"}),S.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:S.jsx("h3",{className:`font-semibold\r
                                 2xl:text-4xl`,children:n.title})})]})},n.id))})})]}),ej=()=>S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(IA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]}),tj=()=>S.jsx("div",{className:"mt-6 mb-12",children:S.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[S.jsx("h1",{"data-aos":"fade-up",className:`text-6xl font-bold\r
                 2xl:text-7xl\r
                 xl:text-5xl\r
@@ -457,7 +457,6 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     2xl:w-130\r
                     xl:w-80\r
                     lg:w-80\r
-                    md:w-63\r
-                    `,children:S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`h-[220] w-[150] \r
+                    md:w-63`,children:S.jsxs("a",{href:n.link,children:[S.jsx("img",{src:n.image,alt:"",className:`\r
                         object-cover rounded-md`}),S.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:S.jsx("h3",{className:`font-semibold\r
                             2xl:text-4xl`,children:n.title})})]})},n.id))})})]});function sj(){return S.jsxs("div",{children:[S.jsx("div",{children:S.jsx(ji,{})}),S.jsx("div",{children:S.jsx(lj,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]})}const oj=()=>(K.useEffect(()=>{uv.init({offset:100,duration:800,easing:"ease-in-sine",delay:100}),uv.refresh()},[]),S.jsx(q4,{children:S.jsxs(v4,{children:[S.jsx(Tn,{path:"/",element:S.jsx(cv,{})}),S.jsx(Tn,{path:"/home",element:S.jsx(cv,{})}),S.jsx(Tn,{path:"/origen",element:S.jsx(XA,{})}),S.jsx(Tn,{path:"/amedida",element:S.jsx(JA,{})}),S.jsx(Tn,{path:"/galeria",element:S.jsx($A,{})}),S.jsx(Tn,{path:"/tienda",element:S.jsx(sj,{})}),S.jsx(Tn,{path:"/catalogo",element:S.jsx(ej,{})}),S.jsx(Tn,{path:"/abrigos",element:S.jsx(ij,{})}),S.jsx(Tn,{path:"/abrigo-1",element:S.jsx(rj,{})})]})}));wS.createRoot(document.getElementById("root")).render(S.jsx(K.StrictMode,{children:S.jsx(oj,{})}));
