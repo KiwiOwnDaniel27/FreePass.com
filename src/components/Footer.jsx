@@ -46,7 +46,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="mt-8 -ml-4 space-y-4 2xl:ml-50 xl:ml-20 lg:ml-19 md:ml-9 sm:ml-33">
+                    <div className="mt-8 -ml-6 space-y-4 2xl:ml-50 xl:ml-20 lg:ml-19 md:ml-9 sm:ml-33">
                         {contactInfo.map(item => (
                             <a href={item.url} target="_blank" key={item.id} className="flex items-center gap-1.5 hover:text-green-800
                             hover:underline transition-colors">
