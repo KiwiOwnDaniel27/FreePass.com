@@ -142,9 +142,9 @@ const AbrigoPages = () => {
                 2xl:w-full xl:w-full w-full h-full">
 
                   <div className="w-full h-full mt-70
-                  2xl:h-160 2xl:w-120 2xl:mt-0
-                  xl:h-95 xl:w-68 xl:mt-0
-                  lg:h-75 lg:w-56 lg:mt-0
+                  2xl:h-130 2xl:w-120 2xl:mt-0 2xl:-ml-3
+                  xl:h-95 xl:w-68 xl:mt-0 xl:ml-10
+                  lg:h-75 lg:w-56 lg:mt-0 lg:ml-6
                   md:h-100 md:w-76 md:mt-0
                   sm:h-100 sm:mt-0">
                     <img src={data.image} alt=""
@@ -154,13 +154,13 @@ const AbrigoPages = () => {
                     />
                   </div>
 
-                  <div className="p-4 text-center -mt-20 ml-9 absolute text-sm">
+                  <div className="p-4 text-center -mt-20 ml-3 absolute text-sm">
                     <div className="w-full flex items-center justify-center gap-3 rotate-450
-                    2xl:text-4xl 2xl:ml-3 2xl:-mt-30 2xl:gap-6
-                    xl:text-2xl xl:-ml-5 xl:mt-3 xl:gap-6
-                    lg:text-2xl lg:mt-12 lg:ml-0 lg:gap-6
-                    md:text-2xl md:mt-0 md:ml-0 md:gap-6
-                    sm:text-2xl sm:-ml-4 sm:mt-0 sm:gap-6">
+                    2xl:text-4xl 2xl:ml-43 2xl:-mt-50 2xl:gap-6
+                    xl:text-2xl xl:ml-37 xl:-mt-30 xl:gap-6
+                    lg:text-2xl lg:-mt-25 lg:ml-23 lg:gap-6
+                    md:text-2xl md:-mt-40 md:ml-25 md:gap-6
+                    sm:text-2xl sm:ml-21 sm:-mt-40 sm:gap-6">
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
