@@ -16,10 +16,10 @@ const Resena = () => {
                     lg:-ml-13">Reseña de Marca</h1>
                     <p className="w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4
                     2xl:text-2xl 2xl:w-300 2xl:ml-30
-                    xl:text-base/loose xl:w-150 xl:ml-60
-                    lg:text-base/loose lg:w-150 lg:ml-35
-                    md:text-base/loose md:w-150 md:ml-10
-                    sm:text-base/loose sm:w-150 sm:-ml-4">
+                    xl:text-base/loose xl:w-150 xl:ml-75
+                    lg:text-base/loose lg:w-150 lg:ml-45
+                    md:text-base/loose md:w-160 md:ml-10
+                    sm:text-base/loose sm:w-155 sm:-ml-4">
                     En Free Pass vive una historia,
                     tejida a mano, con calma y memoria
                     Prendas que abrazan la piel y el alma,
@@ -37,10 +37,10 @@ const Resena = () => {
                     </p>
                     <img  data-aos="zoom-in" className="ml-23 mt-12
                     2xl:w-110 2xl:ml-120
-                    xl:ml-110 
-                    lg:ml-83
-                    md:ml-58
-                    sm:ml-45" src="assets/logo-circular.png" width={200} alt="" />
+                    xl:ml-125
+                    lg:ml-93
+                    md:ml-63
+                    sm:ml-50" src="assets/logo-circular.png" width={200} alt="" />
                 </div>
             </div>
     </div>

@@ -7,15 +7,15 @@ const Design = () => {
             <h1 className="ml-9 w-80 flex justify-center text-3xl/tight
             2xl:text-7xl 2xl:w-190 2xl:ml-140
             xl:text-4xl xl:w-133 xl:ml-128
-            lg:text-4xl lg:w-133 lg:ml-83
-            md:text-4xl md:w-133 md:ml-58
-            sm:text-4xl sm:w-133 sm:ml-33" data-aos="fade-up" >Gerente / Diseñadora FreePass</h1>
+            lg:text-4xl lg:w-133 lg:ml-95
+            md:text-4xl md:w-133 md:ml-66
+            sm:text-4xl sm:w-133 sm:ml-9" data-aos="fade-up" >Gerente / Diseñadora FreePass</h1>
             <p data-aos="fade-up" className="w-83 ml-6 mt-9 text-base/loose flex justify-center
             2xl:text-2xl 2xl:w-252 2xl:ml-100
-            xl:text-base/loose xl:w-210 xl:ml-80
-            lg:text-base/loose lg:w-170 lg:ml-60
-            md:text-base/loose md:w-100 md:ml-75
-            sm:text-base/loose sm:w-90 sm:ml-50">Soy Ruth Quiguango, diseñadora de indumentaria con una pasión arraigada por la moda y la creatividad.
+            xl:text-base/loose xl:w-210 xl:ml-90
+            lg:text-base/loose lg:w-170 lg:ml-80
+            md:text-base/loose md:w-125 md:ml-75
+            sm:text-base/loose sm:w-130 sm:ml-11">Soy Ruth Quiguango, diseñadora de indumentaria con una pasión arraigada por la moda y la creatividad.
                 <br /><br />
                 Mi formación en Buenos Aires, donde viví durante 10 años, me permitió ampliar mi visión de la moda y desarrollar una perspectiva única.
                 <br /><br />
@@ -25,11 +25,11 @@ const Design = () => {
                 No busco replicar, sino reinterpretar y mejorar los procesos artesanales para crear piezas auténticas y originales.
             </p>
             <img data-aos="zoom-in" className="rounded-4xl ml-9 mt-13
-            2xl:w-100 2xl:-ml-23 2xl:-mt-140 2xl:mb-3
-            xl:w-80 xl:-ml-23 xl:-mt-90 xl:mb-3
-            lg:w-60 lg:-ml-11 lg:-mt-90 lg:mb-3
-            md:w-80 md:-ml-15 md:-mt-125 md:mb-3
-            sm:w-50 sm:-ml-9 sm:-mt-120 sm:mb-80" src="./assets/diseñadora.jpeg"  width={300} alt="" />
+            2xl:w-100 2xl:-ml-23 2xl:-mt-140 2xl:mb-50
+            xl:w-80 xl:ml-0 xl:-mt-90 xl:mb-3
+            lg:w-80 lg:-ml-11 lg:-mt-100 lg:mb-26
+            md:w-80 md:-ml-15 md:-mt-110 md:mb-50
+            sm:w-80 sm:ml-35 sm:mt-20 sm:mb-0" src="./assets/diseñadora.jpeg"  width={300} alt="" />
         </div>
     </div>
   )
