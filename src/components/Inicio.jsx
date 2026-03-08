@@ -7,14 +7,14 @@ const Inicio = () => {
                 <div>
                 <h1 className="text-3xl/tight font-bold mb-6 ml-5 w-90
                 2xl:ml-9 2xl:text-7xl 2xl:w-250 2xl:h-30
-                xl:ml-29 xl:text-4xl xl:w-106
+                xl:ml-39 xl:text-4xl xl:w-106
                 lg:ml-69 lg:text-4xl lg:w-106
                 md:ml-43 md:text-3xl md:w-106
                 sm:ml-25 sm:text-4xl sm:w-106
                 ">Bienvenidos a FreePass</h1> 
                 <p className="bm-6 opacity-90 text-base/loose
                 2xl:ml-0 2xl:text-2xl 2xl:w-223
-                xl:ml-0 xl:text-base/lose xl:w-160
+                xl:ml-10 xl:text-base/lose xl:w-160
                 lg:ml-39 lg:text-base/lose  lg:w-160
                 md:ml-10 md:text-base/lose md:w-150
                 sm:ml-9 sm:w-129 sm:text-base/loose
@@ -28,7 +28,7 @@ const Inicio = () => {
                 <br /><br />
                 <p className="text-base/loose bm-6 opacity-90 
                 2xl:ml-0 2xl:text-2xl 2xl:w-223
-                xl:ml-0 xl:text-base/lose xl:w-160
+                xl:ml-10 xl:text-base/lose xl:w-160
                 lg:ml-39 lg:text-base/lose lg:w-160
                 md:ml-10  md:text-base-lose md:w-150
                 sm:ml-9 sm:w-129
@@ -41,7 +41,7 @@ const Inicio = () => {
                 </div>
                 <img data-aos="zoom-in" src="./assets/barrio-SM.jpg" alt="Hero" className="rounded-full
                     2xl:w-119 2xl:h-119 2xl:ml-250 2xl:rounded-full 2xl:-mt-130
-                    xl:ml-175 xl:w-100 xl:h-100 xl:-mt-101
+                    xl:ml-190 xl:w-100 xl:h-100 xl:-mt-101
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-70
                     md:w-100 md:h-100 md:mt-15 md:ml-38
                     sm:w-100 sm:h-100 sm:mt-13 sm:ml-25
