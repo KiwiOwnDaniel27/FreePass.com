@@ -72,7 +72,7 @@ const AbrigosProducts = () => {
                 />
               </div>
               
-              <div className="p-4 text-center mt-35">
+              <div className="p-4 text-center mt-35 2xl:mt-35 xl:mt-10 lg:mt-20 md:-mt-6 sm:mt-0">
                   <div className="w-full flex items-center justify-center gap-6">
                     <FaStar className="text-yellow-500 group-hover:text-white"/>
                     <FaStar className="text-yellow-500 group-hover:text-white"/>
@@ -89,7 +89,8 @@ const AbrigosProducts = () => {
 
                   <a href={data.link}>
                       <button className="bg-amber-400 hover:scale-105 duration-300 text-white
-                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-25 mb-3"
+                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-25 mb-3
+                      2xl:ml-20 xl:ml-15 lg:ml-19 md:ml-6 sm:ml-12"
                       onClick>
                             Ordenar Ahora
                       </button>

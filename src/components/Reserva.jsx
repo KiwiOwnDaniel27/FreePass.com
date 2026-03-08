@@ -39,7 +39,7 @@ const Reserva = () => {
                         </h1>
                         <ul className="flex items-center ml-0 mt-6 text-white drop-shadow-[2px_2px_0_black]
                         2xl:ml-156
-                        xl:ml-123
+                        xl:ml-115
                         lg:ml-90
                         md:ml-60
                         sm:ml-45">
