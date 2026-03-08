@@ -170,7 +170,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                             hover:underline transition-colors`,children:[S.jsx(n.icon,{}),n.label]},n.id))})]})})}),S.jsx("div",{className:"container",children:S.jsx("div",{className:`bg-[url('/assets/logo1.png')] bg-cover bg-center\r
             h-30 w-95 text-black mt-43 ml-3\r
             2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46 2xl:w-160\r
-            2xl:ml-100 xl:ml-103 lg:ml-76 md:ml-44 sm:ml-30\r
+            2xl:ml-95 xl:ml-90 lg:ml-76 md:ml-40 sm:ml-30\r
             2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40`,children:S.jsx("p",{className:"text-xs text-center -mt-39 -ml-3",children:"Viste tus sueños, define tu estilo. Cada detalle cuenta"})})})]}),PA=()=>S.jsx("div",{className:"mt-9 mb-9",children:S.jsx("div",{className:"container",children:S.jsxs("div",{"data-aos":"fade-up",className:`text-3xl/tight font-bold mb-6 text-center mt-21\r
                 2xl:text-7xl 2xl:w-150\r
                 xl:text-4xl/tight \r
