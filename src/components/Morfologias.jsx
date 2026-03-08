@@ -14,7 +14,7 @@ const Morfologias = () => {
             lg:w-150 lg:h-120 lg:ml-5 lg:gap-6 lg:flex-row
             md:w-90 md:h-80 md:ml-19 md:gap-3 md:flex-row
             sm:w-90 sm:h-70 sm:ml-55 sm:flex-col container">
-                <img className="2xl:-ml-80 xl:-ml-35 lg:-ml-76" src="./assets/morf-1.png" width={450} height={200} alt="" />
+                <img className="2xl:-ml-80 xl:-ml-35 lg:-ml-76 md:-ml-55" src="./assets/morf-1.png" width={450} height={200} alt="" />
                 <img src="./assets/morf-2.png" width={450} height={200}  alt="" />
                 <img src="./assets/morf-3.png" width={450} height={200} alt="" />
             </div>
