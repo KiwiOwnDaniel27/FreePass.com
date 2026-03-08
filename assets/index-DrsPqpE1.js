@@ -217,25 +217,25 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
           md:text-base/loose md:w-180 md:ml-0\r
           sm:text-base/lose sm:w-165 sm:ml-3`,children:["En Freepass, nos sumergimos en una búsqueda constante de innovación y perfección en el diseño textil.",S.jsx("br",{}),S.jsx("br",{}),"Con raíces firmes en nuestra herencia, nos esforzamos por crear piezas únicas y de alta calidad que revaloricen la industria textil y respeten sus saberes tradicionales.",S.jsx("br",{}),S.jsx("br",{}),"No seguimos tendencias, las creamos. Cada tela y cada pieza de moldería se diseñan con un propósito: que cada prenda sea una obra de arte que refleje la esencia de quien la lleva.",S.jsx("br",{}),S.jsx("br",{}),"En Freepass, te ofrecemos un pase libre para descubrir y expresar tu identidad, sin perder tu esencia.",S.jsx("br",{}),S.jsx("br",{}),"Nuestra misión es que te sientas único y auténtico en cada prenda que lleves."]})})})]})}),GA=()=>S.jsx("div",{className:"mb-6",children:S.jsxs("div",{className:"mt-12 container",children:[S.jsxs("div",{children:[S.jsx("h1",{className:`text-3xl/tight font-bold mb-6 ml-5 w-90\r
                 2xl:ml-9 2xl:text-7xl 2xl:w-250 2xl:h-30\r
-                xl:ml-29 xl:text-4xl xl:w-106\r
+                xl:ml-39 xl:text-4xl xl:w-106\r
                 lg:ml-69 lg:text-4xl lg:w-106\r
                 md:ml-43 md:text-3xl md:w-106\r
                 sm:ml-25 sm:text-4xl sm:w-106\r
                 `,children:"Bienvenidos a FreePass"}),S.jsx("p",{className:`bm-6 opacity-90 text-base/loose\r
                 2xl:ml-0 2xl:text-2xl 2xl:w-223\r
-                xl:ml-0 xl:text-base/lose xl:w-160\r
+                xl:ml-10 xl:text-base/lose xl:w-160\r
                 lg:ml-39 lg:text-base/lose  lg:w-160\r
                 md:ml-10 md:text-base/lose md:w-150\r
                 sm:ml-9 sm:w-129 sm:text-base/loose\r
                 w-80 text-center ml-7`,children:" En Freepass EC, creemos que la moda es más que una tendencia, es una forma de expresión que celebra la individualidad y la exclusividad. Nuestra marca se inspira en técnicas ancestrales, respetando los saberes y tradiciones de nuestros artesanos, y fusionándolos con la creatividad y la innovación contemporánea. Cada detalle artesanal es cuidadosamente seleccionado y elaborado para plasmar la autenticidad y la creatividad que nos caracteriza."}),S.jsx("br",{}),S.jsx("br",{}),S.jsx("p",{className:`text-base/loose bm-6 opacity-90 \r
                 2xl:ml-0 2xl:text-2xl 2xl:w-223\r
-                xl:ml-0 xl:text-base/lose xl:w-160\r
+                xl:ml-10 xl:text-base/lose xl:w-160\r
                 lg:ml-39 lg:text-base/lose lg:w-160\r
                 md:ml-10  md:text-base-lose md:w-150\r
                 sm:ml-9 sm:w-129\r
                 w-80 text-center ml-7`,children:"Nuestra marca busca experimentar e innovar constantemente, para llegar a un usuario actual que merece ser percibido con un valor de exclusividad y esencia que lo haga único. Cada pieza de Freepass EC es una obra de arte que combina la tradición y la modernidad, creando una experiencia única para nuestros usuarios."})]}),S.jsx("img",{"data-aos":"zoom-in",src:"./assets/barrio-SM.jpg",alt:"Hero",className:`rounded-full\r
                     2xl:w-119 2xl:h-119 2xl:ml-250 2xl:rounded-full 2xl:-mt-130\r
-                    xl:ml-175 xl:w-100 xl:h-100 xl:-mt-101\r
+                    xl:ml-190 xl:w-100 xl:h-100 xl:-mt-101\r
                     lg:w-100 lg:h-100 lg:mt-3 lg:ml-70\r
                     md:w-100 md:h-100 md:mt-15 md:ml-38\r
                     sm:w-100 sm:h-100 sm:mt-13 sm:ml-25\r
@@ -291,26 +291,26 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         md:ml-60\r
                         sm:ml-45`,children:p5.map(({id:n,icon:i,url:r})=>S.jsx("a",{href:r,target:"_blank",children:S.jsx(i,{size:75})},n))})]})]})})})}),ZA=()=>S.jsx("div",{children:S.jsxs("div",{className:"mb-3",children:[S.jsx("div",{children:S.jsx("h1",{"data-aos":"fade-up",className:`mt-16 text-4xl/tight font-bold text-center mb-6\r
                 2xl:text-7xl`,children:"Morfologias"})}),S.jsxs("div",{"data-aos":"zoom-in",className:`flex flex-col ml-30 gap-23\r
-            2xl:w-200 2xl:h-130 2xl:ml-99 2xl:gap-50 2xl:flex-row\r
+            2xl:w-200 2xl:h-130 2xl:-ml-93 2xl:gap-50 2xl:flex-row\r
             xl:w-200 xl:h-100 xl:ml-39 xl:gap-14 xl:flex-row\r
             lg:w-150 lg:h-120 lg:ml-5 lg:gap-6 lg:flex-row\r
-            md:w-80 md:h-80 md:ml-19 md:gap-3 md:flex-row\r
-            sm:w-70 sm:h-70 sm:ml-55 sm:flex-col`,children:[S.jsx("img",{src:"./assets/morf-1.png",width:175,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-2.png",width:200,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-3.png",width:200,height:200,alt:""})]}),S.jsxs("div",{children:[S.jsxs("p",{"data-aos":"fade-up",className:`ml-3 text-center -mt-153\r
+            md:w-90 md:h-80 md:ml-19 md:gap-3 md:flex-row\r
+            sm:w-90 sm:h-70 sm:ml-55 sm:flex-col container`,children:[S.jsx("img",{className:"2xl:-ml-80 xl:-ml-35 lg:-ml-76",src:"./assets/morf-1.png",width:450,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-2.png",width:450,height:200,alt:""}),S.jsx("img",{src:"./assets/morf-3.png",width:450,height:200,alt:""})]}),S.jsxs("div",{children:[S.jsxs("p",{"data-aos":"fade-up",className:`ml-0 text-center -mt-250\r
                 2xl:text-3xl 2xl:-ml-270 2xl:mt-3\r
                 xl:-ml-200 xl:mt-3\r
-                lg:-ml-200 lg:mt-3\r
+                lg:-ml-220 lg:mt-3\r
                 md:-ml-140 md:mt-3\r
-                sm:ml-0 sm:mt-49`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:` mt-63 ml-7 text-center\r
-                2xl:text-3xl 2xl:ml-1 2xl:-mt-13\r
+                sm:ml-0 sm:mt-70`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:`mt-105 ml-0 text-center\r
+                2xl:text-3xl 2xl:ml-16 2xl:-mt-13\r
                 xl:-ml-13 xl:-mt-13\r
                 lg:-ml-13 lg:-mt-13\r
                 md:-ml-11 md:-mt-13\r
-                sm:ml-0 sm:mt-83`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:`mt-73 ml-7 text-center\r
-                2xl:text-3xl 2xl:ml-275 2xl:-mt-29\r
-                xl:-mt-13 xl:ml-190\r
-                lg:-mt-13 lg:ml-190\r
+                sm:ml-0 sm:mt-95`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]}),S.jsxs("p",{"data-aos":"fade-up",className:`mt-130 ml-0 text-center\r
+                2xl:text-3xl 2xl:ml-345 2xl:-mt-29\r
+                xl:-mt-13 xl:ml-200\r
+                lg:-mt-13 lg:ml-200\r
                 md:-mt-13 md:ml-145\r
-                sm:mt-100 sm:ml-0`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]})]})]})}),QA=()=>S.jsxs("div",{className:"mt-29 mb-9",children:[S.jsx("div",{className:"max-w",children:S.jsx("h1",{"data-aos":"fade-up",className:`mt-12 mb-6 text-4xl/tight font-bold text-center\r
+                sm:mt-120 sm:ml-0`,children:["Tipología",S.jsx("br",{}),"Abrigo con Hombro caído"]})]})]})}),QA=()=>S.jsxs("div",{className:"mt-29 mb-9",children:[S.jsx("div",{className:"max-w",children:S.jsx("h1",{"data-aos":"fade-up",className:`mt-12 mb-6 text-4xl/tight font-bold text-center\r
             2xl:text-7xl`,children:"Elige tu Tela"})}),S.jsx("div",{"data-aos":"zoom-in",className:"mb-6 bg-[url('/assets/telas1.jpeg')] bg-contain bg-center w-full h-120"})]});function WA(){return S.jsx("div",{children:S.jsxs("div",{children:[S.jsx(ji,{}),S.jsx("div",{children:S.jsx(FA,{})}),S.jsx("div",{children:S.jsx(KA,{})}),S.jsx("div",{children:S.jsx(ZA,{})}),S.jsx("div",{children:S.jsx(QA,{})}),S.jsx("div",{children:S.jsx(Ri,{})})]})})}const JA=()=>{var n={dots:!1,arrows:!1,infinite:!0,speed:800,slidesToScroll:1,autoplay:!0,autoplaySpeed:4e3,cssEase:"ease-in-out",pauseOnHover:!1,pauseOnFocus:!0};return S.jsxs("div",{className:`relative overflow-y-hidden bg-gray-100 dark:bg-gray-900 dark:text-white\r
         duration-200 h-110\r
         2xl:h-270 xl:h-153 lg:h-153 md:h-100 sm:h-80`,children:[S.jsx("div",{children:S.jsx("div",{className:"text-center text-3xl/tight font-bold mb-6 mt-21 ml-0",children:S.jsx("div",{className:"-mt-10",children:S.jsx("p",{"data-aos":"zoom-in",className:`text-xl/tight\r
