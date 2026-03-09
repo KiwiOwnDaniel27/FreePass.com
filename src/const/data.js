@@ -248,25 +248,25 @@ export const testimonialData = [
     {
         id: 2,
         name: "Cris",
-        text: "Por fin una marca que no vende ropa… vende actitud. Cada vez que me la pongo, alguien me pregunta de dónde es.",
+        text: "Free Pass es una marca confiable, siempre ofrece una experiencia rápida y fácil para los usuarios.",
         image: "./assets/logo-circular.png",
     },
     {
         id: 3,
         name: "Lorenza",
-        text: "Por fin una marca que no vende ropa… vende actitud. Cada vez que me la pongo, alguien me pregunta de dónde es.",
+        text: "Me encanta Free Pass porque hace todo más sencillo y accesible para los clientes.",
         image: "./assets/logo-circular.png",
     },
     {
         id: 4,
         name: "Judith",
-        text: "Por fin una marca que no vende ropa… vende actitud. Cada vez que me la pongo, alguien me pregunta de dónde es.",
+        text: "Free Pass destaca por su calidad y la buena experiencia que brinda a sus usuarios.",
         image: "./assets/logo-circular.png",
     },
     {
         id: 5,
         name: "Pandita",
-        text: "Por fin una marca que no vende ropa… vende actitud. Cada vez que me la pongo, alguien me pregunta de dónde es.",
+        text: "Una excelente marca, Free Pass siempre cumple con lo que promete.",
         image: "./assets/logo-circular.png",
     },
 ]
