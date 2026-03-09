@@ -72,7 +72,10 @@
   .secundary-btn{
     @apply px-8 py-4 bg-purple-600 text-white border rounded-md hover:bg-green-400 transition-colors font-semibold;
   }
+}
 
+
+@layer components{
 
   .play-btn{
     animation: 2s pulseBtn ease infinite;
@@ -85,4 +88,13 @@
       box-shadow: 0 0 0 20px transparent;
     }
   }
+}
+
+.navbar.active{
+  @apply translate-y-0;
+}
+
+.navbar {
+  @apply lg:hidden fixed top-0 left-0 bg-white w-full h-screen 
+  flex flex-col items-center -translate-y-full transition-transform justify-center z-40;
 }
