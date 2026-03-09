@@ -29,12 +29,12 @@ const Hero = () => {
 
             <div className="h-60 w-60
             bg-[url('/assets/fondo.webp')] bg-contain bg-center flex -ml-35 2xl:ml-265
-            xl:ml-155 lg:ml-100 md:ml-103 sm:ml-73 mt-19 rounded-3xl rotate-45 -z-10
+            xl:ml-155 lg:ml-100 md:ml-103 sm:-ml-29 mt-19 rounded-3xl rotate-45 -z-10
             2xl:h-160 2xl:w-160 2xl:-mt-60
             xl:h-150 xl:w-150 xl:-mt-65
             lg:w-140 lg:h-140 lg:-mt-100
             md:w-90 md:h-90 md:-mt-30
-            sm:w-80 sm:h-80 sm:-mt-30
+            sm:w-60 sm:h-60 sm:mt-14
             ">
             </div>
 
@@ -43,7 +43,7 @@ const Hero = () => {
             xl:-mt-60
             lg:-mt-30
             md:-mt-45
-            sm:-mt-30" >
+            sm:-mt-56" >
                 <Slider {...settings}>
                     {ImageList.map((data) => (
                         <div>
