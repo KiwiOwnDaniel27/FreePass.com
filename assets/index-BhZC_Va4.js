@@ -411,7 +411,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                                         lg:ml-35\r
                                         md:ml-35\r
                                         sm:ml-35\r
-                                        mx-auto rounded-2xl`,src:o.image,alt:""})})})})}))})}),x.jsx(ar.div,{variants:nh,className:"-mt-16",children:x.jsx(ir,{...s,className:"px-2 md:px-10",children:x4.map(o=>x.jsx("div",{className:"px-3",children:x.jsxs("div",{className:`bg-white dark:bg-gray-800 hover:bg-amber-400 dark:hover:bg-amber-400\r
+                                        mx-auto rounded-2xl`,src:o.image,alt:""})})})})}))})}),x.jsx(ar.div,{variants:nh,className:"-mt-16",children:x.jsx(ir,{...s,className:"px-2 md:px-10",children:x4.map(o=>x.jsx("div",{className:"px-3",children:x.jsxs("div",{className:`bg-white bg-[url('/assets/fondo.prod2.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400\r
                 hover:text-white relative shadow-xl duration-300 group rounded-2xl\r
                 2xl:w-full xl:w-full w-full h-full`,children:[x.jsx("div",{className:`w-full h-full mt-70\r
                   2xl:h-130 2xl:w-120 2xl:mt-0 2xl:-ml-3\r
