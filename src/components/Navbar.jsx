@@ -47,7 +47,7 @@ const Navbar = () => {
             md:mt-3 sm:-mt-9"
           >
             <span className="group-hover:block hidden transition-all duration-200">
-              Order
+              0
             </span>
 
             <FaCartShopping

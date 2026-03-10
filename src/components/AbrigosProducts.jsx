@@ -87,6 +87,8 @@ const AbrigosProducts = () => {
                     {data.description}
                    </p>
 
+                   <h1 className="text-white text-lg font-bold mt-6">{data.price}</h1>
+
                   <a href={data.link}>
                       <button className="bg-amber-400 hover:scale-105 duration-300 text-white
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-25 mb-3
