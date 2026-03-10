@@ -82,7 +82,7 @@ const AbrigosProducts = () => {
                   <h1 className="text-white text-xl font-bold mt-6">{data.title}</h1>
 
                   <p
-                   className="text-gray-500 group-hover:text-white duration-300 mt-3
+                   className="text-white group-hover:text-white duration-300 mt-3
                    text-sm line-clamp-2">
                     {data.description}
                    </p>

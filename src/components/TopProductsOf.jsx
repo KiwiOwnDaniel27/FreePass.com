@@ -102,7 +102,7 @@ const TopProducts = () => {
                       {data.title}
                     </h1>
 
-                    <p className="text-gray-500 group-hover:text-white duration-300 mt-3 text-sm line-clamp-2 2xl:text-2xl">
+                    <p className="text-white group-hover:text-white duration-300 mt-3 text-sm line-clamp-2 2xl:text-2xl">
                       {data.description}
                     </p>
 
