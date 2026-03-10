@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="relative z-10 bg-[url('/assets/fondo.prod3.webp')] bg-center flex mx-auto w-full flex-col p-6 h-53 shadow-lg 2xl:h-80">
         
         <button className="md:hidden absolute mt-3 sm:mt-7" onClick={handleClick}>
-          <RiMenuLine size={40} color="white" stroke="black" strokeWidth={0.7} />
+          <RiMenuLine size={40} color="black" />
         </button>
 
         <SearchBar  />
