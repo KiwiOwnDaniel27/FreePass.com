@@ -55,7 +55,7 @@ const Navbar = () => {
               2xl:w-35 2xl:h-20 2xl:ml-16 xl:ml-29 lg:ml-23 md:ml-19 sm:ml-18 2xl:mt-3 xl:mt-3 lg:mt-6
               md:mt-3 sm:-mt-9"
             >
-              <span className="group-hover:block hidden transition-all duration-200">
+              <span className="group-hover:block transition-all duration-200">
                 {products.length}
               </span>
 
