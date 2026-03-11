@@ -12,7 +12,7 @@ import { div } from "framer-motion/client";
 const Navbar = () => {
 
   const [showCart, setShowCart] = useState(false);
-  const {products} = useShoppingCart();
+  const { products } = useShoppingCart();
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,7 +28,7 @@ const Navbar = () => {
           <RiMenuLine size={40} color="black" />
         </button>
 
-        <SearchBar  />
+        <SearchBar />
 
         <div className="ml-auto">
           <a
@@ -45,33 +45,59 @@ const Navbar = () => {
             />
           </a>
 
-          <button
-            onClick={() => alert("Carrito Vacío")}
-            className="bg-amber-400 transition-all duration-200 text-white
-            py-3 px-6 rounded-full flex items-center gap-3 group ml-9 mt-3 border border-black
-            2xl:w-35 2xl:h-20 2xl:ml-16 xl:ml-29 lg:ml-23 md:ml-19 sm:ml-18 2xl:mt-3 xl:mt-3 lg:mt-6
-            md:mt-3 sm:-mt-9"
-          >
-            <span className="group-hover:block hidden transition-all duration-200">
-              {products.length}
-            </span>
+          {/* CARRITO */}
+          <div className="relative">
 
-            <FaCartShopping
-              className="w-6 h-6 text-xl text-white drop-shadow-sm cursor-pointer
-              2xl:w-12 2xl:h-12 2xl:ml-5"
-            />
-          </button>
+            <button
+              onClick={() => setShowCart(!showCart)}
+              className="bg-amber-400 transition-all duration-200 text-white
+              py-3 px-6 rounded-full flex items-center gap-3 group ml-9 mt-3 border border-black
+              2xl:w-35 2xl:h-20 2xl:ml-16 xl:ml-29 lg:ml-23 md:ml-19 sm:ml-18 2xl:mt-3 xl:mt-3 lg:mt-6
+              md:mt-3 sm:-mt-9"
+            >
+              <span className="group-hover:block hidden transition-all duration-200">
+                {products.length}
+              </span>
 
+              <FaCartShopping
+                className="w-6 h-6 text-xl text-white drop-shadow-sm cursor-pointer
+                2xl:w-12 2xl:h-12 2xl:ml-5"
+              />
+            </button>
 
-          <div className="2xl:-ml-376 xl:-ml-235 lg:-ml-190 md:-ml-150 sm:-ml-120 
-          2xl:-mt-20 xl:-mt-20 lg:-mt-20 md:-mt-20 sm:-mt-6 -mt-9 -ml-12">
-            <DarkMode />
+            {/* DROPDOWN DEL CARRITO */}
+            {showCart && (
+              <div className="absolute right-0 mt-3 w-64 bg-white shadow-lg rounded-lg p-4 z-50">
+
+                <h3 className="font-bold text-black mb-3">Carrito</h3>
+
+                {products.length === 0 ? (
+                  <p className="text-gray-500">Carrito vacío</p>
+                ) : (
+                  products.map((item) => (
+                    <div
+                      key={item.id}
+                      className="flex justify-between border-b py-2 text-black"
+                    >
+                      <span>{item.name}</span>
+                      <span>{item.quantity}</span>
+                    </div>
+                  ))
+                )}
+
+              </div>
+            )}
+
           </div>
 
+          <div
+            className="2xl:-ml-376 xl:-ml-235 lg:-ml-190 md:-ml-150 sm:-ml-120 
+            2xl:-mt-20 xl:-mt-20 lg:-mt-20 md:-mt-20 sm:-mt-6 -mt-9 -ml-12"
+          >
+            <DarkMode />
+          </div>
         </div>
       </div>
-
-    
 
       {/* MENU MOBILE */}
       <nav className={`navbar ${isOpen ? "active" : ""}`}>
@@ -83,7 +109,6 @@ const Navbar = () => {
         </button>
 
         <ul className="flex flex-col items-center gap-10 text-xl">
-
           {Menu.map((data) => (
             <li key={data.name}>
               <Link
@@ -96,7 +121,6 @@ const Navbar = () => {
             </li>
           ))}
 
-          {/* TIENDA AGREGADA AL MENU MOBILE */}
           <li>
             <a
               href="https://kiwiowndaniel27.github.io/FreePass.com/#/tienda"
@@ -106,7 +130,6 @@ const Navbar = () => {
               Tienda
             </a>
           </li>
-
         </ul>
       </nav>
 
@@ -154,7 +177,6 @@ const Navbar = () => {
               </ul>
             </div>
           </li>
-
         </ul>
       </div>
     </div>
