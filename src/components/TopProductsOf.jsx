@@ -125,7 +125,7 @@ const TopProducts = () => {
                       onClick={() => addProduct(data)}
                       disabled={checkAvailableToAddCart(data.id)}
                       >
-                        Comprar Ahora
+                        Añadir al carrito
                       </button>
                    
 
