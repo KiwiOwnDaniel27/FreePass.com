@@ -121,7 +121,7 @@ export const ProductsData1 = [
         title: "Abrigo Animal Print",
         description: "Blanco y negro",
         link: "https://kiwiowndaniel27.github.io/FreePass.com/#/abrigo-1",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 2,
@@ -129,7 +129,7 @@ export const ProductsData1 = [
         title: "Bomber Morado",
         description: "Morado",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 3,
@@ -137,7 +137,7 @@ export const ProductsData1 = [
         title: "Chaleco Café Reversible",
         description: "Café",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 4,
@@ -145,7 +145,7 @@ export const ProductsData1 = [
         title: "Saco Plomo",
         description: "Plomo",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 5,
@@ -153,7 +153,7 @@ export const ProductsData1 = [
         title: "Abrigo Red Rouses",
         description: "Rojo",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 6,
@@ -161,7 +161,7 @@ export const ProductsData1 = [
         title: "Saco Light Snake",
         description: "Beish",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 7,
@@ -169,7 +169,7 @@ export const ProductsData1 = [
         title: "Abrigo Green X",
         description: "Verde",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 8,
@@ -177,7 +177,7 @@ export const ProductsData1 = [
         title: "Camiseta Japan",
         description: "Plomo",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 9,
@@ -185,7 +185,7 @@ export const ProductsData1 = [
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 10,
@@ -201,7 +201,7 @@ export const ProductsData1 = [
         title: "Abrigo Lines",
         description: "Beish y Negro",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 12,
@@ -209,7 +209,7 @@ export const ProductsData1 = [
         title: "Abrigo Black Elegant",
         description: "Negro",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 13,
@@ -217,7 +217,7 @@ export const ProductsData1 = [
         title: "Abrigo Animal Print",
         description: "Blanco y negro",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 14,
@@ -225,7 +225,7 @@ export const ProductsData1 = [
         title: "Abrigo Casual Verano",
         description: "Café y blanco",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 15,
@@ -233,7 +233,7 @@ export const ProductsData1 = [
         title: "Abrigo Spring Rous",
         description: "Azul",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 16,
@@ -241,7 +241,7 @@ export const ProductsData1 = [
         title: "Abrigo Beish Clasic",
         description: "Beish y Blanco",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
 
     

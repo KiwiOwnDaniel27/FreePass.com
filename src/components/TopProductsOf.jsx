@@ -5,8 +5,15 @@ import Slider from "react-slick";
 import { motion } from "framer-motion";
 import * as variants from '../motion/animation';
 import { Link } from 'react-router-dom';
+import { useShoppingCart } from '../context/shopping-cart';
 
 const TopProducts = () => {
+
+  const { products, addProduct} = useShoppingCart();
+
+  const checkAvailableToAddCart = productId => {
+    return Boolean (products.find(data => data.id === productId ));
+  }
 
   const [slides, setSlides] = useState(3);
 
@@ -110,14 +117,17 @@ const TopProducts = () => {
                       {data.price}
                     </h1>
 
-                    <a href={data.link}>
+                    
                       <button className="bg-amber-400 hover:scale-105 duration-300 text-white
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400
                       ml-17
-                      2xl:text-2xl 2xl:mb-6">
+                      2xl:text-2xl 2xl:mb-6"
+                      onClick={() => addProduct(data)}
+                      disabled={checkAvailableToAddCart(data.id)}
+                      >
                         Comprar Ahora
                       </button>
-                    </a>
+                   
 
                   </div>
 

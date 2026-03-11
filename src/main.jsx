@@ -11,10 +11,13 @@ import Amedida from "./pages/Amedida.jsx";
 import Galeria from "./pages/Galeria.jsx";
 import Tienda from "./pages/Tienda.jsx";
 import Home from "./pages/Home.jsx";
+import { ShoppingCartProvider } from "./context/shopping-cart.jsx";
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <App />
+    <ShoppingCartProvider>
+      <App />
+    </ShoppingCartProvider>
   </StrictMode>,
 );
