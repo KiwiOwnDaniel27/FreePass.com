@@ -14,7 +14,7 @@ import { TrashIcon } from "@heroicons/react/24/solid";
 const Navbar = () => {
 
   const [showCart, setShowCart] = useState(false);
-  const { products, removeProduct } = useShoppingCart();
+  const { products, removeProduct, totalAmount, clearShoppingCart } = useShoppingCart();
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -95,12 +95,19 @@ const Navbar = () => {
                       >
                         <TrashIcon className="w-6 h-6 ml-1 text-red-600" />
                     </button>
-                    
                     </div>
                   ))
                 )}
+                <div className="flex justify-center pt-2 border-t">
+                    <span className="font-medium text-xl">Total:</span>
+                    <span className="font-medium text-xl">${totalAmount}</span>
+                </div>
+                <button className="mt-3 ml-23" onClick={clearShoppingCart}>
+                  Vaciar el carrito
+                </button>
 
               </div>
+              
             )}
 
           </div>
