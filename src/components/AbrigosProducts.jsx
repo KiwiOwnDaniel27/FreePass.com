@@ -4,8 +4,16 @@ import { FaStar } from 'react-icons/fa6';
 import Slider from "react-slick";
 import { motion } from "framer-motion";
 import * as variants from '../motion/animation';
+import { useShoppingCart } from '../context/shopping-cart';
 
 const AbrigosProducts = () => {
+
+     const { products, addProduct} = useShoppingCart();
+    
+      const checkAvailableToAddCart = productId => {
+        return Boolean (products.find(data => data.id === productId ));
+      }
+
     const settings = {
         dots: true,
         arrows: false,
@@ -79,7 +87,7 @@ const AbrigosProducts = () => {
                     <FaStar className="text-yellow-500 group-hover:text-white"/>
                   </div>
 
-                  <h1 className="text-white text-xl font-bold mt-6">{data.title}</h1>
+                  <h1 className="text-white text-3 font-bold mt-6">{data.title}</h1>
 
                   <p
                    className="text-white group-hover:text-white duration-300 mt-3
@@ -87,16 +95,17 @@ const AbrigosProducts = () => {
                     {data.description}
                    </p>
 
-                   <h1 className="text-white text-lg font-bold mt-6">{data.price}</h1>
+                   <h1 className="text-white text-lg font-bold mt-6">${data.price}</h1>
 
-                  <a href={data.link}>
-                      <button className="bg-amber-400 hover:scale-105 duration-300 text-white
-                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400 ml-25 mb-3
-                      2xl:ml-18 xl:ml-12 lg:ml-13 md:ml-4 sm:ml-11"
-                      onClick>
-                            Ordenar Ahora
-                      </button>
-                  </a>
+                   <button className="bg-amber-400 hover:scale-105 duration-300 text-white
+                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400
+                      ml-17
+                      2xl:text-2xl 2xl:mb-6"
+                      onClick={() => addProduct(data)}
+                      disabled={checkAvailableToAddCart(data.id)}
+                      >
+                        Añadir al carrito
+                    </button>
 
               </div>
 

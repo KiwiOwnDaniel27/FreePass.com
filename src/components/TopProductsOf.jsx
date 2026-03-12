@@ -113,7 +113,7 @@ const TopProducts = () => {
                       {data.description}
                     </p>
 
-                    <h1 className="text-white text-lg font-bold mt-6 2xl:text-3xl">
+                    <h1 className="text-white text-lg font-bold mt-6 2xl:text-3xl"> $ 
                       {data.price}
                     </h1>
 
