@@ -151,8 +151,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 2xl:text-5xl`,children:"Obtén Notificaciones de Nuestras Nuevas Prendas Exclusivas."}),x.jsxs("div",{className:`flex items-center text-sm\r
                 2xl:text-2xl`,children:[x.jsx("input",{type:"text","data-aos":"fade-up",placeholder:"Ingresar tu correo electrónico",className:"w-full p-3 bg-white rounded-2xl"}),x.jsx("button",{"data-aos":"fade-up",type:"submit",className:`bg-gray-800 text-white p-3 rounded-lg cursor-pointer border border-zinc-600 \r
                   hover:bg-amber-400 text-sm\r
-                  2xl:text-2xl`,children:"Suscribete"})]})]})})})}),Fj=()=>{const n={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1e4,settings:{slidesToShow:3,slidesToScroll:1,infinite:!0}},{breakpoint:1024,settings:{slidesToShow:2,slidesToScroll:1,initialSlide:2}},{breakpoint:640,settings:{slidesToShow:1,slidesToScroll:1}}]};return x.jsx("div",{children:x.jsxs("div",{className:"py-10",children:[x.jsx("div",{className:"container",children:x.jsxs("div",{className:`text-center mb-10 w-60 ml-16\r
-          2xl:w-105 2xl:ml-126 xl:ml-105 lg:ml-95 md:ml-53 sm:ml-45`,children:[x.jsx("p",{"data-aos":"fade-up",className:"text-sm font-bold text-amber-400 2xl:text-5xl",children:"Lo que dicen nuestros clientes"}),x.jsx("h1",{"data-aos":"fade-up",className:"text-3xl font-bold 2xl:text-4xl",children:"Lo que nos hace diferentes"}),x.jsx("p",{"data-aos":"fade-up",className:"text-xs text-gray-700 2xl:text-2xl",children:"No sigas tendencias. Créate la tuya ✨"})]})}),x.jsx("div",{"data-aos":"zoom-in",className:"container px-4 sm:px-6 md:px-8",children:x.jsx(ir,{...n,children:hC.map(i=>x.jsx("div",{className:"my-6 px-2 ml-0 2xl:ml-115 xl:ml-70 lg:ml-60",children:x.jsxs("div",{className:`flex flex-col gap-4 shadow-lg py-8 px-6 rounded-xl dark:bg-gray-800/10 bg-amber-400 relative\r
+                  2xl:text-2xl`,children:"Suscribete"})]})]})})})}),Fj=()=>{const n={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1e4,settings:{slidesToShow:3,slidesToScroll:1,infinite:!0}},{breakpoint:1024,settings:{slidesToShow:2,slidesToScroll:1,initialSlide:2}},{breakpoint:640,settings:{slidesToShow:1,slidesToScroll:1}}]};return x.jsx("div",{children:x.jsxs("div",{className:"py-10",children:[x.jsx("div",{className:"container",children:x.jsxs("div",{className:`text-center mb-10 w-60 ml-21\r
+          2xl:w-200 2xl:ml-80 xl:ml-105 lg:ml-95 md:ml-53 sm:ml-45`,children:[x.jsx("p",{"data-aos":"fade-up",className:"text-sm font-bold text-amber-400 2xl:text-5xl",children:"Lo que dicen nuestros clientes"}),x.jsx("h1",{"data-aos":"fade-up",className:"text-3xl font-bold 2xl:text-4xl",children:"Lo que nos hace diferentes"}),x.jsx("p",{"data-aos":"fade-up",className:"text-xs text-gray-700 2xl:text-2xl",children:"No sigas tendencias. Créate la tuya ✨"})]})}),x.jsx("div",{"data-aos":"zoom-in",className:"container px-4 sm:px-6 md:px-8",children:x.jsx(ir,{...n,children:hC.map(i=>x.jsx("div",{className:"my-6 px-2 ml-0 2xl:ml-115 xl:ml-70 lg:ml-60",children:x.jsxs("div",{className:`flex flex-col gap-4 shadow-lg py-8 px-6 rounded-xl dark:bg-gray-800/10 bg-amber-400 relative\r
                       w-full max-w-sm sm:max-w-md md:max-w-lg h-auto`,children:[x.jsx("div",{className:"mb-6 flex justify-center",children:x.jsx("img",{src:i.image,alt:"",className:"rounded-full w-20 h-20 sm:w-28 sm:h-28"})}),x.jsxs("div",{className:"flex flex-col items-center gap-3 text-center",children:[x.jsx("p",{className:"text-xs text-gray-600 2xl:text-2xl",children:i.text}),x.jsx("h1",{className:"text-xl font-bold text-black/80 dark:text-light 2xl:text-3xl",children:i.name})]}),x.jsx("p",{className:`absolute top-0 right-6 transform -translate-x-1/2 -ml-90\r
                         text-black/20 font-serif text-7xl sm:text-9xl select-none pointer-events-none`,children:",,"})]})},i.id))})})]})})},Kj=()=>{const{products:n,addProduct:i}=th(),r=f=>!!n.find(h=>h.id===f),[s,o]=Y.useState(3);Y.useEffect(()=>{const f=()=>{const h=window.innerWidth;h<640?o(1):h<1024?o(2):o(3)};return f(),window.addEventListener("resize",f),()=>window.removeEventListener("resize",f)},[]);const c={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToShow:s,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0};return x.jsx(ar.div,{variants:nh,initial:"hidden",whileInView:"show",viewport:{once:!0},children:x.jsxs("div",{className:"container",children:[x.jsxs("div",{className:"text-left mb-9",children:[x.jsx("p",{className:"text-sm font-bold text-amber-400 2xl:text-5xl ",children:"Productos recomendados para ti"}),x.jsx("h1",{className:"text-3xl font-bold 2xl:text-5xl",children:"Los mejores productos"}),x.jsx("p",{className:"text-xs text-gray-700 2xl:text-2xl",children:"Viste con actitud: cada prenda hecha para ti ✨"})]}),x.jsx(ar.div,{variants:ih,className:"-mt-16",children:x.jsx(ir,{...c,className:"px-2 md:px-10",children:Tx.map(f=>x.jsx("div",{className:"px-4",children:x.jsxs("div",{className:`bg-white bg-[url('/assets/fondo.prod.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400\r
                 hover:text-white relative shadow-xl duration-300 group rounded-2xl\r
@@ -167,21 +167,21 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46 2xl:w-160\r
             2xl:ml-93 xl:ml-90 lg:ml-76 md:ml-37 sm:ml-30\r
             2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40`,children:x.jsx("p",{className:"text-xs text-center -mt-39 -ml-3",children:"Viste tus sueños, define tu estilo. Cada detalle cuenta"})})})]}),Zj=()=>x.jsx("div",{className:"mt-9 mb-9",children:x.jsx("div",{className:"container",children:x.jsxs("div",{"data-aos":"fade-up",className:`text-3xl/tight font-bold mb-6 text-center mt-21\r
-                2xl:text-7xl 2xl:w-150\r
-                xl:text-4xl/tight \r
+                2xl:text-7xl \r
+                xl:text-4xl/tight\r
                 lg:text-4xl/tight \r
                 md:text-4xl/tight \r
                 sm:text-4xl/tight `,children:[x.jsx("h1",{className:`sm:-ml-3 ml-0\r
                     2xl:ml-100 2xl:w-148\r
                     xl:-ml-13\r
                     lg:-ml-13`,children:"Reseña de Marca"}),x.jsxs("p",{className:`w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4\r
-                    2xl:text-2xl 2xl:w-300 2xl:ml-30\r
-                    xl:text-base/loose xl:w-150 xl:ml-75\r
-                    lg:text-base/loose lg:w-150 lg:ml-45\r
+                    2xl:text-2xl 2xl:w-300 2xl:ml-25\r
+                    xl:text-base/loose xl:w-150 xl:ml-70\r
+                    lg:text-base/loose lg:w-150 lg:ml-40\r
                     md:text-base/loose md:w-160 md:ml-10\r
                     sm:text-base/loose sm:w-155 sm:-ml-4`,children:["En Free Pass vive una historia, tejida a mano, con calma y memoria Prendas que abrazan la piel y el alma, con arte y amor, con fuerza y con calma.",x.jsx("br",{}),"Sostenible es su huella, ligera en el suelo honrando la tierra, el agua y el cielo. No es solo moda: es vida consciente, una elección bella, un acto valiente.",x.jsx("br",{}),"Luce con orgullo su esencia sincera, porque vestir así....... también es manera de cuidar al mundo, paso a paso, con cada puntada, con cada abrazo."]}),x.jsx("img",{"data-aos":"zoom-in",className:`ml-23 mt-12\r
-                    2xl:w-110 2xl:ml-120\r
-                    xl:ml-125\r
+                    2xl:w-110 2xl:ml-115\r
+                    xl:ml-130\r
                     lg:ml-93\r
                     md:ml-63\r
                     sm:ml-50`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),Qj=()=>x.jsx("div",{className:"mt-19 mb-0 container",children:x.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[x.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
@@ -195,7 +195,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             lg:text-base/loose lg:w-170 lg:ml-80\r
             md:text-base/loose md:w-125 md:ml-75\r
             sm:text-base/loose sm:w-130 sm:ml-11`,children:["Soy Ruth Quiguango, diseñadora de indumentaria con una pasión arraigada por la moda y la creatividad.",x.jsx("br",{}),x.jsx("br",{}),"Mi formación en Buenos Aires, donde viví durante 10 años, me permitió ampliar mi visión de la moda y desarrollar una perspectiva única.",x.jsx("br",{}),x.jsx("br",{}),"Mis raíces y la riqueza cultural de mi entorno han sido fundamentales en mi proceso creativo. Me inspiran las técnicas textiles y saberes tradicionales, que fusiono con innovación y diseño contemporáneo.",x.jsx("br",{}),x.jsx("br",{}),"No busco replicar, sino reinterpretar y mejorar los procesos artesanales para crear piezas auténticas y originales."]}),x.jsx("img",{"data-aos":"zoom-in",className:`rounded-4xl ml-9 mt-13\r
-            2xl:w-100 2xl:-ml-23 2xl:-mt-140 2xl:mb-50\r
+            2xl:w-100 2xl:-ml-23 2xl:-mt-110 2xl:mb-50\r
             xl:w-80 xl:ml-0 xl:-mt-90 xl:mb-3\r
             lg:w-80 lg:-ml-11 lg:-mt-100 lg:mb-26\r
             md:w-80 md:-ml-15 md:-mt-110 md:mb-50\r
