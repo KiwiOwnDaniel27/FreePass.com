@@ -25,7 +25,7 @@ const Design = () => {
                 No busco replicar, sino reinterpretar y mejorar los procesos artesanales para crear piezas auténticas y originales.
             </p>
             <img data-aos="zoom-in" className="rounded-4xl ml-9 mt-13
-            2xl:w-100 2xl:-ml-23 2xl:-mt-140 2xl:mb-50
+            2xl:w-100 2xl:-ml-23 2xl:-mt-110 2xl:mb-50
             xl:w-80 xl:ml-0 xl:-mt-90 xl:mb-3
             lg:w-80 lg:-ml-11 lg:-mt-100 lg:mb-26
             md:w-80 md:-ml-15 md:-mt-110 md:mb-50
