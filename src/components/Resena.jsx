@@ -16,7 +16,7 @@ const Resena = () => {
                     lg:-ml-13">Reseña de Marca</h1>
                     <p className="w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4
                     2xl:text-2xl 2xl:w-300 2xl:ml-25
-                    xl:text-base/loose xl:w-150 xl:ml-70
+                    xl:text-base/loose xl:w-150 xl:ml-50
                     lg:text-base/loose lg:w-150 lg:ml-40
                     md:text-base/loose md:w-160 md:ml-10
                     sm:text-base/loose sm:w-155 sm:-ml-4">
@@ -37,7 +37,7 @@ const Resena = () => {
                     </p>
                     <img  data-aos="zoom-in" className="ml-23 mt-12
                     2xl:w-110 2xl:ml-115
-                    xl:ml-130
+                    xl:ml-120
                     lg:ml-93
                     md:ml-63
                     sm:ml-50" src="assets/logo-circular.png" width={200} alt="" />

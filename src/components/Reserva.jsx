@@ -38,11 +38,11 @@ const Reserva = () => {
                             Contáctanos
                         </h1>
                         <ul className="flex items-center ml-0 mt-6 text-white drop-shadow-[2px_2px_0_black]
-                        2xl:ml-156
+                        2xl:ml-140
                         xl:ml-105
                         lg:ml-90
-                        md:ml-60
-                        sm:ml-45">
+                        md:ml-55
+                        sm:ml-40">
                             {IconsReserv.map(({id, icon: Icon, url}) =>(
                                 <a
                                 key={id}

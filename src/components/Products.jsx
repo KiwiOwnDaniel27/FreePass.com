@@ -36,7 +36,7 @@ const Products = () => {
                         2xl:h-140 2xl:w-130
                         xl:h-85 xl:w-130
                         lg:h-90 lg:w-130
-                        md:h-90 md:w-130
+                        md:h-110 md:w-130
                         sm:h-100 sm:w-75" />
                         
                         <div className="mt-6">
