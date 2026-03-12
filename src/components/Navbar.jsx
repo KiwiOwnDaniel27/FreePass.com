@@ -8,11 +8,13 @@ import { Link } from "react-router-dom";
 import { RiCloseLine, RiMenuLine } from "@remixicon/react";
 import { useShoppingCart } from "../context/shopping-cart";
 import { div } from "framer-motion/client";
+import { ProductsData1 } from "../const/data";
+import { TrashIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
 
   const [showCart, setShowCart] = useState(false);
-  const { products } = useShoppingCart();
+  const { products, removeProduct } = useShoppingCart();
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -67,20 +69,33 @@ const Navbar = () => {
 
             {/* DROPDOWN DEL CARRITO */}
             {showCart && (
-              <div className="absolute right-0 mt-3 w-64 bg-white shadow-lg rounded-lg p-4 z-50">
+              <div className="absolute right-9 mt-3 w-80 bg-white shadow-lg rounded-lg p-4 z-50">
 
                 <h3 className="font-bold text-black mb-3">Carrito</h3>
 
                 {products.length === 0 ? (
                   <p className="text-gray-500">Carrito vacío</p>
                 ) : (
-                  products.map((item) => (
+                  products.map((data) => (
                     <div
-                      key={item.id}
+                      key={data.id}
                       className="flex justify-between border-b py-2 text-black"
                     >
-                      <span>{item.name}</span>
-                      <span>{item.quantity}</span>
+                      <img
+                      src={data.image}
+                      alt=""
+                      className="w-25 flex"
+                    />
+                    
+                      <span className="w-50 text-center -ml-23 mt-6">{data.title}</span>
+                      <span className="mt-16 -ml-42">${data.price}</span>
+                      <button
+                        className="hover:bg-black p-1 w-10 h-10 rounded-full mt-13"
+                        onClick={() => removeProduct(data.id)}
+                      >
+                        <TrashIcon className="w-6 h-6 ml-1 text-red-600" />
+                    </button>
+                    
                     </div>
                   ))
                 )}
