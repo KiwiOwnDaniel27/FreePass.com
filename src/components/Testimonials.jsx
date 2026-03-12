@@ -47,7 +47,7 @@ const Testimonials = () => {
     <div>
       <div className="py-10">
         <div className="container">
-          <div className="text-center mb-10 w-60 ml-21
+          <div className="text-center mb-10 w-60 ml-16
           2xl:w-200 2xl:ml-75 xl:ml-105 lg:ml-95 md:ml-53 sm:ml-45">
             <p data-aos="fade-up" className="text-sm font-bold text-amber-400 2xl:text-5xl">
               Lo que dicen nuestros clientes
