@@ -101,7 +101,7 @@ const AbrigosProducts = () => {
 
                    <button className="bg-amber-400 hover:scale-105 duration-300 text-white
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400
-                      ml-23 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
+                      ml-25 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
                       2xl:text-2xl 2xl:mb-6"
                       onClick={() => addProduct(data)}
                       disabled={checkAvailableToAddCart(data.id)}
