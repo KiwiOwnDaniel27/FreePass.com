@@ -74,7 +74,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         2xl:h-140 2xl:w-130\r
                         xl:h-85 xl:w-130\r
                         lg:h-90 lg:w-130\r
-                        md:h-90 md:w-130\r
+                        md:h-110 md:w-130\r
                         sm:h-100 sm:w-75`}),x.jsxs("div",{className:"mt-6",children:[x.jsx("h3",{className:`font-semibold\r
                             2xl:text-2xl`,children:n.title}),x.jsx("p",{className:`text-sm text-gray-700 mt-1\r
                             2xl:text-2xl`,children:n.color})]})]}),x.jsxs("div",{className:"flex items-center gap-3",children:[x.jsx("span",{className:`ml-25\r
@@ -152,7 +152,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 2xl:text-2xl`,children:[x.jsx("input",{type:"text","data-aos":"fade-up",placeholder:"Ingresar tu correo electrónico",className:"w-full p-3 bg-white rounded-2xl"}),x.jsx("button",{"data-aos":"fade-up",type:"submit",className:`bg-gray-800 text-white p-3 rounded-lg cursor-pointer border border-zinc-600 \r
                   hover:bg-amber-400 text-sm\r
                   2xl:text-2xl`,children:"Suscribete"})]})]})})})}),Fj=()=>{const n={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0,responsive:[{breakpoint:1e4,settings:{slidesToShow:3,slidesToScroll:1,infinite:!0}},{breakpoint:1024,settings:{slidesToShow:2,slidesToScroll:1,initialSlide:2}},{breakpoint:640,settings:{slidesToShow:1,slidesToScroll:1}}]};return x.jsx("div",{children:x.jsxs("div",{className:"py-10",children:[x.jsx("div",{className:"container",children:x.jsxs("div",{className:`text-center mb-10 w-60 ml-21\r
-          2xl:w-200 2xl:ml-80 xl:ml-105 lg:ml-95 md:ml-53 sm:ml-45`,children:[x.jsx("p",{"data-aos":"fade-up",className:"text-sm font-bold text-amber-400 2xl:text-5xl",children:"Lo que dicen nuestros clientes"}),x.jsx("h1",{"data-aos":"fade-up",className:"text-3xl font-bold 2xl:text-4xl",children:"Lo que nos hace diferentes"}),x.jsx("p",{"data-aos":"fade-up",className:"text-xs text-gray-700 2xl:text-2xl",children:"No sigas tendencias. Créate la tuya ✨"})]})}),x.jsx("div",{"data-aos":"zoom-in",className:"container px-4 sm:px-6 md:px-8",children:x.jsx(ir,{...n,children:hC.map(i=>x.jsx("div",{className:"my-6 px-2 ml-0 2xl:ml-115 xl:ml-70 lg:ml-60",children:x.jsxs("div",{className:`flex flex-col gap-4 shadow-lg py-8 px-6 rounded-xl dark:bg-gray-800/10 bg-amber-400 relative\r
+          2xl:w-200 2xl:ml-75 xl:ml-105 lg:ml-95 md:ml-53 sm:ml-45`,children:[x.jsx("p",{"data-aos":"fade-up",className:"text-sm font-bold text-amber-400 2xl:text-5xl",children:"Lo que dicen nuestros clientes"}),x.jsx("h1",{"data-aos":"fade-up",className:"text-3xl font-bold 2xl:text-4xl",children:"Lo que nos hace diferentes"}),x.jsx("p",{"data-aos":"fade-up",className:"text-xs text-gray-700 2xl:text-2xl",children:"No sigas tendencias. Créate la tuya ✨"})]})}),x.jsx("div",{"data-aos":"zoom-in",className:"container px-4 sm:px-6 md:px-8",children:x.jsx(ir,{...n,children:hC.map(i=>x.jsx("div",{className:"my-6 px-2 ml-0 2xl:ml-110 xl:ml-70 lg:ml-60",children:x.jsxs("div",{className:`flex flex-col gap-4 shadow-lg py-8 px-6 rounded-xl dark:bg-gray-800/10 bg-amber-400 relative\r
                       w-full max-w-sm sm:max-w-md md:max-w-lg h-auto`,children:[x.jsx("div",{className:"mb-6 flex justify-center",children:x.jsx("img",{src:i.image,alt:"",className:"rounded-full w-20 h-20 sm:w-28 sm:h-28"})}),x.jsxs("div",{className:"flex flex-col items-center gap-3 text-center",children:[x.jsx("p",{className:"text-xs text-gray-600 2xl:text-2xl",children:i.text}),x.jsx("h1",{className:"text-xl font-bold text-black/80 dark:text-light 2xl:text-3xl",children:i.name})]}),x.jsx("p",{className:`absolute top-0 right-6 transform -translate-x-1/2 -ml-90\r
                         text-black/20 font-serif text-7xl sm:text-9xl select-none pointer-events-none`,children:",,"})]})},i.id))})})]})})},Kj=()=>{const{products:n,addProduct:i}=th(),r=f=>!!n.find(h=>h.id===f),[s,o]=Y.useState(3);Y.useEffect(()=>{const f=()=>{const h=window.innerWidth;h<640?o(1):h<1024?o(2):o(3)};return f(),window.addEventListener("resize",f),()=>window.removeEventListener("resize",f)},[]);const c={dots:!0,arrows:!1,infinite:!0,speed:500,slidesToShow:s,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,cssEase:"linear",pauseOnHover:!0,pauseOnFocus:!0};return x.jsx(ar.div,{variants:nh,initial:"hidden",whileInView:"show",viewport:{once:!0},children:x.jsxs("div",{className:"container",children:[x.jsxs("div",{className:"text-left mb-9",children:[x.jsx("p",{className:"text-sm font-bold text-amber-400 2xl:text-5xl ",children:"Productos recomendados para ti"}),x.jsx("h1",{className:"text-3xl font-bold 2xl:text-5xl",children:"Los mejores productos"}),x.jsx("p",{className:"text-xs text-gray-700 2xl:text-2xl",children:"Viste con actitud: cada prenda hecha para ti ✨"})]}),x.jsx(ar.div,{variants:ih,className:"-mt-16",children:x.jsx(ir,{...c,className:"px-2 md:px-10",children:Tx.map(f=>x.jsx("div",{className:"px-4",children:x.jsxs("div",{className:`bg-white bg-[url('/assets/fondo.prod.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400\r
                 hover:text-white relative shadow-xl duration-300 group rounded-2xl\r
@@ -160,7 +160,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                       group-hover:scale-110 duration-300 drop-shadow-md mt-26\r
                       2xl:w-90 xl:w-70`})}),x.jsxs("div",{className:"p-4 text-center",children:[x.jsxs("div",{className:"w-full flex items-center justify-center gap-6 2xl:text-2xl",children:[x.jsx(On,{className:"text-yellow-500 group-hover:text-white"}),x.jsx(On,{className:"text-yellow-500 group-hover:text-white"}),x.jsx(On,{className:"text-yellow-500 group-hover:text-white"})]}),x.jsx("h1",{className:"text-white text-xl font-bold mt-6 2xl:text-3xl",children:f.title}),x.jsx("p",{className:"text-white group-hover:text-white duration-300 mt-3 text-sm line-clamp-2 2xl:text-2xl",children:f.description}),x.jsxs("h1",{className:"text-white text-lg font-bold mt-6 2xl:text-3xl",children:[" $",f.price]}),x.jsx("button",{className:`bg-amber-400 hover:scale-105 duration-300 text-white\r
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400\r
-                      ml-17 2xl:ml-19 xl:ml-13 lg:ml-7 md:ml-9 sm:ml-6\r
+                      ml-17 2xl:ml-19 xl:ml-15 lg:ml-7 md:ml-9 sm:ml-6\r
                       2xl:text-2xl 2xl:mb-6`,onClick:()=>i(f),disabled:r(f.id),children:"Añadir al carrito"})]})]})},f.id))})})]})})},Mi=()=>x.jsxs("div",{"data-aos":"zoom-in",className:"mb-3",children:[x.jsx("div",{className:"mt-21 ml-33",children:x.jsx("div",{className:"container",children:x.jsxs("div",{className:"grid md:grid-cols-3 pv-44 pt-5 -mt-21",children:[x.jsxs("div",{className:"py-8 px-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:-ml-30 sm:ml-43 ml-0",children:[x.jsx("h1",{className:"sm:-ml-3",children:"Links Web"}),x.jsx("ul",{className:"flex flex-col gap-3 mt-3 2xl:ml-0 xl:ml-0 ml-3 sm:ml-0",children:mC.map(n=>x.jsx("li",{className:"cursor-pointer hover:text-black hover:translate-x-1 duration-300 text-shadow-gray-600",children:x.jsx(aa,{to:n.link,children:x.jsx("span",{children:n.title})})},n.title))})]}),x.jsxs("div",{className:"py-8 px-4 -ml-6 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36",children:[x.jsx("h1",{className:"",children:"Redes Sociales"}),x.jsx("ul",{className:"flex gap-3 mt-3 -ml-3",children:pC.map(({id:n,icon:i,url:r})=>x.jsx("a",{href:r,target:"_blank",children:x.jsx(i,{size:39})},n))})]}),x.jsx("div",{className:"mt-8 -ml-9 space-y-4 2xl:ml-50 xl:ml-20 lg:ml-19 md:ml-9 sm:ml-33",children:gC.map(n=>x.jsxs("a",{href:n.url,target:"_blank",className:`flex items-center gap-1.5 hover:text-green-800\r
                             hover:underline transition-colors`,children:[x.jsx(n.icon,{}),n.label]},n.id))})]})})}),x.jsx("div",{className:"container",children:x.jsx("div",{className:`bg-[url('/assets/logo1.png')] bg-cover bg-center\r
             h-30 w-95 text-black mt-43 ml-0\r
@@ -176,12 +176,12 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:-ml-13\r
                     lg:-ml-13`,children:"Reseña de Marca"}),x.jsxs("p",{className:`w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4\r
                     2xl:text-2xl 2xl:w-300 2xl:ml-25\r
-                    xl:text-base/loose xl:w-150 xl:ml-70\r
+                    xl:text-base/loose xl:w-150 xl:ml-50\r
                     lg:text-base/loose lg:w-150 lg:ml-40\r
                     md:text-base/loose md:w-160 md:ml-10\r
                     sm:text-base/loose sm:w-155 sm:-ml-4`,children:["En Free Pass vive una historia, tejida a mano, con calma y memoria Prendas que abrazan la piel y el alma, con arte y amor, con fuerza y con calma.",x.jsx("br",{}),"Sostenible es su huella, ligera en el suelo honrando la tierra, el agua y el cielo. No es solo moda: es vida consciente, una elección bella, un acto valiente.",x.jsx("br",{}),"Luce con orgullo su esencia sincera, porque vestir así....... también es manera de cuidar al mundo, paso a paso, con cada puntada, con cada abrazo."]}),x.jsx("img",{"data-aos":"zoom-in",className:`ml-23 mt-12\r
                     2xl:w-110 2xl:ml-115\r
-                    xl:ml-130\r
+                    xl:ml-120\r
                     lg:ml-93\r
                     md:ml-63\r
                     sm:ml-50`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),Qj=()=>x.jsx("div",{className:"mt-19 mb-0 container",children:x.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[x.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
@@ -280,11 +280,11 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                         lg:text-2xl\r
                         md:text-2xl\r
                         sm:text-2xl`,children:"Contáctanos"}),x.jsx("ul",{className:`flex items-center ml-0 mt-6 text-white drop-shadow-[2px_2px_0_black]\r
-                        2xl:ml-156\r
+                        2xl:ml-140\r
                         xl:ml-105\r
                         lg:ml-90\r
-                        md:ml-60\r
-                        sm:ml-45`,children:yC.map(({id:n,icon:i,url:r})=>x.jsx("a",{href:r,target:"_blank",children:x.jsx(i,{size:75})},n))})]})]})})})}),tA=()=>x.jsx("div",{children:x.jsxs("div",{className:"mb-3",children:[x.jsx("div",{children:x.jsx("h1",{"data-aos":"fade-up",className:`mt-16 text-4xl/tight font-bold text-center mb-6\r
+                        md:ml-55\r
+                        sm:ml-40`,children:yC.map(({id:n,icon:i,url:r})=>x.jsx("a",{href:r,target:"_blank",children:x.jsx(i,{size:75})},n))})]})]})})})}),tA=()=>x.jsx("div",{children:x.jsxs("div",{className:"mb-3",children:[x.jsx("div",{children:x.jsx("h1",{"data-aos":"fade-up",className:`mt-16 text-4xl/tight font-bold text-center mb-6\r
                 2xl:text-7xl`,children:"Morfologias"})}),x.jsxs("div",{"data-aos":"zoom-in",className:`flex flex-col ml-30 gap-23\r
             2xl:w-200 2xl:h-130 2xl:-ml-93 2xl:gap-50 2xl:flex-row\r
             xl:w-200 xl:h-100 xl:ml-39 xl:gap-14 xl:flex-row\r
