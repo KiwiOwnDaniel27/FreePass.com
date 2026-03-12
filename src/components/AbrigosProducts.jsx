@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { motion } from "framer-motion";
 import * as variants from '../motion/animation';
 import { useShoppingCart } from '../context/shopping-cart';
+import { Link } from 'react-router-dom';
 
 const AbrigosProducts = () => {
 
@@ -72,12 +73,13 @@ const AbrigosProducts = () => {
           2xl:w-full xl:w-full">
 
               <div className="h-86">
-
-                  <img src={data.image} alt="" 
-                  className="w-full h-auto block mx-auto transform -translate-y-6
-                  group-hover:scale-110 duration-300 drop-shadow-md mt-6
-                  2xl:w-90 xl:w-70"
-                />
+                  <Link to={data.link}>
+                    <img src={data.image} alt="" 
+                    className="w-full h-auto block mx-auto transform -translate-y-6
+                    group-hover:scale-110 duration-300 drop-shadow-md mt-6
+                    2xl:w-90 xl:w-70"
+                    />
+                  </Link>
               </div>
               
               <div className="p-4 text-center mt-35 2xl:mt-27 xl:mt-6 lg:mt-16 md:-mt-9 sm:mt-0">
