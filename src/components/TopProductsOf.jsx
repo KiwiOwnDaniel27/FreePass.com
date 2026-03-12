@@ -81,7 +81,7 @@ const TopProducts = () => {
 
             {ProductsData1.map((data) => (
 
-              <div key={data.id} className="px-4">
+              <div key={data.id} className="px-4 mb-12">
 
                 <div className="bg-white bg-[url('/assets/fondo.prod.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
                 hover:text-white relative shadow-xl duration-300 group rounded-2xl
@@ -138,7 +138,7 @@ const TopProducts = () => {
             ))}
 
           </Slider>
-
+            
         </motion.div>
 
       </div>
