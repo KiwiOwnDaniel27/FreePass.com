@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className="px-0">
       <div className="relative z-10 bg-[url('/assets/fondo.prod3.webp')] bg-center flex mx-auto w-full flex-col p-6 h-53 shadow-lg 2xl:h-80">
         
-        <button className="md:hidden absolute mt-3 sm:mt-7" onClick={handleClick}>
+        <button className="md:hidden absolute mt-3 sm:mt-7 -ml-3" onClick={handleClick}>
           <RiMenuLine size={40} color="black" />
         </button>
 
@@ -39,8 +39,8 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <img
-              className="-ml-20 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
-              w-70 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45"
+              className="-ml-16 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
+              w-65 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45"
               src="./assets/logo-horizontal.webp"
               alt=""
               width={300}

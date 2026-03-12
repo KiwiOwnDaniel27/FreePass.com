@@ -38,8 +38,8 @@ const SearchBar = () => {
           duration-300
           cursor-pointer">
         <TbBasketSearch className="absolute right mt-2 w-6 h-6 2xl:w-11 2xl:h-11
-        ml-56 2xl:ml-126 xl:ml-93 lg:ml-73 md:ml-53 sm:ml-33" />
-        <input className="w-full px-6 py-2 border rounded-full bg-white ml-0 2xl:text-2xl md:
+        ml-60 2xl:ml-126 xl:ml-93 lg:ml-73 md:ml-53 sm:ml-33" />
+        <input className="w-full px-6 py-2 border rounded-full bg-white ml-3 2xl:text-2xl md:
         2xl:py-4 2xl:px-12 " type="text" placeholder="Buscador..." value={query} onChange={e => setQuery(e.target.value)} />
         <ul className="absolute w-full left-0 mt-3 shadow-lg z-50 max-h-6">
             {result.map((r, i) => (
