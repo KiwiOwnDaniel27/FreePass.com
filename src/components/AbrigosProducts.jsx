@@ -95,11 +95,11 @@ const AbrigosProducts = () => {
                     {data.description}
                    </p>
 
-                   <h1 className="text-white text-lg font-bold mt-6">${data.price}</h1>
+                   <h1 className="text-white text-lg font-bold mt-6">$ {data.price}</h1>
 
                    <button className="bg-amber-400 hover:scale-105 duration-300 text-white
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400
-                      ml-17
+                      ml-27 2xl:ml-15 xl:ml-15 lg:ml-19 md:ml-6 sm:ml-9
                       2xl:text-2xl 2xl:mb-6"
                       onClick={() => addProduct(data)}
                       disabled={checkAvailableToAddCart(data.id)}
