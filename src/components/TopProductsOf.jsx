@@ -118,8 +118,9 @@ const TopProducts = () => {
                     </h1>
 
                     
-                      <button className="bg-amber-400 hover:scale-105 duration-300 text-white
-                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400
+                      <button className="bg-amber-400 hover:scale-105 active:scale-105 duration-300 text-white
+                      py-3 px-6 rounded-full mt-6 group-hover:bg-white  group-hover:text-amber-400
+                      active:bg-white active:text-amber-400
                       ml-17 2xl:ml-19 xl:ml-15 lg:ml-7 md:ml-9 sm:ml-6
                       2xl:text-2xl 2xl:mb-6"
                       onClick={() => addProduct(data)}
