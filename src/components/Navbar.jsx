@@ -54,6 +54,7 @@ const Navbar = () => {
               onClick={() => setShowCart(!showCart)}
               className="bg-amber-400 hover:bg-amber-300 transition-all duration-200 text-white hover:text-black
               group-hover:bg-white  group-hover:text-amber-400
+              active:scale-95 hover:scale-105
               active:bg-white active:text-amber-400 active:duration-300
               py-3 px-6 rounded-full flex items-center gap-3 group ml-9 mt-3 border border-black
               2xl:w-35 2xl:h-20 2xl:ml-16 xl:ml-29 lg:ml-23 md:ml-19 sm:ml-18 2xl:mt-3 xl:mt-3 lg:mt-6
@@ -92,10 +93,10 @@ const Navbar = () => {
                       <span className="w-50 text-center -ml-23 mt-6">{data.title}</span>
                       <span className="mt-16 -ml-42">${data.price}</span>
                       <button
-                        className="hover:bg-black active:bg-black p-1 w-10 h-10 rounded-full mt-13"
+                        className="hover:bg-black active:bg-black hover:scale-105 active:scale-95 p-1 w-10 h-10 rounded-full mt-13"
                         onClick={() => removeProduct(data.id)}
                       >
-                        <TrashIcon className="w-6 h-6 ml-1 text-red-600" />
+                        <TrashIcon className="w-6 h-6 ml-1 text-red-600 hover:scale-105 active:scale-95" />
                     </button>
                     </div>
                   ))
@@ -104,7 +105,9 @@ const Navbar = () => {
                     <span className="font-medium text-xl">Total:</span>
                     <span className="font-medium text-xl">${totalAmount}</span>
                 </div>
-                <button className="mt-3 ml-21 bg-amber-400 py-3 px-3 rounded-full text-white hover:bg-red-600 active:bg-red-600" onClick={clearShoppingCart}>
+                <button className="mt-3 ml-21 bg-amber-400 py-3 px-3 rounded-full
+                 text-white hover:bg-red-600 active:bg-red-600 hover:scale-105 active:scale-95" 
+                 onClick={clearShoppingCart}>
                   Vaciar el carrito
                 </button>
 
