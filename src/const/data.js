@@ -193,7 +193,7 @@ export const ProductsData1 = [
         title: "Abrigo Purpel Young",
         description: "Morado",
         link: "",
-        price: "$ 65.00"
+        price: 65.00
     },
     {
         id: 11,

@@ -52,7 +52,7 @@ const Navbar = () => {
 
             <button
               onClick={() => setShowCart(!showCart)}
-              className="bg-amber-400 hover:bg-amber-300 transition-all duration-200 text-white
+              className="bg-amber-400 hover:bg-amber-300 transition-all duration-200 text-white hover:text-black
               group-hover:bg-white  group-hover:text-amber-400
               active:bg-white active:text-amber-400 active:duration-300
               py-3 px-6 rounded-full flex items-center gap-3 group ml-9 mt-3 border border-black
@@ -64,7 +64,7 @@ const Navbar = () => {
               </span>
 
               <FaCartShopping
-                className="w-6 h-6 text-xl text-white drop-shadow-sm cursor-pointer
+                className="w-6 h-6 text-xl text-white hover:text-amber-400  drop-shadow-[2px_2px_2px_black] cursor-pointer
                 2xl:w-12 2xl:h-12 2xl:ml-5"
               />
             </button>
