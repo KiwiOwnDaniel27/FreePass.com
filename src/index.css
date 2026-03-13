@@ -98,28 +98,3 @@
   @apply lg:hidden fixed top-0 left-0 bg-[url('/assets/fondo.prod3.webp')] bg-cover w-full h-screen 
   flex flex-col items-center -translate-y-full transition-transform justify-center z-40;
 }
-
-import { plugin } from 'postcss'
-
-{import('tailwindcss').Config}
-
-export default {
-    content : [".index.html", "./src/**/*{js, ts, jsx, tsx}"],
-    darkMode: "class",
-    theme: {
-        extend: {
-            colors:{
-                primary: "fea928",
-                secondary: "ed890",
-            },
-            container: {
-                center: true,
-                padding: {
-                    DEFAULT: "1rem",
-                    sm:"3rem",
-                },
-            },
-        },
-    },
-    plugins: [],
-};
