@@ -60,11 +60,16 @@ const Footer = () => {
         </div>
         <div className="container" >
             <div className="bg-[url('/assets/logo1.png')] bg-cover bg-center
-            h-30 w-95 text-black mt-43 ml-0
-            2xl:mt-29 xl:mt-29 lg:mt-29 md:mt-29 sm:mt-46 2xl:w-160
+            h-25 w-95 text-black mt-19 ml-0
+            2xl:mt-9 xl:mt-9 lg:mt-9 md:mt-9 sm:mt-19 2xl:w-160
             2xl:ml-93 xl:ml-90 lg:ml-76 md:ml-37 sm:ml-30
             2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40">
-                <p className="text-xs text-center -mt-39 -ml-3">
+                <br />
+                <p className="text-xs text-center -mt-19 -ml-3">
+                 Derechos reservados
+                 <br />
+                 © Copyright FreePass 2026
+                <br />
                     Viste tus sueños, define tu estilo. Cada detalle cuenta
                 </p>
             </div>
