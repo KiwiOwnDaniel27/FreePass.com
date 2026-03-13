@@ -99,15 +99,17 @@ const AbrigosProducts = () => {
 
                    <h1 className="text-white text-lg font-bold mt-6">$ {data.price}</h1>
 
-                   <button className="bg-amber-400 hover:scale-105 duration-300 text-white
-                      py-3 px-6 rounded-full mt-6 group-hover:bg-white group-hover:text-amber-400
-                      ml-25 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
-                      2xl:text-2xl 2xl:mb-6"
+                   <button className="bg-amber-400 hover:scale-105 active:scale-95 duration-300 text-white
+                      py-3 px-6 rounded-full mt-6 group-hover:bg-white  group-hover:text-amber-400
+                      active:bg-white active:text-amber-400 active:duration-300
+                      ml-17 2xl:ml-19 xl:ml-15 lg:ml-7 md:ml-9 sm:ml-6
+                      2xl:text-2xl 2xl:mb-6
+                      [WebkitTapHighlightColor:transparent]"
                       onClick={() => addProduct(data)}
                       disabled={checkAvailableToAddCart(data.id)}
                       >
                         Añadir al carrito
-                    </button>
+                  </button>
 
               </div>
 
