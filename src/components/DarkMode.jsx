@@ -30,10 +30,14 @@ const DarkMode = () => {
         }`}
         onClick={() => setTheme(theme == "light" ? "dark" : "light")}/>
 
-        <img src="./assets/mooddark.png" alt="" 
-        className="w-26 cursor-pointer drop-shadow-[3px_3px_3px_black] transition-all
-        duration-300 "
-        onClick={() => setTheme(theme == "light" ? "dark" : "light")}/>
+      <img 
+      src="./assets/mooddark.png" 
+      alt=""
+      className={`w-26 cursor-pointer drop-shadow-[3px_3px_3px_black] transition-all
+      duration-300 absolute ${theme == "dark" ? "opacity-100" : "opacity-0"}`}
+      onClick={() => setTheme(theme == "light" ? "dark" : "light")}
+      />
+
     </div>
   )
 }
