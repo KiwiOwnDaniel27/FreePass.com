@@ -52,7 +52,7 @@ const Navbar = () => {
 
             <button
               onClick={() => setShowCart(!showCart)}
-              className="bg-amber-400 hover:bg-amber-300 transition-all duration-200 text-white hover:text-black
+              className="bg-amber-400 hover:bg-amber-400 transition-all duration-200 text-white hover:text-black
               group-hover:bg-white  group-hover:text-amber-400
               active:scale-95 hover:scale-105
               active:bg-white active:text-amber-400 active:duration-300
@@ -137,9 +137,9 @@ const Navbar = () => {
 
         <ul className="flex flex-col items-center gap-10 text-xl">
           {Menu.map((data) => (
-            <li key={data.name}>
+            <li className="" key={data.name}>
               <Link
-                className="font-bold inline-block px-4 primary-btn duration-200"
+                className="font-bold inline-block px-4 primary-btn duration-200 hover:text-amber-400 active:scale-95"
                 to={data.link}
                 onClick={handleClick}
               >
@@ -151,7 +151,7 @@ const Navbar = () => {
           <li>
             <a
               href="https://kiwiowndaniel27.github.io/FreePass.com/#/tienda"
-              className="font-bold inline-block px-4 primary-btn duration-200"
+              className="font-bold inline-block px-4 primary-btn duration-200 hover:text-amber-400 active:scale-95"
               onClick={handleClick}
             >
               Tienda
