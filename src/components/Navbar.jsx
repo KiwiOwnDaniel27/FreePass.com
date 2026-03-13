@@ -52,7 +52,7 @@ const Navbar = () => {
 
             <button
               onClick={() => setShowCart(!showCart)}
-              className="bg-amber-400 transition-all duration-200 text-white
+              className="bg-amber-400 hover:bg-amber-300 transition-all duration-200 text-white
               group-hover:bg-white  group-hover:text-amber-400
               active:bg-white active:text-amber-400 active:duration-300
               py-3 px-6 rounded-full flex items-center gap-3 group ml-9 mt-3 border border-black
