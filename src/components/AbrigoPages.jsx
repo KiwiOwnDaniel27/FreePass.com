@@ -5,8 +5,15 @@ import { motion } from "framer-motion";
 import * as variants from '../motion/animation';
 import { Abrigo1 } from '../const/data';
 import { CarruselAbrigo1 } from '../const/data';
+import { useShoppingCart } from '../context/shopping-cart';
 
 const AbrigoPages = () => {
+
+    const { products, addProduct} = useShoppingCart();
+      
+        const checkAvailableToAddCart = productId => {
+          return Boolean (products.find(data => data.id === productId ));
+        }
 
   const [slides, setSlides] = useState(3);
 
@@ -36,7 +43,7 @@ const AbrigoPages = () => {
     speed: 800,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 6000,
     cssEase: "ease-in-out",
     pauseOnHover: false,
     pauseOnFocus: true,
@@ -68,7 +75,7 @@ className="overflow-x-hidden"
 
 <div className="mt-6 mb-12 container mx-auto px-4">
 
-{/* TITULO */}
+
 
 <div className="text-center mb-10">
   <h1 className="text-4xl font-bold 2xl:text-7xl">
@@ -81,13 +88,13 @@ className="overflow-x-hidden"
 </div>
 
 
-{/* PRODUCTO PRINCIPAL */}
 
-<div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-10">
 
-{/* CARRUSEL */}
+<div className="grid grid-cols-1 xl:grid-cols-2 items-center gap-10 container ">
 
-<div className="w-full max-w-[450px] mx-auto">
+
+
+<div className="w-300">
 
 <Slider {...settings}>
 {CarruselAbrigo1.map((data, index) => (
@@ -97,42 +104,49 @@ className="overflow-x-hidden"
 <div className="flex justify-center">
 
 <img
-className="rounded-2xl w-full max-w-[350px] xl:max-w-[450px]"
+className="rounded-2xl xl:w-100 xl:-ml-110 2xl:w-140 lg:w-100 lg:-ml-160 md:w-100 md:-ml-200
+sm:w-100 sm:-ml-240 w-90 -ml-220"
 src={data.image}
 alt=""
 />
 
-</div>
-
+</div> 
+  <p className="font-bold absolute
+                ml-15 mt-10 text-2xl w-60 text-center
+                2xl:ml-160 2xl:-mt-170 2xl:text-3xl 
+                xl:ml-130  xl:-mt-120 xl:text-2xl xl:w-150
+                lg:ml-105 lg:-mt-120 lg:text-2xl lg:w-150
+                md:ml-90 md:-mt-120 md:text-xl md:w-60
+                sm:ml-60 sm:-mt-120 sm:text-xl">{data.title}</p>
+  <p className="ml-35 mt-30 text-2xl absolute
+                2xl:ml-169 2xl:-mt-150 2xl:text-3xl
+                xl:ml-153  xl:-mt-100 xl:text-2xl xl:w-150
+                lg:ml-129 lg:-mt-100 lg:text-2xl
+                md:ml-112 md:-mt-100 md:text-xl
+                sm:ml-80 sm:-mt-100 sm:text-xl"> $ {data.price}</p>
+  <button className="bg-amber-400 hover:scale-105 active:scale-95 duration-300 text-white
+                      py-3 px-6 rounded-full  group-hover:bg-white  group-hover:text-amber-400
+                      active:bg-white active:text-amber-400 active:duration-300
+                      xl:ml-150 xl:-mt-80 xl:absolute
+                      2xl:ml-166 2xl:-mt-130 2xl:text-3xl 2xl:absolute
+                      lg:ml-125 lg:-mt-80 lg:text-2xl lg:absolute
+                      md:ml-95 md:-mt-80 md:text-xl md:absolute
+                      sm:ml-65 sm:-mt-80 sm:text-xl sm:absolute
+                      2xl:mb-6
+                      ml-15 mt-50 text-2xl relative
+                      [WebkitTapHighlightColor:transparent]"
+                      onClick={() => addProduct(data)}
+                      disabled={checkAvailableToAddCart(data.id)}
+                      >
+                        Añadir al carrito
+                    </button>
+  
 </div>
 
 ))}
 </Slider>
 
 </div>
-
-
-{/* INFORMACION */}
-
-<div className="text-center xl:text-left flex flex-col items-center xl:items-start">
-
-<p className="text-2xl font-bold lg:text-4xl max-w-[400px]">
-Abrigo Animal Print Blanco y Negro
-</p>
-
-<p className="text-2xl mt-4 lg:text-3xl">
-$98
-</p>
-
-<button
-className="bg-amber-400 hover:scale-105 duration-300 text-white
-py-3 px-6 rounded-full mt-6 text-lg lg:text-2xl"
->
-Añadir al carrito
-</button>
-
-</div>
-
 </div>
 
 
