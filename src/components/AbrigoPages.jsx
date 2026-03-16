@@ -172,7 +172,7 @@ w-full h-full"
 <img
 src={data.image}
 alt=""
-className="w-[180px] lg:w-[220px]
+className=" 
 group-hover:scale-110 duration-300 drop-shadow-md"
 />
 
@@ -180,7 +180,7 @@ group-hover:scale-110 duration-300 drop-shadow-md"
 
 <div className="p-4 text-center text-sm">
 
-<div className="flex items-center justify-center gap-2 text-xl mb-3">
+<div className="flex items-center justify-center gap-2 text-xl mb-3 mt-9">
 
 <FaStar className="text-yellow-500 group-hover:text-white"/>
 <FaStar className="text-yellow-500 group-hover:text-white"/>
