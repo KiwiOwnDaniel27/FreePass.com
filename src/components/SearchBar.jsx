@@ -28,7 +28,7 @@ const SearchBar = () => {
 
 
   return (
-    <div className="container relative max-w-auto mt-3 w-75
+    <div className="container relative hidden 2xl:block xl:block lg:block md:block max-w-auto mt-3 w-75
           2xl:p-12 xl:mt-6 lg:mt-6 md:mt-6 sm:mt-6
           2xl:w-150 xl:w-111 lg:w-90 md:w-70 sm:w-50
           hover 

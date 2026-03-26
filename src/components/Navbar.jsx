@@ -30,7 +30,7 @@ const Navbar = () => {
           <RiMenuLine size={40} color="black" />
         </button>
 
-        <SearchBar />
+        <SearchBar/>
 
         <div className="ml-auto">
           <a
