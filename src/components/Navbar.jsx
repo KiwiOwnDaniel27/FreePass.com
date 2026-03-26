@@ -28,13 +28,13 @@ const Navbar = () => {
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
         <img src="./assets/logito.png" alt=""
-        className="absolute block sm:hidden w-19 mt-31 -ml-3"/>
+        className="absolute block sm:hidden w-21 mt-31 -ml-3"/>
         <img src="./assets/logito1.png" alt=""
-        className="absolute block sm:hidden w-19 mt-31 ml-19"/>
+        className="absolute block sm:hidden w-21 mt-31 ml-23"/>
         <img src="./assets/logito2.png" alt=""
-        className="absolute block sm:hidden w-19 mt-31 ml-43"/>
+        className="absolute block sm:hidden w-21 mt-31 ml-49"/>
         <img src="./assets/logito3.png" alt=""
-        className="absolute block sm:hidden w-19 mt-31 ml-66"/>
+        className="absolute block sm:hidden w-21 mt-31 ml-73"/>
         
         
         <button className="md:hidden absolute mt-3 sm:mt-7 -ml-3" onClick={handleClick}>
