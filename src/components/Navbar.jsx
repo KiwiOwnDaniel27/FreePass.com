@@ -24,11 +24,17 @@ const Navbar = () => {
 
   return (
     <div className="px-0">
-      <div className="relative z-10 bg-[url('/assets/fondo.prod3.webp')] bg-center flex mx-auto w-full flex-col p-6 h-43 shadow-lg 2xl:h-80
+      <div className="relative z-10 bg-[url('/assets/fondo.prod3.webp')] bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
         <img src="./assets/logito.png" alt=""
-        className="absolute block sm:hidden w-19 mt-26 -ml-6"/>
+        className="absolute block sm:hidden w-19 mt-31 -ml-3"/>
+        <img src="./assets/logito1.png" alt=""
+        className="absolute block sm:hidden w-19 mt-31 ml-19"/>
+        <img src="./assets/logito2.png" alt=""
+        className="absolute block sm:hidden w-19 mt-31 ml-43"/>
+        <img src="./assets/logito3.png" alt=""
+        className="absolute block sm:hidden w-19 mt-31 ml-66"/>
         
         
         <button className="md:hidden absolute mt-3 sm:mt-7 -ml-3" onClick={handleClick}>
