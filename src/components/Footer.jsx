@@ -29,7 +29,7 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="py-8 px-4 -ml-6 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36 ">
+                    <div className="py-8 px-4 -ml-4 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36 ">
                         <h1 className="mb-6">
                             Redes Sociales
                         </h1>
@@ -41,7 +41,7 @@ const Footer = () => {
                                 target="_blank"
                                 >
                                 <Icon size={39} className="ml-2"/>
-                                <p className="text-sm -ml-2">{title}</p>
+                                <p className="text-sm -ml-3">{title}</p>
                                     
                                 </a>
                             ))}

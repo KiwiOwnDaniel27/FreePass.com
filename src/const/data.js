@@ -321,7 +321,7 @@ export const socialIcons = [
       id: 2,
       icon: RiInstagramFill,
       url: "https://www.instagram.com/freepassec?igsh=aGd1NDlld3pneGs4",
-      title: "freepassec"
+      title: "@freepassec"
     },
     {
         id: 3,
