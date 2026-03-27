@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="container">
                 <div className="grid md:grid-cols-3 pv-44 pt-5 -mt-21">
 
-                    <div className="py-8 px-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:-ml-30 sm:ml-43 ml-0">
+                    <div className="hidden md:block py-8 px-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:-ml-30 sm:ml-43 ml-0">
                         <h1 className="sm:-ml-3">
                             Links Web
                         </h1>
