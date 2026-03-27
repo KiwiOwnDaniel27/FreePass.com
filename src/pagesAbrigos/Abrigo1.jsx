@@ -8,12 +8,12 @@ const Abrigo1 = () => {
     <div>
         <div>
             <Navbar/>
-        </div>
         <div>
             <AbrigoPages/>
         </div>
         <div>
             <Footer/>
+        </div>
         </div>
     </div>
   )

@@ -9,7 +9,6 @@ const Abrigos = () => {
     <div>
         <div>
             <Navbar/>
-        </div>
         <div>
             <AbrigosContain/>
         </div>
@@ -18,6 +17,7 @@ const Abrigos = () => {
         </div>
         <div>
             <Footer/>
+        </div>
         </div>
     </div>
   )

@@ -8,12 +8,12 @@ const Catalogo = () => {
     <div>
         <div>
             <Navbar/>
-        </div>
         <div>
             <Catalogos/>
         </div>
         <div>
             <Footer/>
+        </div>
         </div>
     </div>
   )
