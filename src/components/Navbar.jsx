@@ -97,7 +97,7 @@ const Navbar = () => {
               {/* PRODUCTOS (SCROLL SOLO AQUÍ) */}
               <div className="overflow-y-auto flex-1">
                 {products.length === 0 ? (
-                  <p className="text-gray-500">Carrito vacío</p>
+                  <p className="text-gray-500 ml-4">Carrito vacío</p>
                 ) : (
                   products.map((data) => (
                     <div
