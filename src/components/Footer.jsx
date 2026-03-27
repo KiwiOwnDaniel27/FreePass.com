@@ -40,8 +40,8 @@ const Footer = () => {
                                 href={url}
                                 target="_blank"
                                 >
-                                <Icon size={39} className="ml-0"/>
-                                <p className="text-sm -ml-3">{title}</p>
+                                <Icon size={39} className="ml-2"/>
+                                <p className="text-sm -ml-2">{title}</p>
                                     
                                 </a>
                             ))}
