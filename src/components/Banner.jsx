@@ -59,8 +59,8 @@ const Banner = () => {
                 md:ml-0
                 sm:ml-30
                 ">
-                        <GrSecure className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-violet-400
-                        dark:bg-violet-100 
+                        <GrSecure className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
+                        dark:bg-orange-400 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12"/>
                         <p className="2xl:text-3xl
@@ -75,7 +75,7 @@ const Banner = () => {
                     md:-ml-3
                     sm:ml-30">
                         <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
-                        dark:bg-orange-100
+                        dark:bg-orange-400 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl
@@ -90,7 +90,7 @@ const Banner = () => {
                     md:-ml-3
                     sm:ml-30">
                         <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
-                        dark:bg-orange-100
+                       dark:bg-orange-400 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl
@@ -105,7 +105,7 @@ const Banner = () => {
                     md:-ml-3
                     sm:ml-30">
                         <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
-                        dark:bg-orange-100
+                        dark:bg-orange-400 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40 -ml-3
