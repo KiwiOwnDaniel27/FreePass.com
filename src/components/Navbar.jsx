@@ -85,54 +85,63 @@ const Navbar = () => {
 
             {/* DROPDOWN DEL CARRITO */}
             {showCart && (
-              <div className="absolute overflow-y-auto right-6 mt-3 w-80 max-h-[70vh]
-              2xl:max-h-[120vh] xl:max-h-[60vh] bg-white shadow-lg rounded-lg p-4 z-50">
+            <div className="absolute right-6 mt-3 w-80 
+            bg-white shadow-lg rounded-lg z-50 
+            flex flex-col max-h-[70vh]">
 
-                <h3 className="font-bold text-black mb-3">Carrito</h3>
+              {/* HEADER */}
+              <div className="p-4 ">
+                <h3 className="font-bold text-black">Carrito</h3>
+              </div>
 
+              {/* PRODUCTOS (SCROLL SOLO AQUÍ) */}
+              <div className="overflow-y-auto flex-1">
                 {products.length === 0 ? (
                   <p className="text-gray-500">Carrito vacío</p>
                 ) : (
                   products.map((data) => (
                     <div
                       key={data.id}
-                      className="flex justify-between border-b py-2 text-black"
+                      className="flex items-center justify-between border-b py-2 text-black"
                     >
                       <img
-                      src={data.image}
-                      alt=""
-                      className="w-25 flex"
-                    />
-                    
-                      <span className="w-35 text-center -ml-23 mt-6">{data.title}</span>
-                      <span className="mt-21 -ml-42">${data.price}</span>
+                        src={data.image}
+                        alt=""
+                        className="w-23 h-30 object-cover"
+                      />
+
+                      <div className="flex flex-col flex-1 ml-3">
+                        <span className="text-sm font-semibold">{data.title}</span>
+                        <span className="mt-3">${data.price}</span>
+                      </div>
+
                       <button
-                        className="hover:bg-black active:bg-black hover:scale-105 active:scale-95 p-1 w-10 h-10 rounded-full mt-13"
+                        className="hover:bg-black p-2 rounded-full"
                         onClick={() => removeProduct(data.id)}
                       >
-                        <TrashIcon className="w-6 h-6 ml-1 text-red-600 hover:scale-105 active:scale-95" />
-                    </button>
+                        <TrashIcon className="w-5 h-5 text-red-600" />
+                      </button>
                     </div>
                   ))
                 )}
-                <div className="flex justify-center pt-2 border-t">
-                    <span className="font-medium text-xl">Total:</span>
-                    <span className="font-medium text-xl">${totalAmount}</span>
-                </div>
-                <button className="absolute mt-3 ml-60 bg-white py-3 px-3 rounded-full
-                  hover:bg-red-600 active:bg-red-600 hover:scale-105 active:scale-95" 
-                 onClick={clearShoppingCart}>
-                  <TrashIcon className="w-6 h-6 ml-0 text-red-600 hover:text-white hover:scale-105 active:scale-95" />
-                </button>
-
-                <button className="mt-3 ml-23 bg-amber-400 py-3 px-3 rounded-full
-                 text-white hover:bg-green-600 active:bg-green-600 hover:scale-105 active:scale-95" >
-                  <Payment/>
-                </button>
-
               </div>
-              
-            )}
+
+              {/* FOOTER FIJO (TOTAL) */}
+              <div className="p-4  bg-white">
+                <div className="flex justify-between font-bold text-black">
+                  <span>Total:</span>
+                  <span>
+                    $
+                    {products.reduce((acc, item) => acc + item.price, 0)}
+                  </span>
+                </div>
+
+                <button className="mt-3 w-full bg-amber-400 hover:bg-green-500 text-white py-2 rounded-lg hover:scale-105 active:scale-95">
+                  Pagar
+                </button>
+              </div>
+            </div>
+          )}
 
           </div>
 
