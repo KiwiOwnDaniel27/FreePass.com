@@ -29,18 +29,19 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="py-8 px-4 -ml-6 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36">
-                        <h1 className="">
+                    <div className="py-8 px-4 -ml-6 2xl:ml-21 xl:ml-9 lg:ml-6 md:-ml-6 sm:ml-36 ">
+                        <h1 className="mb-6">
                             Redes Sociales
                         </h1>
-                        <ul className="flex gap-3 mt-3 -ml-3">
-                            {socialIcons.map(({id, icon: Icon, url}) =>(
+                        <ul className="flex gap-9 mt-3 -ml-16">
+                            {socialIcons.map(({id, icon: Icon, url, title}) =>(
                                 <a
                                 key={id}
                                 href={url}
                                 target="_blank"
                                 >
-                                <Icon size={39}/>
+                                <Icon size={39} className="ml-0"/>
+                                <p className="text-sm -ml-3">{title}</p>
                                     
                                 </a>
                             ))}

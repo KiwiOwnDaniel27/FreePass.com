@@ -315,16 +315,19 @@ export const socialIcons = [
       id: 1,
       icon: RiTiktokFill,
       url: "https://www.tiktok.com/@freepassec",
+      title: "freepassec"
     },
     {
       id: 2,
       icon: RiInstagramFill,
       url: "https://www.instagram.com/freepassec?igsh=aGd1NDlld3pneGs4",
+      title: "freepassec"
     },
     {
         id: 3,
         icon: RiLinkedinFill,
         url: "https://www.linkedin.com/in/daniel-quiguango-53b52a262/",
+        title: "Designer Web"
       },
   ];
 
