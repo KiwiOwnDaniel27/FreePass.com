@@ -118,10 +118,10 @@ const Navbar = () => {
                     <span className="font-medium text-xl">Total:</span>
                     <span className="font-medium text-xl">${totalAmount}</span>
                 </div>
-                <button className="mt-3 ml-21 bg-amber-400 py-3 px-3 rounded-full
-                 text-white hover:bg-red-600 active:bg-red-600 hover:scale-105 active:scale-95" 
+                <button className="absolute mt-3 ml-60 bg-white py-3 px-3 rounded-full
+                  hover:bg-red-600 active:bg-red-600 hover:scale-105 active:scale-95" 
                  onClick={clearShoppingCart}>
-                  Vaciar el carrito
+                  <TrashIcon className="w-6 h-6 ml-0 text-red-600 hover:text-white hover:scale-105 active:scale-95" />
                 </button>
 
                 <button className="mt-3 ml-23 bg-amber-400 py-3 px-3 rounded-full
