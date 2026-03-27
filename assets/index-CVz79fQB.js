@@ -249,7 +249,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             xl:w-75 xl:h-130 xl:mt-9 xl:ml-22\r
             lg:w-75 lg:h-130 lg:mt-9 lg:ml-22\r
             md:w-65 md:h-140 md:mt-39 md:ml-22\r
-            sm:mt-200 sm:ml-52`,src:"./assets/Amedida.jpeg",width:300,alt:""}),x.jsxs("div",{children:[x.jsx("h1",{className:`mt-12 text-4xl/tight font-bold -ml-70\r
+            sm:mt-200 sm:ml-52`,src:"./assets/Amedida.png",width:300,alt:""}),x.jsxs("div",{children:[x.jsx("h1",{className:`mt-12 text-4xl/tight font-bold -ml-70\r
                 2xl:text-7xl 2xl:ml-80\r
                 xl:text-4xl xl:ml-85\r
                 lg:text-4xl lg:ml-60\r
