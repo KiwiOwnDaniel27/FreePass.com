@@ -95,6 +95,6 @@
 }
 
 .navbar {
-  @apply lg:hidden fixed top-0 left-0 bg-[url('/assets/fondo.prod4.png')] bg-cover w-full h-screen 
+  @apply lg:hidden fixed top-0 left-0 bg-[url('/assets/fondo.prod3.webp')] bg-cover w-full h-screen 
   flex flex-col items-center -translate-y-full transition-transform justify-center z-40;
 }
