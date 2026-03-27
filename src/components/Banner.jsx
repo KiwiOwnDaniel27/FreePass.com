@@ -59,8 +59,8 @@ const Banner = () => {
                 md:ml-0
                 sm:ml-30
                 ">
-                        <GrSecure className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
-                        dark:bg-orange-400 
+                        <GrSecure className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300
+                        dark:bg-orange-300 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12"/>
                         <p className="2xl:text-3xl
@@ -74,8 +74,8 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
-                        dark:bg-orange-400 
+                        <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300
+                        dark:bg-orange-300 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl
@@ -89,8 +89,8 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
-                       dark:bg-orange-400 
+                        <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300
+                       dark:bg-orange-300 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl
@@ -104,8 +104,8 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400
-                        dark:bg-orange-400 
+                        <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300
+                        dark:bg-orange-300 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40 -ml-3
