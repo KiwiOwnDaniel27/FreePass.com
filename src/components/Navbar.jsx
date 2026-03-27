@@ -162,7 +162,7 @@ const Navbar = () => {
         >
           <RiCloseLine size={50} />
         </button>
-        <img className="-mt-140 absolute w-90 container" src="./assets/logo-horizontal.webp" alt=""/>
+        <img className="-mt-140 absolute w-75 container" src="./assets/logo-horizontal.webp" alt=""/>
 
         <ul className="flex flex-col items-center gap-10 text-xl">
           {Menu.map((data) => (
