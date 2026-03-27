@@ -136,7 +136,7 @@ const Navbar = () => {
                   </span>
                 </div>
 
-                <button className="mt-3 w-full bg-amber-400 hover:bg-green-500 text-white py-2 rounded-lg hover:scale-105 active:scale-95">
+                <button className="mt-3 w-full bg-amber-400 hover:bg-green-500 active:bg-green-500 text-white py-2 rounded-lg hover:scale-105 active:scale-95">
                   Pagar
                 </button>
               </div>
