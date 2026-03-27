@@ -187,12 +187,12 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:-ml-13\r
                     lg:-ml-13`,children:"Reseña de Marca"}),x.jsxs("p",{className:`w-85  text-sm bm-6 opacity-90 text-center mt-12 ml-4\r
                     2xl:text-2xl 2xl:w-300 2xl:ml-25\r
-                    xl:text-base/loose xl:w-150 xl:ml-50\r
+                    xl:text-base/loose xl:w-150 xl:ml-56\r
                     lg:text-base/loose lg:w-150 lg:ml-40\r
                     md:text-base/loose md:w-160 md:ml-10\r
                     sm:text-base/loose sm:w-155 sm:-ml-4`,children:["En Free Pass vive una historia, tejida a mano, con calma y memoria Prendas que abrazan la piel y el alma, con arte y amor, con fuerza y con calma.",x.jsx("br",{}),"Sostenible es su huella, ligera en el suelo honrando la tierra, el agua y el cielo. No es solo moda: es vida consciente, una elección bella, un acto valiente.",x.jsx("br",{}),"Luce con orgullo su esencia sincera, porque vestir así....... también es manera de cuidar al mundo, paso a paso, con cada puntada, con cada abrazo."]}),x.jsx("img",{"data-aos":"zoom-in",className:`ml-23 mt-12\r
                     2xl:w-110 2xl:ml-115\r
-                    xl:ml-120\r
+                    xl:ml-103\r
                     lg:ml-93\r
                     md:ml-63\r
                     sm:ml-50`,src:"assets/logo-circular.png",width:200,alt:""})]})})}),eA=()=>x.jsx("div",{className:"mt-19 mb-0 container",children:x.jsxs("div",{className:"text-4xl/tight font-bold text-center",children:[x.jsx("h1",{className:`ml-9 w-80 flex justify-center text-3xl/tight\r
