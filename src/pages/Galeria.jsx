@@ -6,7 +6,7 @@ function Galeria ()  {
   return (
     <div>
       <div>
-        <Navbar/>
+        
       </div>
       <div >
         <Pasarelas/>
