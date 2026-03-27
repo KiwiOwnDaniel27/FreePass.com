@@ -85,7 +85,8 @@ const Navbar = () => {
 
             {/* DROPDOWN DEL CARRITO */}
             {showCart && (
-              <div className="absolute right-6 mt-3 w-80 bg-white shadow-lg rounded-lg p-4 z-50">
+              <div className="absolute overflow-y-auto right-6 mt-3 w-80 max-h-[70vh]
+              2xl:max-h-[120vh] xl:max-h-[60vh] bg-white shadow-lg rounded-lg p-4 z-50">
 
                 <h3 className="font-bold text-black mb-3">Carrito</h3>
 
