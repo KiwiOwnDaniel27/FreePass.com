@@ -11,7 +11,7 @@ const Origen = () => {
     return (
       <div>
         <div>
-            
+            <Navbar/> 
         </div>
         <div>
             <Inicio/>

@@ -8,7 +8,7 @@ function Tienda () {
   return (
     <div>
       <div>
-       
+       <Navbar/>
       </div>
       <div>
         <Categorias/>

@@ -9,7 +9,7 @@ function Amedida() {
   return (
     <div>
         <div>
-            
+            <Navbar/>
             <div>
               <Medida/>
             </div>
