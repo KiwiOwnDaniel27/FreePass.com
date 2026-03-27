@@ -155,6 +155,7 @@ const Navbar = () => {
       </div>
 
       {/* MENU MOBILE */}
+      <h1></h1>
       <nav className={`navbar ${isOpen ? "active" : ""}`}>
         <button
           className="absolute top-8 right-8 md:hidden"
@@ -206,14 +207,14 @@ const Navbar = () => {
           ))}
 
           <li className="group relative cursor-pointer">
-            <a
+           <a
               href="https://kiwiowndaniel27.github.io/FreePass.com/#/tienda"
               className="flex items-center primary-btn 2xl:text-3xl"
             >
               Tienda
               <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
             </a>
-
+ 
             <div
               className="absolute z-50 hidden group-hover:block w-41 rounded-md
               bg-transparent backdrop-blur-sm p-2 text-black"
