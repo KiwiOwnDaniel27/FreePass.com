@@ -1,6 +1,6 @@
 import { TrashIcon } from "@heroicons/react/24/solid";
 import { useShoppingCart } from "../context/shopping-cart";
-import MercadoPagoWallet from "./MercadoPagoWallet";
+import MercadoPagoWallet from "./Payment";
 
 export default function ShoppingCart() {
 
@@ -52,7 +52,7 @@ export default function ShoppingCart() {
         onClick={clearShoppingCart}
         className="mt-3 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600"
       >
-        Va
+        Vaciar carrito
       </button>
 
     </div>
