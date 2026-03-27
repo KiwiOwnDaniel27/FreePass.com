@@ -29,7 +29,7 @@ const Design = () => {
             xl:w-80 xl:ml-0 xl:-mt-90 xl:mb-3
             lg:w-80 lg:-ml-11 lg:-mt-100 lg:mb-26
             md:w-80 md:-ml-15 md:-mt-110 md:mb-50
-            sm:w-80 sm:ml-35 sm:mt-20 sm:mb-0" src="./assets/diseñadora.jpeg"  width={300} alt="" />
+            sm:w-80 sm:ml-35 sm:mt-20 sm:mb-0" src="./assets/diseñadora.png"  width={300} alt="" />
         </div>
     </div>
   )

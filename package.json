@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@mercadopago/sdk-react": "^1.0.7",
     "@paypal/react-paypal-js": "^9.0.1",
     "@remixicon/react": "^4.9.0",
     "@stripe/react-stripe-js": "^5.6.1",

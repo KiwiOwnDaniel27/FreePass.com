@@ -10,6 +10,7 @@ import { useShoppingCart } from "../context/shopping-cart";
 import { div } from "framer-motion/client";
 import { ProductsData1 } from "../const/data";
 import { TrashIcon } from "@heroicons/react/24/solid";
+import MercadoPagoWallet from "./MercadoPagoWallet";
 
 const Navbar = () => {
 
@@ -120,6 +121,11 @@ const Navbar = () => {
                  text-white hover:bg-red-600 active:bg-red-600 hover:scale-105 active:scale-95" 
                  onClick={clearShoppingCart}>
                   Vaciar el carrito
+                </button>
+
+                <button className="mt-3 ml-22 bg-amber-400 py-3 px-3 rounded-full
+                 text-white hover:bg-green-600 active:bg-red-600 hover:scale-105 active:scale-95" >
+                  <MercadoPagoWallet/>
                 </button>
 
               </div>
