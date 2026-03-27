@@ -126,7 +126,7 @@ const Navbar = () => {
                 </button>
 
                 <button className="mt-3 ml-23 bg-amber-400 py-3 px-3 rounded-full
-                 text-white hover:bg-green-600 active:bg-red-600 hover:scale-105 active:scale-95" >
+                 text-white hover:bg-green-600 active:bg-green-600 hover:scale-105 active:scale-95" >
                   <Payment/>
                 </button>
 
