@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="px-0 sticky top-0 z-50 bg-white md:static">
+    <div className="px-0 sticky top-0 z-50 bg-white">
       <div className="relative z-10 bg-[url('/assets/fondo.prod3.webp')] bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
