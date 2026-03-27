@@ -119,8 +119,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                 lg:ml-9\r
                 md:ml-0\r
                 sm:ml-30\r
-                `,children:[x.jsx(qj,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
-                        dark:bg-orange-400 \r
+                `,children:[x.jsx(qj,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300\r
+                        dark:bg-orange-300 \r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),x.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Producto de Calidad."})]}),x.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
@@ -128,8 +128,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:ml-23\r
                     lg:ml-9\r
                     md:-ml-3\r
-                    sm:ml-30`,children:[x.jsx(m3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
-                        dark:bg-orange-400 \r
+                    sm:ml-30`,children:[x.jsx(m3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300\r
+                        dark:bg-orange-300 \r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),x.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Entrega Rápida."})]}),x.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
@@ -137,8 +137,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:ml-23\r
                     lg:ml-9\r
                     md:-ml-3\r
-                    sm:ml-30`,children:[x.jsx(Yj,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
-                       dark:bg-orange-400 \r
+                    sm:ml-30`,children:[x.jsx(Yj,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300\r
+                       dark:bg-orange-300 \r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),x.jsx("p",{className:`2xl:text-3xl\r
                         xl:text-lg`,children:"Servicio de calidad."})]}),x.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
@@ -146,8 +146,8 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     xl:ml-23\r
                     lg:ml-9\r
                     md:-ml-3\r
-                    sm:ml-30`,children:[x.jsx(h3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-400\r
-                        dark:bg-orange-400 \r
+                    sm:ml-30`,children:[x.jsx(h3,{className:`text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300\r
+                        dark:bg-orange-300 \r
                         2xl:h-16 2xl:w-16\r
                         xl:h-12 xl:w-12`}),x.jsx("p",{className:`2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40 -ml-3\r
                         xl:text-lg xl:-ml-5\r
