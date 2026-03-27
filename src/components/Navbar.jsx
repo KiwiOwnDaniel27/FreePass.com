@@ -86,7 +86,7 @@ const Navbar = () => {
             {/* DROPDOWN DEL CARRITO */}
             {showCart && (
             <div className="absolute right-6 mt-3 w-80 
-            bg-white shadow-lg rounded-lg z-50 
+            bg-white shadow-lg rounded-2xl z-50 
             flex flex-col max-h-[70vh]">
 
               {/* HEADER */}
@@ -127,7 +127,7 @@ const Navbar = () => {
               </div>
 
               {/* FOOTER FIJO (TOTAL) */}
-              <div className="p-4  bg-white">
+              <div className="p-4  bg-white rounded-2xl">
                 <div className="flex justify-between font-bold text-black">
                   <span>Total:</span>
                   <span>
