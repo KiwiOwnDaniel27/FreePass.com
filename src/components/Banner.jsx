@@ -19,7 +19,7 @@ const Banner = () => {
 
                 <div data-aos="zoom-in">
                     <img src="./assets/Banner.webp" alt="" 
-                    className=" bg-amber-500
+                    className=" bg-amber-400
                     2xl:w-full 2xl:h-full 2xl:ml-0 2xl:mt-0
                     xl:w-800 xl:h-130 xl:ml-13 xl:mt-0
                     lg:w-800 lg:h-120 lg:ml-13 lg:mt-0
@@ -59,8 +59,8 @@ const Banner = () => {
                 md:ml-0
                 sm:ml-30
                 ">
-                        <GrSecure className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300
-                        dark:bg-orange-300 
+                        <GrSecure className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
+                        dark:bg-amber-400
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12"/>
                         <p className="2xl:text-3xl
@@ -74,8 +74,8 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300
-                        dark:bg-orange-300 
+                        <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
+                        dark:bg-amber-400
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl
@@ -89,8 +89,8 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300
-                       dark:bg-orange-300 
+                        <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
+                       dark:bg-amber-400
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl
@@ -104,8 +104,8 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-orange-300
-                        dark:bg-orange-300 
+                        <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
+                        dark:bg-amber-400 
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40 -ml-3
