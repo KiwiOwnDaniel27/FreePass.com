@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
         <div className="container" >
             <div className="bg-[url('/assets/logo1.png')] bg-cover bg-center
-            h-25 w-89 text-black mt-21 ml-0
+            h-25 w-89 text-black mt-21 ml-3
             2xl:mt-9 xl:mt-9 lg:mt-9 md:mt-9 sm:mt-19 2xl:w-160
             2xl:ml-93 xl:ml-90 lg:ml-76 md:ml-37 sm:ml-30
             2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40">
