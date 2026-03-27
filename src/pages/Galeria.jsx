@@ -7,12 +7,12 @@ function Galeria ()  {
     <div>
       <div>
         <Navbar/>
-      </div>
       <div >
         <Pasarelas/>
       </div>
       <div>
         <Footer/>
+      </div>
       </div>
     </div>
   )

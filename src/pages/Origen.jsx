@@ -12,7 +12,7 @@ const Origen = () => {
       <div>
         <div>
             <Navbar/> 
-        </div>
+        
         <div>
             <Inicio/>
         </div>
@@ -30,6 +30,7 @@ const Origen = () => {
         </div>
         <div>
             <Footer/>
+        </div>
         </div>
       </div>
     );

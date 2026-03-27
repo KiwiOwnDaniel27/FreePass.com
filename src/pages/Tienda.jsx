@@ -9,12 +9,12 @@ function Tienda () {
     <div>
       <div>
        <Navbar/>
-      </div>
       <div>
         <Categorias/>
       </div>
       <div>
         <Footer/>
+      </div>
       </div>
     </div>
   )
