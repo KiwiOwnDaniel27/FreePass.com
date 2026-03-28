@@ -57,10 +57,10 @@ const Products = () => {
 
             </div>
             <div className="flex justify-center">
-                <button className="text-center mt-10 cursor-pointer bg-amber-400 text-white py-3 px-9
+                <button className="text-center mt-10 cursor-pointer bg-amber-400  text-white py-3 px-9
                 rounded-md
                 2xl:text-2xl"> 
-                    <a href="/tienda">
+                    <a href="https://kiwiowndaniel27.github.io/FreePass.com/#/tienda">
                     Ver más
                     </a>
                 </button>
