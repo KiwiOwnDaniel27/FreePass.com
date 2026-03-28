@@ -51,7 +51,7 @@ const Banner = () => {
                     xl:text-sm"
                     >Solicita tu prenda favorita, conecta con FreePass</p>
 
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 ml-12">
                 <div data-aos="fade-up" className="flex items-center gap-4 ml-9
                 2xl:ml-16
                 xl:ml-23
