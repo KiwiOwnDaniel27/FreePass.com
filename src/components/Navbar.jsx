@@ -52,7 +52,7 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <img
-              className="-ml-19 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
+              className="-ml-23 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
               w-65 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45"
               src="./assets/logo-horizontal.webp"
               alt=""
@@ -69,7 +69,7 @@ const Navbar = () => {
               group-hover:bg-white  group-hover:text-amber-400
               active:scale-95 hover:scale-105
               active:bg-white active:text-amber-400 active:duration-300
-              py-3 px-6 rounded-full flex items-center gap-3 group ml-9 mt-3 border border-black
+              py-3 px-6 rounded-full flex items-center h-10 gap-3 group -ml-1 mt-3 border border-black
               2xl:w-35 2xl:h-20 2xl:ml-16 xl:ml-29 lg:ml-23 md:ml-19 sm:ml-18 2xl:mt-3 xl:mt-3 lg:mt-6
               md:mt-3 sm:-mt-9"
             >
@@ -147,7 +147,7 @@ const Navbar = () => {
 
           <div
             className="2xl:-ml-376 xl:-ml-235 lg:-ml-190 md:-ml-150 sm:-ml-120 
-            2xl:-mt-20 xl:-mt-20 lg:-mt-20 md:-mt-20 sm:-mt-6 -mt-9 -ml-12"
+            2xl:-mt-20 xl:-mt-20 lg:-mt-20 md:-mt-20 sm:-mt-6 mt-1.5 -ml-20"
           >
             <DarkMode />
           </div>
