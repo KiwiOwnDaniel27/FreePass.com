@@ -56,7 +56,7 @@ export const ImageList = [
         id: 2,
         image: "./assets/desfile1.webp",
         title: "Colección Territorio Libre",
-        description: "Temporada Femenina 2026",
+        description: "Femenino / Masculino 2026",
     },
 ];
 
