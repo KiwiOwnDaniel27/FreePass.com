@@ -114,7 +114,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                     md:mt-0\r
                     sm:mt-90`,children:"Conoce de nuestra nueva Tendencia"}),x.jsx("p",{"data-aos":"fade-up",className:`text-sm text-gray-700 tracking-wide leading-5\r
                     2xl:text-2xl 2xl:ml-16 2xl:w-140\r
-                    xl:text-sm`,children:"Solicita tu prenda favorita, conecta con FreePass"}),x.jsxs("div",{className:"flex flex-col gap-4",children:[x.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
+                    xl:text-sm`,children:"Solicita tu prenda favorita, conecta con FreePass"}),x.jsxs("div",{className:"flex flex-col gap-4 ml-12",children:[x.jsxs("div",{"data-aos":"fade-up",className:`flex items-center gap-4 ml-9\r
                 2xl:ml-16\r
                 xl:ml-23\r
                 lg:ml-9\r
