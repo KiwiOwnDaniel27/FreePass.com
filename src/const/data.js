@@ -69,7 +69,7 @@ export const ProductsData = [
         color: "Azul",
         aosDeLay: "0",
         dad: "100",
-        link: "https://freepass-ec-company.github.io/abrigos-coleccion-tienda-free-pass.html",
+        link: null,
     },
     {
         id: 2,
@@ -79,7 +79,7 @@ export const ProductsData = [
         color: "Negro y blanco",
         aosDeLay: "200",
         dad: "200",
-        link: "",
+        link: null,
     },
     {
         id: 3,
@@ -89,7 +89,7 @@ export const ProductsData = [
         color: "Verde Militar",
         aosDeLay: "400",
         dad: "300",
-        link: "",
+        link: null,
     },
     {
         id: 4,
@@ -99,7 +99,7 @@ export const ProductsData = [
         color: "Negro y blanco",
         aosDeLay: "600",
         dad: "400",
-        link: "",
+        link: null,
     },
     {
         id: 5,
@@ -109,7 +109,7 @@ export const ProductsData = [
         color: "Beish",
         aosDeLay: "800",
         dad: "500",
-        link: "",
+        link: null,
     },
 
 ];
@@ -128,7 +128,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen2.png",
         title: "Bomber Morado",
         description: "Morado",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -136,7 +136,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen3.png",
         title: "Chaleco Café Reversible",
         description: "Café",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -144,7 +144,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen4.png",
         title: "Saco Plomo",
         description: "Plomo",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -152,7 +152,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen5.png",
         title: "Abrigo Red Rouses",
         description: "Rojo",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -160,7 +160,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen6.png",
         title: "Saco Light Snake",
         description: "Beish",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -168,7 +168,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen7.png",
         title: "Abrigo Green X",
         description: "Verde",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -176,7 +176,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen8.png",
         title: "Camiseta Japan",
         description: "Plomo",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -184,7 +184,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen9.png",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -192,7 +192,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen10.png",
         title: "Abrigo Purpel Young",
         description: "Morado",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -200,7 +200,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen11.png",
         title: "Abrigo Lines",
         description: "Beish y Negro",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -208,7 +208,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen12.png",
         title: "Abrigo Black Elegant",
         description: "Negro",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -216,7 +216,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen13.png",
         title: "Abrigo Animal Print",
         description: "Blanco y negro",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -224,7 +224,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen14.png",
         title: "Abrigo Casual Verano",
         description: "Café y blanco",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -232,7 +232,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen15.png",
         title: "Abrigo Spring Rous",
         description: "Azul",
-        link: "",
+        link: null,
         price: 65.00
     },
     {
@@ -240,7 +240,7 @@ export const ProductsData1 = [
         image: "./assets/Imagen16.png",
         title: "Abrigo Beish Clasic",
         description: "Beish y Blanco",
-        link: "",
+        link: null,
         price: 65.00
     },
 
@@ -586,7 +586,7 @@ export const CategoriasData = [
         color: "Negro y blanco",
         aosDeLay: "200",
         dad: "200",
-        link: "",
+        link: null,
     },
     {
         id: 3,
@@ -596,7 +596,7 @@ export const CategoriasData = [
         color: "Verde Militar",
         aosDeLay: "400",
         dad: "300",
-        link: "",
+        link: null,
     },
 ];
 
@@ -619,7 +619,7 @@ export const CatalogoData = [
         color: "Negro y blanco",
         aosDeLay: "200",
         dad: "200",
-        link: "",
+        link: null,
     },
     {
         id: 3,
@@ -629,7 +629,7 @@ export const CatalogoData = [
         color: "Verde Militar",
         aosDeLay: "400",
         dad: "300",
-        link: "",
+        link: null,
     },
 ];
 
@@ -639,21 +639,21 @@ export const Abrigo1 = [
         image: "./assets/Imagen1.png",
         title: "",
         description: "",
-        link: "",
+        link: null,
     },
     {
         id: 2,
         image: "./assets/ImgAbrigos/abrigo1.png",
         title: "",
         description: "",
-        link: "",
+        link: null,
     },
     {
         id: 3,
         image: "./assets/ImgAbrigos/abrigo2.png",
         title: "",
         description: "",
-        link: "",
+        link: null,
     },
 ]
 
@@ -663,7 +663,7 @@ export const CarruselAbrigo1 = [
         image: "./assets/ImgAbrigos/abrigo1.png",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
-        link: "",
+        link: null,
         price: 98 ,
     },
     {
@@ -671,7 +671,7 @@ export const CarruselAbrigo1 = [
         image: "./assets/ImgAbrigos/abrigo2.png",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
-        link: "",
+        link: null,
         price: 98 ,
     },
     {
@@ -679,7 +679,7 @@ export const CarruselAbrigo1 = [
         image: "./assets/ImgAbrigos/abrigo3.png",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
-        link: "",
+        link: null,
         price: 98 ,
     },
 ]
