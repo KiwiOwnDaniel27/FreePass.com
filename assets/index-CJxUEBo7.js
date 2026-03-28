@@ -65,7 +65,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
                                         sm:text-3xl`,children:i.title}),x.jsx("p",{className:"text-sm 2xl:text-2xl ml-1",children:i.description}),x.jsx("div",{children:x.jsx("button",{className:`primary-button-cat\r
                                             2xl:mt-12 xl:mt-12 lg:mt-12 md:mt-12 sm:mt-12 mt-65\r
                                             2xl:text-2xl\r
-                                            2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-0 sm:ml-0 -ml-9  `,children:"Catálogo Proximamente"})})]}),x.jsx("div",{className:"order-1 sm:order-2",children:x.jsx("div",{children:x.jsx("img",{className:` w-150 h-50 sm:scale-105 -mt-70 ml-3 rounded-4xl\r
+                                            2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-0 sm:ml-0 -ml-3  `,children:"Catálogo Proximamente"})})]}),x.jsx("div",{className:"order-1 sm:order-2",children:x.jsx("div",{children:x.jsx("img",{className:` w-150 h-50 sm:scale-105 -mt-70 ml-3 rounded-4xl\r
                                         2xl:w-600 2xl:h-123 2xl:mt-0 2xl:-ml-11\r
                                         xl:w-400 xl:h-103 xl:mt-0 xl:-ml-11\r
                                         lg:w-100 lg:h-60 lg:mt-0 lg:-ml-20\r
