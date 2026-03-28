@@ -9,7 +9,7 @@ const Medida = () => {
             xl:w-75 xl:h-130 xl:mt-9 xl:ml-22
             lg:w-75 lg:h-130 lg:mt-9 lg:ml-22
             md:w-65 md:h-140 md:mt-39 md:ml-22
-            sm:mt-200 sm:ml-52" src="./assets/Amedida.png" width={300} alt="" />
+            sm:mt-200 sm:ml-52" src="./assets/Amedida.webp" width={300} alt="" />
             <div>
                 <h1 className="mt-12 text-4xl/tight font-bold -ml-70
                 2xl:text-7xl 2xl:ml-80

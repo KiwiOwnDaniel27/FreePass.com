@@ -23,7 +23,7 @@ const DarkMode = () => {
 
   return (
     <div className="relative -ml-10 -mt-13">
-        <img src="./assets/moodluz.png"  alt="" 
+        <img src="./assets/moodluz.webp"  alt="" 
         className={`w-25 cursor-pointer drop-shadow-[3px_3px_3px_black] transition-all
         duration-300 absolute z-10 ${theme == "dark" ? "opacity-0" : "opacity-100"
 
@@ -31,7 +31,7 @@ const DarkMode = () => {
         onClick={() => setTheme(theme == "light" ? "dark" : "light")}/>
 
       <img 
-      src="./assets/mooddark.png" 
+      src="./assets/mooddark.webp" 
       alt=""
       className={`w-26 cursor-pointer drop-shadow-[3px_3px_3px_black] transition-all
       duration-300 absolute ${theme == "dark" ? "opacity-100" : "opacity-0"}`}
