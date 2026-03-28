@@ -301,7 +301,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
             xl:w-200 xl:h-100 xl:ml-39 xl:gap-14 xl:flex-row\r
             lg:w-150 lg:h-120 lg:ml-5 lg:gap-6 lg:flex-row\r
             md:w-90 md:h-80 md:ml-19 md:gap-3 md:flex-row\r
-            sm:w-90 sm:h-70 sm:ml-55 sm:flex-col container`,children:[x.jsx("img",{className:"2xl:-ml-80 xl:-ml-35 lg:-ml-76 md:-ml-55",src:"./assets/morf-1.png",width:450,height:200,alt:""}),x.jsx("img",{src:"./assets/morf-2.png",width:450,height:200,alt:""}),x.jsx("img",{src:"./assets/morf-3.png",width:450,height:200,alt:""})]}),x.jsxs("div",{children:[x.jsxs("p",{"data-aos":"fade-up",className:`ml-0 text-center -mt-255 text-lg\r
+            sm:w-90 sm:h-70 sm:ml-55 sm:flex-col container`,children:[x.jsx("img",{className:"2xl:-ml-80 xl:-ml-35 lg:-ml-76 md:-ml-55 ml-16",src:"./assets/morf-1.png",width:250,height:200,alt:""}),x.jsx("img",{src:"./assets/morf-2.png",width:450,height:200,alt:""}),x.jsx("img",{src:"./assets/morf-3.png",width:450,height:200,alt:""})]}),x.jsxs("div",{children:[x.jsxs("p",{"data-aos":"fade-up",className:`ml-0 text-center -mt-255 text-lg\r
                 xl:-ml-200 xl:mt-3\r
                 lg:-ml-220 lg:mt-3\r
                 md:-ml-140 md:mt-3\r
