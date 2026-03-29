@@ -127,8 +127,8 @@ const TejidosProducts = () => {
             mt-30"> Sección disponible pronto</h1>
             <img src="./assets/logo-circular.png"
              alt="" className="w-50 -mt-80 ml-19 mb-30
-             2xl:ml-125 2xl:w-90 xl:ml-113 xl:-mt-110
-             lg:ml-90 md:ml-60 sm:ml-49" />
+             2xl:ml-120 2xl:w-90 xl:ml-103 xl:-mt-110
+             lg:ml-90 md:ml-55 sm:ml-43" />
         </div>
     </div>
     </motion.div>
