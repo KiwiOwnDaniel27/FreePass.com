@@ -127,7 +127,7 @@ const IndumentariaProducts = () => {
             mt-30"> Sección disponible pronto</h1>
             <img src="./assets/logo-circular.png"
              alt="" className="w-50 -mt-80 ml-19 mb-30
-             2xl:ml-135 2xl:w-90 xl:ml-123 xl:-mt-110
+             2xl:ml-13 2xl:w-90 xl:ml-123 xl:-mt-110
              lg:ml-93 md:ml-63 sm:ml-49" />
         </div>
     </div>
