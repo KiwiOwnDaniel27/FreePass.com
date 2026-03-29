@@ -59,10 +59,10 @@ const Banner = () => {
                 md:ml-0
                 sm:ml-30
                 ">
-                        <GrSecure className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
+                        <img src="./assets/calidad.png" alt="" className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
                         dark:bg-amber-400
                         2xl:h-16 2xl:w-16
-                        xl:h-12 xl:w-12"/>
+                        xl:h-12 xl:w-12" />
                         <p className="2xl:text-3xl
                         xl:text-lg">
                             Producto de Calidad.
@@ -74,7 +74,7 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaTruck className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
+                        <img src="./assets/entrega.png" alt="" className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
                         dark:bg-amber-400
                         2xl:h-16 2xl:w-16
                         xl:h-12 xl:w-12" />
@@ -89,10 +89,10 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaShieldAlt className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
+                        <img src="./assets/servicio.png" alt="" className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
                        dark:bg-amber-400
                         2xl:h-16 2xl:w-16
-                        xl:h-12 xl:w-12" />
+                        xl:h-12 xl:w-12"/>
                         <p className="2xl:text-3xl
                         xl:text-lg">
                             Servicio de calidad.
@@ -104,10 +104,10 @@ const Banner = () => {
                     lg:ml-9
                     md:-ml-3
                     sm:ml-30">
-                        <FaCrown className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
+                        <img src="./assets/miembro.png" alt="" className="text-4xl h-16 w-16 shadow-sm p-2 rounded-full bg-amber-400
                         dark:bg-amber-400 
                         2xl:h-16 2xl:w-16
-                        xl:h-12 xl:w-12" />
+                        xl:h-12 xl:w-12"/>
                         <p className="2xl:text-3xl 2xl:-ml-5 2xl:w-190 w-40 -ml-3
                         xl:text-lg xl:-ml-5
                         lg:-ml-7 md:-ml-3">
