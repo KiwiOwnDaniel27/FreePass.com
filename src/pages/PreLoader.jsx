@@ -10,7 +10,8 @@ const PreLoader = () => {
 
   return (
     loading && (
-        <div className="w-screen h-screen fixed flex items-center justify-center bg-white z-50">
+        <div className="w-full h-screen fixed flex items-center justify-center bg-[url('/assets/Preloader.png')] bg-cover
+        xl:bg-bottom z-50">
             <div role="status">
                 <img src="./assets/logo-circular.png" alt="" width={100} className="absolute -mt-6 ml-0 xl:-mt-6 xl:-ml-6"/>
                 <svg aria-hidden="true" className="inline w-31 h-31 -ml-3 -mt-9 xl:-ml-9 xl:-mt-9 text-gray-200 animate-spin dark:text-gray-600 fill-purple-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
