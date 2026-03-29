@@ -30,7 +30,7 @@ const App = () => {
 
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // duración del preloader
+    }, 3000); // duración del preloader
 
     return () => clearTimeout(timer);
   }, []);
