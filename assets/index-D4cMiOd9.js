@@ -465,7 +465,7 @@ group-hover:scale-110 duration-300 drop-shadow-md`})}),v.jsxs("div",{className:"
             lg:text-3xl lg:mt-9 md:text-3xl md:mt-9 sm:text-3xl sm:mt-16\r
             mb-90 xl:mb-120 \r
             mt-30`,children:" Sección disponible pronto"}),v.jsx("img",{src:"./assets/logo-circular.png",alt:"",className:`w-50 -mt-80 ml-19 mb-30\r
-             2xl:ml-120 2xl:w-90 xl:ml-103 xl:-mt-110\r
+             2xl:ml-120 2xl:w-90 xl:ml-108 xl:-mt-110\r
              lg:ml-90 md:ml-55 sm:ml-43`})]})]})})},v4=()=>v.jsx("div",{children:v.jsxs("div",{children:[v.jsx(Mn,{}),v.jsx("div",{children:v.jsx(y4,{})}),v.jsx("div",{children:v.jsx($1,{})}),v.jsx("div",{children:v.jsx(Nn,{})})]})}),x4=()=>v.jsx("div",{className:"mt-6 mb-12",children:v.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[v.jsx("h1",{"data-aos":"fade-up",className:`text-6xl font-bold\r
                 2xl:text-7xl\r
                 xl:text-5xl\r
