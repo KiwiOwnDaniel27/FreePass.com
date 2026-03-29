@@ -10,15 +10,15 @@ const PreLoader = () => {
 
   return (
     loading && (
-        <div className="w-full h-200 fixed flex items-center justify-center z-50">
+        <div className="w-full h-screen fixed flex items-center justify-center z-50 bg-white">
             <video
              autoPlay
              loop
              muted
              playsInline
-             className="ml-16 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100
-             2xl:ml-9 xl:ml-9 lg:ml-9 md:ml-9 sm:ml-9 absolute"
-            src="./videos/video2.mp4">
+             className="ml-0 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100
+             2xl:ml-6 xl:-ml-6 lg:ml-6 md:ml-6 sm:ml-6 absolute"
+            src="./videos/video1.mp4">
 
             </video>
             <div role="status">
