@@ -23,6 +23,7 @@ import Abrigo1 from './pagesAbrigos/Abrigo1';
 import Tienda from './pages/Tienda';
 import Tejidos from './pages/Tejidos';
 import Indumentaria from './pages/Indumentaria';
+import PreLoader from './pages/PreLoader';
 
 
 
@@ -42,6 +43,7 @@ const App = () => {
 
   return (
     <HashRouter>
+      <PreLoader/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} />
