@@ -14,14 +14,14 @@ export const Menu = [
         link: "/origen",
     },
     {
+        id:3,
+        name: "Medida",
+        link: "/amedida",
+    },
+    {
         id:4,
         name: "Galeria",
         link: "/galeria",
-    },
-    {
-        id:5,
-        name: "Medida",
-        link: "/amedida",
     },  
 ];
 
