@@ -21,6 +21,9 @@ import Catalogo from './pages/Catalogo';
 import Abrigos from './pages/Abrigos';
 import Abrigo1 from './pagesAbrigos/Abrigo1';
 import Tienda from './pages/Tienda';
+import Tejidos from './pages/Tejidos';
+import Indumentaria from './pages/Indumentaria';
+
 
 
 
@@ -49,6 +52,8 @@ const App = () => {
       <Route path="/catalogo" element={<Catalogo />} />
       <Route path="/abrigos" element={<Abrigos />} />
       <Route path="/abrigo-1" element={<Abrigo1 />} />
+      <Route path="/tejidos" element={<Tejidos />} />
+      <Route path="/indumentaria" element={<Indumentaria />} />
     </Routes>
   </HashRouter>
   );

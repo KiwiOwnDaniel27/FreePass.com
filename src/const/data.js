@@ -36,12 +36,12 @@ export const DropdownLinks = [
     {
         id:3,
         name: "Tejidos",
-        link: "/#",
+        link: "/tejidos",
     },
     {
         id:4,
         name: "Indumentaria",
-        link: "/#",
+        link: "/indumentaria",
     },
 ];
 
@@ -619,7 +619,7 @@ export const CatalogoData = [
         color: "Negro y blanco",
         aosDeLay: "200",
         dad: "200",
-        link: null,
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/tejidos",
     },
     {
         id: 3,
@@ -629,7 +629,7 @@ export const CatalogoData = [
         color: "Verde Militar",
         aosDeLay: "400",
         dad: "300",
-        link: null,
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/indumentaria",
     },
 ];
 
@@ -684,4 +684,28 @@ export const CarruselAbrigo1 = [
     },
 ]
 
+export const TejidosData1 = [
+    {
+        id: 1,
+        image: "",
+        title: "",
+        description: "",
+        link: "",
+        price: "",
+    },
+    
 
+]
+
+export const IndumentariaData1 = [
+    {
+        id: 1,
+        image: "",
+        title: "",
+        description: "",
+        link: "",
+        price: "",
+    },
+    
+
+]
