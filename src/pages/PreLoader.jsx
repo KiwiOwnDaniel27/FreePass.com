@@ -18,7 +18,7 @@ const PreLoader = () => {
              playsInline
              className="ml-16 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100
              2xl:ml-9 xl:ml-9 lg:ml-9 md:ml-9 sm:ml-9 absolute"
-            src="./videos/video1.mp4">
+            src="./videos/video2.mp4">
 
             </video>
             <div role="status">
