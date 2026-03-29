@@ -119,7 +119,7 @@ const IndumentariaProducts = () => {
         </motion.div>
         */}
 
-<div className="container">
+        <div className="container">
             <h1 className="text-center
             2xl:text-5xl 2xl:mb-120 xl:text-3xl xl:mt-9 2xl:mt-13
             lg:text-3xl lg:mt-9 md:text-3xl md:mt-9 sm:text-3xl sm:mt-16
@@ -127,8 +127,8 @@ const IndumentariaProducts = () => {
             mt-30"> Sección disponible pronto</h1>
             <img src="./assets/logo-circular.png"
              alt="" className="w-50 -mt-80 ml-19 mb-30
-             2xl:ml-13 2xl:w-90 xl:ml-123 xl:-mt-110
-             lg:ml-93 md:ml-63 sm:ml-49" />
+             2xl:ml-120 2xl:w-90 xl:ml-108 xl:-mt-110
+             lg:ml-90 md:ml-55 sm:ml-43" />
         </div>
     </div>
     </motion.div>
