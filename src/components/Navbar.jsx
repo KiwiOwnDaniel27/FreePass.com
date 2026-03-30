@@ -29,13 +29,13 @@ const Navbar = () => {
       <div className="relative z-10 bg-[url('/assets/fondo.prod3.webp')] bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
-        <img src="./assets/logito.png" alt=""
+        <img src="./assets/logito.webp" alt=""
         className="absolute block sm:hidden w-21 mt-31 -ml-3"/>
-        <img src="./assets/logito1.png" alt=""
+        <img src="./assets/logito1.webp" alt=""
         className="absolute block sm:hidden w-21 mt-31 ml-23"/>
-        <img src="./assets/logito2.png" alt=""
+        <img src="./assets/logito2.webp" alt=""
         className="absolute block sm:hidden w-21 mt-31 ml-49"/>
-        <img src="./assets/logito3.png" alt=""
+        <img src="./assets/logito3.webp" alt=""
         className="absolute block sm:hidden w-21 mt-31 ml-73"/>
         
         
