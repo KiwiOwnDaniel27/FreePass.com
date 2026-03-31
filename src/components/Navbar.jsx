@@ -11,6 +11,9 @@ import { div } from "framer-motion/client";
 import { ProductsData1 } from "../const/data";
 import { TrashIcon } from "@heroicons/react/24/solid";
 import Payment from "./Payment";
+import { useEffect } from "react";
+import PagoKushki from "./PagoKushKi";
+
 
 
 const Navbar = () => {
@@ -136,9 +139,13 @@ const Navbar = () => {
                   </span>
                 </div>
 
-                <button className="mt-3 w-full bg-amber-400 hover:bg-green-500 active:bg-green-500 text-white py-2 rounded-lg hover:scale-105 active:scale-95">
-                  Pagar
-                </button>
+                <PagoKushki 
+                totalAmount={totalAmount} 
+                clearShoppingCart={clearShoppingCart}
+              />
+
+
+                
               </div>
             </div>
           )}

@@ -4,7 +4,7 @@ const Payment = () => {
 
   return (
     <button >
-      Pagar ahora
+      
     </button>
   );
 };
