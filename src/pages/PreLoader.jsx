@@ -17,9 +17,9 @@ const PreLoader = () => {
              muted
              preload="auto"
              playsInline    
-             className="ml-0 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100
+             className="ml-0 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100 w-100
              2xl:ml-6 xl:-ml-6 lg:ml-6 md:ml-6 sm:ml-6 absolute"
-            >
+            src="./videos/video1.mp4">
             </video>
             <div role="status">
                 <img src="./assets/logo-circular.png" alt="" width={100} className="absolute -mt-6 ml-0 xl:-mt-6 xl:-ml-6"/>
