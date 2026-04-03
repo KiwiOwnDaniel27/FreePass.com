@@ -11,7 +11,16 @@ const PreLoader = () => {
   return (
     loading && (
         <div className="w-full h-screen fixed flex items-center justify-center z-50 bg-white">
-            
+            <video
+             autoPlay
+             loop
+             muted
+             playsInline
+             className="ml-0 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100
+             2xl:ml-6 xl:-ml-6 lg:ml-6 md:ml-6 sm:ml-6 absolute"
+            src="./videos/video1.mp4">
+
+            </video>
             <div role="status">
                 <img src="./assets/logo-circular.png" alt="" width={100} className="absolute -mt-6 ml-0 xl:-mt-6 xl:-ml-6"/>
                 <svg aria-hidden="true" className="inline w-31 h-31 -ml-3 -mt-9 xl:-ml-9 xl:-mt-9 text-gray-200 animate-spin dark:text-gray-600 fill-green-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
