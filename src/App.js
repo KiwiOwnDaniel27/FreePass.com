@@ -1,8 +1,10 @@
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
+require("dotenv").config();
 
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 
@@ -11,6 +13,7 @@ app.post("/pagar", async (req, res) => {
   const { token, amount } = req.body;
 
   try {
+
     const response = await axios.post(
       "https://api.kushkipagos.com/card/v1/charges",
       {
@@ -25,16 +28,28 @@ app.post("/pagar", async (req, res) => {
       },
       {
         headers: {
-          "Private-Merchant-Id": "TU_PRIVATE_KEY"
+          "Content-Type": "application/json",
+          "Private-Merchant-Id": process.env.PRIVATE_MERCHANT_ID
         }
       }
     );
 
-    res.json(response.data);
+    res.json({
+      approved: response.data.approved,
+      data: response.data
+    });
 
   } catch (error) {
-    res.status(400).json(error.response.data);
+    console.error(error.response?.data || error.message);
+
+    res.status(500).json({
+      approved: false,
+      error: "Error procesando pago"
+    });
   }
+
 });
 
-app.listen(3001, () => console.log("Servidor corriendo"));
+app.listen(3001, () => {
+  console.log("Servidor corriendo en puerto 3001");
+});
