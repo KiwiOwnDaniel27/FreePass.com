@@ -29,7 +29,8 @@ const Navbar = () => {
 
   return (
     <div className="px-0 sticky md:static top-0 z-50 bg-white">
-      <div className="relative z-10 bg-[url('/assets/fondo.prod3.webp')] bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
+      <div className="relative z-10  bg-[url('/assets/fondo.prod3.webp')] 
+      dark:bg-[url('/assets/fondo.prod.png')]  bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
         <img src="./assets/logito.webp" alt=""
@@ -56,8 +57,15 @@ const Navbar = () => {
           >
             <img
               className="-ml-23 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
-              w-65 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45"
+              w-65 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45 block dark:hidden"
               src="./assets/logo-horizontal.webp"
+              alt=""
+              width={300}
+            />
+            <img
+              className="-ml-23 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
+              w-65 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45 hidden dark:block "
+              src="./assets/logo-horizontal1.png"
               alt=""
               width={300}
             />

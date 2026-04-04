@@ -19,7 +19,7 @@ const Hero = () => {
         pauseOnFocus: true,
     };
     return (
-        <div className="relative overflow-y-hidden min-h-40 bg-gray-100 dark:bg-gray-900 dark:text-white
+        <div className="relative overflow-y-hidden min-h-40 bg-gray-900 text-white dark:bg-gray-900 dark:text-white
         duration-200 
         2xl:h-170  
         xl:h-135
