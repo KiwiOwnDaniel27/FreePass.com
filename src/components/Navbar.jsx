@@ -193,6 +193,9 @@ const Navbar = () => {
         </button>
         <img className="-mt-140 absolute w-75 container block dark:hidden" src="./assets/logo-horizontal.webp" alt=""/>
         <img className="-mt-140 absolute w-75 container hidden dark:block" src="./assets/logo-horizontal1.webp" alt=""/>
+
+        <img className="mt-150 absolute w-40 container block dark:hidden" src="./assets/logoDQCompany.webp" alt=""/>
+        <img className="mt-150 absolute w-40 container hidden dark:block" src="./assets/logoDQCompany.webp" alt=""/>
         
         <ul className="flex flex-col items-center gap-10 text-xl">
          <li>
@@ -216,6 +219,7 @@ const Navbar = () => {
           ))}
         </ul>
       </nav>
+      
 
       {/* MENU DESKTOP */}
       <div className="hidden md:flex justify-center shadow-lg py-3 lg:w-full">
