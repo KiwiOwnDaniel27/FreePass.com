@@ -1,12 +1,15 @@
 import { useState, useEffect } from "react";
+import video1 from "/videos/video1.mp4";
+import { video } from "framer-motion/client";
 
 const PreLoader = () => {
 
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setTimeout(() => setLoading(false), 3000)
-    },[])
+    const timer = setTimeout(() => setLoading(false), 3000);
+    return () => clearTimeout(timer);
+    }, []);
 
   return (
     loading && (
@@ -19,7 +22,7 @@ const PreLoader = () => {
              playsInline    
              className="ml-0 mt-9 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100 w-100
              2xl:ml-6 xl:-ml-6 lg:ml-6 md:ml-6 sm:ml-6 absolute"
-            src="./videos/video1.mp4">
+            src={video1}>
             </video>
             <div role="status">
                 <img src="./assets/logo-circular.png" alt="" width={100} className="absolute -mt-6 ml-0 xl:-mt-6 xl:-ml-6"/>
