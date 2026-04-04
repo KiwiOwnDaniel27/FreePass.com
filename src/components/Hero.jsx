@@ -19,7 +19,7 @@ const Hero = () => {
         pauseOnFocus: true,
     };
     return (
-        <div className="relative overflow-y-hidden min-h-40 bg-gray-900 text-white dark:bg-gray-900 dark:text-white
+        <div className="relative overflow-y-hidden min-h-40 bg-gray-900 text-white dark:bg-gray-950 dark:text-white
         duration-200 
         2xl:h-170  
         xl:h-135
@@ -34,7 +34,17 @@ const Hero = () => {
             xl:h-150 xl:w-150 xl:-mt-65
             lg:w-140 lg:h-140 lg:-mt-100
             md:w-90 md:h-90 md:-mt-30
-            sm:w-60 sm:h-60 sm:mt-14
+            sm:w-60 sm:h-60 sm:mt-14  dark:hidden
+            ">
+            </div>
+            <div className="h-60 w-60
+            bg-[url('/assets/fondo1.0.png')] bg-contain bg-center flex -ml-35 2xl:ml-265
+            xl:ml-155 lg:ml-100 md:ml-103 sm:-ml-29 mt-19 rounded-3xl rotate-45 -z-10
+            2xl:h-160 2xl:w-160 2xl:-mt-60
+            xl:h-150 xl:w-150 xl:-mt-65
+            lg:w-140 lg:h-140 lg:-mt-100
+            md:w-90 md:h-90 md:-mt-30
+            sm:w-60 sm:h-60 sm:mt-14 hidden dark:block
             ">
             </div>
 

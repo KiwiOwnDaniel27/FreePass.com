@@ -14,7 +14,7 @@ const Products = () => {
         lg:ml-60
         md:ml-30
         sm:ml-20">
-            <p data-aos="fade-up" className="text-sm font-bold text-amber-400
+            <p data-aos="fade-up" className="text-sm font-bold text-amber-400 dark:text-amber-500
             2xl:text-5xl">Productos más vendidos</p>
             <h1 data-aos="fade-up" className="text-3xl font-bold
             2xl:text-5xl">Outfits</h1>
@@ -50,14 +50,14 @@ const Products = () => {
                         <div className="flex items-center gap-3">
                             <span className="ml-25
                             2xl:text-2xl">{data.rating}</span>
-                            <FaStar className="text-yellow-400"/>
+                            <FaStar className="text-amber-400 dark:text-amber-500"/>
                         </div>
                     </div>
                 ))}
 
             </div>
             <div className="flex justify-center">
-                <button className="text-center mt-10 cursor-pointer bg-amber-400  text-white py-3 px-9
+                <button className="text-center mt-10 cursor-pointer bg-amber-400 dark:bg-amber-500  text-white py-3 px-9
                 rounded-md
                 2xl:text-2xl"> 
                     <a href="https://kiwiowndaniel27.github.io/FreePass.com/#/tienda">

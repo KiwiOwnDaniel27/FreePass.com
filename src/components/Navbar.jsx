@@ -90,7 +90,7 @@ const Navbar = () => {
 
             <button
               onClick={() => setShowCart(!showCart)}
-              className="bg-amber-400 hover:bg-amber-400 transition-all duration-200 text-white hover:text-black
+              className="bg-amber-400 dark:bg-amber-500 hover:bg-amber-40 transition-all duration-200 text-white hover:text-black
               group-hover:bg-white  group-hover:text-amber-400
               active:scale-95 hover:scale-105
               active:bg-white active:text-amber-400 active:duration-300

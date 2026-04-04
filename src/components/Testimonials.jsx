@@ -49,7 +49,7 @@ const Testimonials = () => {
         <div className="container">
           <div className="text-center mb-10 w-60 ml-16
           2xl:w-200 2xl:ml-75 xl:ml-105 lg:ml-95 md:ml-53 sm:ml-45">
-            <p data-aos="fade-up" className="text-sm font-bold text-amber-400 2xl:text-5xl">
+            <p data-aos="fade-up" className="text-sm font-bold text-amber-400 dark:text-amber-500 2xl:text-5xl">
               Lo que dicen nuestros clientes
             </p>
             <h1 data-aos="fade-up" className="text-3xl font-bold 2xl:text-4xl">
@@ -67,7 +67,7 @@ const Testimonials = () => {
               testimonialData.map((data) => (
                 <div key={data.id} className="my-6 px-2 ml-0 2xl:ml-110 xl:ml-70 lg:ml-60">
                   <div
-                    className="flex flex-col gap-4 shadow-lg py-8 px-6 rounded-xl dark:bg-gray-800/10 bg-gray-800/10 relative
+                    className="flex flex-col gap-4 shadow-lg py-8 px-6 rounded-xl dark:bg-gray-800/30 bg-gray-800/10 relative
                       w-full max-w-sm sm:max-w-md md:max-w-lg h-auto"
                   >
                     <div className="mb-6 flex justify-center">
@@ -79,7 +79,7 @@ const Testimonials = () => {
                     </div>
 
                     <div className="flex flex-col items-center gap-3 text-center">
-                      <p className="text-xs text-gray-600 2xl:text-2xl">
+                      <p className="text-xs text-gray-600 2xl:text-2xl dark:text-gray-800">
                         {data.text}
                       </p>
                       <h1 className="text-xl font-bold text-black/80 dark:text-light 2xl:text-3xl">

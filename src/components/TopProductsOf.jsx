@@ -61,7 +61,7 @@ const TopProducts = () => {
       <div className="container">
 
         <div className="text-left mb-9">
-          <p className="text-sm font-bold text-amber-400 2xl:text-5xl ">
+          <p className="text-sm font-bold text-amber-400 dark:text-amber-500 2xl:text-5xl ">
             Productos recomendados para ti
           </p>
 
@@ -83,7 +83,7 @@ const TopProducts = () => {
 
               <div key={data.id} className="px-4 mb-12">
 
-                <div className="bg-white bg-[url('/assets/fondo.prod.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
+                <div className="bg-[url('/assets/fondo.prod.webp')] dark:bg-[url('/assets/fondo.prod.webp')] dark:bg-center bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
                 hover:text-white relative shadow-xl duration-300 group rounded-2xl
                 2xl:w-full xl:w-full">
 
@@ -118,7 +118,7 @@ const TopProducts = () => {
                     </h1>
 
                     
-                      <button className="bg-amber-400 hover:scale-105 active:scale-95 duration-300 text-white
+                      <button className="bg-amber-400 dark:bg-amber-500 hover:scale-105 active:scale-95 duration-300 text-white
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white  group-hover:text-amber-400
                       active:bg-white active:text-amber-400 active:duration-300
                       ml-17 2xl:ml-19 xl:ml-15 lg:ml-7 md:ml-9 sm:ml-6

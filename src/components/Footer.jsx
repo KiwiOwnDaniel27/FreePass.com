@@ -41,7 +41,7 @@ const Footer = () => {
                                 target="_blank"
                                 >
                                 <Icon size={39} className="ml-2"/>
-                                <p className="text-sm -ml-3 text-amber-400">{title}</p>
+                                <p className="text-sm -ml-3 text-amber-400 dark:text-amber-500">{title}</p>
                                     
                                 </a>
                             ))}
