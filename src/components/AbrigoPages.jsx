@@ -82,7 +82,7 @@ className="overflow-x-hidden"
     Excelente Elección
   </h1>
 
-  <p className="text-xl font-bold text-amber-400 2xl:text-4xl">
+  <p className="text-xl font-bold text-amber-400 dark:text-amber-500 2xl:text-4xl">
     Coleccion Exclusiva
   </p>
 </div>
@@ -124,7 +124,7 @@ alt=""
                 lg:ml-129 lg:-mt-100 lg:text-2xl
                 md:ml-112 md:-mt-100 md:text-xl
                 sm:ml-80 sm:-mt-100 sm:text-xl"> $ {data.price}</p>
-  <button className="bg-amber-400 hover:scale-105 active:scale-95 duration-300 text-white
+  <button className="bg-amber-400 dark:bg-amber-500 hover:scale-105 active:scale-95 duration-300 text-white
                       py-3 px-6 rounded-full  group-hover:bg-white  group-hover:text-amber-400
                       active:bg-white active:text-amber-400 active:duration-300
                       xl:ml-150 xl:-mt-80 xl:absolute

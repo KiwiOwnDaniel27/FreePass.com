@@ -18,7 +18,7 @@ const Pasarelas = () => {
     };
 
   return (
-   <div className="relative overflow-y-hidden bg-gray-900 text-white dark:bg-gray-900 dark:text-white
+   <div className="relative overflow-y-hidden bg-gray-900  text-white dark:bg-gray-950 dark:text-white
         duration-200 h-110
         2xl:h-270 xl:h-153 lg:h-153 md:h-100 sm:h-80">
             <div>
