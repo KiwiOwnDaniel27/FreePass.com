@@ -30,17 +30,31 @@ const Navbar = () => {
   return (
     <div className="px-0 sticky md:static top-0 z-50 bg-white">
       <div className="relative z-10  bg-[url('/assets/fondo.prod3.webp')] 
-      dark:bg-[url('/assets/fondo.prod.png')]  bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
+      dark:bg-[url('/assets/fondo.prod.webp')]  bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
-        <img src="./assets/logito.webp" alt=""
-        className="absolute block sm:hidden w-21 mt-31 -ml-3"/>
-        <img src="./assets/logito1.webp" alt=""
-        className="absolute block sm:hidden w-21 mt-31 ml-23"/>
-        <img src="./assets/logito2.webp" alt=""
-        className="absolute block sm:hidden w-21 mt-31 ml-49"/>
-        <img src="./assets/logito3.webp" alt=""
-        className="absolute block sm:hidden w-21 mt-31 ml-73"/>
+        <div className="block dark:hidden">
+          <img src="./assets/logito.webp" alt=""
+          className="absolute block sm:hidden w-21 mt-31 -ml-3"/>
+          <img src="./assets/logito1.webp" alt=""
+          className="absolute block sm:hidden w-21 mt-31 ml-23"/>
+          <img src="./assets/logito2.webp" alt=""
+          className="absolute block sm:hidden w-21 mt-31 ml-49"/>
+          <img src="./assets/logito3.webp" alt=""
+          className="absolute block sm:hidden w-21 mt-31 ml-73"/>
+        </div>
+
+        <div className="hidden dark:block">
+          <img src="./assets/logito1.0.webp" alt=""
+          className="absolute block sm:hidden w-21 mt-31 -ml-3"/>
+          <img src="./assets/logito1.1.webp" alt=""
+          className="absolute block sm:hidden w-21 mt-31 ml-23"/>
+          <img src="./assets/logito2.1.webp" alt=""
+          className="absolute block sm:hidden w-21 mt-31 ml-49"/>
+          <img src="./assets/logito3.1.webp" alt=""
+          className="absolute block sm:hidden w-21 mt-31 ml-73"/>
+        </div>
+
         
         
         <button className="md:hidden absolute mt-3 sm:mt-7 -ml-3" onClick={handleClick}>
@@ -65,7 +79,7 @@ const Navbar = () => {
             <img
               className="-ml-23 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
               w-65 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45 hidden dark:block "
-              src="./assets/logo-horizontal1.png"
+              src="./assets/logo-horizontal1.webp"
               alt=""
               width={300}
             />
