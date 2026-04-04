@@ -189,15 +189,16 @@ const Navbar = () => {
           className="absolute top-8 right-8 md:hidden"
           onClick={handleClick}
         >
-          <RiCloseLine size={50} />
+          <RiCloseLine size={50} className="text-black dark:text-white" />
         </button>
-        <img className="-mt-140 absolute w-75 container" src="./assets/logo-horizontal.webp" alt=""/>
+        <img className="-mt-140 absolute w-75 container block dark:hidden" src="./assets/logo-horizontal.webp" alt=""/>
+        <img className="-mt-140 absolute w-75 container hidden dark:block" src="./assets/logo-horizontal1.webp" alt=""/>
         
         <ul className="flex flex-col items-center gap-10 text-xl">
          <li>
             <a
               href="https://kiwiowndaniel27.github.io/FreePass.com/#/tienda"
-              className="font-bold inline-block px-4 primary-btn duration-200 hover:text-amber-400 active:scale-95"
+              className="text-black dark:text-white font-bold inline-block px-4 primary-btn duration-200 hover:text-amber-400 active:scale-95"
               onClick={handleClick}>
               Tienda
             </a>
@@ -205,7 +206,7 @@ const Navbar = () => {
           {Menu.map((data) => (
             <li className="" key={data.name}>
               <Link
-                className="font-bold inline-block px-4 primary-btn duration-200 hover:text-amber-400 active:scale-95"
+                className="text-black dark:text-white font-bold inline-block px-4 primary-btn duration-200 hover:text-amber-400 active:scale-95"
                 to={data.link}
                 onClick={handleClick}
               >
