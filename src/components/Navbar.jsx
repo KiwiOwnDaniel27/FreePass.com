@@ -58,7 +58,7 @@ const Navbar = () => {
         
         
         <button className="md:hidden absolute mt-3 sm:mt-7 -ml-3" onClick={handleClick}>
-          <RiMenuLine size={40} color="black" />
+          <RiMenuLine size={40}  className="text-black dark:text-white" />
         </button>
 
         <SearchBar/>
