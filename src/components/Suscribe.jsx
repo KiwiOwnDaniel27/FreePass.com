@@ -4,7 +4,7 @@ import React from 'react'
 
 const Suscribe = () => {
   return (
-    <div data-aos="zoom-in" className="bg-[url('/assets/fondo.webp')] bg-contain bg-center p-6 h-80 shadow-lg mt-23
+    <div data-aos="zoom-in" className="bg-[url('/assets/fondo.webp')] dark:bg-[url('/assets/fondo1.0.webp')]  bg-contain bg-center p-6 h-80 shadow-lg mt-23
     2xl:h-120">
         
         <form action="https://formsubmit.co/fiel2589@hotmail.com" method="POST">
