@@ -382,7 +382,9 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
                         2xl:w-130\r
                         xl:w-80\r
                         lg:w-80\r
-                        md:w-63`,children:y.jsxs("a",{href:n.link,children:[y.jsx("img",{src:n.image,alt:"",className:"object-cover rounded-md"}),y.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:y.jsx("h3",{className:`font-semibold\r
+                        md:w-63`,children:y.jsxs("a",{href:n.link,children:[y.jsx("img",{src:n.image,alt:"",className:`object-cover rounded-md\r
+                            active:scale-95 hover:scale-105\r
+                            active:duration-300`}),y.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:y.jsx("h3",{className:`font-semibold\r
                                 2xl:text-4xl`,children:n.title})})]})},n.id))})})]}),wA=()=>y.jsx("div",{children:y.jsxs("div",{children:[y.jsx(_n,{}),y.jsx("div",{children:y.jsx(SA,{})}),y.jsx("div",{children:y.jsx(Ln,{})})]})}),TA=()=>y.jsx("div",{className:"mt-6 mb-12",children:y.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[y.jsx("h1",{"data-aos":"fade-up",className:`text-6xl font-bold\r
                 2xl:text-7xl\r
                 xl:text-5xl\r
@@ -408,8 +410,9 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
           hover:text-white relative shadow-xl duration-300 group rounded-2xl\r
           2xl:w-full xl:w-full`,children:[y.jsx("div",{className:"h-86",children:y.jsx(Mi,{to:l.link,children:y.jsx("img",{src:l.image,alt:"",className:`w-full h-auto block mx-auto transform -translate-y-6\r
                     group-hover:scale-110 duration-300 drop-shadow-md mt-6\r
-                    2xl:w-90 xl:w-70`})})}),y.jsxs("div",{className:"p-4 text-center mt-35 2xl:mt-27 xl:mt-6 lg:mt-16 md:-mt-9 sm:mt-0",children:[y.jsxs("div",{className:"w-full flex items-center justify-center gap-6",children:[y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"}),y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"}),y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"})]}),y.jsx("h1",{className:"text-white text-3 font-bold mt-6",children:l.title}),y.jsx("p",{className:`text-white group-hover:text-white duration-300 mt-3\r
-                   text-sm line-clamp-2`,children:l.description}),y.jsxs("h1",{className:"text-white text-lg font-bold mt-6",children:["$ ",l.price]}),y.jsx("button",{className:`bg-amber-400 dark:text-amber-500 hover:scale-105 active:scale-95 duration-300 text-white\r
+                    2xl:w-90 xl:w-70 active:scale-95 hover:scale-105\r
+                     active:duration-300`})})}),y.jsxs("div",{className:"p-4 text-center mt-35 2xl:mt-27 xl:mt-6 lg:mt-16 md:-mt-9 sm:mt-0",children:[y.jsxs("div",{className:"w-full flex items-center justify-center gap-6",children:[y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"}),y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"}),y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"})]}),y.jsx("h1",{className:"text-white text-3 font-bold mt-6",children:l.title}),y.jsx("p",{className:`text-white group-hover:text-white duration-300 mt-3\r
+                   text-sm line-clamp-2`,children:l.description}),y.jsxs("h1",{className:"text-white text-lg font-bold mt-6",children:["$ ",l.price]}),y.jsx("button",{className:`bg-amber-400 dark:text-white hover:scale-105 active:scale-95 duration-300 text-white\r
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white  group-hover:text-amber-400\r
                       active:bg-white active:text-amber-400 active:duration-300\r
                       ml-25 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6\r
@@ -461,7 +464,8 @@ group-hover:scale-110 duration-300 drop-shadow-md`})}),y.jsxs("div",{className:"
                     xl:w-80\r
                     lg:w-80\r
                     md:w-63`,children:y.jsxs("a",{href:n.link,children:[y.jsx("img",{src:n.image,alt:"",className:`\r
-                        object-cover rounded-md`}),y.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:y.jsx("h3",{className:`font-semibold\r
+                        object-cover rounded-md active:scale-95 hover:scale-105\r
+                        active:duration-300`}),y.jsx("div",{className:"mt-6 text-center text-2xl/tight font-bold",children:y.jsx("h3",{className:`font-semibold\r
                             2xl:text-4xl`,children:n.title})})]})},n.id))})})]});function RA(){return y.jsx("div",{children:y.jsxs("div",{children:[y.jsx(_n,{}),y.jsx("div",{children:y.jsx(AA,{})}),y.jsx("div",{children:y.jsx(Ln,{})})]})})}const MA=()=>y.jsx("div",{className:"mt-6 mb-12",children:y.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[y.jsx("h1",{"data-aos":"fade-up",className:`text-6xl font-bold\r
                 2xl:text-7xl\r
                 xl:text-5xl\r
