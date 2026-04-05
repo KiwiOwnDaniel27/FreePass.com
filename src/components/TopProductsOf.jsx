@@ -85,15 +85,15 @@ const TopProducts = () => {
 
                 <div className="bg-[url('/assets/fondo.prod.webp')] dark:bg-[url('/assets/fondo.prod.webp')] dark:bg-center bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
                 hover:text-white relative shadow-xl duration-300 group rounded-2xl
-                2xl:w-full xl:w-full">
+                2xl:w-full xl:w-full ">
 
                   <Link to={data.link}>
                     <img
                       src={data.image}
                       alt=""
-                      className="w-full h-auto block mx-auto transform -translate-y-6
+                      className="w-66 h-full block mx-auto transform -translate-y-6
                       group-hover:scale-110 duration-300 drop-shadow-md mt-26
-                      2xl:w-90 xl:w-70"
+                      2xl:w-90 xl:w-70 "
                     />
                   </Link>
 
