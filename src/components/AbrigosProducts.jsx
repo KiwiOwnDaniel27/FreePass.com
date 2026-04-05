@@ -77,7 +77,8 @@ const AbrigosProducts = () => {
                     <img src={data.image} alt="" 
                     className="w-full h-auto block mx-auto transform -translate-y-6
                     group-hover:scale-110 duration-300 drop-shadow-md mt-6
-                    2xl:w-90 xl:w-70"
+                    2xl:w-90 xl:w-70 active:scale-95 hover:scale-105
+                     active:duration-300"
                     />
                   </Link>
               </div>
@@ -99,7 +100,7 @@ const AbrigosProducts = () => {
 
                    <h1 className="text-white text-lg font-bold mt-6">$ {data.price}</h1>
 
-                   <button className="bg-amber-400 dark:text-amber-500 hover:scale-105 active:scale-95 duration-300 text-white
+                   <button className="bg-amber-400 dark:text-white hover:scale-105 active:scale-95 duration-300 text-white
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white  group-hover:text-amber-400
                       active:bg-white active:text-amber-400 active:duration-300
                       ml-25 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
