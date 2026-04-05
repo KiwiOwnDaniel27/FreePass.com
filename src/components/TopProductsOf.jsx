@@ -93,13 +93,14 @@ const TopProducts = () => {
                       alt=""
                       className="w-66 h-full block mx-auto transform -translate-y-6
                       group-hover:scale-110 duration-300 drop-shadow-md mt-26
-                      2xl:w-90 xl:w-70 "
+                      2xl:w-90 xl:w-70 lg:w-full md:w-full sm:w-full"
                     />
                   </Link>
 
                   <div className="p-4 text-center">
 
-                    <div className="w-full flex items-center justify-center gap-6 2xl:text-2xl">
+                    <div className="w-full flex items-center justify-center gap-6 2xl:text-2xl
+                    -mt-6 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0">
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
