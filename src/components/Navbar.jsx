@@ -144,7 +144,8 @@ const Navbar = () => {
                         className="hover:bg-black p-2 rounded-full"
                         onClick={() => removeProduct(data.id)}
                       >
-                        <TrashIcon className="w-5 h-5 text-red-600" />
+                        <TrashIcon className="w-5 h-5 text-red-600 active:scale-95 hover:scale-105
+                        active:duration-600" />
                       </button>
                     </div>
                   ))
