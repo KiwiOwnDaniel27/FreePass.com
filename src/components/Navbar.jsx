@@ -195,8 +195,8 @@ const Navbar = () => {
         <img className="-mt-140 absolute w-75 container block dark:hidden" src="./assets/logo-horizontal.webp" alt=""/>
         <img className="-mt-140 absolute w-75 container hidden dark:block" src="./assets/logo-horizontal1.webp" alt=""/>
 
-        <img className="mt-143 absolute w-27 container block dark:hidden" src="./assets/logoDQCompany.webp" alt=""/>
-        <img className="mt-143 absolute w-27 container hidden dark:block" src="./assets/logoDQCompany.webp" alt=""/>
+        <img className="mt-143 absolute w-33 container block dark:hidden" src="./assets/logoDQCompany.webp" alt=""/>
+        <img className="mt-143 absolute w-33 container hidden dark:block" src="./assets/logoDQCompany.webp" alt=""/>
         
         <ul className="flex flex-col items-center gap-10 text-xl">
          <li>
