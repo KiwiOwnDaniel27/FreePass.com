@@ -68,7 +68,9 @@ const Testimonials = () => {
                 <div key={data.id} className="my-6 px-2 ml-0 2xl:ml-110 xl:ml-70 lg:ml-60">
                   <div
                     className="flex flex-col gap-4 shadow-lg py-8 px-6 rounded-xl dark:bg-gray-800/30 bg-gray-800/10 relative
-                      w-full max-w-sm sm:max-w-md md:max-w-lg h-auto"
+                      w-full max-w-sm sm:max-w-md md:max-w-lg h-auto
+                      active:scale-95 hover:scale-105
+              active:bg-white active:text-amber-400 active:duration-300"
                   >
                     <div className="mb-6 flex justify-center">
                       <img

@@ -178,7 +178,8 @@ const Navbar = () => {
             className="2xl:-ml-376 xl:-ml-235 lg:-ml-190 md:-ml-150 sm:-ml-120 
             2xl:-mt-20 xl:-mt-20 lg:-mt-20 md:-mt-20 sm:-mt-6 mt-1.5 -ml-20"
           >
-            <DarkMode />
+            <DarkMode className="active:scale-95 hover:scale-105
+               active:duration-300" />
           </div>
         </div>
       </div>
@@ -194,8 +195,8 @@ const Navbar = () => {
         <img className="-mt-140 absolute w-75 container block dark:hidden" src="./assets/logo-horizontal.webp" alt=""/>
         <img className="-mt-140 absolute w-75 container hidden dark:block" src="./assets/logo-horizontal1.webp" alt=""/>
 
-        <img className="mt-130 absolute w-27 container block dark:hidden" src="./assets/logoDQCompany.webp" alt=""/>
-        <img className="mt-130 absolute w-27 container hidden dark:block" src="./assets/logoDQCompany.webp" alt=""/>
+        <img className="mt-143 absolute w-27 container block dark:hidden" src="./assets/logoDQCompany.webp" alt=""/>
+        <img className="mt-143 absolute w-27 container hidden dark:block" src="./assets/logoDQCompany.webp" alt=""/>
         
         <ul className="flex flex-col items-center gap-10 text-xl">
          <li>

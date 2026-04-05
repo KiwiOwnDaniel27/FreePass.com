@@ -93,7 +93,8 @@ const TopProducts = () => {
                       alt=""
                       className="w-66 h-full block mx-auto transform -translate-y-6
                       group-hover:scale-110 duration-300 drop-shadow-md mt-26
-                      2xl:w-90 xl:w-70 lg:w-full md:w-full sm:w-full"
+                      2xl:w-90 xl:w-70 lg:w-full md:w-full sm:w-full
+                      active:scale-95 hover:scale-105 active:duration-300"
                     />
                   </Link>
 

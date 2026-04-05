@@ -25,6 +25,8 @@ const Suscribe = () => {
                     />
                     <button data-aos= "fade-up" type="submit" className="bg-gray-800 text-white p-3 rounded-lg cursor-pointer border border-zinc-600 
                   hover:bg-amber-400 text-sm
+                  active:scale-95 hover:scale-105
+              active:bg-white active:text-amber-400 active:duration-300
                   2xl:text-2xl">Suscribete</button>
                 </div> 
              </div>

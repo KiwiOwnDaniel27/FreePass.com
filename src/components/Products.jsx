@@ -59,6 +59,8 @@ const Products = () => {
             <div className="flex justify-center">
                 <button className="text-center mt-10 cursor-pointer bg-amber-400 dark:bg-amber-500  text-white py-3 px-9
                 rounded-md
+                active:scale-95 hover:scale-105
+              active:bg-white active:text-amber-400 active:duration-300
                 2xl:text-2xl"> 
                     <a href="https://kiwiowndaniel27.github.io/FreePass.com/#/tienda">
                     Ver más
