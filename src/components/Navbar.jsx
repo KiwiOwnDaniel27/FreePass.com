@@ -51,9 +51,11 @@ const Navbar = () => {
             rel="noreferrer">
             <img src="./assets/whatsappico.png" alt=""
             className="w-24  mt-153 md:hidden rounded-full"/>
-            <p className="text-center text-[11px] -mt-6 font-bold">Personal <br /> shopper</p>
+            <p className="text-center text-[11px] -mt-6 font-bold md:hidden">Personal <br /> shopper</p>
           </a>
         </div>
+
+        {/* 
         <div className="block dark:hidden">
           <img src="./assets/logito.webp" alt=""
           className="absolute block sm:hidden w-21 mt-31 -ml-3"/>
@@ -64,6 +66,7 @@ const Navbar = () => {
           <img src="./assets/logito3.webp" alt=""
           className="absolute block sm:hidden w-21 mt-31 ml-73"/>
         </div>
+        */}
 
         <div className="hidden dark:block">
           <img src="./assets/logito1.0.webp" alt=""
