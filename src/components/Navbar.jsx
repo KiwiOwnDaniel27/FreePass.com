@@ -77,7 +77,7 @@ const Navbar = () => {
           <RiMenuLine
             size={40}
             className={`text-black dark:text-white transition-transform duration-900 ${
-              isOpen ? "rotate-360" : "rotate-0"
+              isOpen ? "rotate-270" : "rotate-0"
             }`}
           />
         </button>
@@ -132,7 +132,7 @@ const Navbar = () => {
                   drop-shadow-[2px_2px_2px_black] cursor-pointer
                   2xl:w-12 2xl:h-12 2xl:ml-5
                   transition-transform duration-500
-                  ${isRotating ? "rotate-270" : "rotate-0"}
+                  ${isRotating ? "rotate-360" : "rotate-0"}
                 `}
               />
 
