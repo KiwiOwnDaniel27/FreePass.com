@@ -46,7 +46,7 @@ const Navbar = () => {
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
         <div className="absolute right-0">
-          <a href="https://wa.me/593988220328?text=Hola%20,estoy%20interesado/a%20en%20un%20producto%20👕👗"
+          <a href="https://wa.me/593988220328?text=Hola%20,estoy%20interesado/a%20en%20un%20producto%20exclusivo%20,que%20me%20recomiendas👕👗🛍️"
             target="_blank"
             rel="noreferrer">
             <img src="./assets/whatsappico.png" alt=""
