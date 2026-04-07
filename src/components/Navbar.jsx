@@ -45,6 +45,14 @@ const Navbar = () => {
       dark:bg-[url('/assets/fondo.prod.webp')]  bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
+        <div>
+          <a href="https://wa.me/593988220328?text=Hola%20quiero%20informacion"
+            target="_blank"
+            rel="noreferrer">
+            <img src="./assets/whatsappico.png" alt=""
+            className="w-25 absolute mt-153 ml-75 md:hidden"/>
+          </a>
+        </div>
         <div className="block dark:hidden">
           <img src="./assets/logito.webp" alt=""
           className="absolute block sm:hidden w-21 mt-31 -ml-3"/>
