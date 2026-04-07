@@ -202,7 +202,7 @@ const Navbar = () => {
       <nav className={`navbar ${isOpen ? "active" : ""}`}>
       
       <button
-        className="absolute top-8 right-8 md:hidden 
+        className="absolute top-8 right-3 md:hidden 
         transition-transform duration-300 ease-in-out
         hover:scale-110 active:scale-95"
         onClick={handleClick}
