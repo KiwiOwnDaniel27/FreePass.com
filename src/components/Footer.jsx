@@ -71,7 +71,7 @@ const Footer = () => {
                  <br />
                  © Copyright FreePass 2026
                 <br /><br />
-                    Viste tus sueños, define tu estilo. Cada detalle cuenta
+                    Viste tus sueños, define tu estilo. Cada detalle cuenta.
                 </p>
             </div>
         </div>
