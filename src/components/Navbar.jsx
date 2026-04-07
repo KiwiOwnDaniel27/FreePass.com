@@ -24,8 +24,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(prev => !prev);
   };
+  
+
 
   return (
     <div className="px-0 sticky md:static top-0 z-50 bg-white">
@@ -57,9 +59,20 @@ const Navbar = () => {
 
         
         
-        <button className="md:hidden absolute mt-3 sm:mt-7 -ml-3" onClick={handleClick}>
-          <RiMenuLine size={40}  className="text-black dark:text-white" />
+        <button
+          className="md:hidden absolute mt-3 sm:mt-7 -ml-3 
+          transition-transform duration-300"
+          onClick={handleClick}
+        >
+          <RiMenuLine
+            size={40}
+            className={`text-black dark:text-white transition-transform duration-600 ${
+              isOpen ? "rotate-90" : "rotate-0"
+            }`}
+          />
         </button>
+
+
 
         <SearchBar/>
 
@@ -187,12 +200,21 @@ const Navbar = () => {
 
       {/* MENU MOBILE */}
       <nav className={`navbar ${isOpen ? "active" : ""}`}>
-        <button
-          className="absolute top-8 right-8 md:hidden"
-          onClick={handleClick}
-        >
-          <RiCloseLine size={50} className="text-black dark:text-white" />
-        </button>
+      
+      <button
+        className="absolute top-8 right-8 md:hidden 
+        transition-transform duration-300 ease-in-out
+        hover:scale-110 active:scale-95"
+        onClick={handleClick}
+      >
+        <RiCloseLine
+          size={50}
+          className={`text-black dark:text-white transition-transform duration-600 ${
+            isOpen ? "rotate-0 scale-100" : "rotate-180 scale-75"
+          }`}
+        />
+      </button>
+
         <img className="-mt-140 absolute w-75 container block dark:hidden" src="./assets/logo-horizontal.webp" alt=""/>
         <img className="-mt-140 absolute w-75 container hidden dark:block" src="./assets/logo-horizontal1.webp" alt=""/>
 
