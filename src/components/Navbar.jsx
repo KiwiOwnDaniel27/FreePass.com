@@ -66,7 +66,7 @@ const Navbar = () => {
         >
           <RiMenuLine
             size={40}
-            className={`text-black dark:text-white transition-transform duration-600 ${
+            className={`text-black dark:text-white transition-transform duration-900 ${
               isOpen ? "rotate-90" : "rotate-0"
             }`}
           />
@@ -209,7 +209,7 @@ const Navbar = () => {
       >
         <RiCloseLine
           size={50}
-          className={`text-black dark:text-white transition-transform duration-600 ${
+          className={`text-black dark:text-white transition-transform duration-900 ${
             isOpen ? "rotate-0 scale-100" : "rotate-180 scale-75"
           }`}
         />
