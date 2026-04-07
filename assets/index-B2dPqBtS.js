@@ -209,7 +209,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
             h-25 w-89 text-black mt-21 ml-4\r
             2xl:mt-9 xl:mt-9 lg:mt-9 md:mt-9 sm:mt-19 2xl:w-160\r
             2xl:ml-93 xl:ml-90 lg:ml-76 md:ml-37 sm:ml-30\r
-            2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40`,children:[g.jsx("br",{}),g.jsxs("p",{className:"text-xs text-center -mt-21 -ml-3 xl:-mt-16 2xl:-mt-19 lg:-mt-16 md:-mt-16 sm:-mt-19",children:["Derechos reservados",g.jsx("br",{}),"© Copyright FreePass 2026",g.jsx("br",{}),g.jsx("br",{}),"Viste tus sueños, define tu estilo. Cada detalle cuenta"]})]})})]}),xv=()=>g.jsxs(g.Fragment,{children:[g.jsx(_n,{}),g.jsx(d4,{}),g.jsx(g4,{}),g.jsx(v4,{}),g.jsx(x4,{}),g.jsx(b4,{}),g.jsx(S4,{}),g.jsx(Ln,{})]}),uA=()=>g.jsx("div",{className:"mt-9 mb-9",children:g.jsx("div",{className:"container",children:g.jsxs("div",{"data-aos":"fade-up",className:`text-3xl/tight font-bold mb-6 text-center mt-21\r
+            2xl:h-40 xl:h-40 lg:h-40 md:h-40 sm:h-40`,children:[g.jsx("br",{}),g.jsxs("p",{className:"text-xs text-center -mt-21 -ml-3 xl:-mt-16 2xl:-mt-19 lg:-mt-16 md:-mt-16 sm:-mt-19",children:["Derechos reservados",g.jsx("br",{}),"© Copyright FreePass 2026",g.jsx("br",{}),g.jsx("br",{}),"Viste tus sueños, define tu estilo. Cada detalle cuenta."]})]})})]}),xv=()=>g.jsxs(g.Fragment,{children:[g.jsx(_n,{}),g.jsx(d4,{}),g.jsx(g4,{}),g.jsx(v4,{}),g.jsx(x4,{}),g.jsx(b4,{}),g.jsx(S4,{}),g.jsx(Ln,{})]}),uA=()=>g.jsx("div",{className:"mt-9 mb-9",children:g.jsx("div",{className:"container",children:g.jsxs("div",{"data-aos":"fade-up",className:`text-3xl/tight font-bold mb-6 text-center mt-21\r
                 2xl:text-7xl \r
                 xl:text-4xl/tight\r
                 lg:text-4xl/tight \r
