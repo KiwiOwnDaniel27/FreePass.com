@@ -51,7 +51,7 @@ const Navbar = () => {
             rel="noreferrer">
             <img src="./assets/whatsappico.png" alt=""
             className="w-24  mt-130 md:hidden rounded-full"/>
-            <p className="text-center text-[11px] -mt-6 font-bold md:hidden">Personal <br /> shopper</p>
+            <p className="text-center text-[9px] -mt-6 font-bold md:hidden">Personal <br /> shopper</p>
           </a>
         </div>
 
