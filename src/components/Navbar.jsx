@@ -115,10 +115,17 @@ const Navbar = () => {
                 {products.length}
               </span>
 
-              <FaCartShopping
-                className="w-6 h-6 text-xl text-white hover:text-amber-400  drop-shadow-[2px_2px_2px_black] cursor-pointer
-                2xl:w-12 2xl:h-12 2xl:ml-5"
+              <FaCartShopping onClick={handleClick}
+                className={`
+                  w-6 h-6 text-xl text-white hover:text-amber-400 
+                  drop-shadow-[2px_2px_2px_black] cursor-pointer
+                  2xl:w-12 2xl:h-12 2xl:ml-5
+                  transition-transform duration-500
+                  ${isOpen ? "rotate-0 scale-100" : "rotate-360 scale-100"}
+                `}
               />
+
+              
             </button>
 
             {/* DROPDOWN DEL CARRITO */}
