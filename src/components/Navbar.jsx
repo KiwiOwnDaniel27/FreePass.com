@@ -26,6 +26,16 @@ const Navbar = () => {
   const handleClick = () => {
     setIsOpen(prev => !prev);
   };
+
+  const [isRotating, setIsRotating] = useState(false);
+
+  const handleClick1 = () => {
+    setIsRotating(true);
+  
+    setTimeout(() => {
+      setIsRotating(false);
+    }, 500); // mismo tiempo que duration-500
+  };
   
 
 
@@ -115,15 +125,17 @@ const Navbar = () => {
                 {products.length}
               </span>
 
-              <FaCartShopping onClick={handleClick}
+              <FaCartShopping
+                onClick={handleClick1}
                 className={`
                   w-6 h-6 text-xl text-white hover:text-amber-400 
                   drop-shadow-[2px_2px_2px_black] cursor-pointer
                   2xl:w-12 2xl:h-12 2xl:ml-5
                   transition-transform duration-500
-                  ${isOpen ? "rotate-0 scale-100" : "rotate-360 scale-100"}
+                  ${isRotating ? "rotate-360" : "rotate-0"}
                 `}
               />
+
 
               
             </button>
