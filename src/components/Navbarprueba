@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <div className="px-0 sticky md:static top-0 z-50 bg-white">
       <div className="relative z-10  bg-[url('/assets/fondo.prod3.webp')] 
-      dark:bg-[url('/assets/fondo.prod.webp')]  bg-center flex mx-auto w-full flex-col p-6 h-49 shadow-lg 2xl:h-80
+      dark:bg-[url('/assets/fondo.prod.webp')]  bg-center w-full flex-col p-6 h-43 shadow-lg 2xl:h-93
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
         <div className="absolute right-0">
@@ -54,7 +54,7 @@ const Navbar = () => {
             <p className="text-center text-[11px] -mt-6 font-bold md:hidden">Personal <br /> shopper</p>
           </a>
         </div>
-
+        
         {/* 
         <div className="block dark:hidden">
           <img src="./assets/logito.webp" alt=""
@@ -66,7 +66,6 @@ const Navbar = () => {
           <img src="./assets/logito3.webp" alt=""
           className="absolute block sm:hidden w-21 mt-31 ml-73"/>
         </div>
-        
 
         <div className="hidden dark:block">
           <img src="./assets/logito1.0.webp" alt=""
@@ -80,8 +79,7 @@ const Navbar = () => {
         </div>
         */}
 
-        
-        
+      
         <button
           className="md:hidden absolute mt-3 sm:mt-7 -ml-3 
           transition-transform duration-300"
@@ -99,22 +97,22 @@ const Navbar = () => {
 
         <SearchBar/>
 
-        <div className="ml-auto">
+        <div className="container">
           <a
             href="https://www.instagram.com/freepassec/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              className="-ml-23 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
-              w-65 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45 block dark:hidden"
+              className="ml-16 2xl:ml-350 xl:ml-250 lg:ml-0 md:ml-0 mt-2 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
+              w-50 2xl:w-70 xl:w-70 lg:w-60 md:w-50 sm:w-45 block dark:hidden absolute"
               src="./assets/logo-horizontal.webp"
               alt=""
               width={300}
             />
             <img
-              className="-ml-23 2xl:-ml-23 xl:-ml-1 lg:ml-0 md:ml-0 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
-              w-65 2xl:w-130 xl:w-70 lg:w-60 md:w-50 sm:w-45 hidden dark:block "
+              className="ml-16 2xl:ml-310 xl:ml-250 lg:ml-0 md:ml-0 mt-2 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:-ml-65
+              w-50 2xl:w-70 xl:w-70 lg:w-60 md:w-50 sm:w-45 hidden dark:block "
               src="./assets/logo-horizontal1.webp"
               alt=""
               width={300}
@@ -130,8 +128,8 @@ const Navbar = () => {
               group-hover:bg-white  group-hover:text-amber-400
               active:scale-95 hover:scale-105
               active:bg-white active:text-amber-400 active:duration-300
-              py-3 px-6 rounded-full flex items-center h-10 gap-3 group -ml-1 mt-3 border border-black
-              2xl:w-35 2xl:h-20 2xl:ml-16 xl:ml-29 lg:ml-23 md:ml-19 sm:ml-18 2xl:mt-3 xl:mt-3 lg:mt-6
+              py-3 px-6 rounded-full flex items-center h-10 gap-3 group ml-42 mt-3 border border-black
+              2xl:w-35 2xl:h-20 2xl:ml-360 xl:ml-280 lg:ml-23 md:ml-19 sm:ml-18 2xl:mt-3 xl:mt-3 lg:mt-6
               md:mt-3 sm:-mt-9"
             >
               <span className="group-hover:block transition-all duration-200">
@@ -221,8 +219,8 @@ const Navbar = () => {
           </div>
 
           <div
-            className="2xl:-ml-376 xl:-ml-235 lg:-ml-190 md:-ml-150 sm:-ml-120 
-            2xl:-mt-20 xl:-mt-20 lg:-mt-20 md:-mt-20 sm:-mt-6 mt-1.5 -ml-20"
+            className="2xl:-ml-55 xl:ml-13 lg:-ml-190 md:-ml-150 sm:-ml-120 
+            2xl:-mt-40 xl:-mt-20 lg:-mt-20 md:-mt-20 sm:-mt-6 mt-1.5 ml-23"
           >
             <DarkMode className="active:scale-95 hover:scale-105
                active:duration-300" />
