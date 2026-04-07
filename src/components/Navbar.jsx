@@ -50,7 +50,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer">
             <img src="./assets/whatsappico.png" alt=""
-            className="w-21  mt-153 md:hidden rounded-full"/>
+            className="w-23  mt-153 md:hidden rounded-full"/>
           </a>
         </div>
         <div className="block dark:hidden">
