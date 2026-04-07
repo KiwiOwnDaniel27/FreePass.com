@@ -46,11 +46,11 @@ const Navbar = () => {
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
         <div className="absolute right-0">
-          <a href="https://wa.me/593988220328?text=Hola%20quiero%20informacion"
+          <a href="https://wa.me/593988220328?text=Hola%20quisiera%20saber%20más%20,estoy%20interesado/a%20en%20un%20producto%20👕"
             target="_blank"
             rel="noreferrer">
             <img src="./assets/whatsappico.png" alt=""
-            className="w-21  mt-153 md:hidden backdrop-blur-sm rounded-full"/> 
+            className="w-21  mt-153 md:hidden rounded-full"/>
           </a>
         </div>
         <div className="block dark:hidden">
