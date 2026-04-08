@@ -8,7 +8,7 @@ const Suscribe = () => {
     >
         
       <form 
-        action="https://formsubmit.co/" 
+        action="https://formsubmit.co/freepass.ec@gmail.com" 
         method="POST"
       >
         
