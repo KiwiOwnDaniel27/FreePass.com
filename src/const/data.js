@@ -50,7 +50,7 @@ export const ImageList = [
         id: 1,
         image: "./assets/Image1.webp",
         title: "Bienvenido Free Pass",
-        description: "Nueva colección",
+        description: "Nueva colección 11/04/26",
     },
     {
         id: 2,
