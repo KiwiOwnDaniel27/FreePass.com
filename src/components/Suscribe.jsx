@@ -27,8 +27,9 @@ const Suscribe = () => {
             <div className="flex items-center text-sm 2xl:text-2xl">
               
               <input 
-                type="email"
-                name="email"
+                type="hidden" 
+                name="_next" 
+                value="https://kiwiowndaniel27.github.io/"
                 required
                 data-aos="fade-up"
                 placeholder="Ingresar tu correo electrónico"
