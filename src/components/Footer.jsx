@@ -18,7 +18,7 @@ const Footer = () => {
                         </h1>
                         <ul className="flex flex-col gap-3 mt-3 2xl:ml-0 xl:ml-0 ml-3 sm:ml-0">
                             {FooterLinks.map((link) =>(
-                                <li className="cursor-pointer hover:text-black hover:translate-x-1 duration-300 text-shadow-gray-600"
+                                <li className="cursor-pointer hover:text-black hover:translate-x-1 duration-300 text-shadow-gray-600 active:scale-95 hover:scale-105"
                                 key={link.title}>
                                 <Link to={link.link}>
                                     <span>{link.title}</span>  
@@ -40,8 +40,8 @@ const Footer = () => {
                                 href={url}
                                 target="_blank"
                                 >
-                                <Icon size={39} className="ml-2"/>
-                                <p className="text-sm -ml-3 text-amber-400 dark:text-amber-500">{title}</p>
+                                <Icon size={39} className="ml-2 active:scale-95 hover:scale-105"/>
+                                <p className="text-sm -ml-3 text-amber-400 dark:text-amber-500 active:scale-95 hover:scale-105">{title}</p>
                                     
                                 </a>
                             ))}
@@ -49,7 +49,7 @@ const Footer = () => {
                     </div>
                     <div className="mt-8 -ml-9 space-y-4 2xl:ml-50 xl:ml-20 lg:ml-19 md:ml-9 sm:ml-33">
                         {contactInfo.map(item => (
-                            <a href={item.url} target="_blank" key={item.id} className="flex items-center gap-1.5 hover:text-green-800
+                            <a href={item.url} target="_blank" key={item.id} className="active:scale-95 hover:scale-105 flex items-center gap-1.5 hover:text-green-800
                             hover:underline transition-colors">
                                 {<item.icon />}
                                 {item.label}
