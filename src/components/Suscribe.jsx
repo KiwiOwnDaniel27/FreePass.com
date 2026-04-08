@@ -15,6 +15,8 @@ const Suscribe = () => {
         {/* Opcionales pero recomendados */}
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_subject" value="Nueva Suscripción Free Pass" />
+        <input type="hidden" name="_next" value="https://kiwiowndaniel27.github.io/FreePass.com/" 
+        />
 
         <div className="container backdrop-blur-sm max-w-xl py-10 rounded-2xl 2xl:w-200 xl:w-250">
           
@@ -27,9 +29,8 @@ const Suscribe = () => {
             <div className="flex items-center text-sm 2xl:text-2xl">
               
               <input 
-                type="hidden" 
-                name="_next" 
-                value="https://kiwiowndaniel27.github.io/FreePass.com/"
+                type="email" 
+                name="email" 
                 required
                 data-aos="fade-up"
                 placeholder="Ingresar tu correo electrónico"
