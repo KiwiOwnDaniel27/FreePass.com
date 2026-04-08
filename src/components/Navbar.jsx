@@ -45,7 +45,7 @@ const Navbar = () => {
       dark:bg-[url('/assets/fondo.prod.webp')]  bg-center flex mx-auto w-full flex-col p-6 h-36 shadow-lg 2xl:h-80
       xl:h-53 lg:h-53 md:h-53 sm:h-53
       ">
-        <div className="absolute right-0">
+        <div className="absolute right-0 active:scale-95 hover:scale-105">
           <a href="https://wa.me/593988220328?text=Hola%20,estoy%20interesado/a%20en%20un%20producto%20exclusivo%20,que%20me%20recomiendas👕👗🛍️"
             target="_blank"
             rel="noreferrer">
