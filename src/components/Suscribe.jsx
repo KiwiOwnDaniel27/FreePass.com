@@ -29,7 +29,7 @@ const Suscribe = () => {
               <input 
                 type="hidden" 
                 name="_next" 
-                value="https://kiwiowndaniel27.github.io/"
+                value="https://kiwiowndaniel27.github.io/FreePass.com/"
                 required
                 data-aos="fade-up"
                 placeholder="Ingresar tu correo electrónico"
