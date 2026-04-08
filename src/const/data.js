@@ -58,6 +58,12 @@ export const ImageList = [
         title: "Colección Territorio Libre",
         description: "Femenino / Masculino 2026",
     },
+    {
+        id: 3,
+        image: "./assets/anuncio1.webp",
+        title: "Colección Territorio Libre",
+        description: "Femenino / Masculino 2026",
+    },
 ];
 
 export const ProductsData = [
