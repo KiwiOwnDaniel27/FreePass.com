@@ -407,9 +407,9 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
                 md:text-sm\r
                 sm:text-sm`,children:"Viste con actitud ✨"})]})}),y.jsx(oa.div,{variants:ih,className:"grid  grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 md:grid-cols-3 gap-20 md:gap-5 place-items-center mt-9",children:A1.map(l=>y.jsxs("div",{className:`bg-white bg-[url('/assets/fondo.prod1.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400\r
           hover:text-white relative shadow-xl duration-300 group rounded-2xl\r
-          2xl:w-full xl:w-full`,children:[y.jsx("div",{className:"h-86",children:y.jsx(Mi,{to:l.link,children:y.jsx("img",{src:l.image,alt:"",className:`w-full h-auto block mx-auto transform -translate-y-6\r
+          2xl:w-full xl:w-full`,children:[y.jsx("div",{className:"h-50 2xl:h-86 xl:h-86 lg:h-86 md:h-86 sm:h-86",children:y.jsx(Mi,{to:l.link,children:y.jsx("img",{src:l.image,alt:"",className:`w-70 h-auto block mx-auto transform -translate-y-6\r
                     group-hover:scale-110 duration-300 drop-shadow-md mt-6\r
-                    2xl:w-90 xl:w-70 active:scale-95 hover:scale-105\r
+                    2xl:w-90 xl:w-70 lg:w-full md:w-full sm:w-full  active:scale-95 hover:scale-105\r
                      active:duration-300`})})}),y.jsxs("div",{className:"p-4 text-center mt-35 2xl:mt-27 xl:mt-6 lg:mt-16 md:-mt-9 sm:mt-0",children:[y.jsxs("div",{className:"w-full flex items-center justify-center gap-6",children:[y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"}),y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"}),y.jsx(Rn,{className:"text-yellow-500 group-hover:text-white"})]}),y.jsx("h1",{className:"text-white text-3 font-bold mt-6",children:l.title}),y.jsx("p",{className:`text-white group-hover:text-white duration-300 mt-3\r
                    text-sm line-clamp-2`,children:l.description}),y.jsxs("h1",{className:"text-white text-lg font-bold mt-6",children:["$ ",l.price]}),y.jsx("button",{className:`bg-amber-400 dark:text-white hover:scale-105 active:scale-95 duration-300 text-white\r
                       py-3 px-6 rounded-full mt-6 group-hover:bg-white  group-hover:text-amber-400\r
