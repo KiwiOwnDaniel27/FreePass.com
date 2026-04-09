@@ -72,12 +72,12 @@ const AbrigosProducts = () => {
           hover:text-white relative shadow-xl duration-300 group rounded-2xl
           2xl:w-full xl:w-full">
 
-              <div className="h-86">
+              <div className="h-50 2xl:h-86 xl:h-86 lg:h-86 md:h-86 sm:h-86">
                   <Link to={data.link}>
                     <img src={data.image} alt="" 
-                    className="w-full h-auto block mx-auto transform -translate-y-6
+                    className="w-70 h-auto block mx-auto transform -translate-y-6
                     group-hover:scale-110 duration-300 drop-shadow-md mt-6
-                    2xl:w-90 xl:w-70 active:scale-95 hover:scale-105
+                    2xl:w-90 xl:w-70 lg:w-full md:w-full sm:w-full  active:scale-95 hover:scale-105
                      active:duration-300"
                     />
                   </Link>
