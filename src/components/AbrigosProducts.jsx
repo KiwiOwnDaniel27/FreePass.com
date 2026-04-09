@@ -62,7 +62,7 @@ const AbrigosProducts = () => {
 
 
         <motion.div variants={variants.fadeInUp}
-        className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 md:grid-cols-3 gap-20 md:gap-5 place-items-center mt-9">
+        className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-4 md:grid-cols-3 gap-3 md:gap-5 place-items-center mt-9">
 
           
             
@@ -83,7 +83,7 @@ const AbrigosProducts = () => {
                   </Link>
               </div>
               
-              <div className="p-4 text-center mt-35 2xl:mt-27 xl:mt-6 lg:mt-16 md:-mt-9 sm:mt-0">
+              <div className="p-4 text-center mt-16 2xl:mt-27 xl:mt-6 lg:mt-16 md:-mt-9 sm:mt-0">
                   <div className="w-full flex items-center justify-center gap-6">
                     <FaStar className="text-yellow-500 group-hover:text-white"/>
                     <FaStar className="text-yellow-500 group-hover:text-white"/>
@@ -98,13 +98,13 @@ const AbrigosProducts = () => {
                     {data.description}
                    </p>
 
-                   <h1 className="text-white text-lg font-bold mt-6">$ {data.price}</h1>
+                   <h1 className="text-white sm:text-lg font-bold mt-3 md:mt-6">$ {data.price}</h1>
 
                    <button className="bg-amber-400 dark:text-white hover:scale-105 active:scale-95 duration-300 text-white
-                      py-3 px-6 rounded-full mt-6 group-hover:bg-white  group-hover:text-amber-400
+                      py-3 px-6 rounded-full mt-3 md:mt-6 group-hover:bg-white  group-hover:text-amber-400
                       active:bg-white active:text-amber-400 active:duration-300
-                      ml-7 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
-                      2xl:text-2xl 2xl:mb-6
+                      ml-1 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
+                      2xl:text-2xl 2xl:mb-6 text-sm 
                       [WebkitTapHighlightColor:transparent]"
                       onClick={() => addProduct(data)}
                       disabled={checkAvailableToAddCart(data.id)}
