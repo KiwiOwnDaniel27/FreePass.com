@@ -23,16 +23,16 @@ const Products = () => {
         </div>
 
         <div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5
-            place-items-center gap-5 text-center">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5
+            place-items-center gap-0 2xl:gap-5 xl:gap-5 lg:xl:gap-5 md:gap-5 sm:gap-5 text-center">
                 {ProductsData.map((data) =>(
                     <div 
                     data-aos= "fade-up"
                     data-aos-delay= {data.aosDeLay}
                     key={data.id}
-                    className="space-y-3">
+                    className="space-y-3 mb-9 md:mb-0">
                         <a href={data.link}>
-                        <img src={data.image} alt="" className="h-90 w-60 object-cover rounded-md
+                        <img src={data.image} alt="" className="h-70 w-46 object-cover rounded-md
                         2xl:h-140 2xl:w-130
                         xl:h-85 xl:w-130
                         lg:h-90 lg:w-130
@@ -48,7 +48,7 @@ const Products = () => {
                         </a>
 
                         <div className="flex items-center gap-3">
-                            <span className="ml-25
+                            <span className="ml-19 md:ml-25
                             2xl:text-2xl">{data.rating}</span>
                             <FaStar className="text-amber-400 dark:text-amber-500"/>
                         </div>
