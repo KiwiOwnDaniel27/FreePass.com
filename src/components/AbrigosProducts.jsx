@@ -94,7 +94,7 @@ const AbrigosProducts = () => {
 
                   <p
                    className="text-white group-hover:text-white duration-300 mt-3
-                   text-sm line-clamp-2">
+                   text-sm line-clamp-2 hidden md:block">
                     {data.description}
                    </p>
 

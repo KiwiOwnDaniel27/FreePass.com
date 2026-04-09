@@ -105,7 +105,7 @@ className="overflow-x-hidden"
 
 <img
 className="rounded-2xl xl:w-100 xl:-ml-110 2xl:w-140 lg:w-100 lg:-ml-160 md:w-100 md:-ml-200
-sm:w-100 sm:-ml-240 w-90 -ml-220"
+sm:w-100 sm:-ml-240 w-66 -ml-220"
 src={data.image}
 alt=""
 />
@@ -167,7 +167,7 @@ relative shadow-xl duration-300 group rounded-2xl
 w-full h-full"
 >
 
-<div className="w-full flex justify-center mt-10">
+<div className="w-46 ml-23 md:w-full flex justify-center mt-10 md:ml-0">
 
 <img
 src={data.image}
