@@ -190,7 +190,7 @@ export const ProductsData1 = [
         image: "./assets/tejido1.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
-        link: null,
+        link: "/tejido-1",
         price: 60.00
     },
     {
@@ -198,7 +198,7 @@ export const ProductsData1 = [
         image: "./assets/tejido3.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
-        link: null,
+        link: "/tejido-2",
         price: 60.00
     },
     {
@@ -206,7 +206,7 @@ export const ProductsData1 = [
         image: "./assets/tejido5.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
-        link: null,
+        link: "/tejido-3",
         price: 60.00
     },
     {
@@ -214,7 +214,7 @@ export const ProductsData1 = [
         image: "./assets/tejido7.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
-        link: null,
+        link: "/tejido-0",
         price: 60.00
     },
     {
