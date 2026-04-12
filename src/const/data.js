@@ -219,30 +219,6 @@ export const ProductsData1 = [
     },
     {
         id: 13,
-        image: "./assets/CamisaMan11.webp",
-        title: "Camisa Blue Line",
-        description: "Blanco y azul",
-        link: null,
-        price: 65.00
-    },
-    {
-        id: 14,
-        image: "./assets/CamisaMan13.webp",
-        title: "Camisa White Black",
-        description: "Blanco y negro",
-        link: null,
-        price: 65.00
-    },
-    {
-        id: 15,
-        image: "./assets/CamisaMan15.webp",
-        title: "Camisa Green Rouse",
-        description: "Blanco y Verde",
-        link: null,
-        price: 65.00
-    },
-    {
-        id: 16,
         image: "./assets/Imagen9.png",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
@@ -250,7 +226,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 17,
+        id: 14,
         image: "./assets/Imagen10.png",
         title: "Abrigo Purpel Young",
         description: "Morado",
@@ -258,7 +234,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 18,
+        id: 15,
         image: "./assets/Imagen11.png",
         title: "Abrigo Lines",
         description: "Beish y Negro",
@@ -266,7 +242,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 19,
+        id: 16,
         image: "./assets/Imagen12.png",
         title: "Abrigo Black Elegant",
         description: "Negro",
@@ -274,7 +250,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 20,
+        id: 17,
         image: "./assets/Imagen13.png",
         title: "Abrigo Animal Print",
         description: "Blanco y negro",
@@ -282,7 +258,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 21,
+        id: 18,
         image: "./assets/Imagen14.png",
         title: "Abrigo Casual Verano",
         description: "Café y blanco",
@@ -290,7 +266,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 22,
+        id: 19,
         image: "./assets/Imagen15.png",
         title: "Abrigo Spring Rous",
         description: "Azul",
@@ -298,7 +274,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 23,
+        id: 20,
         image: "./assets/Imagen16.png",
         title: "Abrigo Beish Clasic",
         description: "Beish y Blanco",
