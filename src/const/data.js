@@ -629,8 +629,8 @@ export const CatalogoData = [
     },
     {
         id: 3,
-        image: "./assets/catalogo3.png",
-        title: "Indumentaria",
+        image: "./assets/CamisaMan7.webp",
+        title: "Camisas",
         rating: 4.7,
         color: "Verde Militar",
         aosDeLay: "400",
