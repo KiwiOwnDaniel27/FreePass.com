@@ -14,6 +14,14 @@ import Abrigo1 from './pagesAbrigos/Abrigo1';
 import Tienda from './pages/Tienda';
 import Tejidos from './pages/Tejidos';
 import Indumentaria from './pages/Indumentaria';
+import { Camisa1 } from './pagesCamisas/Camisa1';
+import { Camisa2 } from './pagesCamisas/Camisa2';
+import { Camisa3 } from './pagesCamisas/Camisa3';
+import { Camisa4 } from './pagesCamisas/Camisa4';
+import { Camisa5 } from './pagesCamisas/Camisa5';
+import { Camisa6 } from './pagesCamisas/Camisa6';
+import { Camisa7 } from './pagesCamisas/Camisa7';
+import { Camisa8 } from './pagesCamisas/Camisa8';
 
 const App = () => {
 
@@ -53,6 +61,14 @@ const App = () => {
         <Route path="/abrigo-1" element={<Abrigo1 />} />
         <Route path="/tejidos" element={<Tejidos />} />
         <Route path="/indumentaria" element={<Indumentaria />} />
+        <Route path="/camisa-1" element={<Camisa1/>} />
+        <Route path="/camisa-2" element={<Camisa2/>} />
+        <Route path="/camisa-3" element={<Camisa3/>} />
+        <Route path="/camisa-4" element={<Camisa4/>} />
+        <Route path="/camisa-5" element={<Camisa5/>} />
+        <Route path="/camisa-6" element={<Camisa6/>} />
+        <Route path="/camisa-7" element={<Camisa7/>} />
+        <Route path="/camisa-8" element={<Camisa8/>} />
       </Routes>
     </HashRouter>
   );
