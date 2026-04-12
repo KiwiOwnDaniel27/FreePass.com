@@ -214,7 +214,7 @@ export const ProductsData1 = [
         image: "./assets/tejido7.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
-        link: "/tejido-0",
+        link: "/tejido-4",
         price: 60.00
     },
     {
