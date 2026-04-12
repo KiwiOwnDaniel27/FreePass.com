@@ -1108,7 +1108,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan1.webp",
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
-        link: "/abrigo-1",
+        link: "/camisa-1",
         price: 45.00
     },
     {
@@ -1116,7 +1116,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan3.webp",
         title: "Camisa Yellow Shield",
         description: "Negro y Amarillo",
-        link: null,
+        link: "/camisa-2",
         price: 45.00
     },
     {
@@ -1124,7 +1124,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan5.webp",
         title: "Camisa Green Style",
         description: "Negro y Verde",
-        link: null,
+        link: "/camisa-3",
         price: 45.00
     },
     {
@@ -1132,7 +1132,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan7.webp",
         title: "Camisa Red Crown",
         description: "Negro y Rojo",
-        link: null,
+        link: "/camisa-4",
         price: 45.00
     },
     {
@@ -1140,7 +1140,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan9.webp",
         title: "Camisa Pocket",
         description: "Negro y Café",
-        link: null,
+        link: "/camisa-5",
         price: 45.00
     },
     {
@@ -1148,7 +1148,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan11.webp",
         title: "Camisa Blue Line",
         description: "Blanco y azul",
-        link: null,
+        link: "/camisa-6",
         price: 45.00
     },
     {
@@ -1156,7 +1156,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan13.webp",
         title: "Camisa White Black",
         description: "Blanco y negro",
-        link: null,
+        link: "/camisa-7",
         price: 45.00
     },
     {
@@ -1164,7 +1164,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan15.webp",
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
-        link: null,
+        link: "/camisa-8",
         price: 45.00
     },
 ]
