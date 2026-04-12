@@ -127,7 +127,7 @@ export const ProductsData1 = [
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 65.00
+        price: 45.00
     },
     {
         id: 2,
@@ -135,7 +135,7 @@ export const ProductsData1 = [
         title: "Camisa Yellow Shield",
         description: "Negro y Amarillo",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 3,
@@ -143,7 +143,7 @@ export const ProductsData1 = [
         title: "Camisa Green Style",
         description: "Negro y Verde",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 4,
@@ -151,7 +151,7 @@ export const ProductsData1 = [
         title: "Camisa Red Crown",
         description: "Negro y Rojo",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 5,
@@ -159,7 +159,7 @@ export const ProductsData1 = [
         title: "Camisa Pocket",
         description: "Negro y Café",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 6,
@@ -167,7 +167,7 @@ export const ProductsData1 = [
         title: "Camisa Blue Line",
         description: "Blanco y azul",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 7,
@@ -175,7 +175,7 @@ export const ProductsData1 = [
         title: "Camisa White Black",
         description: "Blanco y negro",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 8,
@@ -183,7 +183,7 @@ export const ProductsData1 = [
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 9,
@@ -191,7 +191,7 @@ export const ProductsData1 = [
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: null,
-        price: "60",
+        price: 60.00
     },
     {
         id: 10,
@@ -199,7 +199,7 @@ export const ProductsData1 = [
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: null,
-        price: "60",
+        price: 60.00
     },
     {
         id: 11,
@@ -207,7 +207,7 @@ export const ProductsData1 = [
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: null,
-        price: "60",
+        price: 60.00
     },
     {
         id: 12,
@@ -215,7 +215,7 @@ export const ProductsData1 = [
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: null,
-        price: "60",
+        price: 60.00
     },
     {
         id: 13,
@@ -729,7 +729,7 @@ export const TejidosData1 = [
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: null,
-        price: "60",
+        price: 60.00
     },
     {
         id: 2,
@@ -737,7 +737,7 @@ export const TejidosData1 = [
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: null,
-        price: "60",
+        price: 60.00
     },
     {
         id: 3,
@@ -745,7 +745,7 @@ export const TejidosData1 = [
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: null,
-        price: "60",
+        price: 60.00
     },
     {
         id: 4,
@@ -753,7 +753,7 @@ export const TejidosData1 = [
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: null,
-        price: "60",
+        price: 60.00
     },
     
 
@@ -766,7 +766,7 @@ export const CamisaData1 = [
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 65.00
+        price: 45.00
     },
     {
         id: 2,
@@ -774,7 +774,7 @@ export const CamisaData1 = [
         title: "Camisa Yellow Shield",
         description: "Negro y Amarillo",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 3,
@@ -782,7 +782,7 @@ export const CamisaData1 = [
         title: "Camisa Green Style",
         description: "Negro y Verde",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 4,
@@ -790,7 +790,7 @@ export const CamisaData1 = [
         title: "Camisa Red Crown",
         description: "Negro y Rojo",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 5,
@@ -798,7 +798,7 @@ export const CamisaData1 = [
         title: "Camisa Pocket",
         description: "Negro y Café",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 6,
@@ -806,7 +806,7 @@ export const CamisaData1 = [
         title: "Camisa Blue Line",
         description: "Blanco y azul",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 7,
@@ -814,7 +814,7 @@ export const CamisaData1 = [
         title: "Camisa White Black",
         description: "Blanco y negro",
         link: null,
-        price: 65.00
+        price: 45.00
     },
     {
         id: 8,
@@ -822,7 +822,7 @@ export const CamisaData1 = [
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
         link: null,
-        price: 65.00
+        price: 45.00
     },
 ]
 
