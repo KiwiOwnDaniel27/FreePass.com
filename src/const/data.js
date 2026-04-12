@@ -651,7 +651,7 @@ export const CatalogoData = [
     },
     {
         id: 2,
-        image: "./assets/catalogo2.png",
+        image: "./assets/tejido9.webp",
         title: "Tejidos",
         rating: 4.5,
         color: "Negro y blanco",
@@ -981,6 +981,30 @@ export const Tejido4 = [
     },
 ]
 
+export const Tejido5 = [
+    {
+        id: 1,
+        image: "./assets/tejido9.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/tejido10.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/ImgAbrigos/abrigo2.png",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
 export const CarruselAbrigo1 = [
     {
         id: 1,
@@ -1236,6 +1260,24 @@ export const CarruselTejido4 = [
     },
 ]
 
+export const CarruselTejido5 = [
+    {
+        id: 1,
+        image: "./assets/tejido9.webp",
+        title: "Camisa Blue Paris-Milan",
+        description: "Negro y Azul",
+        link: "/abrigo-1",
+        price: 45.00
+    },
+    {
+        id: 2,
+        image: "./assets/tejido10.webp",
+        title: "Camisa Blue Paris-Milan",
+        description: "Negro y Azul",
+        link: "/abrigo-1",
+        price: 45.00
+    },
+]
 
 
 export const TejidosData1 = [
@@ -1344,7 +1386,7 @@ export const CamisaData1 = [
 export const AbrigoData1 = [
     {
         id: 1,
-        image: "./assets/Imagen9.png",
+        image: "./assets/abrigo1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: null,
@@ -1352,6 +1394,94 @@ export const AbrigoData1 = [
     },
     {
         id: 2,
+        image: "./assets/abrigo3.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo5.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 4,
+        image: "./assets/abrigo7.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 5,
+        image: "./assets/abrigo9.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 6,
+        image: "./assets/abrigo11.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 7,
+        image: "./assets/abrigo13.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 8,
+        image: "./assets/abrigo15.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 9,
+        image: "./assets/abrigo17.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 10,
+        image: "./assets/abrigo19.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 11,
+        image: "./assets/abrigo21.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 12,
+        image: "./assets/Imagen9.png",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 13,
         image: "./assets/Imagen10.png",
         title: "Abrigo Purpel Young",
         description: "Morado",
@@ -1359,7 +1489,7 @@ export const AbrigoData1 = [
         price: 65.00
     },
     {
-        id: 3,
+        id: 14,
         image: "./assets/Imagen11.png",
         title: "Abrigo Lines",
         description: "Beish y Negro",
@@ -1367,7 +1497,7 @@ export const AbrigoData1 = [
         price: 65.00
     },
     {
-        id: 4,
+        id: 15,
         image: "./assets/Imagen12.png",
         title: "Abrigo Black Elegant",
         description: "Negro",
@@ -1375,7 +1505,7 @@ export const AbrigoData1 = [
         price: 65.00
     },
     {
-        id: 5,
+        id: 16,
         image: "./assets/Imagen13.png",
         title: "Abrigo Animal Print",
         description: "Blanco y negro",
@@ -1383,7 +1513,7 @@ export const AbrigoData1 = [
         price: 65.00
     },
     {
-        id: 6,
+        id: 17,
         image: "./assets/Imagen14.png",
         title: "Abrigo Casual Verano",
         description: "Café y blanco",
@@ -1391,7 +1521,7 @@ export const AbrigoData1 = [
         price: 65.00
     },
     {
-        id: 7,
+        id: 18,
         image: "./assets/Imagen15.png",
         title: "Abrigo Spring Rous",
         description: "Azul",
@@ -1399,7 +1529,7 @@ export const AbrigoData1 = [
         price: 65.00
     },
     {
-        id: 8,
+        id: 19,
         image: "./assets/Imagen16.png",
         title: "Abrigo Beish Clasic",
         description: "Beish y Blanco",

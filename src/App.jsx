@@ -26,6 +26,7 @@ import {Tejido1} from './pagesTejidos/Tejido1';
 import {Tejido2} from './pagesTejidos/Tejido2';
 import {Tejido3} from './pagesTejidos/Tejido3';
 import {Tejido4} from './pagesTejidos/Tejido4';
+import {Tejido5} from './pagesTejidos/Tejido5';
 
 
 const App = () => {
@@ -69,6 +70,7 @@ const App = () => {
         <Route path="/tejido-2" element={<Tejido2 />} />
         <Route path="/tejido-3" element={<Tejido3 />} />
         <Route path="/tejido-4" element={<Tejido4 />} />
+        <Route path="/tejido-5" element={<Tejido5 />} />
         <Route path="/indumentaria" element={<Indumentaria />} />
         <Route path="/camisa-1" element={<Camisa1/>} />
         <Route path="/camisa-2" element={<Camisa2/>} />
