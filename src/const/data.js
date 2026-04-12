@@ -1283,7 +1283,7 @@ export const CarruselTejido5 = [
 export const TejidosData1 = [
     {
         id: 1,
-        image: "./assets/tejido1.webp",
+        image: "./assets/tejido1.1.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: "/tejido-1",
@@ -1291,14 +1291,15 @@ export const TejidosData1 = [
     },
     {
         id: 2,
-        image: "./assets/tejido3.webp",
+        image: "./assets/tejido3.1.webp",
         title: "Saco Tejido Rose",
+        description: "Verde y verde oscuro",
         link: "/tejido-2",
         price: 60.00
     },
     {
         id: 3,
-        image: "./assets/tejido5.webp",
+        image: "./assets/tejido5.1.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: "/tejido-3",
@@ -1306,7 +1307,7 @@ export const TejidosData1 = [
     },
     {
         id: 4,
-        image: "./assets/tejido7.webp",
+        image: "./assets/tejido7.1.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: "/tejido-4",
