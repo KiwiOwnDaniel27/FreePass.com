@@ -104,7 +104,7 @@ const TejidosProducts = () => {
                   py-3 px-6 rounded-full mt-3 md:mt-6 group-hover:bg-white  group-hover:text-amber-400
                   active:bg-white active:text-amber-400 active:duration-300
                   ml-0 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
-                  2xl:text-2xl 2xl:mb-6 text-[12px]
+                  2xl:text-2xl 2xl:mb-6 text-sm
                   [WebkitTapHighlightColor:transparent]"
                   onClick={() => addProduct(data)}
                   disabled={checkAvailableToAddCart(data.id)}
