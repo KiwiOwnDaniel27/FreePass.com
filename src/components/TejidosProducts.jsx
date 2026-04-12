@@ -62,54 +62,55 @@ const TejidosProducts = () => {
 
        
         <motion.div variants={variants.fadeInUp}
-        className="grid  grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 md:grid-cols-3 gap-20 md:gap-5 place-items-center mt-9">
+         className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-4 md:grid-cols-3 gap-3 md:gap-5 place-items-center mt-9">
        
           
             
           {TejidosData1.map((data) => (
 
-          <div className="bg-white bg-[url('/assets/fondo.prod1.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
-          hover:text-white relative shadow-xl duration-300 group rounded-2xl
-          2xl:w-full xl:w-full">
-
-              <div className="h-86">
-                  <Link to={data.link}>
-                    <img src={data.image} alt="" 
-                    className="w-full h-auto block mx-auto transform -translate-y-6
-                    group-hover:scale-110 duration-300 drop-shadow-md mt-6
-                    2xl:w-90 xl:w-70"
-                    />
-                  </Link>
+         <div className="bg-white bg-[url('/assets/fondo.prod1.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
+                            hover:text-white relative shadow-xl duration-300 group rounded-2xl
+                            2xl:w-full xl:w-full">
+                  
+          <div className="h-40 2xl:h-86 xl:h-86 lg:h-86 md:h-86 sm:h-86">
+              <Link to={data.link}>
+                <img src={data.image} alt="" 
+                className="w-60 h-auto block mx-auto transform -translate-y-6
+                group-hover:scale-110 duration-300 drop-shadow-md mt-6
+                2xl:w-90 xl:w-70 lg:w-full md:w-full sm:w-full  active:scale-95 hover:scale-105
+                active:duration-300"
+                />
+              </Link>
+          </div>
+          
+          <div className="p-4 text-center mt-16 2xl:mt-27 xl:mt-6 lg:mt-16 md:-mt-9 sm:mt-0">
+              <div className="w-full flex items-center justify-center gap-6">
+                <FaStar className="text-yellow-500 group-hover:text-white"/>
+                <FaStar className="text-yellow-500 group-hover:text-white"/>
+                <FaStar className="text-yellow-500 group-hover:text-white"/>
               </div>
-              
-              <div className="p-4 text-center mt-35 2xl:mt-27 xl:mt-6 lg:mt-16 md:-mt-9 sm:mt-0">
-                  <div className="w-full flex items-center justify-center gap-6">
-                    <FaStar className="text-yellow-500 group-hover:text-white"/>
-                    <FaStar className="text-yellow-500 group-hover:text-white"/>
-                    <FaStar className="text-yellow-500 group-hover:text-white"/>
-                  </div>
 
-                  <h1 className="text-white text-3 font-bold mt-6">{data.title}</h1>
+              <h1 className="text-white text-3 font-bold mt-6">{data.title}</h1>
 
-                  <p
-                   className="text-white group-hover:text-white duration-300 mt-3
-                   text-sm line-clamp-2">
-                    {data.description}
-                   </p>
+              <p
+              className="text-white group-hover:text-white duration-300 mt-3
+              text-sm line-clamp-2 hidden md:block">
+                {data.description}
+              </p>
 
-                   <h1 className="text-white text-lg font-bold mt-6">$ {data.price}</h1>
+              <h1 className="text-white sm:text-lg font-bold mt-3 md:mt-6">$ {data.price}</h1>
 
-                   <button className="bg-amber-400 hover:scale-105 active:scale-95 duration-300 text-white
-                      py-3 px-6 rounded-full mt-6 group-hover:bg-white  group-hover:text-amber-400
-                      active:bg-white active:text-amber-400 active:duration-300
-                      ml-25 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
-                      2xl:text-2xl 2xl:mb-6
-                      [WebkitTapHighlightColor:transparent]"
-                      onClick={() => addProduct(data)}
-                      disabled={checkAvailableToAddCart(data.id)}
-                      >
-                        Añadir al carrito
-                    </button>
+              <button className="bg-amber-400 dark:text-white hover:scale-105 active:scale-95 duration-300 text-white
+                  py-3 px-6 rounded-full mt-3 md:mt-6 group-hover:bg-white  group-hover:text-amber-400
+                  active:bg-white active:text-amber-400 active:duration-300
+                  ml-0 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6
+                  2xl:text-2xl 2xl:mb-6 text-[12px]
+                  [WebkitTapHighlightColor:transparent]"
+                  onClick={() => addProduct(data)}
+                  disabled={checkAvailableToAddCart(data.id)}
+                  >
+                    Añadir al carrito
+                </button>
 
               </div>
 
