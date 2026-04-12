@@ -22,6 +22,11 @@ import { Camisa5 } from './pagesCamisas/Camisa5';
 import { Camisa6 } from './pagesCamisas/Camisa6';
 import { Camisa7 } from './pagesCamisas/Camisa7';
 import { Camisa8 } from './pagesCamisas/Camisa8';
+import {Tejido1} from './pagesTejidos/Tejido1';
+import {Tejido2} from './pagesTejidos/Tejido2';
+import {Tejido3} from './pagesTejidos/Tejido3';
+import {Tejido4} from './pagesTejidos/Tejido4';
+
 
 const App = () => {
 
@@ -60,6 +65,10 @@ const App = () => {
         <Route path="/abrigos" element={<Abrigos />} />
         <Route path="/abrigo-1" element={<Abrigo1 />} />
         <Route path="/tejidos" element={<Tejidos />} />
+        <Route path="/tejido-1" element={<Tejido1 />} />
+        <Route path="/tejido-2" element={<Tejido2 />} />
+        <Route path="/tejido-3" element={<Tejido3 />} />
+        <Route path="/tejido-4" element={<Tejido4 />} />
         <Route path="/indumentaria" element={<Indumentaria />} />
         <Route path="/camisa-1" element={<Camisa1/>} />
         <Route path="/camisa-2" element={<Camisa2/>} />
