@@ -496,7 +496,7 @@ group-hover:scale-110 duration-300 drop-shadow-md`})}),p.jsxs("div",{className:"
                   py-3 px-6 rounded-full mt-3 md:mt-6 group-hover:bg-white  group-hover:text-amber-400\r
                   active:bg-white active:text-amber-400 active:duration-300\r
                   ml-0 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6\r
-                  2xl:text-2xl 2xl:mb-6 text-[12px]\r
+                  2xl:text-2xl 2xl:mb-6 text-sm\r
                   [WebkitTapHighlightColor:transparent]`,onClick:()=>i(l),disabled:r(l.id),children:"Añadir al carrito"})]})]}))})]})})},LO=()=>p.jsx("div",{children:p.jsxs("div",{children:[p.jsx(zn,{}),p.jsx("div",{children:p.jsx(DO,{})}),p.jsx("div",{children:p.jsx(_O,{})}),p.jsx("div",{children:p.jsx(kn,{})})]})}),zO=()=>p.jsx("div",{className:"mt-6 mb-12",children:p.jsxs("div",{className:"text-center mb-10 mx-w-[600] mx-auto",children:[p.jsx("h1",{"data-aos":"fade-up",className:`text-6xl font-bold\r
                 2xl:text-7xl\r
                 xl:text-5xl\r
@@ -528,5 +528,5 @@ group-hover:scale-110 duration-300 drop-shadow-md`})}),p.jsxs("div",{className:"
                   py-3 px-6 rounded-full mt-3 md:mt-6 group-hover:bg-white  group-hover:text-amber-400\r
                   active:bg-white active:text-amber-400 active:duration-300\r
                   ml-0 2xl:ml-10 xl:ml-10 lg:ml-15 md:ml-3 sm:ml-6\r
-                  2xl:text-2xl 2xl:mb-6 text-[12px]\r
+                  2xl:text-2xl 2xl:mb-6 text-sm\r
                   [WebkitTapHighlightColor:transparent]`,onClick:()=>i(l),disabled:r(l.id),children:"Añadir al carrito"})]})]}))})]})})},BO=()=>p.jsx("div",{children:p.jsxs("div",{children:[p.jsx(zn,{}),p.jsx("div",{children:p.jsx(zO,{})}),p.jsx("div",{children:p.jsx(kO,{})}),p.jsx("div",{children:p.jsx(kn,{})})]})}),VO=()=>{const[n,i]=Y.useState(!0);return Y.useEffect(()=>{Eg.init({offset:100,duration:800,easing:"ease-in-sine",delay:100}),Eg.refresh();const r=setTimeout(()=>{i(!1)},3e3);return()=>clearTimeout(r)},[]),n?p.jsx(m3,{}):p.jsx(e3,{children:p.jsxs(Nw,{children:[p.jsx(on,{path:"/",element:p.jsx(xv,{})}),p.jsx(on,{path:"/home",element:p.jsx(xv,{})}),p.jsx(on,{path:"/origen",element:p.jsx(pO,{})}),p.jsx(on,{path:"/amedida",element:p.jsx(bO,{})}),p.jsx(on,{path:"/galeria",element:p.jsx(wO,{})}),p.jsx(on,{path:"/tienda",element:p.jsx(MO,{})}),p.jsx(on,{path:"/catalogo",element:p.jsx(EO,{})}),p.jsx(on,{path:"/abrigos",element:p.jsx(OO,{})}),p.jsx(on,{path:"/abrigo-1",element:p.jsx(RO,{})}),p.jsx(on,{path:"/tejidos",element:p.jsx(LO,{})}),p.jsx(on,{path:"/indumentaria",element:p.jsx(BO,{})})]})})};DS.createRoot(document.getElementById("root")).render(p.jsx(Y.StrictMode,{children:p.jsx(x4,{children:p.jsx(VO,{})})}));
