@@ -641,7 +641,7 @@ export const CategoriasData = [
 export const CatalogoData = [
     {
         id: 1,
-        image: "./assets/catalogo1.png",
+        image: "./assets/abrigo1.webp",
         title: "Abrigos",
         rating: 5.0,
         color: "Azul",
