@@ -10,7 +10,7 @@ const IndumentariaContain = () => {
                 lg:text-4xl
                 md:text-4xl
                 sm:text-4xl
-                ">Indumentaria</h1>
+                ">Camisas</h1>
                 <p data-aos="fade-up" className="text-sm font-bold text-amber-400
                 2xl:text-2xl
                 xl:text-2xl

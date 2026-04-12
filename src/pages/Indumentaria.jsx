@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import TejidosProducts from '../components/TejidosProducts';
 import IndumentariaContain from '../components/IndumentariaContain';
+import IndumentariaProducts from '../components/IndumentariaProducts';
 
 const Indumentaria = () => {
   return (
@@ -13,7 +13,7 @@ const Indumentaria = () => {
             <IndumentariaContain/>
         </div>
         <div>
-            <TejidosProducts/>
+            <IndumentariaProducts/>
         </div>
         <div>
             <Footer/>

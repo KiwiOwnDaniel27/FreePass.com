@@ -40,7 +40,7 @@ export const DropdownLinks = [
     },
     {
         id:4,
-        name: "Indumentaria",
+        name: "Camisas",
         link: "/indumentaria",
     },
 ];
@@ -123,41 +123,41 @@ export const ProductsData = [
 export const ProductsData1 = [
     {
         id: 1,
-        image: "./assets/Imagen1.png",
-        title: "Abrigo Animal Print",
-        description: "Blanco y negro",
+        image: "./assets/CamisaMan1.webp",
+        title: "Camisa Blue Paris-Milan",
+        description: "Negro y Azul",
         link: "/abrigo-1",
         price: 65.00
     },
     {
         id: 2,
-        image: "./assets/Imagen2.png",
-        title: "Bomber Morado",
-        description: "Morado",
+        image: "./assets/CamisaMan3.webp",
+        title: "Camisa Yellow Shield",
+        description: "Negro y Amarillo",
         link: null,
         price: 65.00
     },
     {
         id: 3,
-        image: "./assets/Imagen3.png",
-        title: "Chaleco Café Reversible",
-        description: "Café",
+        image: "./assets/CamisaMan5.webp",
+        title: "Camisa Green Style",
+        description: "Negro y Verde",
         link: null,
         price: 65.00
     },
     {
         id: 4,
-        image: "./assets/Imagen4.png",
-        title: "Saco Plomo",
-        description: "Plomo",
+        image: "./assets/CamisaMan7.webp",
+        title: "Camisa Red Crown",
+        description: "Negro y Rojo",
         link: null,
         price: 65.00
     },
     {
         id: 5,
-        image: "./assets/Imagen5.png",
-        title: "Abrigo Red Rouses",
-        description: "Rojo",
+        image: "./assets/CamisaMan9.webp",
+        title: "Camisa Pocket",
+        description: "Negro y Café",
         link: null,
         price: 65.00
     },
@@ -703,15 +703,45 @@ export const TejidosData1 = [
 
 ]
 
-export const IndumentariaData1 = [
+export const CamisaData1 = [
     {
         id: 1,
-        image: "",
-        title: "",
-        description: "",
-        link: "",
-        price: "",
+        image: "./assets/CamisaMan1.webp",
+        title: "Camisa Blue Paris-Milan",
+        description: "Negro y Azul",
+        link: "/abrigo-1",
+        price: 65.00
     },
-    
-
+    {
+        id: 2,
+        image: "./assets/CamisaMan3.webp",
+        title: "Camisa Yellow Shield",
+        description: "Negro y Amarillo",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 3,
+        image: "./assets/CamisaMan5.webp",
+        title: "Camisa Green Style",
+        description: "Negro y Verde",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 4,
+        image: "./assets/CamisaMan7.webp",
+        title: "Camisa Red Crown",
+        description: "Negro y Rojo",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 5,
+        image: "./assets/CamisaMan9.webp",
+        title: "Camisa Pocket",
+        description: "Negro y Café",
+        link: null,
+        price: 65.00
+    },
 ]

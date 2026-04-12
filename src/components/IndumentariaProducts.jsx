@@ -1,11 +1,11 @@
 import React from 'react'
-import { IndumentariaData1 } from '../const/data';
 import { FaStar } from 'react-icons/fa6';
 import Slider from "react-slick";
 import { motion } from "framer-motion";
 import * as variants from '../motion/animation';
 import { useShoppingCart } from '../context/shopping-cart';
 import { Link } from 'react-router-dom';
+import { CamisaData1 } from '../const/data';
 
 const IndumentariaProducts = () => {
 
@@ -60,13 +60,13 @@ const IndumentariaProducts = () => {
             </div>
         </div>
 
-       {/* CARRITO 
+        
         <motion.div variants={variants.fadeInUp}
         className="grid  grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 md:grid-cols-3 gap-20 md:gap-5 place-items-center mt-9">
        
           
             
-          {TejidosData1.map((data) => (
+          {CamisaData1.map((data) => (
 
           <div className="bg-white bg-[url('/assets/fondo.prod1.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
           hover:text-white relative shadow-xl duration-300 group rounded-2xl
@@ -117,8 +117,8 @@ const IndumentariaProducts = () => {
 
           ))}
         </motion.div>
-        */}
-
+        
+        {/* 
         <div className="container">
             <h1 className="text-center
             2xl:text-5xl 2xl:mb-120 xl:text-3xl xl:mt-9 2xl:mt-13
@@ -130,6 +130,7 @@ const IndumentariaProducts = () => {
              2xl:ml-120 2xl:w-90 xl:ml-108 xl:-mt-110
              lg:ml-90 md:ml-55 sm:ml-43" />
         </div>
+        */}
     </div>
     </motion.div>
   )
