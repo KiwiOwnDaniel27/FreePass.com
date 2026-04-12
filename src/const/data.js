@@ -163,25 +163,25 @@ export const ProductsData1 = [
     },
     {
         id: 6,
-        image: "./assets/Imagen6.png",
-        title: "Saco Light Snake",
-        description: "Beish",
+        image: "./assets/CamisaMan11.webp",
+        title: "Camisa Blue Line",
+        description: "Blanco y azul",
         link: null,
         price: 65.00
     },
     {
         id: 7,
-        image: "./assets/Imagen7.png",
-        title: "Abrigo Green X",
-        description: "Verde",
+        image: "./assets/CamisaMan13.webp",
+        title: "Camisa White Black",
+        description: "Blanco y negro",
         link: null,
         price: 65.00
     },
     {
         id: 8,
-        image: "./assets/Imagen8.png",
-        title: "Camiseta Japan",
-        description: "Plomo",
+        image: "./assets/CamisaMan15.webp",
+        title: "Camisa Green Rouse",
+        description: "Blanco y Verde",
         link: null,
         price: 65.00
     },
@@ -693,11 +693,35 @@ export const CarruselAbrigo1 = [
 export const TejidosData1 = [
     {
         id: 1,
-        image: "",
-        title: "",
-        description: "",
-        link: "",
-        price: "",
+        image: "./assets/tejido1.webp",
+        title: "Saco Tejido Rose",
+        description: "Azul y café",
+        link: null,
+        price: "60",
+    },
+    {
+        id: 2,
+        image: "./assets/tejido3.webp",
+        title: "Saco Tejido Rose",
+        description: "Azul y café",
+        link: null,
+        price: "60",
+    },
+    {
+        id: 3,
+        image: "./assets/tejido5.webp",
+        title: "Saco Tejido Rose",
+        description: "Azul y café",
+        link: null,
+        price: "60",
+    },
+    {
+        id: 4,
+        image: "./assets/tejido7.webp",
+        title: "Saco Tejido Rose",
+        description: "Azul y café",
+        link: null,
+        price: "60",
     },
     
 
@@ -744,4 +768,97 @@ export const CamisaData1 = [
         link: null,
         price: 65.00
     },
+    {
+        id: 6,
+        image: "./assets/CamisaMan11.webp",
+        title: "Camisa Blue Line",
+        description: "Blanco y azul",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 7,
+        image: "./assets/CamisaMan13.webp",
+        title: "Camisa White Black",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 8,
+        image: "./assets/CamisaMan15.webp",
+        title: "Camisa Green Rouse",
+        description: "Blanco y Verde",
+        link: null,
+        price: 65.00
+    },
+]
+
+export const AbrigoData1 = [
+    {
+        id: 1,
+        image: "./assets/Imagen9.png",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 2,
+        image: "./assets/Imagen10.png",
+        title: "Abrigo Purpel Young",
+        description: "Morado",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 3,
+        image: "./assets/Imagen11.png",
+        title: "Abrigo Lines",
+        description: "Beish y Negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 4,
+        image: "./assets/Imagen12.png",
+        title: "Abrigo Black Elegant",
+        description: "Negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 5,
+        image: "./assets/Imagen13.png",
+        title: "Abrigo Animal Print",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 6,
+        image: "./assets/Imagen14.png",
+        title: "Abrigo Casual Verano",
+        description: "Café y blanco",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 7,
+        image: "./assets/Imagen15.png",
+        title: "Abrigo Spring Rous",
+        description: "Azul",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 8,
+        image: "./assets/Imagen16.png",
+        title: "Abrigo Beish Clasic",
+        description: "Beish y Blanco",
+        link: null,
+        price: 65.00
+    },
+
+    
 ]

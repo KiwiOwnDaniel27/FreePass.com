@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProductsData1 } from '../const/data';
+import { AbrigoData1 } from '../const/data';
 import { FaStar } from 'react-icons/fa6';
 import Slider from "react-slick";
 import { motion } from "framer-motion";
@@ -66,7 +66,7 @@ const AbrigosProducts = () => {
 
           
             
-          {ProductsData1.map((data) => (
+          {AbrigoData1.map((data) => (
 
           <div className="bg-white bg-[url('/assets/fondo.prod1.png')] bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
           hover:text-white relative shadow-xl duration-300 group rounded-2xl

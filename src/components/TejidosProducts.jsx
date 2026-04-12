@@ -60,7 +60,7 @@ const TejidosProducts = () => {
             </div>
         </div>
 
-       {/* CARRITO 
+       
         <motion.div variants={variants.fadeInUp}
         className="grid  grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 md:grid-cols-3 gap-20 md:gap-5 place-items-center mt-9">
        
@@ -117,8 +117,8 @@ const TejidosProducts = () => {
 
           ))}
         </motion.div>
-        */}
-
+        
+        {/* 
         <div className="container">
             <h1 className="text-center
             2xl:text-5xl 2xl:mb-120 xl:text-3xl xl:mt-9 2xl:mt-13
@@ -130,6 +130,7 @@ const TejidosProducts = () => {
              2xl:ml-120 2xl:w-90 xl:ml-108 xl:-mt-110
              lg:ml-90 md:ml-55 sm:ml-43" />
         </div>
+        */}
     </div>
     </motion.div>
   )
