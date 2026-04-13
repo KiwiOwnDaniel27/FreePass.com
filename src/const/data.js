@@ -238,7 +238,7 @@ export const ProductsData1 = [
     {
         id: 15,
         image: "./assets/abrigo3.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Dark Green Rever",
         description: "Blanco y negro",
         link: "/abrigo-2",
         price: 65.00
@@ -255,7 +255,7 @@ export const ProductsData1 = [
     {
         id: 17,
         image: "./assets/abrigo7.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Future Street",
         description: "Blanco y negro",
         link: "/abrigo-4",
         price: 65.00
@@ -272,7 +272,7 @@ export const ProductsData1 = [
     {
         id: 19,
         image: "./assets/abrigo11.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo WaterProof",
         description: "Blanco y negro",
         link: "/abrigo-6",
         price: 65.00
@@ -280,7 +280,7 @@ export const ProductsData1 = [
     {
         id: 20,
         image: "./assets/abrigo13.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Green Future",
         description: "Blanco y negro",
         link: "/abrigo-7",
         price: 65.00
@@ -297,7 +297,7 @@ export const ProductsData1 = [
     {
         id: 22,
         image: "./assets/abrigo17.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Under Blue",
         description: "Blanco y negro",
         link: "/abrigo-9",
         price: 65.00
@@ -314,7 +314,7 @@ export const ProductsData1 = [
     {
         id: 24,
         image: "./assets/abrigo21.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Autumn",
         description: "Blanco y negro",
         link: "/abrigo-11",
         price: 65.00
@@ -1307,7 +1307,7 @@ export const CarruselAbrigo2 = [
     {
         id: 1,
         image: "./assets/abrigo3.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Dark Green Rever",
         description: "",
         link: null,
         price: 98 ,
@@ -1315,7 +1315,7 @@ export const CarruselAbrigo2 = [
     {
         id: 2,
         image: "./assets/abrigo3.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Dark Green Rever",
         description: "",
         link: null,
         price: 98 ,
@@ -1347,7 +1347,7 @@ export const CarruselAbrigo4 = [
     {
         id: 1,
         image: "./assets/abrigo7.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Future Street",
         description: "",
         link: null,
         price: 98 ,
@@ -1355,7 +1355,7 @@ export const CarruselAbrigo4 = [
     {
         id: 2,
         image: "./assets/abrigo7.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Future Street",
         description: "",
         link: null,
         price: 98 ,
@@ -1387,7 +1387,7 @@ export const CarruselAbrigo6 = [
     {
         id: 1,
         image: "./assets/abrigo11.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo WaterProof",
         description: "",
         link: null,
         price: 98 ,
@@ -1395,7 +1395,7 @@ export const CarruselAbrigo6 = [
     {
         id: 2,
         image: "./assets/abrigo11.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo WaterProof",
         description: "",
         link: null,
         price: 98 ,
@@ -1406,7 +1406,7 @@ export const CarruselAbrigo7 = [
     {
         id: 1,
         image: "./assets/abrigo13.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Green Future",
         description: "",
         link: null,
         price: 98 ,
@@ -1414,7 +1414,7 @@ export const CarruselAbrigo7 = [
     {
         id: 2,
         image: "./assets/abrigo13.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Green Future",
         description: "",
         link: null,
         price: 98 ,
@@ -1446,7 +1446,7 @@ export const CarruselAbrigo9 = [
     {
         id: 1,
         image: "./assets/abrigo17.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Under Blue",
         description: "",
         link: null,
         price: 98 ,
@@ -1454,7 +1454,7 @@ export const CarruselAbrigo9 = [
     {
         id: 2,
         image: "./assets/abrigo17.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Under Blue",
         description: "",
         link: null,
         price: 98 ,
@@ -1487,7 +1487,7 @@ export const CarruselAbrigo11 = [
     {
         id: 1,
         image: "./assets/abrigo21.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Autumn",
         description: "",
         link: null,
         price: 98 ,
@@ -1495,7 +1495,7 @@ export const CarruselAbrigo11 = [
     {
         id: 2,
         image: "./assets/abrigo21.1.webp",
-        title: "Abrigo Animal Print Blanco y Negro",
+        title: "Abrigo Autumn",
         description: "",
         link: null,
         price: 98 ,
@@ -1878,7 +1878,7 @@ export const AbrigoData1 = [
     {
         id: 2,
         image: "./assets/abrigo3.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Dark Green Rever",
         description: "Blanco y negro",
         link: "/abrigo-2",
         price: 65.00
@@ -1895,7 +1895,7 @@ export const AbrigoData1 = [
     {
         id: 4,
         image: "./assets/abrigo7.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Future Street",
         description: "Blanco y negro",
         link: "/abrigo-4",
         price: 65.00
@@ -1912,7 +1912,7 @@ export const AbrigoData1 = [
     {
         id: 6,
         image: "./assets/abrigo11.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo WaterProof",
         description: "Blanco y negro",
         link: "/abrigo-6",
         price: 65.00
@@ -1920,7 +1920,7 @@ export const AbrigoData1 = [
     {
         id: 7,
         image: "./assets/abrigo13.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Green Future",
         description: "Blanco y negro",
         link: "/abrigo-7",
         price: 65.00
@@ -1937,7 +1937,7 @@ export const AbrigoData1 = [
     {
         id: 9,
         image: "./assets/abrigo17.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Under Blue",
         description: "Blanco y negro",
         link: "/abrigo-9",
         price: 65.00
@@ -1954,7 +1954,7 @@ export const AbrigoData1 = [
     {
         id: 11,
         image: "./assets/abrigo21.1.webp",
-        title: "Abrigo Elegancy",
+        title: "Abrigo Autumn",
         description: "Blanco y negro",
         link: "/abrigo-11",
         price: 65.00
