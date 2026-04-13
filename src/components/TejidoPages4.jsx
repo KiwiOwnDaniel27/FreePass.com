@@ -94,7 +94,7 @@ className="overflow-x-hidden"
 
 
 
-<div className="w-300">
+<div className="w-100 sm:w-300">
 
 <Slider {...settings}>
 {CarruselTejido5.map((data, index) => (
