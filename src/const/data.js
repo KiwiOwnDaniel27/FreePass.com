@@ -1310,7 +1310,7 @@ export const CarruselAbrigo2 = [
         title: "Abrigo Dark Green Rever",
         description: "",
         link: null,
-        price: 98 ,
+        price: 135 ,
     },
     {
         id: 2,
@@ -1318,7 +1318,7 @@ export const CarruselAbrigo2 = [
         title: "Abrigo Dark Green Rever",
         description: "",
         link: null,
-        price: 98 ,
+        price: 135 ,
     },
 ]
 
@@ -1330,7 +1330,7 @@ export const CarruselAbrigo3 = [
         title: "Abrigo Military Hook",
         description: "",
         link: null,
-        price: 98 ,
+        price: 99 ,
     },
     {
         id: 2,
@@ -1339,7 +1339,7 @@ export const CarruselAbrigo3 = [
         title: "Abrigo Military Hook",
         description: "",
         link: null,
-        price: 98 ,
+        price: 99 ,
     },
 ]
 
@@ -1350,7 +1350,7 @@ export const CarruselAbrigo4 = [
         title: "Abrigo Future Street",
         description: "",
         link: null,
-        price: 98 ,
+        price: 75 ,
     },
     {
         id: 2,
@@ -1358,7 +1358,7 @@ export const CarruselAbrigo4 = [
         title: "Abrigo Future Street",
         description: "",
         link: null,
-        price: 98 ,
+        price: 75 ,
     },
 ]
 
@@ -1370,7 +1370,7 @@ export const CarruselAbrigo5 = [
         title: "Chaqueta Glow",
         description: "",
         link: null,
-        price: 98 ,
+        price: 130 ,
     },
     {
         id: 2,
@@ -1379,7 +1379,7 @@ export const CarruselAbrigo5 = [
         title: "Chaqueta Glow",
         description: "",
         link: null,
-        price: 98 ,
+        price: 130 ,
     },
 ]
 
@@ -1390,7 +1390,7 @@ export const CarruselAbrigo6 = [
         title: "Abrigo WaterProof",
         description: "",
         link: null,
-        price: 98 ,
+        price: 75 ,
     },
     {
         id: 2,
@@ -1398,7 +1398,7 @@ export const CarruselAbrigo6 = [
         title: "Abrigo WaterProof",
         description: "",
         link: null,
-        price: 98 ,
+        price: 75 ,
     },
 ]
 
@@ -1409,7 +1409,7 @@ export const CarruselAbrigo7 = [
         title: "Abrigo Green Future",
         description: "",
         link: null,
-        price: 98 ,
+        price: 80 ,
     },
     {
         id: 2,
@@ -1417,7 +1417,7 @@ export const CarruselAbrigo7 = [
         title: "Abrigo Green Future",
         description: "",
         link: null,
-        price: 98 ,
+        price: 80 ,
     },
 ]
 
@@ -1449,7 +1449,7 @@ export const CarruselAbrigo9 = [
         title: "Abrigo Under Blue",
         description: "",
         link: null,
-        price: 98 ,
+        price: 75 ,
     },
     {
         id: 2,
@@ -1457,7 +1457,7 @@ export const CarruselAbrigo9 = [
         title: "Abrigo Under Blue",
         description: "",
         link: null,
-        price: 98 ,
+        price: 75 ,
     },
 ]
 
@@ -1469,7 +1469,7 @@ export const CarruselAbrigo10 = [
         title: "Abrigo Mustard Rose",
         description: "",
         link: null,
-        price: 98 ,
+        price: 125 ,
     },
     {
         id: 2,
@@ -1478,7 +1478,7 @@ export const CarruselAbrigo10 = [
         title: "Abrigo Mustard Rose",
         description: "",
         link: null,
-        price: 98 ,
+        price: 125 ,
     },
 ]
 
@@ -1490,7 +1490,7 @@ export const CarruselAbrigo11 = [
         title: "Abrigo Autumn",
         description: "",
         link: null,
-        price: 98 ,
+        price: 95 ,
     },
     {
         id: 2,
@@ -1498,7 +1498,7 @@ export const CarruselAbrigo11 = [
         title: "Abrigo Autumn",
         description: "",
         link: null,
-        price: 98 ,
+        price: 95 ,
     },
 ]
 
@@ -1873,7 +1873,7 @@ export const AbrigoData1 = [
         title: "Abrigo Dark Vampire",
         description: "Blanco y negro",
         link: "/abrigo-1",
-        price: 65.00
+        price: 98.00
     },
     {
         id: 2,
@@ -1881,7 +1881,7 @@ export const AbrigoData1 = [
         title: "Abrigo Dark Green Rever",
         description: "Blanco y negro",
         link: "/abrigo-2",
-        price: 65.00
+        price: 135.00
     },
     {
         id: 3,
@@ -1890,7 +1890,7 @@ export const AbrigoData1 = [
         title: "Abrigo Military Hook",
         description: "Blanco y negro",
         link: "/abrigo-3",
-        price: 65.00
+        price: 99.00
     },
     {
         id: 4,
@@ -1898,7 +1898,7 @@ export const AbrigoData1 = [
         title: "Abrigo Future Street",
         description: "Blanco y negro",
         link: "/abrigo-4",
-        price: 65.00
+        price: 75.00
     },
     {
         id: 5,
@@ -1907,7 +1907,7 @@ export const AbrigoData1 = [
         title: "Chaqueta Glow",
         description: "Café y Negro",
         link: "/abrigo-5",
-        price: 65.00
+        price: 130.00
     },
     {
         id: 6,
@@ -1915,7 +1915,7 @@ export const AbrigoData1 = [
         title: "Abrigo WaterProof",
         description: "Blanco y negro",
         link: "/abrigo-6",
-        price: 65.00
+        price: 75.00
     },
     {
         id: 7,
@@ -1923,7 +1923,7 @@ export const AbrigoData1 = [
         title: "Abrigo Green Future",
         description: "Blanco y negro",
         link: "/abrigo-7",
-        price: 65.00
+        price: 80.00
     },
     {
         id: 8,
@@ -1932,7 +1932,7 @@ export const AbrigoData1 = [
         title: "Abrigo Blue Sky",
         description: "Azul Marino",
         link: "/abrigo-8",
-        price: 65.00
+        price: 98.00
     },
     {
         id: 9,
@@ -1940,7 +1940,7 @@ export const AbrigoData1 = [
         title: "Abrigo Under Blue",
         description: "Blanco y negro",
         link: "/abrigo-9",
-        price: 65.00
+        price: 75.00
     },
     {
         id: 10,
@@ -1949,7 +1949,7 @@ export const AbrigoData1 = [
         title: "Abrigo Mustard Rose",
         description: "B/N y Mostaza",
         link: "/abrigo-10",
-        price: 65.00
+        price: 125.00
     },
     {
         id: 11,
@@ -1957,7 +1957,7 @@ export const AbrigoData1 = [
         title: "Abrigo Autumn",
         description: "Blanco y negro",
         link: "/abrigo-11",
-        price: 65.00
+        price: 95.00
     },
     {
         id: 12,
