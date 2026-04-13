@@ -109,9 +109,9 @@ export const ProductsData = [
     },
     {
         id: 5,
-        image: "./assets/img1.png",
+        image: "./assets/abrigo5.1.webp",
         title: "Abrigo Reversible Largo",
-        rating: 4.9,
+        rating: 5,
         color: "Azul",
         aosDeLay: "0",
         dad: "100",
