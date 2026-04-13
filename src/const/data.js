@@ -227,7 +227,7 @@ export const ProductsData1 = [
     },
     {
         id: 14,
-        image: "./assets/Imagen9.png",
+        image: "./assets/abrigo1.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: null,
@@ -235,61 +235,84 @@ export const ProductsData1 = [
     },
     {
         id: 15,
-        image: "./assets/Imagen10.png",
-        title: "Abrigo Purpel Young",
-        description: "Morado",
+        image: "./assets/abrigo3.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
         link: null,
         price: 65.00
     },
     {
         id: 16,
-        image: "./assets/Imagen11.png",
-        title: "Abrigo Lines",
-        description: "Beish y Negro",
+        image: "./assets/abrigo5.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
         link: null,
         price: 65.00
     },
     {
         id: 17,
-        image: "./assets/Imagen12.png",
-        title: "Abrigo Black Elegant",
-        description: "Negro",
+        image: "./assets/abrigo7.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
         link: null,
         price: 65.00
     },
     {
         id: 18,
-        image: "./assets/Imagen13.png",
-        title: "Abrigo Animal Print",
+        image: "./assets/abrigo9.1.webp",
+        title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: null,
         price: 65.00
     },
     {
         id: 19,
-        image: "./assets/Imagen14.png",
-        title: "Abrigo Casual Verano",
-        description: "Café y blanco",
+        image: "./assets/abrigo11.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
         link: null,
         price: 65.00
     },
     {
         id: 20,
-        image: "./assets/Imagen15.png",
-        title: "Abrigo Spring Rous",
-        description: "Azul",
+        image: "./assets/abrigo13.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
         link: null,
         price: 65.00
     },
     {
         id: 21,
-        image: "./assets/Imagen16.png",
-        title: "Abrigo Beish Clasic",
-        description: "Beish y Blanco",
+        image: "./assets/abrigo15.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
         link: null,
         price: 65.00
     },
-
+    {
+        id: 22,
+        image: "./assets/abrigo17.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 23,
+        image: "./assets/abrigo19.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
+    {
+        id: 24,
+        image: "./assets/abrigo21.1.webp",
+        title: "Abrigo Elegancy",
+        description: "Blanco y negro",
+        link: null,
+        price: 65.00
+    },
     
 ]
 
