@@ -888,21 +888,21 @@ export const Camisa8 = [
 export const Tejido1 = [
     {
         id: 1,
-        image: "./assets/tejido1.webp",
+        image: "./assets/tejido2.1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 2,
-        image: "./assets/tejido2.webp",
+        image: "./assets/tejido1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 3,
-        image: "./assets/ImgAbrigos/abrigo2.png",
+        image: "./assets/tejido2.webp",
         title: "",
         description: "",
         link: null,
@@ -912,21 +912,21 @@ export const Tejido1 = [
 export const Tejido2 = [
     {
         id: 1,
-        image: "./assets/tejido3.webp",
+        image: "./assets/tejido4.1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 2,
-        image: "./assets/tejido4.webp",
+        image: "./assets/tejido3.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 3,
-        image: "./assets/ImgAbrigos/abrigo2.png",
+        image: "./assets/tejido4.webp",
         title: "",
         description: "",
         link: null,
@@ -936,21 +936,21 @@ export const Tejido2 = [
 export const Tejido3 = [
     {
         id: 1,
-        image: "./assets/tejido5.webp",
+        image: "./assets/tejido6.1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 2,
-        image: "./assets/tejido6.webp",
+        image: "./assets/tejido5.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 3,
-        image: "./assets/ImgAbrigos/abrigo2.png",
+        image: "./assets/tejido6.webp",
         title: "",
         description: "",
         link: null,
@@ -960,21 +960,21 @@ export const Tejido3 = [
 export const Tejido4 = [
     {
         id: 1,
-        image: "./assets/tejido7.webp",
+        image: "./assets/tejido8.1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 2,
-        image: "./assets/tejido8.webp",
+        image: "./assets/tejido7.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 3,
-        image: "./assets/ImgAbrigos/abrigo2.png",
+        image: "./assets/tejido8.webp",
         title: "",
         description: "",
         link: null,
@@ -1187,16 +1187,16 @@ export const CarruselCamisa8 = [
 export const CarruselTejido1 = [
     {
         id: 1,
-        image: "./assets/tejido1.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido1.1.webp",
+        title: "Saco Tejido Rose",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
     {
         id: 2,
-        image: "./assets/tejido2.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido1.1.webp",
+        title: "Saco Tejido Rose",
         description: "Negro y Azul",
         link: "/abrigo-1",
         price: 45.00
@@ -1206,57 +1206,57 @@ export const CarruselTejido1 = [
 export const CarruselTejido2 = [
     {
         id: 1,
-        image: "./assets/tejido3.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido3.1.webp",
+        title: "Saco Tejido Free",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
     {
         id: 2,
-        image: "./assets/tejido4.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido3.1.webp",
+        title: "Saco Tejido Free",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
 ]
 
 export const CarruselTejido3 = [
     {
         id: 1,
-        image: "./assets/tejido5.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido5.1.webp",
+        title: "Saco Tejido Elegant",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
     {
         id: 2,
-        image: "./assets/tejido6.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido5.1.webp",
+        title: "Saco Tejido Elegant",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
 ]
 
 export const CarruselTejido4 = [
     {
         id: 1,
-        image: "./assets/tejido7.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido7.1.webp",
+        title: "Saco Tejido GirlPower",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
     {
         id: 2,
-        image: "./assets/tejido8.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido7.1.webp",
+        title: "Saco Tejido GirlPower",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
 ]
 
@@ -1292,7 +1292,7 @@ export const TejidosData1 = [
     {
         id: 2,
         image: "./assets/tejido3.1.webp",
-        title: "Saco Tejido Rose",
+        title: "Saco Tejido Free",
         description: "Verde y verde oscuro",
         link: "/tejido-2",
         price: 60.00
@@ -1300,16 +1300,16 @@ export const TejidosData1 = [
     {
         id: 3,
         image: "./assets/tejido5.1.webp",
-        title: "Saco Tejido Rose",
-        description: "Azul y café",
+        title: "Saco Tejido Elegant",
+        description: "Mostaza y café",
         link: "/tejido-3",
         price: 60.00
     },
     {
         id: 4,
         image: "./assets/tejido7.1.webp",
-        title: "Saco Tejido Rose",
-        description: "Azul y café",
+        title: "Saco Tejido GirlPower",
+        description: "Mostaza",
         link: "/tejido-4",
         price: 60.00
     },
