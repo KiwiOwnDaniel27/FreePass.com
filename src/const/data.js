@@ -1035,18 +1035,18 @@ export const CarruselAbrigo1 = [
 export const CarruselCamisa1 = [
     {
         id: 1,
-        image: "./assets/CamisaMan1.webp",
+        image: "./assets/CamisaMan1.1.webp",
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
-        link: "/abrigo-1",
+        link: "/camisa-1",
         price: 45.00
     },
     {
         id: 2,
-        image: "./assets/CamisaMan2.webp",
+        image: "./assets/CamisaMan1.1.webp",
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
-        link: "/abrigo-1",
+        link: "/camisa-1",
         price: 45.00
     },
 ]
@@ -1054,18 +1054,18 @@ export const CarruselCamisa1 = [
 export const CarruselCamisa2 = [
     {
         id: 1,
-        image: "./assets/CamisaMan3.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/CamisaMan3.1.webp",
+        title: "Camisa Yellow Shield",
         description: "Negro y Azul",
-        link: "/abrigo-1",
+        link: "/camisa'2",
         price: 45.00
     },
     {
         id: 2,
-        image: "./assets/CamisaMan4.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/CamisaMan3.1.webp",
+        title: "Camisa Yellow Shield",
         description: "Negro y Azul",
-        link: "/abrigo-1",
+        link: "/camisa-2",
         price: 45.00
     },
 ]
@@ -1073,18 +1073,18 @@ export const CarruselCamisa2 = [
 export const CarruselCamisa3 = [
     {
         id: 1,
-        image: "./assets/CamisaMan5.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan5.1.webp",
+        title: "Camisa Green Style",
+        description: "Negro y Verde",
+        link: "/camisa-3",
         price: 45.00
     },
     {
         id: 2,
-        image: "./assets/CamisaMan6.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan5.1.webp",
+        title: "Camisa Green Style",
+        description: "Negro y Verde",
+        link: "/camisa-3",
         price: 45.00
     },
 ]
@@ -1092,18 +1092,18 @@ export const CarruselCamisa3 = [
 export const CarruselCamisa4 = [
     {
         id: 1,
-        image: "./assets/CamisaMan7.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan7.1.webp",
+        title: "Camisa Red Crown",
+        description: "Negro y Rojo",
+        link: "/camisa-4",
         price: 45.00
     },
     {
         id: 2,
-        image: "./assets/CamisaMan8.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan7.1.webp",
+        title: "Camisa Red Crown",
+        description: "Negro y Rojo",
+        link: "/camisa-4",
         price: 45.00
     },
 ]
@@ -1111,18 +1111,17 @@ export const CarruselCamisa4 = [
 export const CarruselCamisa5 = [
     {
         id: 1,
-        image: "./assets/CamisaMan9.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
-        price: 45.00
+        image: "./assets/CamisaMan9.1.webp",
+        title: "Camisa Pocket",
+        description: "Negro y Café",
+        link: "/camisa-5"
     },
     {
         id: 2,
-        image: "./assets/CamisaMan10.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/CamisaMan9.1.web",
+        title: "Camisa Pocket",
         description: "Negro y Azul",
-        link: "/abrigo-1",
+        link: "/camisa-5",
         price: 45.00
     },
 ]
@@ -1130,18 +1129,18 @@ export const CarruselCamisa5 = [
 export const CarruselCamisa6 = [
     {
         id: 1,
-        image: "./assets/CamisaMan9.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan11.1.webp",
+        title: "Camisa Pocket",
+        description: "Negro y Café",
+        link: "/camisa-7",
         price: 45.00
     },
     {
         id: 2,
-        image: "./assets/CamisaMan10.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan11.1.webp",
+        title: "Camisa Pocket",
+        description: "Negro y Café",
+        link: "/camisa-7",
         price: 45.00
     },
 ]
@@ -1149,18 +1148,18 @@ export const CarruselCamisa6 = [
 export const CarruselCamisa7 = [
     {
         id: 1,
-        image: "./assets/CamisaMan13.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan13.1.webp",
+        title: "Camisa Blue Line",
+        description: "Blanco y azul",
+        link: "/camisa-6",
         price: 45.00
     },
     {
         id: 2,
-        image: "./assets/CamisaMan14.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan13.1.webp",
+        title: "Camisa White Black",
+        description: "Negro y Negro",
+        link: "/camisa-6",
         price: 45.00
     },
 ]
@@ -1168,18 +1167,18 @@ export const CarruselCamisa7 = [
 export const CarruselCamisa8 = [
     {
         id: 1,
-        image: "./assets/CamisaMan15.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan15.1.webp",
+        title: "Camisa Green Rouse",
+        description: "Blanco y Verde",
+        link: "/camisa-8",
         price: 45.00
     },
     {
         id: 2,
-        image: "./assets/CamisaMan16.webp",
-        title: "Camisa Blue Paris-Milan",
-        description: "Negro y Azul",
-        link: "/abrigo-1",
+        image: "./assets/CamisaMan15.1.webp",
+        title: "Camisa Green Rouse",
+        description: "Blanco y Verde",
+        link: "/camisa-8",
         price: 45.00
     },
 ]
@@ -1329,7 +1328,7 @@ export const TejidosData1 = [
 export const CamisaData1 = [
     {
         id: 1,
-        image: "./assets/CamisaMan1.webp",
+        image: "./assets/CamisaMan1.1.webp",
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
         link: "/camisa-1",
@@ -1337,7 +1336,7 @@ export const CamisaData1 = [
     },
     {
         id: 2,
-        image: "./assets/CamisaMan3.webp",
+        image: "./assets/CamisaMan3.1.webp",
         title: "Camisa Yellow Shield",
         description: "Negro y Amarillo",
         link: "/camisa-2",
@@ -1345,7 +1344,7 @@ export const CamisaData1 = [
     },
     {
         id: 3,
-        image: "./assets/CamisaMan5.webp",
+        image: "./assets/CamisaMan5.1.webp",
         title: "Camisa Green Style",
         description: "Negro y Verde",
         link: "/camisa-3",
@@ -1353,7 +1352,7 @@ export const CamisaData1 = [
     },
     {
         id: 4,
-        image: "./assets/CamisaMan7.webp",
+        image: "./assets/CamisaMan7.1.webp",
         title: "Camisa Red Crown",
         description: "Negro y Rojo",
         link: "/camisa-4",
@@ -1361,7 +1360,7 @@ export const CamisaData1 = [
     },
     {
         id: 5,
-        image: "./assets/CamisaMan9.webp",
+        image: "./assets/CamisaMan9.1.webp",
         title: "Camisa Pocket",
         description: "Negro y Café",
         link: "/camisa-5",
@@ -1369,23 +1368,23 @@ export const CamisaData1 = [
     },
     {
         id: 6,
-        image: "./assets/CamisaMan11.webp",
-        title: "Camisa Blue Line",
+        image: "./assets/CamisaMan11.1.webp",
+        title: "Camisa White Black",
         description: "Blanco y azul",
         link: "/camisa-6",
         price: 45.00
     },
     {
         id: 7,
-        image: "./assets/CamisaMan13.webp",
-        title: "Camisa White Black",
+        image: "./assets/CamisaMan13.1.webp",
+        title: "Camisa Blue Line",
         description: "Blanco y negro",
         link: "/camisa-7",
         price: 45.00
     },
     {
         id: 8,
-        image: "./assets/CamisaMan15.webp",
+        image: "./assets/CamisaMan15.1.webp",
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
         link: "/camisa-8",
