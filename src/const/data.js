@@ -651,7 +651,7 @@ export const CatalogoData = [
     },
     {
         id: 2,
-        image: "./assets/tejido9.webp",
+        image: "./assets/tejido9.1.webp",
         title: "Tejidos",
         rating: 4.5,
         color: "Negro y blanco",
@@ -984,21 +984,21 @@ export const Tejido4 = [
 export const Tejido5 = [
     {
         id: 1,
-        image: "./assets/tejido9.webp",
+        image: "./assets/tejido10.1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 2,
-        image: "./assets/tejido10.webp",
+        image: "./assets/tejido9.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 3,
-        image: "./assets/ImgAbrigos/abrigo2.png",
+        image: "./assets/tejido10.webp",
         title: "",
         description: "",
         link: null,
@@ -1263,19 +1263,19 @@ export const CarruselTejido4 = [
 export const CarruselTejido5 = [
     {
         id: 1,
-        image: "./assets/tejido9.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido9.1.webp",
+        title: "Saco Tejido Beish",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
     {
         id: 2,
-        image: "./assets/tejido10.webp",
-        title: "Camisa Blue Paris-Milan",
+        image: "./assets/tejido9.1.webp",
+        title: "Saco Tejido Beish",
         description: "Negro y Azul",
         link: "/abrigo-1",
-        price: 45.00
+        price: 60.00
     },
 ]
 
@@ -1313,6 +1313,15 @@ export const TejidosData1 = [
         link: "/tejido-4",
         price: 60.00
     },
+    {
+        id: 4,
+        image: "./assets/tejido9.1.webp",
+        title: "Saco Tejido Beish",
+        description: "Beish",
+        link: "/tejido-5",
+        price: 60.00
+    },
+    
     
 
 ]
