@@ -233,7 +233,7 @@ export const ProductsData1 = [
         title: "Abrigo Dark Vampire",
         description: "Blanco y negro",
         link: "/abrigo-1",
-        price: 65.00
+        price: 98.00
     },
     {
         id: 15,
@@ -241,7 +241,7 @@ export const ProductsData1 = [
         title: "Abrigo Dark Green Rever",
         description: "Blanco y negro",
         link: "/abrigo-2",
-        price: 65.00
+        price: 135.00
     },
     {
         id: 16,
@@ -250,7 +250,7 @@ export const ProductsData1 = [
         title: "Abrigo Military Hook",
         description: "Blanco y negro",
         link: "/abrigo-3",
-        price: 65.00
+        price: 99.00
     },
     {
         id: 17,
@@ -258,7 +258,7 @@ export const ProductsData1 = [
         title: "Abrigo Future Street",
         description: "Blanco y negro",
         link: "/abrigo-4",
-        price: 65.00
+        price: 75.00
     },
     {
         id: 18,
@@ -267,7 +267,7 @@ export const ProductsData1 = [
         title: "Chaqueta Glow",
         description: "Café y Negro",
         link: "/abrigo-5",
-        price: 65.00
+        price: 130.00
     },
     {
         id: 19,
@@ -275,7 +275,7 @@ export const ProductsData1 = [
         title: "Abrigo WaterProof",
         description: "Blanco y negro",
         link: "/abrigo-6",
-        price: 65.00
+        price: 75.00
     },
     {
         id: 20,
@@ -283,7 +283,7 @@ export const ProductsData1 = [
         title: "Abrigo Green Future",
         description: "Blanco y negro",
         link: "/abrigo-7",
-        price: 65.00
+        price: 80.00
     },
     {
         id: 21,
@@ -292,7 +292,7 @@ export const ProductsData1 = [
         title: "Abrigo Blue Sky",
         description: "Azul Marino",
         link: "/abrigo-8",
-        price: 65.00
+        price: 98.00
     },
     {
         id: 22,
@@ -300,7 +300,7 @@ export const ProductsData1 = [
         title: "Abrigo Under Blue",
         description: "Blanco y negro",
         link: "/abrigo-9",
-        price: 65.00
+        price: 75.00
     },
     {
         id: 23,
@@ -309,7 +309,7 @@ export const ProductsData1 = [
         title: "Abrigo Mustard Rose",
         description: "B/N y Mostaza",
         link: "/abrigo-10",
-        price: 65.00
+        price: 125.00
     },
     {
         id: 24,
@@ -317,7 +317,7 @@ export const ProductsData1 = [
         title: "Abrigo Autumn",
         description: "Blanco y negro",
         link: "/abrigo-11",
-        price: 65.00
+        price: 95.00
     },
     
 ]
