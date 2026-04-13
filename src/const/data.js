@@ -123,7 +123,7 @@ export const ProductsData = [
 export const ProductsData1 = [
     {
         id: 1,
-        image: "./assets/CamisaMan1.webp",
+        image: "./assets/CamisaMan1.1.webp",
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
         link: "/camisa-1",
@@ -131,7 +131,7 @@ export const ProductsData1 = [
     },
     {
         id: 2,
-        image: "./assets/CamisaMan3.webp",
+        image: "./assets/CamisaMan3.1.webp",
         title: "Camisa Yellow Shield",
         description: "Negro y Amarillo",
         link: "/camisa-2",
@@ -139,7 +139,7 @@ export const ProductsData1 = [
     },
     {
         id: 3,
-        image: "./assets/CamisaMan5.webp",
+        image: "./assets/CamisaMan5.1.webp",
         title: "Camisa Green Style",
         description: "Negro y Verde",
         link: "/camisa-3",
@@ -147,7 +147,7 @@ export const ProductsData1 = [
     },
     {
         id: 4,
-        image: "./assets/CamisaMan7.webp",
+        image: "./assets/CamisaMan7.1.webp",
         title: "Camisa Red Crown",
         description: "Negro y Rojo",
         link: "/camisa-4",
@@ -155,7 +155,7 @@ export const ProductsData1 = [
     },
     {
         id: 5,
-        image: "./assets/CamisaMan9.webp",
+        image: "./assets/CamisaMan9.1.webp",
         title: "Camisa Pocket",
         description: "Negro y Café",
         link: "/camisa-5",
@@ -163,7 +163,7 @@ export const ProductsData1 = [
     },
     {
         id: 6,
-        image: "./assets/CamisaMan11.webp",
+        image: "./assets/CamisaMan11.1.webp",
         title: "Camisa Blue Line",
         description: "Blanco y azul",
         link: "/camisa-6",
@@ -171,7 +171,7 @@ export const ProductsData1 = [
     },
     {
         id: 7,
-        image: "./assets/CamisaMan13.webp",
+        image: "./assets/CamisaMan13.1.webp",
         title: "Camisa White Black",
         description: "Blanco y negro",
         link: "/camisa-7",
@@ -179,7 +179,7 @@ export const ProductsData1 = [
     },
     {
         id: 8,
-        image: "./assets/CamisaMan15.webp",
+        image: "./assets/CamisaMan15.1.webp",
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
         link: "/camisa-8",
@@ -187,7 +187,7 @@ export const ProductsData1 = [
     },
     {
         id: 9,
-        image: "./assets/tejido1.webp",
+        image: "./assets/tejido1.1.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: "/tejido-1",
@@ -195,7 +195,7 @@ export const ProductsData1 = [
     },
     {
         id: 10,
-        image: "./assets/tejido3.webp",
+        image: "./assets/tejido3.1.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: "/tejido-2",
@@ -203,7 +203,7 @@ export const ProductsData1 = [
     },
     {
         id: 11,
-        image: "./assets/tejido5.webp",
+        image: "./assets/tejido5.1.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: "/tejido-3",
@@ -211,7 +211,7 @@ export const ProductsData1 = [
     },
     {
         id: 12,
-        image: "./assets/tejido7.webp",
+        image: "./assets/tejido7.1.webp",
         title: "Saco Tejido Rose",
         description: "Azul y café",
         link: "/tejido-4",
@@ -219,6 +219,14 @@ export const ProductsData1 = [
     },
     {
         id: 13,
+        image: "./assets/tejido9.1.webp",
+        title: "Saco Tejido Rose",
+        description: "Azul y café",
+        link: "/tejido-4",
+        price: 60.00
+    },
+    {
+        id: 14,
         image: "./assets/Imagen9.png",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
@@ -226,7 +234,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 14,
+        id: 15,
         image: "./assets/Imagen10.png",
         title: "Abrigo Purpel Young",
         description: "Morado",
@@ -234,7 +242,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 15,
+        id: 16,
         image: "./assets/Imagen11.png",
         title: "Abrigo Lines",
         description: "Beish y Negro",
@@ -242,7 +250,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 16,
+        id: 17,
         image: "./assets/Imagen12.png",
         title: "Abrigo Black Elegant",
         description: "Negro",
@@ -250,7 +258,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 17,
+        id: 18,
         image: "./assets/Imagen13.png",
         title: "Abrigo Animal Print",
         description: "Blanco y negro",
@@ -258,7 +266,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 18,
+        id: 19,
         image: "./assets/Imagen14.png",
         title: "Abrigo Casual Verano",
         description: "Café y blanco",
@@ -266,7 +274,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 19,
+        id: 20,
         image: "./assets/Imagen15.png",
         title: "Abrigo Spring Rous",
         description: "Azul",
@@ -274,7 +282,7 @@ export const ProductsData1 = [
         price: 65.00
     },
     {
-        id: 20,
+        id: 21,
         image: "./assets/Imagen16.png",
         title: "Abrigo Beish Clasic",
         description: "Beish y Blanco",
