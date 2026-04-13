@@ -197,32 +197,32 @@ export const ProductsData1 = [
     {
         id: 10,
         image: "./assets/tejido3.1.webp",
-        title: "Saco Tejido Rose",
-        description: "Azul y café",
+        title: "Saco Tejido Free",
+        description: "Verde y verde oscuro",
         link: "/tejido-2",
         price: 60.00
     },
     {
         id: 11,
         image: "./assets/tejido5.1.webp",
-        title: "Saco Tejido Rose",
-        description: "Azul y café",
+        title: "Saco Tejido Elegant",
+        description: "Mostaza y café",
         link: "/tejido-3",
         price: 60.00
     },
     {
         id: 12,
         image: "./assets/tejido7.1.webp",
-        title: "Saco Tejido Rose",
-        description: "Azul y café",
+        title: "Saco Tejido GirlPower",
+        description: "Mostaza",
         link: "/tejido-4",
         price: 60.00
     },
     {
         id: 13,
         image: "./assets/tejido9.1.webp",
-        title: "Saco Tejido Rose",
-        description: "Azul y café",
+        title: "Saco Tejido Beish",
+        description: "Beish",
         link: "/tejido-4",
         price: 60.00
     },
@@ -262,8 +262,8 @@ export const ProductsData1 = [
         id: 18,
         image: "./assets/abrigo9.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Abrigo Elegancy",
-        description: "Blanco y negro",
+        title: "Chaqueta Glow",
+        description: "Café y Negro",
         link: "/abrigo-5",
         price: 65.00
     },
@@ -287,8 +287,8 @@ export const ProductsData1 = [
         id: 21,
         image: "./assets/abrigo15.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Abrigo Elegancy",
-        description: "Blanco y negro",
+        title: "Abrigo Blue Sky",
+        description: "Azul Marino",
         link: "/abrigo-8",
         price: 65.00
     },
@@ -304,8 +304,8 @@ export const ProductsData1 = [
         id: 23,
         image: "./assets/abrigo19.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Abrigo Elegancy",
-        description: "Blanco y negro",
+        title: "Abrigo Mustard Rose",
+        description: "B/N y Mostaza",
         link: "/abrigo-10",
         price: 65.00
     },
