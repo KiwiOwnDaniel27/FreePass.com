@@ -11,6 +11,16 @@ import Galeria from "./pages/Galeria";
 import Catalogo from './pages/Catalogo';
 import Abrigos from './pages/Abrigos';
 import Abrigo1 from './pagesAbrigos/Abrigo1';
+import Abrigo2 from './pagesAbrigos/Abrigo2';
+import Abrigo3 from './pagesAbrigos/Abrigo3';
+import Abrigo4 from './pagesAbrigos/Abrigo4';
+import Abrigo5 from './pagesAbrigos/Abrigo5';
+import Abrigo6 from './pagesAbrigos/Abrigo6';
+import Abrigo7 from './pagesAbrigos/Abrigo7';
+import Abrigo8 from './pagesAbrigos/Abrigo8';
+import Abrigo9 from './pagesAbrigos/Abrigo9';
+import Abrigo10 from './pagesAbrigos/Abrigo10';
+import Abrigo11 from './pagesAbrigos/Abrigo11';
 import Tienda from './pages/Tienda';
 import Tejidos from './pages/Tejidos';
 import Indumentaria from './pages/Indumentaria';
@@ -65,6 +75,16 @@ const App = () => {
         <Route path="/catalogo" element={<Catalogo />} />
         <Route path="/abrigos" element={<Abrigos />} />
         <Route path="/abrigo-1" element={<Abrigo1 />} />
+        <Route path="/abrigo-2" element={<Abrigo2 />} />
+        <Route path="/abrigo-3" element={<Abrigo3 />} />
+        <Route path="/abrigo-4" element={<Abrigo4 />} />
+        <Route path="/abrigo-5" element={<Abrigo5 />} />
+        <Route path="/abrigo-6" element={<Abrigo6 />} />
+        <Route path="/abrigo-7" element={<Abrigo7 />} />
+        <Route path="/abrigo-8" element={<Abrigo8 />} />
+        <Route path="/abrigo-9" element={<Abrigo9 />} />
+        <Route path="/abrigo-10" element={<Abrigo10 />} />
+        <Route path="/abrigo-11" element={<Abrigo11 />} />
         <Route path="/tejidos" element={<Tejidos />} />
         <Route path="/tejido-1" element={<Tejido1 />} />
         <Route path="/tejido-2" element={<Tejido2 />} />

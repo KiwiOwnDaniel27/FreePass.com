@@ -682,21 +682,261 @@ export const CatalogoData = [
 export const Abrigo1 = [
     {
         id: 1,
-        image: "./assets/Imagen1.png",
+        image: "./assets/abrigo2.1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 2,
-        image: "./assets/ImgAbrigos/abrigo1.png",
+        image: "./assets/abrigo1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 3,
-        image: "./assets/ImgAbrigos/abrigo2.png",
+        image: "./assets/abrigo2.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo2 = [
+    {
+        id: 1,
+        image: "./assets/abrigo4.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo3.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo4.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo3 = [
+    {
+        id: 1,
+        image: "./assets/abrigo6.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo5.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo6.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo4 = [
+    {
+        id: 1,
+        image: "./assets/abrigo8.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo7.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo8.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo5 = [
+    {
+        id: 1,
+        image: "./assets/abrigo10.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo9.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo10.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo6 = [
+    {
+        id: 1,
+        image: "./assets/abrigo12.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo11.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo12.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo7 = [
+    {
+        id: 1,
+        image: "./assets/abrigo14.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo13.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo14.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo8 = [
+    {
+        id: 1,
+        image: "./assets/abrigo16.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo15.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo16.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo9 = [
+    {
+        id: 1,
+        image: "./assets/abrigo18.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo17.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo18.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo10 = [
+    {
+        id: 1,
+        image: "./assets/abrigo20.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo19.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo20.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
+
+export const Abrigo11 = [
+    {
+        id: 1,
+        image: "./assets/abrigo22.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo21.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/abrigo22.webp",
         title: "",
         description: "",
         link: null,
@@ -1016,7 +1256,7 @@ export const Tejido5 = [
 export const CarruselAbrigo1 = [
     {
         id: 1,
-        image: "./assets/ImgAbrigos/abrigo1.png",
+        image: "./assets/abrigo1.1.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1024,15 +1264,198 @@ export const CarruselAbrigo1 = [
     },
     {
         id: 2,
-        image: "./assets/ImgAbrigos/abrigo2.png",
+        image: "./assets/abrigo1.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo2 = [
+    {
+        id: 1,
+        image: "./assets/abrigo3.1.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
         price: 98 ,
     },
     {
-        id: 3,
-        image: "./assets/ImgAbrigos/abrigo3.png",
+        id: 2,
+        image: "./assets/abrigo3.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo3 = [
+    {
+        id: 1,
+        image: "./assets/abrigo5.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo5.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo4 = [
+    {
+        id: 1,
+        image: "./assets/abrigo7.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo7.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo5 = [
+    {
+        id: 1,
+        image: "./assets/abrigo9.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo9.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo6 = [
+    {
+        id: 1,
+        image: "./assets/abrigo11.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo11.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo7 = [
+    {
+        id: 1,
+        image: "./assets/abrigo13.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo13.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo8 = [
+    {
+        id: 1,
+        image: "./assets/abrigo15.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo15.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo9 = [
+    {
+        id: 1,
+        image: "./assets/abrigo17.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo17.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+export const CarruselAbrigo10 = [
+    {
+        id: 1,
+        image: "./assets/abrigo19.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo19.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+]
+
+
+export const CarruselAbrigo11 = [
+    {
+        id: 1,
+        image: "./assets/abrigo21.1.webp",
+        title: "Abrigo Animal Print Blanco y Negro",
+        description: "",
+        link: null,
+        price: 98 ,
+    },
+    {
+        id: 2,
+        image: "./assets/abrigo21.1.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1403,90 +1826,90 @@ export const CamisaData1 = [
 export const AbrigoData1 = [
     {
         id: 1,
-        image: "./assets/abrigo1.webp",
+        image: "./assets/abrigo1.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-1",
         price: 65.00
     },
     {
         id: 2,
-        image: "./assets/abrigo3.webp",
+        image: "./assets/abrigo3.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-2",
         price: 65.00
     },
     {
         id: 3,
-        image: "./assets/abrigo5.webp",
+        image: "./assets/abrigo5.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-3",
         price: 65.00
     },
     {
         id: 4,
-        image: "./assets/abrigo7.webp",
+        image: "./assets/abrigo7.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-4",
         price: 65.00
     },
     {
         id: 5,
-        image: "./assets/abrigo9.webp",
+        image: "./assets/abrigo9.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-5",
         price: 65.00
     },
     {
         id: 6,
-        image: "./assets/abrigo11.webp",
+        image: "./assets/abrigo11.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-6",
         price: 65.00
     },
     {
         id: 7,
-        image: "./assets/abrigo13.webp",
+        image: "./assets/abrigo13.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-7",
         price: 65.00
     },
     {
         id: 8,
-        image: "./assets/abrigo15.webp",
+        image: "./assets/abrigo15.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-8",
         price: 65.00
     },
     {
         id: 9,
-        image: "./assets/abrigo17.webp",
+        image: "./assets/abrigo17.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-9",
         price: 65.00
     },
     {
         id: 10,
-        image: "./assets/abrigo19.webp",
+        image: "./assets/abrigo19.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-10",
         price: 65.00
     },
     {
         id: 11,
-        image: "./assets/abrigo21.webp",
+        image: "./assets/abrigo21.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-11",
         price: 65.00
     },
     {
