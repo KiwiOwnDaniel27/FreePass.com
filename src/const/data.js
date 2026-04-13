@@ -1284,6 +1284,7 @@ export const CarruselAbrigo1 = [
     {
         id: 1,
         image: "./assets/abrigo1.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1292,6 +1293,7 @@ export const CarruselAbrigo1 = [
     {
         id: 2,
         image: "./assets/abrigo1.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1322,6 +1324,7 @@ export const CarruselAbrigo3 = [
     {
         id: 1,
         image: "./assets/abrigo5.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1330,6 +1333,7 @@ export const CarruselAbrigo3 = [
     {
         id: 2,
         image: "./assets/abrigo5.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1863,6 +1867,7 @@ export const AbrigoData1 = [
     {
         id: 1,
         image: "./assets/abrigo1.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: "/abrigo-1",
@@ -1879,6 +1884,7 @@ export const AbrigoData1 = [
     {
         id: 3,
         image: "./assets/abrigo5.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: "/abrigo-3",
