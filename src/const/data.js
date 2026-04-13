@@ -1785,7 +1785,7 @@ export const TejidosData1 = [
         price: 60.00
     },
     {
-        id: 4,
+        id: 5,
         image: "./assets/tejido9.1.webp",
         title: "Saco Tejido Beish",
         description: "Beish",
