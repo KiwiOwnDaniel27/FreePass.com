@@ -1808,6 +1808,7 @@ export const CamisaData1 = [
         id: 4,
         image: "./assets/CamisaMan7.1.webp",
         title: "Camisa Red Crown",
+        img: "./assets/soldOut.webp",
         description: "Negro y Rojo",
         link: "/camisa-4",
         price: 45.00
@@ -1882,6 +1883,7 @@ export const AbrigoData1 = [
     {
         id: 5,
         image: "./assets/abrigo9.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: "/abrigo-5",
@@ -1906,6 +1908,7 @@ export const AbrigoData1 = [
     {
         id: 8,
         image: "./assets/abrigo15.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: "/abrigo-8",
@@ -1922,6 +1925,7 @@ export const AbrigoData1 = [
     {
         id: 10,
         image: "./assets/abrigo19.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: "/abrigo-10",
