@@ -69,17 +69,7 @@ export const ImageList = [
 export const ProductsData = [
     {
         id: 1,
-        image: "./assets/img1.png",
-        title: "Abrigo Reversible Largo",
-        rating: 5.0,
-        color: "Azul",
-        aosDeLay: "0",
-        dad: "100",
-        link: null,
-    },
-    {
-        id: 2,
-        image: "./assets/img2.png",
+        image: "./assets/abrigo9.1.webp",
         title: "Bomber Quimono",
         rating: 5.0,
         color: "Negro y blanco",
@@ -88,8 +78,8 @@ export const ProductsData = [
         link: null,
     },
     {
-        id: 3,
-        image: "./assets/img3.png",
+        id: 2,
+        image: "./assets/abrigo15.1.webp",
         title: "Trench",
         rating: 4.9,
         color: "Verde Militar",
@@ -98,8 +88,8 @@ export const ProductsData = [
         link: null,
     },
     {
-        id: 4,
-        image: "./assets/img4.png",
+        id: 3,
+        image: "./assets/abrigo19.1.webp",
         title: "Quimono Street Wear",
         rating: 5.0,
         color: "Negro y blanco",
@@ -108,13 +98,23 @@ export const ProductsData = [
         link: null,
     },
     {
-        id: 5,
-        image: "./assets/img5.png",
+        id: 4,
+        image: "./assets/CamisaMan7.1.webp",
         title: "Capa Cuello Café",
         rating: 4.9,
         color: "Beish",
         aosDeLay: "800",
         dad: "500",
+        link: null,
+    },
+    {
+        id: 5,
+        image: "./assets/img1.png",
+        title: "Abrigo Reversible Largo",
+        rating: 5.0,
+        color: "Azul",
+        aosDeLay: "0",
+        dad: "100",
         link: null,
     },
 
@@ -148,6 +148,7 @@ export const ProductsData1 = [
     {
         id: 4,
         image: "./assets/CamisaMan7.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa Red Crown",
         description: "Negro y Rojo",
         link: "/camisa-4",
@@ -230,7 +231,7 @@ export const ProductsData1 = [
         image: "./assets/abrigo1.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-1",
         price: 65.00
     },
     {
@@ -238,7 +239,7 @@ export const ProductsData1 = [
         image: "./assets/abrigo3.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-2",
         price: 65.00
     },
     {
@@ -246,7 +247,7 @@ export const ProductsData1 = [
         image: "./assets/abrigo5.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-3",
         price: 65.00
     },
     {
@@ -254,15 +255,16 @@ export const ProductsData1 = [
         image: "./assets/abrigo7.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-4",
         price: 65.00
     },
     {
         id: 18,
         image: "./assets/abrigo9.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-5",
         price: 65.00
     },
     {
@@ -270,7 +272,7 @@ export const ProductsData1 = [
         image: "./assets/abrigo11.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-6",
         price: 65.00
     },
     {
@@ -278,15 +280,16 @@ export const ProductsData1 = [
         image: "./assets/abrigo13.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-7",
         price: 65.00
     },
     {
         id: 21,
         image: "./assets/abrigo15.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-8",
         price: 65.00
     },
     {
@@ -294,15 +297,16 @@ export const ProductsData1 = [
         image: "./assets/abrigo17.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-9",
         price: 65.00
     },
     {
         id: 23,
         image: "./assets/abrigo19.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-10",
         price: 65.00
     },
     {
@@ -310,7 +314,7 @@ export const ProductsData1 = [
         image: "./assets/abrigo21.1.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
-        link: null,
+        link: "/abrigo-11",
         price: 65.00
     },
     

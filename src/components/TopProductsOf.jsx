@@ -96,6 +96,12 @@ const TopProducts = () => {
                       2xl:w-90 xl:w-70 lg:w-full md:w-full sm:w-full
                       active:scale-95 hover:scale-105 active:duration-300"
                     />
+                     <img 
+                    className="-mt-40 w-30 ml-25 absolute 2xl:ml-29 2xl:w-50 2xl:-mt-60
+                    xl:ml-25 xl:w-40 xl:-mt-50 lg:ml-13 lg:w-40 lg:-mt-45 md:ml-19 md:w-35 md:-mt-40
+                    sm:ml-13 sm:w-40 sm:-mt-50"
+                    src={data.img} 
+                    alt="" />
                   </Link>
 
                   <div className="p-4 text-center">
