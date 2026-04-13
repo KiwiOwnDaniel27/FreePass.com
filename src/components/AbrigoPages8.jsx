@@ -110,6 +110,8 @@ src={data.image}
 alt=""
 />
 
+
+
 </div> 
   <p className="font-bold absolute
                 ml-15 mt-10 text-2xl w-60 text-center

@@ -94,7 +94,7 @@ className="overflow-x-hidden"
 
 
 
-<div className="w-300">
+<div className="w-100 sm:w-300">
 
 <Slider {...settings}>
 {CarruselCamisa4.map((data, index) => (
@@ -109,6 +109,12 @@ sm:w-100 sm:-ml-240 w-66 -ml-220"
 src={data.image}
 alt=""
 />
+<img 
+className="mt-45 w-30 -ml-19 absolute 2xl:ml-20 2xl:w-50 2xl:-mt-60
+xl:-ml-110 xl:w-40 xl:mt-80 lg:ml-20 lg:w-40 lg:-mt-45 md:ml-13 md:w-35 md:-mt-40
+sm:ml-16 sm:w-40 sm:-mt-50"
+src={data.img} 
+alt="" />
 
 </div> 
   <p className="font-bold absolute

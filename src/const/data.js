@@ -1360,6 +1360,7 @@ export const CarruselAbrigo5 = [
     {
         id: 1,
         image: "./assets/abrigo9.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1368,6 +1369,7 @@ export const CarruselAbrigo5 = [
     {
         id: 2,
         image: "./assets/abrigo9.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1417,6 +1419,7 @@ export const CarruselAbrigo8 = [
     {
         id: 1,
         image: "./assets/abrigo15.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1425,6 +1428,7 @@ export const CarruselAbrigo8 = [
     {
         id: 2,
         image: "./assets/abrigo15.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1455,6 +1459,7 @@ export const CarruselAbrigo10 = [
     {
         id: 1,
         image: "./assets/abrigo19.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1463,6 +1468,7 @@ export const CarruselAbrigo10 = [
     {
         id: 2,
         image: "./assets/abrigo19.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Animal Print Blanco y Negro",
         description: "",
         link: null,
@@ -1551,6 +1557,7 @@ export const CarruselCamisa4 = [
     {
         id: 1,
         image: "./assets/CamisaMan7.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa Red Crown",
         description: "Negro y Rojo",
         link: "/camisa-4",
@@ -1559,6 +1566,7 @@ export const CarruselCamisa4 = [
     {
         id: 2,
         image: "./assets/CamisaMan7.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa Red Crown",
         description: "Negro y Rojo",
         link: "/camisa-4",
