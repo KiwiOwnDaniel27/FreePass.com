@@ -229,6 +229,7 @@ export const ProductsData1 = [
     {
         id: 14,
         image: "./assets/abrigo1.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: "/abrigo-1",
@@ -245,6 +246,7 @@ export const ProductsData1 = [
     {
         id: 16,
         image: "./assets/abrigo5.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Elegancy",
         description: "Blanco y negro",
         link: "/abrigo-3",
