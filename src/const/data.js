@@ -127,7 +127,7 @@ export const ProductsData1 = [
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
         link: "/camisa-1",
-        price: 45.00
+        price: 48.00
     },
     {
         id: 2,
@@ -176,7 +176,7 @@ export const ProductsData1 = [
         title: "Camisa White Black",
         description: "Blanco y negro",
         link: "/camisa-7",
-        price: 45.00
+        price: 48.00
     },
     {
         id: 8,
@@ -184,7 +184,7 @@ export const ProductsData1 = [
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
         link: "/camisa-8",
-        price: 45.00
+        price: 39.99
     },
     {
         id: 9,
@@ -300,7 +300,7 @@ export const ProductsData1 = [
         title: "Abrigo Under Blue",
         description: "Blanco y negro",
         link: "/abrigo-9",
-        price: 75.00
+        price: 49.99
     },
     {
         id: 23,
@@ -1449,7 +1449,7 @@ export const CarruselAbrigo9 = [
         title: "Abrigo Under Blue",
         description: "",
         link: null,
-        price: 75 ,
+        price: 49.99 ,
     },
     {
         id: 2,
@@ -1457,7 +1457,7 @@ export const CarruselAbrigo9 = [
         title: "Abrigo Under Blue",
         description: "",
         link: null,
-        price: 75 ,
+        price: 49.99 ,
     },
 ]
 
@@ -1509,7 +1509,7 @@ export const CarruselCamisa1 = [
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
         link: "/camisa-1",
-        price: 45.00
+        price: 48.00
     },
     {
         id: 2,
@@ -1517,7 +1517,7 @@ export const CarruselCamisa1 = [
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
         link: "/camisa-1",
-        price: 45.00
+        price: 48.00
     },
 ]
 
@@ -1643,7 +1643,7 @@ export const CarruselCamisa8 = [
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
         link: "/camisa-8",
-        price: 45.00
+        price: 39.99
     },
     {
         id: 2,
@@ -1651,7 +1651,7 @@ export const CarruselCamisa8 = [
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
         link: "/camisa-8",
-        price: 45.00
+        price: 39.99
     },
 ]
 
@@ -1804,7 +1804,7 @@ export const CamisaData1 = [
         title: "Camisa Blue Paris-Milan",
         description: "Negro y Azul",
         link: "/camisa-1",
-        price: 45.00
+        price: 48.00
     },
     {
         id: 2.1,
@@ -1845,7 +1845,7 @@ export const CamisaData1 = [
         title: "Camisa White Black",
         description: "Blanco y azul",
         link: "/camisa-6",
-        price: 45.00
+        price: 48.00
     },
     {
         id: 7.1,
@@ -1861,7 +1861,7 @@ export const CamisaData1 = [
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
         link: "/camisa-8",
-        price: 45.00
+        price: 39.99
     },
 ]
 
@@ -1940,7 +1940,7 @@ export const AbrigoData1 = [
         title: "Abrigo Under Blue",
         description: "Blanco y negro",
         link: "/abrigo-9",
-        price: 75.00
+        price: 49.99
     },
     {
         id: 109,

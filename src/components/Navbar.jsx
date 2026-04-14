@@ -203,7 +203,7 @@ const Navbar = () => {
                   <span>Total:</span>
                   <span>
                     $
-                    {products.reduce((acc, item) => acc + item.price, 0)}
+                    {products.reduce((acc, item) => acc + parseFloat(item.price), 0).toFixed(2)}
                   </span>
                 </div>
 
