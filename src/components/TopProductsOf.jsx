@@ -83,7 +83,7 @@ const TopProducts = () => {
 
               <div key={data.id} className="px-4 mb-12">
 
-                <div className=" dark:bg-[url('/assets/fondo.prod.webp')] dark:bg-center bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
+                <div className="bg-[url('/assets/fondo.prod3.webp')] dark:bg-[url('/assets/fondo.prod.webp')] dark:bg-center bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
                 hover:text-white relative shadow-xl duration-300 group rounded-2xl
                 2xl:w-full xl:w-full ">
 
@@ -113,15 +113,15 @@ const TopProducts = () => {
                       <FaStar className="text-yellow-500 group-hover:text-white"/>
                     </div>
 
-                    <h1 className="text-white text-xl font-bold mt-6 2xl:text-3xl">
+                    <h1 className="text-black dark:text-white text-xl font-bold mt-6 2xl:text-3xl">
                       {data.title}
                     </h1>
 
-                    <p className="text-white group-hover:text-white duration-300 mt-3 text-sm line-clamp-2 2xl:text-2xl">
+                    <p className="text-black dark:text-white group-hover:text-white duration-300 mt-3 text-sm line-clamp-2 2xl:text-2xl">
                       {data.description}
                     </p>
 
-                    <h1 className="text-white text-lg font-bold mt-6 2xl:text-3xl"> $ 
+                    <h1 className="text-black dark:text-white text-lg font-bold mt-6 2xl:text-3xl"> $ 
                       {data.price}
                     </h1>
 
