@@ -83,7 +83,7 @@ const TopProducts = () => {
 
               <div key={data.id} className="px-4 mb-12">
 
-                <div className="bg-[url('/assets/fondo.prod.webp')] dark:bg-[url('/assets/fondo.prod.webp')] dark:bg-center bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
+                <div className=" dark:bg-[url('/assets/fondo.prod.webp')] dark:bg-center bg-cover hover:bg-amber-400 dark:hover:bg-amber-400
                 hover:text-white relative shadow-xl duration-300 group rounded-2xl
                 2xl:w-full xl:w-full ">
 

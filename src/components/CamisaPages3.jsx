@@ -167,7 +167,7 @@ alt="" />
 <div key={data.id} className="px-3">
 
 <div
-className="bg-white bg-[url('/assets/fondo.prod2.png')] bg-cover
+className="bg-[url('/assets/fondo.prod4.png')] dark:bg-[url('/assets/fondo.prod1.png')] bg-cover
 hover:bg-amber-400 hover:text-white
 relative shadow-xl duration-300 group rounded-2xl
 w-full h-full"
