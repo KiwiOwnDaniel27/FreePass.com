@@ -100,3 +100,12 @@
   @apply sm:hidden fixed top-0 left-0 bg-[url('/assets/fondo.prod3.webp')] dark:bg-[url('/assets/fondo.prod.webp')] bg-cover w-full h-screen 
   flex flex-col items-center -translate-y-full transition-transform justify-center z-40;
 }
+
+.navbar1.active{
+  @apply translate-y-0;
+}
+
+.navbar1 {
+  @apply sm:hidden fixed top-0 left-0 bg-[url('/assets/fondo.prod3.webp')] dark:bg-[url('/assets/fondo.prod.webp')] bg-cover w-full h-screen 
+  flex flex-col items-center -translate-y-full transition-transform justify-center z-40;
+}
