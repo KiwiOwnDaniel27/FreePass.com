@@ -178,7 +178,7 @@ const Navbar = () => {
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={() => setIsModalOpen(false)}></div>
           <div className="relative bg-white dark:bg-gray-800 rounded-2xl  w-80 shadow-2xl z-10 mt-133">
             <div className="flex flex-col gap-3">
-              <div className="absolute -mt-123 ml-59">
+              <div className="absolute -mt-116 ml-59">
                 <a href="https://wa.me/593988220328?text=Hola%20,estoy%20interesado/a%20en%20un%20producto%20exclusivo%20,que%20me%20recomiendas👕👗🛍️"
                  target="_blank" >
                   <img src="./assets/whatsappico.png" target="_blank" alt="" className="w-23 active:scale-95 hover:scale-105"/>
