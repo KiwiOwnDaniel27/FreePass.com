@@ -194,7 +194,7 @@ const Navbar = () => {
                   <img src="./assets/catalogo.png" alt="" className="w-23 active:scale-95 hover:scale-105"/>
                   <p className="text-white text-sm mt-0 ml-4 mb-3">Catálogo</p>
                 </a>
-                <a href="https://wa.me/593984611893?text=Hola%20,me%20puedes%20ayudar,%20tengo%20una%20consulta%20👕👗🛍️">
+                <a href="https://wa.me/593984611893?text=Hola%20,me%20puedes%20ayudar,%20tengo%20una%20consulta%20💻🛒">
                   <img src="./assets/soporte.png" alt="" className="w-23 active:scale-95 hover:scale-105"/>
                   <p className="text-white text-sm mt-0 ml-6">Soporte</p>
                 </a>
