@@ -184,7 +184,7 @@ const Navbar = () => {
                   <img src="./assets/whatsappico.png" target="_blank" alt="" className="w-23 active:scale-95 hover:scale-105"/>
                   <p className="text-white text-sm -mt-3 ml-4 w-20 mb-3">Personal Shopper</p>
                 </a>
-                <a href="tel:+593987654321">
+                <a href="tel:+593959463688">
                   <img src="./assets/llamada.png" alt="" className="w-23 active:scale-95 hover:scale-105"/>
                   <p className="text-white text-sm mt-0 ml-6 mb-3">Llamar</p>
                 </a>
