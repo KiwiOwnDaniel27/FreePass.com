@@ -188,7 +188,9 @@ const Navbar = () => {
                   <img src="./assets/llamada.png" alt="" className="w-23 active:scale-95 hover:scale-105"/>
                   <p className="text-white text-sm mt-0 ml-6 mb-3">Llamar</p>
                 </a>
-                <a href="#">
+                <a  href="./Catálogo-TerritorioLibre-FreePass-2026.pdf"
+                    target="_blank" 
+                    rel="noopener noreferrer">
                   <img src="./assets/catalogo.png" alt="" className="w-23 active:scale-95 hover:scale-105"/>
                   <p className="text-white text-sm mt-0 ml-4 mb-3">Catálogo</p>
                 </a>
