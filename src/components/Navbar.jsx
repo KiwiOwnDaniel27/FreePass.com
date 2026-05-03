@@ -79,7 +79,7 @@ const Navbar = () => {
             </button>
 
             {showCart && (
-              <div className="absolute right-6 mt-3 w-80 bg-white shadow-lg rounded-2xl z-50 flex flex-col max-h-[70vh]">
+              <div className="absolute right-0  mt-3 w-80 bg-white shadow-lg rounded-2xl z-50 flex flex-col max-h-[70vh]">
                 <div className="p-4"><h3 className="font-bold text-black">Carrito</h3></div>
                 <div className="overflow-y-auto flex-1 text-black">
                   {products.length === 0 ? <p className="text-gray-500 ml-4">Carrito vacío</p> : 
