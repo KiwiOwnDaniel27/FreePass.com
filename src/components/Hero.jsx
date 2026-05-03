@@ -59,7 +59,7 @@ const Hero = () => {
                         <div>
                         <div className="grid grid-cols-1 sm:grid-cols-2" >
     
-                                <div className="xl:ml-0 2xl:ml-0 lg:ml-0 md:ml-0 sm:ml-0 ml-23
+                                <div className="xl:ml-11 2xl:ml-0 lg:ml-0 md:ml-0 sm:ml-0 ml-23
                                 2xl:-mt-5 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 mt-4">
                                         <h1 className="text-3xl font-bold 2xl:w-120
                                         2xl:text-8xl xl:text-7xl lg:text-5xl md:text-4xl
@@ -88,7 +88,7 @@ const Hero = () => {
                                     <div>
                                         <img className=" w-150 h-50 sm:scale-105 -mt-70 ml-3 rounded-4xl
                                         2xl:w-600 2xl:h-123 2xl:mt-0 2xl:-ml-11
-                                        xl:w-400 xl:h-103 xl:mt-0 xl:-ml-11
+                                        xl:w-200 xl:h-auto xl:mt-0 xl:-ml-11
                                         lg:w-100 lg:h-60 lg:mt-0 lg:-ml-20
                                         md:w-100 md:h-60 md:mt-0 md:-ml-20
                                         sm:w-100 sm:h-60 sm:mt-0 sm:-ml-20" src={data.image} alt=""/>

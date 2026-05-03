@@ -22,7 +22,8 @@ const DarkMode = () => {
 
 
   return (
-    <div className="ml-12 -mt-13 2xl:-ml-20 xl:-ml-11 lg:ml-0 md:ml-0 sm:ml-40 md:-mt-13 sm:-mt-12">
+    <div className="ml-12 -mt-13 xl:-mt-23
+         2xl:-ml-20 xl:-ml-11 lg:ml-0 md:ml-0 sm:ml-40 md:-mt-13 sm:-mt-12">
         <img src="./assets/moodluz.webp"  alt="" 
         className={`w-26 2xl:w-40  cursor-pointer drop-shadow-[3px_3px_3px_black] transition-all
         duration-300 absolute z-10 ${theme == "dark" ? "opacity-0" : "opacity-100"

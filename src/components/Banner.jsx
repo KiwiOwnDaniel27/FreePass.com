@@ -21,7 +21,7 @@ const Banner = () => {
                     <img src="./assets/Banner.webp" alt="" 
                     className=" bg-amber-400 dark:bg-amber-500
                     2xl:w-full 2xl:h-full 2xl:ml-0 2xl:mt-0
-                    xl:w-800 xl:h-130 xl:ml-13 xl:mt-0
+                    xl:w-123 xl:h-auto xl:ml-23 xl:mt-0
                     lg:w-800 lg:h-120 lg:ml-13 lg:mt-0
                     md:w-800 md:h-100 md:ml-6 md:mt-0
                     sm:w-800 sm:h-70 sm:ml-39 sm:-mt-110
@@ -51,7 +51,7 @@ const Banner = () => {
                     xl:text-sm"
                     >Solicita tu prenda favorita, conecta con FreePass</p>
 
-                <div className="flex flex-col gap-4 ml-12">
+                <div className="flex flex-col gap-4 ml-0">
                 <div data-aos="fade-up" className="flex items-center gap-4 ml-9
                 2xl:ml-16
                 xl:ml-23
