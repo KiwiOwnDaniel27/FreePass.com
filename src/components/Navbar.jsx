@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className="container">
           <button href="https://www.instagram.com/freepassec/" target="_blank" rel="noreferrer">
             <img className="ml-21 2xl:ml-300 xl:ml-233 lg:ml-180 md:ml-140 mt-0 2xl:-mt-33 xl:-mt-19 lg:-mt-12 md:-mt-12 sm:ml-55 w-46 2xl:w-100 xl:w-70 lg:w-60 md:w-50 sm:w-45 block dark:hidden" src="./assets/logo-horizontal.webp" alt="" width={300} />
-            <img className="ml-21 2xl:ml-300 xl:ml-233 lg:ml-180 md:ml-140 mt-0 2xl:-mt-33 xl:-mt-12 lg:-mt-12 md:-mt-12 sm:ml-55 w-46 2xl:w-100 xl:w-70 lg:w-60 md:w-50 sm:w-45 hidden dark:block" src="./assets/logo-horizontal1.webp" alt="" width={300} />
+            <img className="ml-21 2xl:ml-300 xl:ml-233 lg:ml-180 md:ml-140 mt-0 2xl:-mt-33 xl:-mt-19 lg:-mt-12 md:-mt-12 sm:ml-55 w-46 2xl:w-100 xl:w-70 lg:w-60 md:w-50 sm:w-45 hidden dark:block" src="./assets/logo-horizontal1.webp" alt="" width={300} />
           </button>
 
           {/* CARRITO */}
@@ -79,7 +79,7 @@ const Navbar = () => {
             </button>
 
             {showCart && (
-              <div className="absolute right-0  mt-3 w-80 bg-white shadow-lg rounded-2xl z-50 flex flex-col max-h-[70vh]">
+              <div className="absolute right-0 mt-3 w-80 bg-white shadow-lg rounded-2xl z-50 flex flex-col max-h-[70vh]">
                 <div className="p-4"><h3 className="font-bold text-black">Carrito</h3></div>
                 <div className="overflow-y-auto flex-1 text-black">
                   {products.length === 0 ? <p className="text-gray-500 ml-4">Carrito vacío</p> : 
