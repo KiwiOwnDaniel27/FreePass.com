@@ -31,7 +31,6 @@ import { Camisa4 } from './pagesCamisas/Camisa4';
 import { Camisa5 } from './pagesCamisas/Camisa5';
 import { Camisa6 } from './pagesCamisas/Camisa6';
 import { Camisa7 } from './pagesCamisas/Camisa7';
-import { Camisa8 } from './pagesCamisas/Camisa8';
 import {Tejido1} from './pagesTejidos/Tejido1';
 import {Tejido2} from './pagesTejidos/Tejido2';
 import {Tejido3} from './pagesTejidos/Tejido3';
@@ -99,7 +98,6 @@ const App = () => {
         <Route path="/camisa-5" element={<Camisa5/>} />
         <Route path="/camisa-6" element={<Camisa6/>} />
         <Route path="/camisa-7" element={<Camisa7/>} />
-        <Route path="/camisa-8" element={<Camisa8/>} />
       </Routes>
     </HashRouter>
   );

@@ -1067,30 +1067,6 @@ export const Camisa4 = [
     },
 ]
 
-export const Camisa5 = [
-    {
-        id: 1,
-        image: "./assets/CamisaMan1.webp",
-        title: "",
-        description: "",
-        link: null,
-    },
-    {
-        id: 2,
-        image: "./assets/CamisaMan10.webp",
-        title: "",
-        description: "",
-        link: null,
-    },
-    {
-        id: 3,
-        image: "./assets/ImgAbrigos/abrigo2.png",
-        title: "",
-        description: "",
-        link: null,
-    },
-]
-
 export const Camisa6 = [
     {
         id: 1,
@@ -1114,6 +1090,7 @@ export const Camisa6 = [
         link: null,
     },
 ]
+
 export const Camisa7 = [
     {
         id: 1,
@@ -1138,29 +1115,35 @@ export const Camisa7 = [
     },
 ]
 
-export const Camisa8 = [
+export const Camisa9 = [
     {
         id: 1,
-        image: "./assets/CamisaMan16.1.webp",
+        image: "./assets/CamisaMan14.1.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 2,
-        image: "./assets/CamisaMan15.webp",
+        image: "./assets/CamisaMan11.webp",
         title: "",
         description: "",
         link: null,
     },
     {
         id: 3,
-        image: "./assets/CamisaMan16.webp",
+        image: "./assets/CamisaMan12.webp",
         title: "",
         description: "",
         link: null,
     },
 ]
+
+
+
+
+
+
 
 export const Tejido1 = [
     {
@@ -1580,39 +1563,23 @@ export const CarruselCamisa4 = [
     },
 ]
 
-export const CarruselCamisa5 = [
-    {
-        id: 1,
-        image: "./assets/CamisaMan9.1.webp",
-        title: "Camisa Pocket",
-        description: "Negro y Café",
-        link: "/camisa-5"
-    },
-    {
-        id: 2,
-        image: "./assets/CamisaMan9.1.webp",
-        title: "Camisa Pocket",
-        description: "Negro y Azul",
-        link: "/camisa-5",
-        price: 45.00
-    },
-]
-
 export const CarruselCamisa6 = [
     {
         id: 1,
         image: "./assets/CamisaMan9.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa Pocket",
         description: "Negro y Café",
-        link: "/camisa-6",
+        link: "/camisa-5",
         price: 45.00
     },
     {
         id: 2,
         image: "./assets/CamisaMan9.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa Pocket",
         description: "Negro y Café",
-        link: "/camisa-6",
+        link: "/camisa-5",
         price: 45.00
     },
 ]
@@ -1621,39 +1588,47 @@ export const CarruselCamisa7 = [
     {
         id: 1,
         image: "./assets/CamisaMan11.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa White Black",
-        description: "Blanco y azul",
-        link: "/camisa-7",
-        price: 45.00
+        description: "Negro y Rojo",
+        link: "/camisa-6",
+        price: 48.00
     },
     {
         id: 2,
         image: "./assets/CamisaMan11.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa White Black",
-        description: "Negro y Negro",
-        link: "/camisa-7",
-        price: 45.00
+        description: "Negro y Rojo",
+        link: "/camisa-6",
+        price: 48.00
     },
 ]
 
-export const CarruselCamisa8 = [
+export const CarruselCamisa9 = [
     {
         id: 1,
-        image: "./assets/CamisaMan15.1.webp",
-        title: "Camisa Green Rouse",
-        description: "Blanco y Verde",
-        link: "/camisa-8",
-        price: 39.99
+        image: "./assets/CamisaMan13.1.webp",
+        img: "./assets/soldOut.webp",
+        title: "Camisa White Black",
+        description: "Negro y Rojo",
+        link: "/camisa-7",
+        price: 48.00
     },
     {
         id: 2,
-        image: "./assets/CamisaMan15.1.webp",
-        title: "Camisa Green Rouse",
-        description: "Blanco y Verde",
-        link: "/camisa-8",
-        price: 39.99
+        image: "./assets/CamisaMan13.1.webp",
+        img: "./assets/soldOut.webp",
+        title: "Camisa White Black",
+        description: "Negro y Rojo",
+        link: "/camisa-7",
+        price: 48.00
     },
 ]
+
+
+
+
 
 export const CarruselTejido1 = [
     {

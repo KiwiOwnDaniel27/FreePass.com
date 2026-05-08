@@ -95,6 +95,7 @@ className="overflow-x-hidden"
 
 
 <div className="w-100 sm:w-300">
+
 <Slider {...settings}>
 {CarruselCamisa6.map((data, index) => (
 
