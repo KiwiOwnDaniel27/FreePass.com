@@ -420,7 +420,7 @@ sm:ml-16 sm:w-40 sm:-mt-50`,src:c.img,alt:""})]}),o.jsx("p",{className:`font-bol
                       sm:ml-65 sm:-mt-80 sm:text-xl sm:absolute\r
                       2xl:mb-6\r
                       ml-15 mt-50 text-2xl relative\r
-                      [WebkitTapHighlightColor:transparent]`,onClick:()=>i(c),disabled:a(c.id),children:"Añadir al carrito"})]},p))})})}),o.jsx(ye.div,{variants:$e,className:"mt-20",children:o.jsx(je,{...f,className:"px-2 md:px-10",children:D6.map(c=>o.jsx("div",{className:"px-3",children:o.jsxs("div",{className:`bg-white bg-[url('/assets/fondo.prod2.png')] bg-cover\r
+                      [WebkitTapHighlightColor:transparent]`,onClick:()=>i(c),disabled:a(c.id),children:"Añadir al carrito"})]},p))})})}),o.jsx(ye.div,{variants:$e,className:"mt-20",children:o.jsx(je,{...f,className:"px-2 md:px-10",children:D6.map(c=>o.jsx("div",{className:"px-3",children:o.jsxs("div",{className:`bg-white bg-[url('/assets/fondo.prod4.png')] dark:bg-[url('/assets/fondo.prod1.png')] bg-cover\r
 hover:bg-amber-400 hover:text-white\r
 relative shadow-xl duration-300 group rounded-2xl\r
 w-full h-full`,children:[o.jsx("div",{className:"w-46 ml-23 md:w-full flex justify-center mt-10 md:ml-0",children:o.jsx("img",{src:c.image,alt:"",className:` \r
