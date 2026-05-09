@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import CamisaPages6 from '../components/CamisaPages6';
+import CamisaPages7 from '../components/CamisaPages6';
 
 export const Camisa7 = () => {
   return (
@@ -9,7 +9,7 @@ export const Camisa7 = () => {
         <div>
             <Navbar/>
         <div>
-            <CamisaPages6/>
+            <CamisaPages7/>
         </div>
         <div>
             <Footer/>

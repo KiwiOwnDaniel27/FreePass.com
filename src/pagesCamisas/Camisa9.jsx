@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import CamisaPages8 from '../components/CamisaPages7';
+import CamisaPages8 from '../components/CamisaPages8';
 
-export const Camisa8 = () => {
+export const Camisa9 = () => {
   return (
     <div>
         <div>
@@ -19,4 +19,4 @@ export const Camisa8 = () => {
   )
 }
 
-export default Camisa8;
+export default Camisa9;

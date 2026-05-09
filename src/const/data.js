@@ -1115,7 +1115,7 @@ export const Camisa7 = [
     },
 ]
 
-export const Camisa9 = [
+export const Camisa8 = [
     {
         id: 1,
         image: "./assets/CamisaMan14.1.webp",
@@ -1139,6 +1139,29 @@ export const Camisa9 = [
     },
 ]
 
+export const Camisa9 = [
+    {
+        id: 1,
+        image: "./assets/CamisaMan16.1.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 2,
+        image: "./assets/CamisaMan15.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/CamisaMan16.webp",
+        title: "",
+        description: "",
+        link: null,
+    },
+]
 
 
 
@@ -1605,26 +1628,48 @@ export const CarruselCamisa7 = [
     },
 ]
 
-export const CarruselCamisa9 = [
+export const CarruselCamisa8 = [
     {
         id: 1,
         image: "./assets/CamisaMan13.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Camisa White Black",
+        title: "Camisa Red Crown",
         description: "Negro y Rojo",
-        link: "/camisa-7",
-        price: 48.00
+        link: "/camisa-8",
+        price: 45.00
     },
     {
         id: 2,
         image: "./assets/CamisaMan13.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Camisa White Black",
+        title: "Camisa Red Crown",
         description: "Negro y Rojo",
-        link: "/camisa-7",
-        price: 48.00
+        link: "/camisa-8",
+        price: 45.00
     },
 ]
+
+export const CarruselCamisa9 = [
+    {
+        id: 1,
+        image: "./assets/CamisaMan15.1.webp",
+        img: "./assets/soldOut.webp",
+        title: "Camisa Red Crown",
+        description: "Negro y Rojo",
+        link: "/camisa-8",
+        price: 45.00
+    },
+    {
+        id: 2,
+        image: "./assets/CamisaMan15.1.webp",
+        img: "./assets/soldOut.webp",
+        title: "Camisa Red Crown",
+        description: "Negro y Rojo",
+        link: "/camisa-8",
+        price: 45.00
+    },
+]
+
 
 
 
@@ -1827,7 +1872,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan13.1.webp",
         title: "Camisa Blue Line",
         description: "Blanco y negro",
-        link: "/camisa-7",
+        link: "/camisa-8",
         price: 45.00
     },
     {
@@ -1835,7 +1880,7 @@ export const CamisaData1 = [
         image: "./assets/CamisaMan15.1.webp",
         title: "Camisa Green Rouse",
         description: "Blanco y Verde",
-        link: "/camisa-8",
+        link: "/camisa-9",
         price: 39.99
     },
 ]
