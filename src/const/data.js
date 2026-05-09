@@ -1633,8 +1633,8 @@ export const CarruselCamisa8 = [
         id: 1,
         image: "./assets/CamisaMan13.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Camisa Red Crown",
-        description: "Negro y Rojo",
+        title: "Camisa Blue Line",
+        description: "Blanco y negro",
         link: "/camisa-8",
         price: 45.00
     },
@@ -1642,8 +1642,8 @@ export const CarruselCamisa8 = [
         id: 2,
         image: "./assets/CamisaMan13.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Camisa Red Crown",
-        description: "Negro y Rojo",
+        title: "Camisa Blue Line",
+        description: "Blanco y negro",
         link: "/camisa-8",
         price: 45.00
     },
@@ -1654,19 +1654,19 @@ export const CarruselCamisa9 = [
         id: 1,
         image: "./assets/CamisaMan15.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Camisa Red Crown",
+        title: "Camisa Green Rouse",
         description: "Negro y Rojo",
         link: "/camisa-8",
-        price: 45.00
+        price: 39.99
     },
     {
         id: 2,
         image: "./assets/CamisaMan15.1.webp",
         img: "./assets/soldOut.webp",
-        title: "Camisa Red Crown",
+        title: "Camisa Green Rouse",
         description: "Negro y Rojo",
         link: "/camisa-8",
-        price: 45.00
+        price: 39.99
     },
 ]
 
