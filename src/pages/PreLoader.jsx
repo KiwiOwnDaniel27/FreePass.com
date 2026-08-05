@@ -21,9 +21,9 @@ const PreLoader = () => {
              playsInline    
              className="ml-0 mt-9 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100 w-100
              2xl:ml-6 xl:-ml-6 lg:ml-6 md:ml-6 sm:ml-6 absolute"
-             src="./videos/video1.mp4">
+             src="./videos/newvideo.mp4">
             </video>
-            <div role="status">
+            <div role="status" className="hidden">
                 <img src="./assets/logo-circular.png" alt="" width={100} className="absolute -mt-6 ml-0 xl:-mt-6 xl:-ml-6"/>
                 <svg aria-hidden="true" className="inline w-31 h-31 -ml-3 -mt-9 xl:-ml-9 xl:-mt-9 text-gray-200 animate-spin dark:text-gray-600 fill-green-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
