@@ -50,13 +50,13 @@ export const ImageList = [
         id: 1,
         image: "./assets/Image1.webp",
         title: "Bienvenido Free Pass",
-        description: "Nueva colección 11/04/26",
+        description: "Colección Territorio Libre 2026",
     },
     {
         id: 2,
-        image: "./assets/desfile.webp",
-        title: "Colección Territorio Libre",
-        description: "Femenino / Masculino 2026",
+        image: "./assets/newtemporate.png",
+        title: "Nueva Colección Octubre.",
+        description: "Femenino / Masculino",
     },
     {
         id: 3,
