@@ -6,7 +6,7 @@ const PreLoader = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 9000);
+    const timer = setTimeout(() => setLoading(false), 30000);
     return () => clearTimeout(timer);
     }, []);
 
@@ -21,7 +21,7 @@ const PreLoader = () => {
              playsInline    
              className="ml-0 mt-9 2xl:w-100 xl:w-100 lg:w-100 md:w-100 sm:w-100 w-100
              2xl:ml-6 xl:-ml-6 lg:ml-6 md:ml-6 sm:ml-6 absolute"
-             src="./videos/newvideo.mp4">
+             src="./videos/newvideo1.mp4">
             </video>
             <div role="status" className="hidden">
                 <img src="./assets/logo-circular.png" alt="" width={100} className="absolute -mt-6 ml-0 xl:-mt-6 xl:-ml-6"/>
