@@ -1783,6 +1783,7 @@ export const TejidosData1 = [
     {
         id: 2,
         image: "./assets/tejido3.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Saco Tejido Free",
         description: "Verde y verde oscuro",
         link: "/tejido-2",
@@ -1837,6 +1838,7 @@ export const CamisaData1 = [
     {
         id: 3.1,
         image: "./assets/CamisaMan5.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa Green Style",
         description: "Negro y Verde",
         link: "/camisa-3",
@@ -1870,6 +1872,7 @@ export const CamisaData1 = [
     {
         id: 7.1,
         image: "./assets/CamisaMan13.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa Blue Line",
         description: "Blanco y negro",
         link: "/camisa-8",
@@ -1915,6 +1918,7 @@ export const AbrigoData1 = [
     {
         id: 103,
         image: "./assets/abrigo7.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Abrigo Future Street",
         description: "Blanco y negro",
         link: "/abrigo-4",
