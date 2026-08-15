@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <div className="px-0 sticky md:static top-0 z-50 bg-white">
-      
+
       {/* SECCIÓN SUPERIOR (BANNER) */}
       <div className="relative z-10 bg-[url('/assets/fondo.prod3.webp')] 
       dark:bg-[url('/assets/fondo.prod.webp')] bg-center flex mx-auto w-full flex-col p-6 h-36 shadow-lg 2xl:h-80
@@ -46,7 +46,7 @@ const Navbar = () => {
         {/* BOTÓN WHATSAPP (Mantiene lógica de Modal) */}
         <div className="absolute left-0 active:scale-95 hover:scale-105">
           <button onClick={handleWhatsAppModal}>
-            <img src="./assets/mas.png" alt="" className="w-27 mt-130 md:hidden rounded-full"/>
+            <img src="./assets/mas.png" alt="" className="w-27 mt-130 md:hidden rounded-full" />
           </button>
         </div>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
         </button>
 
         <div className="xl:-ml-23">
-        <SearchBar />
+          <SearchBar />
         </div>
 
         <div className="container">
@@ -67,14 +67,14 @@ const Navbar = () => {
 
           {/* CARRITO */}
           <div className="relative">
-            <button 
-              onClick={() => setShowCart(!showCart)} 
+            <button
+              onClick={() => setShowCart(!showCart)}
               className="bg-amber-400 dark:bg-amber-500 hover:bg-amber-40 transition-all duration-200 text-white hover:text-black py-3 px-6 rounded-full flex items-center h-10 gap-3 group ml-45 mt-3 border border-black 2xl:w-35 2xl:h-20 2xl:ml-360 xl:ml-259 lg:ml-200 md:ml-155 sm:ml-80 2xl:mt-3 xl:mt-3 lg:mt-6 md:mt-3 sm:mt-10 active:scale-95 hover:scale-105 active:bg-white active:text-amber-400 active:duration-300"
             >
               <span className="group-hover:block transition-all duration-200 2xl:text-xl">{products.length}</span>
-              <FaCartShopping 
-                onClick={handleCartRotate} 
-                className={`w-6 h-6 text-xl text-white hover:text-amber-400 drop-shadow-[2px_2px_2px_black] cursor-pointer 2xl:w-12 2xl:h-12 2xl:ml-5 transition-transform duration-500 ${isRotating ? "rotate-360" : "rotate-0"}`} 
+              <FaCartShopping
+                onClick={handleCartRotate}
+                className={`w-6 h-6 text-xl text-white hover:text-amber-400 drop-shadow-[2px_2px_2px_black] cursor-pointer 2xl:w-12 2xl:h-12 2xl:ml-5 transition-transform duration-500 ${isRotating ? "rotate-360" : "rotate-0"}`}
               />
             </button>
 
@@ -82,7 +82,7 @@ const Navbar = () => {
               <div className="absolute right-0 mt-3 w-80 bg-white shadow-lg rounded-2xl z-50 flex flex-col max-h-[70vh]">
                 <div className="p-4"><h3 className="font-bold text-black">Carrito</h3></div>
                 <div className="overflow-y-auto flex-1 text-black">
-                  {products.length === 0 ? <p className="text-gray-500 ml-4">Carrito vacío</p> : 
+                  {products.length === 0 ? <p className="text-gray-500 ml-4">Carrito vacío</p> :
                     products.map((data) => (
                       <div key={data.id} className="flex items-center justify-between border-b py-2 px-4">
                         <img src={data.image} alt="" className="w-23 h-30 object-cover" />
@@ -120,11 +120,11 @@ const Navbar = () => {
           <RiCloseLine size={50} className={`text-black dark:text-white transition-transform duration-900 ${isMenuOpen ? "rotate-0 scale-100" : "rotate-270 scale-75"}`} />
         </button>
 
-        <img className="-mt-140 absolute w-75 container block dark:hidden" src="./assets/logo-horizontal.webp" alt=""/>
-        <img className="-mt-140 absolute w-75 container hidden dark:block" src="./assets/logo-horizontal1.webp" alt=""/>
+        <img className="-mt-140 absolute w-75 container block dark:hidden" src="./assets/logo-horizontal.webp" alt="" />
+        <img className="-mt-140 absolute w-75 container hidden dark:block" src="./assets/logo-horizontal1.webp" alt="" />
 
-        <img className="active:scale-95 hover:scale-105 mt-108 2xl:mt-0 absolute w-33 container block dark:hidden" src="./assets/logoDQCompany.webp" alt=""/>
-        <img className="active:scale-95 hover:scale-105 mt-108 2xl:mt-0 absolute w-33 container hidden dark:block" src="./assets/logoDQCompany.webp" alt=""/>
+        <img className="active:scale-95 hover:scale-105 mt-108 2xl:mt-0 absolute w-33 container block dark:hidden" src="./assets/logoDQCompany.webp" alt="" />
+        <img className="active:scale-95 hover:scale-105 mt-108 2xl:mt-0 absolute w-33 container hidden dark:block" src="./assets/logoDQCompany.webp" alt="" />
 
         <ul className="flex flex-col items-center gap-6 text-xl -mt-19">
           <li>
@@ -182,34 +182,34 @@ const Navbar = () => {
             <div className="flex flex-col gap-3">
               <div className="absolute -mt-116 ml-59">
                 <a href="https://wa.me/593988220328?text=Hola%20,estoy%20interesado/a%20en%20un%20producto%20exclusivo%20,que%20me%20recomiendas👕👗🛍️"
-                 target="_blank" >
-                  <img src="./assets/whatsappico.png" target="_blank" alt="" className="w-23 active:scale-95 hover:scale-105"/>
+                  target="_blank" >
+                  <img src="./assets/whatsappico.png" target="_blank" alt="" className="w-23 active:scale-95 hover:scale-105" />
                   <p className="text-white text-sm -mt-3 ml-4 w-20 mb-3">Personal Shopper</p>
                 </a>
                 <a href="tel:+593959463688">
-                  <img src="./assets/llamada.png" alt="" className="w-23 active:scale-95 hover:scale-105"/>
+                  <img src="./assets/llamada.png" alt="" className="w-23 active:scale-95 hover:scale-105" />
                   <p className="text-white text-sm mt-0 ml-6 mb-3">Llamar</p>
                 </a>
-                <a  href="./Catalogo-TerritorioLibre-FreePass-2026.pdf"
-                    target="_blank" 
-                    rel="noopener noreferrer">
-                  <img src="./assets/catalogo.png" alt="" className="w-23 active:scale-95 hover:scale-105"/>
+                <a href="./Catalogo-TerritorioLibre-FreePass-2026.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <img src="./assets/catalogo.png" alt="" className="w-23 active:scale-95 hover:scale-105" />
                   <p className="text-white text-sm mt-0 ml-4 mb-3">Catálogo</p>
                 </a>
                 <a href="https://wa.me/593984611893?text=Hola%20,me%20puedes%20ayudar,%20tengo%20una%20consulta%20💻🛒">
-                  <img src="./assets/soporte.png" alt="" className="w-23 active:scale-95 hover:scale-105"/>
+                  <img src="./assets/soporte.png" alt="" className="w-23 active:scale-95 hover:scale-105" />
                   <p className="text-white text-sm mt-0 ml-6">Soporte</p>
                 </a>
               </div>
-              <button 
-                onClick={() => setIsModalOpen(false)} 
+              <button
+                onClick={() => setIsModalOpen(false)}
                 className="bg-gray-200 dark:bg-gray-900 py-2 rounded-lg dark:text-white active:scale-95 hover:scale-105"
               >
                 Cancelar
               </button>
             </div>
           </div>
-          <div className="absolute -ml-80 -mt-9 w-100 animate-[spin_3s_linear_infinite]">
+          <div className="absolute -ml-80 -mt-9 w-100 animate-[spin_9s_linear_infinite]">
             <img src="./assets/logo-white-circular.png" alt="" />
           </div>
         </div>
