@@ -209,6 +209,9 @@ const Navbar = () => {
               </button>
             </div>
           </div>
+          <div className="absolute -ml-80 -mt-9 w-100 animate-[spin_3s_linear_infinite]">
+            <img src="./assets/logo-circular.png" alt="" />
+          </div>
         </div>
       )}
     </div>
