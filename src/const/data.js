@@ -1869,6 +1869,7 @@ export const CamisaData1 = [
     {
         id: 2.1,
         image: "./assets/CamisaMan3.1.webp",
+        img: "./assets/soldOut.webp",
         title: "Camisa Yellow Shield",
         description: "Negro y Amarillo",
         link: "/camisa-2",
