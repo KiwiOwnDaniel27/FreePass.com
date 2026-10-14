@@ -48,18 +48,24 @@ export const DropdownLinks = [
 export const ImageList = [
     {
         id: 1,
-        image: "./assets/Image1.webp",
-        title: "Bienvenido Free Pass",
-        description: "Colección Territorio Libre 2026",
-    },
-    {
-        id: 2,
         image: "./assets/newtemporate.png",
         title: "Nueva Colección Octubre.",
         description: "Femenino / Masculino",
     },
     {
+        id: 2,
+        image: "./assets/anunciocollar.png",
+        title: "New Collares.",
+        description: "Encuentra tu estilo",
+    },
+    {
         id: 3,
+        image: "./assets/Image1.webp",
+        title: "Bienvenido Free Pass",
+        description: "Colección Territorio Libre 2026",
+    },
+    {
+        id: 4,
         image: "./assets/anuncio.webp",
         title: "Colaboración DQ Company",
         description: "Nueva Web para nuestros clientes.",
