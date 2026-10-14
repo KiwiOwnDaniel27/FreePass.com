@@ -1921,73 +1921,6 @@ export const CamisaData1 = [
     },
 ]
 
-export const CollaresData1 = [
-    {
-        id: 1,
-        image: "./assets/collar1.png",
-        title: "Abrigo Dark Vampire",
-        description: "Blanco y negro",
-        link: "/abrigo-1",
-        price: 98.00
-    },
-    {
-        id: 2,
-        image: "./assets/collar2.png",
-        title: "Abrigo Dark Green Rever",
-        description: "Blanco y negro",
-        link: "/abrigo-2",
-        price: 135.00
-    },
-    {
-        id: 3,
-        image: "./assets/collar3.png",
-        title: "Abrigo Military Hook",
-        description: "Blanco y negro",
-        link: "/abrigo-3",
-        price: 99.00
-    },
-    {
-        id: 4,
-        image: "./assets/collar4.png",
-        title: "Abrigo Future Street",
-        description: "Blanco y negro",
-        link: "/abrigo-4",
-        price: 75.00
-    },
-    {
-        id: 5,
-        image: "./assets/collar5.png",
-        title: "Chaqueta Glow",
-        description: "Café y Negro",
-        link: "/abrigo-5",
-        price: 130.00
-    },
-    {
-        id: 6,
-        image: "./assets/collar6.png",
-        title: "Abrigo WaterProof",
-        description: "Blanco y negro",
-        link: "/abrigo-6",
-        price: 75.00
-    },
-    {
-        id: 7,
-        image: "./assets/collar7.png",
-        title: "Abrigo Green Future",
-        description: "Blanco y negro",
-        link: "/abrigo-7",
-        price: 80.00
-    },
-    {
-        id: 8,
-        image: "./assets/collar8.png",
-        title: "Abrigo Blue Sky",
-        description: "Azul Marino",
-        link: "/abrigo-8",
-        price: 98.00
-    },
-    
-]
 
 export const AbrigoData1 = [
     {
@@ -2083,6 +2016,74 @@ export const AbrigoData1 = [
         description: "Blanco y negro",
         link: "/abrigo-11",
         price: 95.00
+    },
+    
+]
+
+export const CollaresData1 = [
+    {
+        id: 1,
+        image: "./assets/collar1.png",
+        title: "Collar Rouse",
+        description: "Dorado y rosa",
+        link: "/abrigo-1",
+        price: 27.00
+    },
+    {
+        id: 2,
+        image: "./assets/collar2.png",
+        title: "Cadena Music",
+        description: "Metal y rojo",
+        link: "/abrigo-2",
+        price: 25.00
+    },
+    {
+        id: 3,
+        image: "./assets/collar3.png",
+        title: "Collar Perlas Rouse",
+        description: "Azul y dorado",
+        link: "/abrigo-3",
+        price: 30.00
+    },
+    {
+        id: 4,
+        image: "./assets/collar4.png",
+        title: "Collar Black Gold",
+        description: "Dorado y negro",
+        link: "/abrigo-4",
+        price: 30.00
+    },
+    {
+        id: 5,
+        image: "./assets/collar5.png",
+        title: "Collar Verano Rouse",
+        description: "Celesta y blanco",
+        link: "/abrigo-5",
+        price: 25.00
+    },
+    {
+        id: 6,
+        image: "./assets/collar6.png",
+        title: "Cadena Gold Black Rouse",
+        description: "Dorado y negro",
+        link: "/abrigo-6",
+        price: 30.00
+    },
+    {
+        id: 7,
+        image: "./assets/collar7.png",
+        title: "Collar Elegant Fresh",
+        description: "Rojo y celeste",
+        link: "/abrigo-7",
+        price: 23.00
+    },
+    {
+        id: 8,
+        image: "./assets/collar8.png",
+        title: "Collar Red Gold",
+        description: "Dorado y rojo",
+        link: "/abrigo-8",
+        price: 27.00
     },
     
 ]
