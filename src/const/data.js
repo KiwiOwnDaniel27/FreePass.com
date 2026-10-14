@@ -645,7 +645,7 @@ export const socialIcons = [
 export const CategoriasData = [
     {
         id: 1,
-        image: "./assets/categoria1.png",
+        image: "./assets/Imagen7.png",
         title: "Catálogo de Colección",
         rating: 5.0,
         color: "Azul",
@@ -655,7 +655,7 @@ export const CategoriasData = [
     },
     {
         id: 2,
-        image: "./assets/categoria2.png",
+        image: "./assets/collar1.png",
         title: "Accesorios",
         rating: 4.5,
         color: "Negro y blanco",
@@ -665,7 +665,7 @@ export const CategoriasData = [
     },
     {
         id: 3,
-        image: "./assets/categoria3.png",
+        image: "./assets/categoria1.png",
         title: "Especiales",
         rating: 4.7,
         color: "Verde Militar",
