@@ -38,6 +38,8 @@ import {Tejido2} from './pagesTejidos/Tejido2';
 import {Tejido3} from './pagesTejidos/Tejido3';
 import {Tejido4} from './pagesTejidos/Tejido4';
 import {Tejido5} from './pagesTejidos/Tejido5';
+import Accesorio from './pages/Accesorio';
+import Collares from './pages/Collares';
 
 
 const App = () => {
@@ -102,6 +104,8 @@ const App = () => {
         <Route path="/camisa-7" element={<Camisa7/>} />
         <Route path="/camisa-8" element={<Camisa8/>} />
         <Route path="/camisa-9" element={<Camisa9/>} />
+        <Route path="/accesorio" element={<Accesorio/>} />
+        <Route path="/collares" element={<Collares />} />
       </Routes>
     </HashRouter>
   );

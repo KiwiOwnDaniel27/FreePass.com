@@ -661,7 +661,7 @@ export const CategoriasData = [
         color: "Negro y blanco",
         aosDeLay: "200",
         dad: "200",
-        link: null,
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/accesorio",
     },
     {
         id: 3,
@@ -705,6 +705,39 @@ export const CatalogoData = [
         aosDeLay: "400",
         dad: "300",
         link: "https://kiwiowndaniel27.github.io/FreePass.com/#/indumentaria",
+    },
+];
+
+export const CatalogoAccesorios = [
+    {
+        id: 1,
+        image: "./assets/collar1.png",
+        title: "Collares",
+        rating: 5.0,
+        color: "Azul",
+        aosDeLay: "0",
+        dad: "100",
+        link: "https://kiwiowndaniel27.github.io/FreePass.com/#/collares",
+    },
+    {
+        id: 2,
+        image: "./assets/fondo.prod4.png",
+        title: "Aretes",
+        rating: 4.5,
+        color: "Negro y blanco",
+        aosDeLay: "200",
+        dad: "200",
+        link: null,
+    },
+    {
+        id: 3,
+        image: "./assets/fondo.prod4.png",
+        title: "Exclusivos",
+        rating: 4.7,
+        color: "Verde Militar",
+        aosDeLay: "400",
+        dad: "300",
+        link: null,
     },
 ];
 
@@ -1886,6 +1919,74 @@ export const CamisaData1 = [
         link: "/camisa-9",
         price: 39.99
     },
+]
+
+export const CollaresData1 = [
+    {
+        id: 1,
+        image: "./assets/collar1.png",
+        title: "Abrigo Dark Vampire",
+        description: "Blanco y negro",
+        link: "/abrigo-1",
+        price: 98.00
+    },
+    {
+        id: 2,
+        image: "./assets/collar2.png",
+        title: "Abrigo Dark Green Rever",
+        description: "Blanco y negro",
+        link: "/abrigo-2",
+        price: 135.00
+    },
+    {
+        id: 3,
+        image: "./assets/collar3.png",
+        title: "Abrigo Military Hook",
+        description: "Blanco y negro",
+        link: "/abrigo-3",
+        price: 99.00
+    },
+    {
+        id: 4,
+        image: "./assets/collar4.png",
+        title: "Abrigo Future Street",
+        description: "Blanco y negro",
+        link: "/abrigo-4",
+        price: 75.00
+    },
+    {
+        id: 5,
+        image: "./assets/collar5.png",
+        title: "Chaqueta Glow",
+        description: "Café y Negro",
+        link: "/abrigo-5",
+        price: 130.00
+    },
+    {
+        id: 6,
+        image: "./assets/collar6.png",
+        title: "Abrigo WaterProof",
+        description: "Blanco y negro",
+        link: "/abrigo-6",
+        price: 75.00
+    },
+    {
+        id: 7,
+        image: "./assets/collar7.png",
+        title: "Abrigo Green Future",
+        description: "Blanco y negro",
+        link: "/abrigo-7",
+        price: 80.00
+    },
+    {
+        id: 8,
+        image: "./assets/collar8.png",
+        title: "Abrigo Blue Sky",
+        description: "Azul Marino",
+        link: "/abrigo-8",
+        price: 98.00
+    },
+    
 ]
 
 export const AbrigoData1 = [
