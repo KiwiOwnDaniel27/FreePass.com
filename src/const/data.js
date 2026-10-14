@@ -717,7 +717,7 @@ export const CatalogoData = [
 export const CatalogoAccesorios = [
     {
         id: 1,
-        image: "./assets/collar1.png",
+        image: "./assets/collar6.png",
         title: "Collares",
         rating: 5.0,
         color: "Azul",
